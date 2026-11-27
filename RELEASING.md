@@ -28,6 +28,7 @@
 | GitHub → Settings → Environments | Создать `npm-release`; *Deployment branches and tags* → Selected: `main` и теги `v*`; без Required reviewers. |
 | GitHub → Settings → Actions → General → Workflow permissions | *Allow GitHub Actions to create and approve pull requests* (иначе release-please не откроет PR). |
 | GitHub → Settings → Secrets and variables → Actions → Variables | `NPM_RELEASE` = `true` — выключатель всей схемы. |
+| GitHub → Settings → Pages | Source: **GitHub Actions**; затем переменная `PAGES` = `true` — публичный каталог (`pages.yml`). |
 | GitHub → Settings → Advanced Security | *Private vulnerability reporting* — Enable (на него ведёт `SECURITY.md`). |
 
 Заглушки (из любой папки, под своим аккаунтом npm):

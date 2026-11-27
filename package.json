@@ -12,7 +12,8 @@
     "build": "node scripts/build.mjs",
     "check": "node scripts/build.mjs --check",
     "test": "node --test test/*.test.mjs",
-    "admin": "node admin/server.mjs"
+    "admin": "node admin/server.mjs",
+    "site": "node scripts/site.mjs"
   },
   "devDependencies": {
     "@bxshefby/icons-json": "workspace:*",
