@@ -175,7 +175,10 @@ export declare const metadata: IconifyMetaData
     await fs.writeFile(resolve(svgDir, set, `${base}.svg`), iconSet.toString(name) + '\n')
   }
 
-  console.log('✓ packages/icons-json, packages/icons-svg')
+  // packages/icons-migrate ships the legacy name map
+  await fs.copyFile(resolve(DATA_DIR, 'legacy-map.json'), resolve(ROOT, 'packages/icons-migrate/legacy-map.json'))
+
+  console.log('✓ packages/icons-json, packages/icons-svg, packages/icons-migrate')
   console.table(stats)
 }
 
