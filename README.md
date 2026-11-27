@@ -135,7 +135,7 @@ pnpm install
 pnpm build    # icons/ → packages/*
 pnpm test
 pnpm admin    # catalog editor → http://127.0.0.1:4224
-pnpm site     # public catalog → site-dist/ (GitHub Pages, .github/workflows/pages.yml)
+pnpm site     # public catalog → site-dist/ (image ghcr.io/bx-shef/b24-icons-site, see deploy/README.md)
 ```
 
 - `icons/<set>/<name>.svg` — sources. Names: lowercase `a-z`, `0-9`, single dashes.

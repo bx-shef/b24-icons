@@ -1,0 +1,9 @@
+# Контекст сборки образа каталога (deploy/Dockerfile): только исходники.
+**/node_modules
+site-dist
+.git
+.github
+.claude
+packages/icons-json/*.json
+!packages/icons-json/package.json
+packages/icons-svg/svg
