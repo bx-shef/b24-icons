@@ -1,6 +1,6 @@
 {
   "name": "@bxshefby/icons-json",
-  "version": "0.1.0",
+  "version": "0.0.0",
   "description": "Bitrix24 UI icons (bx24) as an Iconify JSON collection — for Nuxt UI / @nuxt/icon, @iconify/vue, @iconify/react and iconify-icon",
   "license": "MIT",
   "author": "bx-shef",
@@ -24,10 +24,10 @@
     "./metadata.json": "./metadata.json",
     "./package.json": "./package.json"
   },
-  "files": ["index.mjs", "index.cjs", "index.d.ts", "icons.json", "info.json", "metadata.json"],
+  "files": ["README.md", "index.mjs", "index.cjs", "index.d.ts", "icons.json", "info.json", "metadata.json"],
   "iconSetInfo": { "prefix": "bx24", "name": "Bitrix24 Icons (bx24)" },
   "dependencies": {
     "@iconify/types": "^2.0.0"
   },
-  "publishConfig": { "access": "public" }
+  "publishConfig": { "access": "public", "provenance": true, "registry": "https://registry.npmjs.org/" }
 }

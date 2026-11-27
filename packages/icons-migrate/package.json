@@ -1,6 +1,6 @@
 {
   "name": "@bxshefby/icons-migrate",
-  "version": "0.1.0",
+  "version": "0.0.0",
   "description": "Migrate from @bitrix24/b24icons-vue components to bx24 icon names (codemod, name map and AI agent skill)",
   "license": "MIT",
   "author": "bx-shef",
@@ -14,7 +14,7 @@
     "./legacy-map.json": "./legacy-map.json",
     "./package.json": "./package.json"
   },
-  "files": ["bin", "legacy-map.json", "skills"],
+  "files": ["README.md", "bin", "legacy-map.json", "skills"],
   "engines": { "node": ">=20" },
-  "publishConfig": { "access": "public" }
+  "publishConfig": { "access": "public", "provenance": true, "registry": "https://registry.npmjs.org/" }
 }
