@@ -2,7 +2,8 @@ name: site-image
 
 # Образ публичного каталога (deploy/Dockerfile) в ghcr.io/bx-shef/b24-icons-site.
 # На PR — сборка и дымовая проверка, на push в main — ещё и публикация; на сервер образ ставит
-# общий Watchtower. Сервер — deploy/README.md. Схема та же, что docs-image.yml в bx-shef/b24-js-sdk.
+# общий Watchtower. Сервер — deploy/README.md. Домен сайта — b24-icons.bx-shef.by
+# (переменная репозитория SITE_URL его переопределяет). Схема та же, что docs-image.yml в bx-shef/b24-js-sdk.
 
 on:
   push:
@@ -41,14 +42,14 @@ jobs:
           load: true
           tags: b24-icons-site:ci
           build-args: |
-            SITE_URL=${{ vars.SITE_URL }}
+            SITE_URL=${{ vars.SITE_URL || 'https://b24-icons.bx-shef.by' }}
           cache-from: type=gha
           cache-to: type=gha,mode=max
 
       - name: Дымовая проверка
         shell: bash
         env:
-          SITE_URL: ${{ vars.SITE_URL }}
+          SITE_URL: ${{ vars.SITE_URL || 'https://b24-icons.bx-shef.by' }}
         run: |
           # Те же ограничения, что в deploy/docker-compose.prod.yml: только чтение, без прав.
           docker run -d --name site --read-only --tmpfs /tmp --cap-drop ALL --security-opt no-new-privileges:true \
@@ -102,5 +103,5 @@ jobs:
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
           build-args: |
-            SITE_URL=${{ vars.SITE_URL }}
+            SITE_URL=${{ vars.SITE_URL || 'https://b24-icons.bx-shef.by' }}
           cache-from: type=gha

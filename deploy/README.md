@@ -13,16 +13,15 @@
 - Воркфлоу `.github/workflows/site-image.yml`:
   - на PR — сборка и дымовая проверка: контейнер с теми же ограничениями, что в compose;
   - на push в `main` — ещё и публикация `ghcr.io/bx-shef/b24-icons-site:latest` и `:sha-…`.
-- Адрес сайта для canonical, og, `sitemap.xml` и `robots.txt` — переменная репозитория `SITE_URL`
-  (Settings → Secrets and variables → Actions → Variables), например `https://b24-icons.bx-shef.by`.
-  Пусто — без них.
+- Адрес сайта для canonical, og, `sitemap.xml` и `robots.txt` — **https://b24-icons.bx-shef.by**
+  (по умолчанию в `site-image.yml`; переменная репозитория `SITE_URL` его переопределяет).
 - Пакет в ghcr после первой публикации может оказаться приватным. Watchtower на сервере входит в ghcr,
   так что это не мешает. Чтобы образ можно было скачать без входа: Packages → b24-icons-site →
   Package settings → Change visibility → Public.
 
 ## Сервер
 
-Сервер bx-shef, тот же, что у b24-js-sdk (подробно — `deploy/README.md` в bx-shef/b24-js-sdk):
+Сайт: **https://b24-icons.bx-shef.by**. Сервер bx-shef, тот же, что у b24-js-sdk (подробно — `deploy/README.md` в bx-shef/b24-js-sdk):
 
 - прокси — nginx в контейнере `proxy` (`/home/bitrix/b24-proxy`, сеть `proxy-net`); все сайты — блоками
   в `conf.d/default.conf`;
@@ -34,7 +33,7 @@
 должна указывать на сервер.
 
 ```bash
-curl -fsSLO https://raw.githubusercontent.com/bx-shef/b24-icons/main/deploy/install-server.sh && DOMAIN=b24-icons.bx-shef.by bash install-server.sh
+curl -fsSLO https://raw.githubusercontent.com/bx-shef/b24-icons/main/deploy/install-server.sh && bash install-server.sh
 ```
 
 Скрипт — копия скрипта b24-js-sdk без чата и ключей. Он идемпотентен:
