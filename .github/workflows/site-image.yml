@@ -1,0 +1,106 @@
+name: site-image
+
+# Образ публичного каталога (deploy/Dockerfile) в ghcr.io/bx-shef/b24-icons-site.
+# На PR — сборка и дымовая проверка, на push в main — ещё и публикация; на сервер образ ставит
+# общий Watchtower. Сервер — deploy/README.md. Схема та же, что docs-image.yml в bx-shef/b24-js-sdk.
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: site-image-${{ github.ref }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
+
+jobs:
+  image:
+    if: github.repository == 'bx-shef/b24-icons'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    permissions:
+      contents: read
+      packages: write
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - uses: docker/setup-buildx-action@37fe631027851001ddb9b187196cc803df7f5f0e # v4.3.0
+
+      - name: Собрать образ
+        uses: docker/build-push-action@53b7df96c91f9c12dcc8a07bcb9ccacbed38856a # v7.3.0
+        with:
+          context: .
+          file: deploy/Dockerfile
+          load: true
+          tags: b24-icons-site:ci
+          build-args: |
+            SITE_URL=${{ vars.SITE_URL }}
+          cache-from: type=gha
+          cache-to: type=gha,mode=max
+
+      - name: Дымовая проверка
+        shell: bash
+        env:
+          SITE_URL: ${{ vars.SITE_URL }}
+        run: |
+          # Те же ограничения, что в deploy/docker-compose.prod.yml: только чтение, без прав.
+          docker run -d --name site --read-only --tmpfs /tmp --cap-drop ALL --security-opt no-new-privileges:true \
+            -p 127.0.0.1:8080:8080 b24-icons-site:ci
+          for _ in $(seq 1 30); do curl -fs localhost:8080/ >/dev/null && break; sleep 1; done
+          check() { got=$(curl -s -o /dev/null -w '%{http_code}' "${@:2}"); echo "$1 → $got"; [ "$1" = "$got" ]; }
+          check 200 localhost:8080/
+          check 200 localhost:8080/icons.json
+          check 200 localhost:8080/metadata.json
+          check 404 localhost:8080/nope
+          # Ответы — в файлы: `curl | grep -q` обрывает канал на первом совпадении, и curl падает.
+          curl -fs -o icons.json localhost:8080/icons.json
+          grep -q '"prefix": *"bx24"' icons.json || { echo "::error::icons.json без prefix bx24"; exit 1; }
+          curl -fs -D headers.txt -o index.html localhost:8080/
+          grep -qi '^content-security-policy:' headers.txt || { echo "::error::нет CSP"; exit 1; }
+          if [ -n "$SITE_URL" ]; then
+            grep -qF "<link rel=\"canonical\" href=\"$SITE_URL/\">" index.html || { echo "::error::нет canonical"; exit 1; }
+            check 200 localhost:8080/sitemap.xml
+          fi
+          docker rm -f site
+
+      - name: Журнал контейнера при сбое
+        if: failure()
+        run: docker logs site || true
+
+      - name: Вход в GHCR
+        if: github.event_name != 'pull_request'
+        uses: docker/login-action@dbcb813823bdd20940b903addbd779551569679f # v4.6.0
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Метки образа
+        if: github.event_name != 'pull_request'
+        id: meta
+        uses: docker/metadata-action@dc802804100637a589fabce1cb79ff13a1411302 # v6.2.0
+        with:
+          images: ghcr.io/bx-shef/b24-icons-site
+          tags: |
+            type=raw,value=latest
+            type=sha,prefix=sha-
+
+      - name: Опубликовать
+        if: github.event_name != 'pull_request'
+        uses: docker/build-push-action@53b7df96c91f9c12dcc8a07bcb9ccacbed38856a # v7.3.0
+        with:
+          context: .
+          file: deploy/Dockerfile
+          push: true
+          tags: ${{ steps.meta.outputs.tags }}
+          labels: ${{ steps.meta.outputs.labels }}
+          build-args: |
+            SITE_URL=${{ vars.SITE_URL }}
+          cache-from: type=gha

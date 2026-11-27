@@ -32,6 +32,9 @@ pnpm admin                          # редактор тем, http://127.0.0.1:
 pnpm site                           # публичный каталог в site-dist/ (после pnpm build)
 ```
 
+Публичный каталог — образ `ghcr.io/bx-shef/b24-icons-site` на сервере bx-shef, как сайт
+bx-shef/b24-js-sdk: `deploy/README.md`.
+
 Сверка цветов со старой библиотекой:
 `npm pack @bitrix24/b24icons-vue`, распаковать, `node scripts/migrate/parity.mjs <package/dist>`.
 

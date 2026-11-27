@@ -1,0 +1,48 @@
+# Продакшн: публичный каталог иконок за общим обратным прокси с TLS (deploy/README.md, «Сервер»;
+# установка — deploy/install-server.sh). Схема та же, что у сайта bx-shef/b24-js-sdk:
+#   - docker-сеть proxy-net и прокси в ней (на сервере bx-shef — nginx в контейнере proxy, блоки сайтов
+#     в default.conf; с nginx-proxy + acme-companion сайт подхватится сам по VIRTUAL_HOST);
+#   - .env рядом с этим файлом (шаблон — deploy/.env.example);
+#   - общий Watchtower с входом в ghcr — подхватит новый :latest по метке ниже.
+# Порта на хосте нет: наружу сайт выставляет прокси.
+
+name: b24-icons-site
+
+x-logging: &default-logging
+  driver: json-file
+  options:
+    max-size: "10m"
+    max-file: "5"
+    compress: "true"
+
+services:
+  site:
+    logging: *default-logging
+    image: ghcr.io/bx-shef/b24-icons-site:${IMAGE_TAG:-latest}
+    container_name: b24-icons-site
+    expose:
+      - "8080"
+    environment:
+      # ⚠ DNS A-запись DOMAIN должна указывать на сервер до подъёма, иначе сертификат не выпустится.
+      VIRTUAL_HOST: ${DOMAIN:?set DOMAIN}
+      VIRTUAL_PORT: 8080
+      LETSENCRYPT_HOST: ${DOMAIN}
+      LETSENCRYPT_EMAIL: ${LETSENCRYPT_EMAIL:-}
+    restart: unless-stopped
+    read_only: true
+    tmpfs:
+      - /tmp
+    security_opt:
+      - no-new-privileges:true
+    cap_drop:
+      - ALL
+    mem_limit: 128m
+    pids_limit: 64
+    networks:
+      - proxy-net
+    labels:
+      - "com.centurylinklabs.watchtower.enable=true"
+
+networks:
+  proxy-net:
+    external: true
