@@ -1,0 +1,57 @@
+# Держит открытым PR выпуска `chore(main): release X.Y.Z` (версия и журнал — из conventional commits).
+# Слияние этого PR ставит тег vX.Y.Z и GitHub Release, а job publish запускает npm-publish.yml на теге.
+#
+# Release, созданный GITHUB_TOKEN, не запускает workflow по событию `release`, а `workflow_dispatch`
+# от того же токена — запускает. Поэтому публикация вызывается явно, на теге выпуска: публикуется
+# ровно коммит выпуска, даже если в main уже влили следующий PR. Схема — как в bx-shef/b24-js-sdk.
+#
+# Выключатель: переменная репозитория NPM_RELEASE=true (см. RELEASING.md).
+name: Release Please
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+concurrency:
+  group: release-please
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  release-please:
+    if: github.repository == 'bx-shef/b24-icons' && vars.NPM_RELEASE == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+      pull-requests: write
+    outputs:
+      release_created: ${{ steps.release.outputs.release_created }}
+      tag_name: ${{ steps.release.outputs.tag_name }}
+    steps:
+      - name: Propose or cut the release
+        id: release
+        uses: googleapis/release-please-action@45996ed1f6d02564a971a2fa1b5860e934307cf7 # v5.0.0
+        with:
+          config-file: release-please-config.json
+          manifest-file: .release-please-manifest.json
+
+  # Отдельная job, чтобы `actions: write` не получал сторонний release-please-action.
+  publish:
+    needs: release-please
+    if: needs.release-please.outputs.release_created == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      actions: write
+    steps:
+      - name: Publish the release to npm
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TAG: ${{ needs.release-please.outputs.tag_name }}
+        run: |
+          [[ "$TAG" =~ ^v[0-9]+\.[0-9]+\.[0-9]+(-[0-9A-Za-z.]+)?$ ]] || { echo "::error::unexpected tag '$TAG'"; exit 1; }
+          gh workflow run npm-publish.yml --repo "$GITHUB_REPOSITORY" --ref "$TAG"

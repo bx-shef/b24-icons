@@ -1,6 +1,6 @@
 {
   "name": "@bxshefby/icons-svg",
-  "version": "0.1.0",
+  "version": "0.0.0",
   "description": "Bitrix24 UI icons (bx24) as optimized SVG files",
   "license": "MIT",
   "author": "bx-shef",
@@ -12,6 +12,6 @@
     "./svg/*": "./svg/*",
     "./package.json": "./package.json"
   },
-  "files": ["svg"],
-  "publishConfig": { "access": "public" }
+  "files": ["README.md", "svg"],
+  "publishConfig": { "access": "public", "provenance": true, "registry": "https://registry.npmjs.org/" }
 }
