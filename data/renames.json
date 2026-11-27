@@ -1,0 +1,1470 @@
+{
+  "renames": [
+    {
+      "set": "actions",
+      "from": "double-shevrons-left",
+      "to": "double-chevrons-left",
+      "reason": "typo"
+    },
+    {
+      "set": "actions",
+      "from": "double-shevrons-right",
+      "to": "double-chevrons-right",
+      "reason": "typo"
+    },
+    {
+      "set": "actions",
+      "from": "more-(9-cubes)-1",
+      "to": "more-9-cubes-1",
+      "reason": "format"
+    },
+    {
+      "set": "actions",
+      "from": "more-(9-cubes)-2",
+      "to": "more-9-cubes-2",
+      "reason": "format"
+    },
+    {
+      "set": "button",
+      "from": "ui-add-folder-black",
+      "to": "add-folder-black",
+      "reason": "redundant"
+    },
+    {
+      "set": "button",
+      "from": "ui-alert-black",
+      "to": "alert-black",
+      "reason": "redundant"
+    },
+    {
+      "set": "button",
+      "from": "ui-angle-down-black",
+      "to": "angle-down-black",
+      "reason": "redundant"
+    },
+    {
+      "set": "button",
+      "from": "ui-angle-up-black",
+      "to": "angle-up-black",
+      "reason": "redundant"
+    },
+    {
+      "set": "button",
+      "from": "ui-arrow-back-dark",
+      "to": "arrow-back-dark",
+      "reason": "redundant"
+    },
+    {
+      "set": "button",
+      "from": "ui-back-black",
+      "to": "back-black",
+      "reason": "redundant"
+    },
+    {
+      "set": "button",
+      "from": "ui-battery-black",
+      "to": "battery-black",
+      "reason": "redundant"
+    },
+    {
+      "set": "button",
+      "from": "ui-btn-icon-copy-dark",
+      "to": "btn-icon-copy-dark",
+      "reason": "redundant"
+    },
+    {
+      "set": "button",
+      "from": "ui-btn-icon-funnel-black",
+      "to": "btn-icon-funnel-black",
+      "reason": "redundant"
+    },
+    {
+      "set": "button",
+      "from": "ui-btn-icon-note",
+      "to": "btn-icon-note",
+      "reason": "redundant"
+    },
+    {
+      "set": "button",
+      "from": "ui-btn-icon-print-2",
+      "to": "btn-icon-print-2",
+      "reason": "redundant"
+    },
+    {
+      "set": "button",
+      "from": "ui-btn-icon-script",
+      "to": "btn-icon-script",
+      "reason": "redundant"
+    },
+    {
+      "set": "button",
+      "from": "ui-business-process-black",
+      "to": "business-process-black",
+      "reason": "redundant"
+    },
+    {
+      "set": "button",
+      "from": "ui-business-process-confirm-black",
+      "to": "business-process-confirm-black",
+      "reason": "redundant"
+    },
+    {
+      "set": "button",
+      "from": "ui-business-process-warning-black",
+      "to": "business-process-warning-black",
+      "reason": "redundant"
+    },
+    {
+      "set": "button",
+      "from": "ui-camera-black",
+      "to": "camera-black",
+      "reason": "redundant"
+    },
+    {
+      "set": "button",
+      "from": "ui-cancel-dark",
+      "to": "cancel-dark",
+      "reason": "redundant"
+    },
+    {
+      "set": "button",
+      "from": "ui-chat-black",
+      "to": "chat-black",
+      "reason": "redundant"
+    },
+    {
+      "set": "button",
+      "from": "ui-cloud-black",
+      "to": "cloud-black",
+      "reason": "redundant"
+    },
+    {
+      "set": "button",
+      "from": "ui-crit-battery-black",
+      "to": "crit-battery-black",
+      "reason": "redundant"
+    },
+    {
+      "set": "button",
+      "from": "ui-demo-black",
+      "to": "demo-black",
+      "reason": "redundant"
+    },
+    {
+      "set": "button",
+      "from": "ui-disk-dark",
+      "to": "disk-dark",
+      "reason": "redundant"
+    },
+    {
+      "set": "button",
+      "from": "ui-done-dark",
+      "to": "done-dark",
+      "reason": "redundant"
+    },
+    {
+      "set": "button",
+      "from": "ui-dots-black",
+      "to": "dots-black",
+      "reason": "redundant"
+    },
+    {
+      "set": "button",
+      "from": "ui-download-black",
+      "to": "download-black",
+      "reason": "redundant"
+    },
+    {
+      "set": "button",
+      "from": "ui-edit-black",
+      "to": "edit-black",
+      "reason": "redundant"
+    },
+    {
+      "set": "button",
+      "from": "ui-eye-closed-black",
+      "to": "eye-closed-black",
+      "reason": "redundant"
+    },
+    {
+      "set": "button",
+      "from": "ui-eye-opened-black",
+      "to": "eye-opened-black",
+      "reason": "redundant"
+    },
+    {
+      "set": "button",
+      "from": "ui-fail",
+      "to": "fail",
+      "reason": "redundant"
+    },
+    {
+      "set": "button",
+      "from": "ui-follow-black",
+      "to": "follow-black",
+      "reason": "redundant"
+    },
+    {
+      "set": "button",
+      "from": "ui-forward-dark",
+      "to": "forward-dark",
+      "reason": "redundant"
+    },
+    {
+      "set": "button",
+      "from": "ui-half-battery-black",
+      "to": "half-battery-black",
+      "reason": "redundant"
+    },
+    {
+      "set": "button",
+      "from": "ui-help-black",
+      "to": "help-black",
+      "reason": "redundant"
+    },
+    {
+      "set": "button",
+      "from": "ui-info-black",
+      "to": "info-black",
+      "reason": "redundant"
+    },
+    {
+      "set": "button",
+      "from": "ui-list-black",
+      "to": "list-black",
+      "reason": "redundant"
+    },
+    {
+      "set": "button",
+      "from": "ui-lock-dark",
+      "to": "lock-dark",
+      "reason": "redundant"
+    },
+    {
+      "set": "button",
+      "from": "ui-low-battery-black",
+      "to": "low-battery-black",
+      "reason": "redundant"
+    },
+    {
+      "set": "button",
+      "from": "ui-mail-black",
+      "to": "mail-black",
+      "reason": "redundant"
+    },
+    {
+      "set": "button",
+      "from": "ui-no-battery-black",
+      "to": "no-battery-black",
+      "reason": "redundant"
+    },
+    {
+      "set": "button",
+      "from": "ui-page-black",
+      "to": "page-black",
+      "reason": "redundant"
+    },
+    {
+      "set": "button",
+      "from": "ui-pause-black",
+      "to": "pause-black",
+      "reason": "redundant"
+    },
+    {
+      "set": "button",
+      "from": "ui-phone-call-black",
+      "to": "phone-call-black",
+      "reason": "redundant"
+    },
+    {
+      "set": "button",
+      "from": "ui-phone-down-black",
+      "to": "phone-down-black",
+      "reason": "redundant"
+    },
+    {
+      "set": "button",
+      "from": "ui-phone-up-black",
+      "to": "phone-up-black",
+      "reason": "redundant"
+    },
+    {
+      "set": "button",
+      "from": "ui-plan-black",
+      "to": "plan-black",
+      "reason": "redundant"
+    },
+    {
+      "set": "button",
+      "from": "ui-play-black",
+      "to": "play-black",
+      "reason": "redundant"
+    },
+    {
+      "set": "button",
+      "from": "ui-plus-black",
+      "to": "plus-black",
+      "reason": "redundant"
+    },
+    {
+      "set": "button",
+      "from": "ui-print-black",
+      "to": "print-black",
+      "reason": "redundant"
+    },
+    {
+      "set": "button",
+      "from": "ui-qr-dark",
+      "to": "qr-dark",
+      "reason": "redundant"
+    },
+    {
+      "set": "button",
+      "from": "ui-remove-black",
+      "to": "remove-black",
+      "reason": "redundant"
+    },
+    {
+      "set": "button",
+      "from": "ui-repeat-dark",
+      "to": "repeat-dark",
+      "reason": "redundant"
+    },
+    {
+      "set": "button",
+      "from": "ui-robots-dark",
+      "to": "robots-dark",
+      "reason": "redundant"
+    },
+    {
+      "set": "button",
+      "from": "ui-search-black",
+      "to": "search-black",
+      "reason": "redundant"
+    },
+    {
+      "set": "button",
+      "from": "ui-setting-black",
+      "to": "setting-black",
+      "reason": "redundant"
+    },
+    {
+      "set": "button",
+      "from": "ui-share-black",
+      "to": "share-black",
+      "reason": "redundant"
+    },
+    {
+      "set": "button",
+      "from": "ui-stop-black",
+      "to": "stop-black",
+      "reason": "redundant"
+    },
+    {
+      "set": "button",
+      "from": "ui-success",
+      "to": "success",
+      "reason": "redundant"
+    },
+    {
+      "set": "button",
+      "from": "ui-tariff-black",
+      "to": "tariff-black",
+      "reason": "redundant"
+    },
+    {
+      "set": "button",
+      "from": "ui-task-black",
+      "to": "task-black",
+      "reason": "redundant"
+    },
+    {
+      "set": "button",
+      "from": "ui-unfollow-black",
+      "to": "unfollow-black",
+      "reason": "redundant"
+    },
+    {
+      "set": "common-b24",
+      "from": "ui-call",
+      "to": "call",
+      "reason": "redundant"
+    },
+    {
+      "set": "common-b24",
+      "from": "ui-cloud",
+      "to": "cloud",
+      "reason": "redundant"
+    },
+    {
+      "set": "common-b24",
+      "from": "ui-folder",
+      "to": "folder",
+      "reason": "redundant"
+    },
+    {
+      "set": "common-b24",
+      "from": "ui-info",
+      "to": "info",
+      "reason": "redundant"
+    },
+    {
+      "set": "common-b24",
+      "from": "ui-my-plan",
+      "to": "my-plan",
+      "reason": "redundant"
+    },
+    {
+      "set": "common-b24",
+      "from": "ui-notification",
+      "to": "notification",
+      "reason": "redundant"
+    },
+    {
+      "set": "common-b24",
+      "from": "ui-package-numbers-five",
+      "to": "package-numbers-five",
+      "reason": "redundant"
+    },
+    {
+      "set": "common-b24",
+      "from": "ui-package-numbers-ten",
+      "to": "package-numbers-ten",
+      "reason": "redundant"
+    },
+    {
+      "set": "common-b24",
+      "from": "ui-question",
+      "to": "question",
+      "reason": "redundant"
+    },
+    {
+      "set": "common-b24",
+      "from": "ui-user",
+      "to": "user",
+      "reason": "redundant"
+    },
+    {
+      "set": "common-b24",
+      "from": "ui-user-company",
+      "to": "user-company",
+      "reason": "redundant"
+    },
+    {
+      "set": "common-b24",
+      "from": "ui-user-group",
+      "to": "user-group",
+      "reason": "redundant"
+    },
+    {
+      "set": "common-b24",
+      "from": "ui-user-mail",
+      "to": "user-mail",
+      "reason": "redundant"
+    },
+    {
+      "set": "common-service",
+      "from": "ui-service-add",
+      "to": "add",
+      "reason": "redundant"
+    },
+    {
+      "set": "common-service",
+      "from": "ui-service-alice",
+      "to": "alice",
+      "reason": "redundant"
+    },
+    {
+      "set": "common-service",
+      "from": "ui-service-apple",
+      "to": "apple",
+      "reason": "redundant"
+    },
+    {
+      "set": "common-service",
+      "from": "ui-service-arrows",
+      "to": "arrows",
+      "reason": "redundant"
+    },
+    {
+      "set": "common-service",
+      "from": "ui-service-audio-infocall",
+      "to": "audio-infocall",
+      "reason": "redundant"
+    },
+    {
+      "set": "common-service",
+      "from": "ui-service-avito",
+      "to": "avito",
+      "reason": "redundant"
+    },
+    {
+      "set": "common-service",
+      "from": "ui-service-bitrix24",
+      "to": "bitrix24",
+      "reason": "redundant"
+    },
+    {
+      "set": "common-service",
+      "from": "ui-service-bitrix24-sms",
+      "to": "bitrix24-sms",
+      "reason": "redundant"
+    },
+    {
+      "set": "common-service",
+      "from": "ui-service-bitrix24-virtual-wa",
+      "to": "bitrix24-virtual-wa",
+      "reason": "redundant"
+    },
+    {
+      "set": "common-service",
+      "from": "ui-service-blogger",
+      "to": "blogger",
+      "reason": "redundant"
+    },
+    {
+      "set": "common-service",
+      "from": "ui-service-blue-zoom",
+      "to": "blue-zoom",
+      "reason": "redundant"
+    },
+    {
+      "set": "common-service",
+      "from": "ui-service-box",
+      "to": "box",
+      "reason": "redundant"
+    },
+    {
+      "set": "common-service",
+      "from": "ui-service-calendar",
+      "to": "calendar",
+      "reason": "redundant"
+    },
+    {
+      "set": "common-service",
+      "from": "ui-service-call",
+      "to": "call",
+      "reason": "redundant"
+    },
+    {
+      "set": "common-service",
+      "from": "ui-service-call-in",
+      "to": "call-in",
+      "reason": "redundant"
+    },
+    {
+      "set": "common-service",
+      "from": "ui-service-call-out",
+      "to": "call-out",
+      "reason": "redundant"
+    },
+    {
+      "set": "common-service",
+      "from": "ui-service-call-up",
+      "to": "call-up",
+      "reason": "redundant"
+    },
+    {
+      "set": "common-service",
+      "from": "ui-service-calltracking",
+      "to": "calltracking",
+      "reason": "redundant"
+    },
+    {
+      "set": "common-service",
+      "from": "ui-service-campaign",
+      "to": "campaign",
+      "reason": "redundant"
+    },
+    {
+      "set": "common-service",
+      "from": "ui-service-cart",
+      "to": "cart",
+      "reason": "redundant"
+    },
+    {
+      "set": "common-service",
+      "from": "ui-service-chatbot",
+      "to": "chatbot",
+      "reason": "redundant"
+    },
+    {
+      "set": "common-service",
+      "from": "ui-service-click",
+      "to": "click",
+      "reason": "redundant"
+    },
+    {
+      "set": "common-service",
+      "from": "ui-service-clock",
+      "to": "clock",
+      "reason": "redundant"
+    },
+    {
+      "set": "common-service",
+      "from": "ui-service-code",
+      "to": "code",
+      "reason": "redundant"
+    },
+    {
+      "set": "common-service",
+      "from": "ui-service-common",
+      "to": "common",
+      "reason": "redundant"
+    },
+    {
+      "set": "common-service",
+      "from": "ui-service-crm",
+      "to": "crm",
+      "reason": "redundant"
+    },
+    {
+      "set": "common-service",
+      "from": "ui-service-deal",
+      "to": "deal",
+      "reason": "redundant"
+    },
+    {
+      "set": "common-service",
+      "from": "ui-service-directline",
+      "to": "directline",
+      "reason": "redundant"
+    },
+    {
+      "set": "common-service",
+      "from": "ui-service-dod",
+      "to": "dod",
+      "reason": "redundant"
+    },
+    {
+      "set": "common-service",
+      "from": "ui-service-dropbox",
+      "to": "dropbox",
+      "reason": "redundant"
+    },
+    {
+      "set": "common-service",
+      "from": "ui-service-edna",
+      "to": "edna",
+      "reason": "redundant"
+    },
+    {
+      "set": "common-service",
+      "from": "ui-service-email",
+      "to": "email",
+      "reason": "redundant"
+    },
+    {
+      "set": "common-service",
+      "from": "ui-service-envelope",
+      "to": "envelope",
+      "reason": "redundant"
+    },
+    {
+      "set": "common-service",
+      "from": "ui-service-epics",
+      "to": "epics",
+      "reason": "redundant"
+    },
+    {
+      "set": "common-service",
+      "from": "ui-service-estore",
+      "to": "estore",
+      "reason": "redundant"
+    },
+    {
+      "set": "common-service",
+      "from": "ui-service-fb",
+      "to": "fb",
+      "reason": "redundant"
+    },
+    {
+      "set": "common-service",
+      "from": "ui-service-fb-adds",
+      "to": "fb-ads",
+      "reason": "typo"
+    },
+    {
+      "set": "common-service",
+      "from": "ui-service-fb-comments",
+      "to": "fb-comments",
+      "reason": "redundant"
+    },
+    {
+      "set": "common-service",
+      "from": "ui-service-fb-instagram",
+      "to": "fb-instagram",
+      "reason": "redundant"
+    },
+    {
+      "set": "common-service",
+      "from": "ui-service-fb-messenger",
+      "to": "fb-messenger",
+      "reason": "redundant"
+    },
+    {
+      "set": "common-service",
+      "from": "ui-service-g-assistant",
+      "to": "g-assistant",
+      "reason": "redundant"
+    },
+    {
+      "set": "common-service",
+      "from": "ui-service-google",
+      "to": "google",
+      "reason": "redundant"
+    },
+    {
+      "set": "common-service",
+      "from": "ui-service-googleads",
+      "to": "googleads",
+      "reason": "redundant"
+    },
+    {
+      "set": "common-service",
+      "from": "ui-service-green-sberbank",
+      "to": "green-sberbank",
+      "reason": "redundant"
+    },
+    {
+      "set": "common-service",
+      "from": "ui-service-groupme",
+      "to": "groupme",
+      "reason": "redundant"
+    },
+    {
+      "set": "common-service",
+      "from": "ui-service-imessage",
+      "to": "imessage",
+      "reason": "redundant"
+    },
+    {
+      "set": "common-service",
+      "from": "ui-service-import",
+      "to": "import",
+      "reason": "redundant"
+    },
+    {
+      "set": "common-service",
+      "from": "ui-service-infocall",
+      "to": "infocall",
+      "reason": "redundant"
+    },
+    {
+      "set": "common-service",
+      "from": "ui-service-instagram",
+      "to": "instagram",
+      "reason": "redundant"
+    },
+    {
+      "set": "common-service",
+      "from": "ui-service-instagram-fb",
+      "to": "instagram-fb",
+      "reason": "redundant"
+    },
+    {
+      "set": "common-service",
+      "from": "ui-service-instagram-sh",
+      "to": "instagram-sh",
+      "reason": "redundant"
+    },
+    {
+      "set": "common-service",
+      "from": "ui-service-kik",
+      "to": "kik",
+      "reason": "redundant"
+    },
+    {
+      "set": "common-service",
+      "from": "ui-service-kufar",
+      "to": "kufar",
+      "reason": "redundant"
+    },
+    {
+      "set": "common-service",
+      "from": "ui-service-lead",
+      "to": "lead",
+      "reason": "redundant"
+    },
+    {
+      "set": "common-service",
+      "from": "ui-service-linked-link",
+      "to": "linked-link",
+      "reason": "redundant"
+    },
+    {
+      "set": "common-service",
+      "from": "ui-service-livechat",
+      "to": "livechat",
+      "reason": "redundant"
+    },
+    {
+      "set": "common-service",
+      "from": "ui-service-livechat-24",
+      "to": "livechat-24",
+      "reason": "redundant"
+    },
+    {
+      "set": "common-service",
+      "from": "ui-service-liveid",
+      "to": "liveid",
+      "reason": "redundant"
+    },
+    {
+      "set": "common-service",
+      "from": "ui-service-liveinternet",
+      "to": "liveinternet",
+      "reason": "redundant"
+    },
+    {
+      "set": "common-service",
+      "from": "ui-service-livejournal",
+      "to": "livejournal",
+      "reason": "redundant"
+    },
+    {
+      "set": "common-service",
+      "from": "ui-service-mailru",
+      "to": "mailru",
+      "reason": "redundant"
+    },
+    {
+      "set": "common-service",
+      "from": "ui-service-message-widget",
+      "to": "message-widget",
+      "reason": "redundant"
+    },
+    {
+      "set": "common-service",
+      "from": "ui-service-messenger",
+      "to": "messenger",
+      "reason": "redundant"
+    },
+    {
+      "set": "common-service",
+      "from": "ui-service-microsoft",
+      "to": "microsoft",
+      "reason": "redundant"
+    },
+    {
+      "set": "common-service",
+      "from": "ui-service-office365",
+      "to": "office365",
+      "reason": "redundant"
+    },
+    {
+      "set": "common-service",
+      "from": "ui-service-ok",
+      "to": "ok",
+      "reason": "redundant"
+    },
+    {
+      "set": "common-service",
+      "from": "ui-service-olx",
+      "to": "olx",
+      "reason": "redundant"
+    },
+    {
+      "set": "common-service",
+      "from": "ui-service-onec",
+      "to": "onec",
+      "reason": "redundant"
+    },
+    {
+      "set": "common-service",
+      "from": "ui-service-openid",
+      "to": "openid",
+      "reason": "redundant"
+    },
+    {
+      "set": "common-service",
+      "from": "ui-service-organic",
+      "to": "organic",
+      "reason": "redundant"
+    },
+    {
+      "set": "common-service",
+      "from": "ui-service-other",
+      "to": "other",
+      "reason": "redundant"
+    },
+    {
+      "set": "common-service",
+      "from": "ui-service-outlook",
+      "to": "outlook",
+      "reason": "redundant"
+    },
+    {
+      "set": "common-service",
+      "from": "ui-service-ownsite",
+      "to": "ownsite",
+      "reason": "redundant"
+    },
+    {
+      "set": "common-service",
+      "from": "ui-service-play",
+      "to": "play",
+      "reason": "redundant"
+    },
+    {
+      "set": "common-service",
+      "from": "ui-service-red-1c",
+      "to": "red-1c",
+      "reason": "redundant"
+    },
+    {
+      "set": "common-service",
+      "from": "ui-service-rest-contact-center",
+      "to": "rest-contact-center",
+      "reason": "redundant"
+    },
+    {
+      "set": "common-service",
+      "from": "ui-service-roles-rights",
+      "to": "roles-rights",
+      "reason": "redundant"
+    },
+    {
+      "set": "common-service",
+      "from": "ui-service-saml-azure",
+      "to": "saml-azure",
+      "reason": "redundant"
+    },
+    {
+      "set": "common-service",
+      "from": "ui-service-saml-azure-2",
+      "to": "saml-azure-2",
+      "reason": "redundant"
+    },
+    {
+      "set": "common-service",
+      "from": "ui-service-sberbank",
+      "to": "sberbank",
+      "reason": "redundant"
+    },
+    {
+      "set": "common-service",
+      "from": "ui-service-settings",
+      "to": "settings",
+      "reason": "redundant"
+    },
+    {
+      "set": "common-service",
+      "from": "ui-service-siteb24",
+      "to": "siteb24",
+      "reason": "redundant"
+    },
+    {
+      "set": "common-service",
+      "from": "ui-service-skype",
+      "to": "skype",
+      "reason": "redundant"
+    },
+    {
+      "set": "common-service",
+      "from": "ui-service-slack",
+      "to": "slack",
+      "reason": "redundant"
+    },
+    {
+      "set": "common-service",
+      "from": "ui-service-sms",
+      "to": "sms",
+      "reason": "redundant"
+    },
+    {
+      "set": "common-service",
+      "from": "ui-service-telegram",
+      "to": "telegram",
+      "reason": "redundant"
+    },
+    {
+      "set": "common-service",
+      "from": "ui-service-telephonybot",
+      "to": "telephonybot",
+      "reason": "redundant"
+    },
+    {
+      "set": "common-service",
+      "from": "ui-service-toloka",
+      "to": "toloka",
+      "reason": "redundant"
+    },
+    {
+      "set": "common-service",
+      "from": "ui-service-tutorial",
+      "to": "tutorial",
+      "reason": "redundant"
+    },
+    {
+      "set": "common-service",
+      "from": "ui-service-twilio",
+      "to": "twilio",
+      "reason": "redundant"
+    },
+    {
+      "set": "common-service",
+      "from": "ui-service-twitter",
+      "to": "twitter",
+      "reason": "redundant"
+    },
+    {
+      "set": "common-service",
+      "from": "ui-service-universal",
+      "to": "universal",
+      "reason": "redundant"
+    },
+    {
+      "set": "common-service",
+      "from": "ui-service-viber",
+      "to": "viber",
+      "reason": "redundant"
+    },
+    {
+      "set": "common-service",
+      "from": "ui-service-vk",
+      "to": "vk",
+      "reason": "redundant"
+    },
+    {
+      "set": "common-service",
+      "from": "ui-service-vk-adds",
+      "to": "vk-ads",
+      "reason": "typo"
+    },
+    {
+      "set": "common-service",
+      "from": "ui-service-vk-order",
+      "to": "vk-order",
+      "reason": "redundant"
+    },
+    {
+      "set": "common-service",
+      "from": "ui-service-vkads",
+      "to": "vkads",
+      "reason": "redundant"
+    },
+    {
+      "set": "common-service",
+      "from": "ui-service-webchat",
+      "to": "webchat",
+      "reason": "redundant"
+    },
+    {
+      "set": "common-service",
+      "from": "ui-service-webform",
+      "to": "webform",
+      "reason": "redundant"
+    },
+    {
+      "set": "common-service",
+      "from": "ui-service-wechat",
+      "to": "wechat",
+      "reason": "redundant"
+    },
+    {
+      "set": "common-service",
+      "from": "ui-service-whatsapp",
+      "to": "whatsapp",
+      "reason": "redundant"
+    },
+    {
+      "set": "common-service",
+      "from": "ui-service-wheel",
+      "to": "wheel",
+      "reason": "redundant"
+    },
+    {
+      "set": "common-service",
+      "from": "ui-service-widget",
+      "to": "widget",
+      "reason": "redundant"
+    },
+    {
+      "set": "common-service",
+      "from": "ui-service-ya",
+      "to": "ya",
+      "reason": "redundant"
+    },
+    {
+      "set": "common-service",
+      "from": "ui-service-ya-dialogs",
+      "to": "ya-dialogs",
+      "reason": "redundant"
+    },
+    {
+      "set": "common-service",
+      "from": "ui-service-ya-direct",
+      "to": "ya-direct",
+      "reason": "redundant"
+    },
+    {
+      "set": "common-service",
+      "from": "ui-service-ya-toloka",
+      "to": "ya-toloka",
+      "reason": "redundant"
+    },
+    {
+      "set": "common-service",
+      "from": "ui-service-yahoo",
+      "to": "yahoo",
+      "reason": "redundant"
+    },
+    {
+      "set": "common-service",
+      "from": "ui-service-yandex",
+      "to": "yandex",
+      "reason": "redundant"
+    },
+    {
+      "set": "common-service",
+      "from": "ui-service-zoom",
+      "to": "zoom",
+      "reason": "redundant"
+    },
+    {
+      "set": "crm",
+      "from": "add-from-adressbook",
+      "to": "add-from-addressbook",
+      "reason": "typo"
+    },
+    {
+      "set": "crm",
+      "from": "gird",
+      "to": "grid",
+      "reason": "typo"
+    },
+    {
+      "set": "editor",
+      "from": "incert-image",
+      "to": "insert-image",
+      "reason": "typo"
+    },
+    {
+      "set": "file-type",
+      "from": "ui-icon-add",
+      "to": "add",
+      "reason": "redundant"
+    },
+    {
+      "set": "file-type",
+      "from": "ui-icon-air-folder",
+      "to": "air-folder",
+      "reason": "redundant"
+    },
+    {
+      "set": "file-type",
+      "from": "ui-icon-air-folder-24",
+      "to": "air-folder-24",
+      "reason": "redundant"
+    },
+    {
+      "set": "file-type",
+      "from": "ui-icon-air-folder-collab",
+      "to": "air-folder-collab",
+      "reason": "redundant"
+    },
+    {
+      "set": "file-type",
+      "from": "ui-icon-air-folder-group",
+      "to": "air-folder-group",
+      "reason": "redundant"
+    },
+    {
+      "set": "file-type",
+      "from": "ui-icon-air-folder-person",
+      "to": "air-folder-person",
+      "reason": "redundant"
+    },
+    {
+      "set": "file-type",
+      "from": "ui-icon-air-folder-shared",
+      "to": "air-folder-shared",
+      "reason": "redundant"
+    },
+    {
+      "set": "file-type",
+      "from": "ui-icon-blue-notes",
+      "to": "blue-notes",
+      "reason": "redundant"
+    },
+    {
+      "set": "file-type",
+      "from": "ui-icon-board",
+      "to": "board",
+      "reason": "redundant"
+    },
+    {
+      "set": "file-type",
+      "from": "ui-icon-csv",
+      "to": "csv",
+      "reason": "redundant"
+    },
+    {
+      "set": "file-type",
+      "from": "ui-icon-doc",
+      "to": "doc",
+      "reason": "redundant"
+    },
+    {
+      "set": "file-type",
+      "from": "ui-icon-docx",
+      "to": "docx",
+      "reason": "redundant"
+    },
+    {
+      "set": "file-type",
+      "from": "ui-icon-empty",
+      "to": "empty",
+      "reason": "redundant"
+    },
+    {
+      "set": "file-type",
+      "from": "ui-icon-folder",
+      "to": "folder",
+      "reason": "redundant"
+    },
+    {
+      "set": "file-type",
+      "from": "ui-icon-folder-shared",
+      "to": "folder-shared",
+      "reason": "redundant"
+    },
+    {
+      "set": "file-type",
+      "from": "ui-icon-folder-shared-2",
+      "to": "folder-shared-2",
+      "reason": "redundant"
+    },
+    {
+      "set": "file-type",
+      "from": "ui-icon-folder-shared-3",
+      "to": "folder-shared-3",
+      "reason": "redundant"
+    },
+    {
+      "set": "file-type",
+      "from": "ui-icon-img",
+      "to": "img",
+      "reason": "redundant"
+    },
+    {
+      "set": "file-type",
+      "from": "ui-icon-odf",
+      "to": "odf",
+      "reason": "redundant"
+    },
+    {
+      "set": "file-type",
+      "from": "ui-icon-odp",
+      "to": "odp",
+      "reason": "redundant"
+    },
+    {
+      "set": "file-type",
+      "from": "ui-icon-ods",
+      "to": "ods",
+      "reason": "redundant"
+    },
+    {
+      "set": "file-type",
+      "from": "ui-icon-odt",
+      "to": "odt",
+      "reason": "redundant"
+    },
+    {
+      "set": "file-type",
+      "from": "ui-icon-pdf",
+      "to": "pdf",
+      "reason": "redundant"
+    },
+    {
+      "set": "file-type",
+      "from": "ui-icon-php",
+      "to": "php",
+      "reason": "redundant"
+    },
+    {
+      "set": "file-type",
+      "from": "ui-icon-ppt",
+      "to": "ppt",
+      "reason": "redundant"
+    },
+    {
+      "set": "file-type",
+      "from": "ui-icon-pptx",
+      "to": "pptx",
+      "reason": "redundant"
+    },
+    {
+      "set": "file-type",
+      "from": "ui-icon-psd",
+      "to": "psd",
+      "reason": "redundant"
+    },
+    {
+      "set": "file-type",
+      "from": "ui-icon-rar",
+      "to": "rar",
+      "reason": "redundant"
+    },
+    {
+      "set": "file-type",
+      "from": "ui-icon-settings",
+      "to": "settings",
+      "reason": "redundant"
+    },
+    {
+      "set": "file-type",
+      "from": "ui-icon-take-photo",
+      "to": "take-photo",
+      "reason": "redundant"
+    },
+    {
+      "set": "file-type",
+      "from": "ui-icon-text",
+      "to": "text",
+      "reason": "redundant"
+    },
+    {
+      "set": "file-type",
+      "from": "ui-icon-txt",
+      "to": "txt",
+      "reason": "redundant"
+    },
+    {
+      "set": "file-type",
+      "from": "ui-icon-video",
+      "to": "video",
+      "reason": "redundant"
+    },
+    {
+      "set": "file-type",
+      "from": "ui-icon-xls",
+      "to": "xls",
+      "reason": "redundant"
+    },
+    {
+      "set": "file-type",
+      "from": "ui-icon-zip",
+      "to": "zip",
+      "reason": "redundant"
+    },
+    {
+      "set": "main",
+      "from": "sigma-summ",
+      "to": "sigma-sum",
+      "reason": "typo"
+    },
+    {
+      "set": "main",
+      "from": "sigma-summ-a",
+      "to": "sigma-sum-a",
+      "reason": "typo"
+    },
+    {
+      "set": "outline",
+      "from": "busines-process-stages",
+      "to": "business-process-stages",
+      "reason": "typo"
+    },
+    {
+      "set": "outline",
+      "from": "sended",
+      "to": "sent",
+      "reason": "typo"
+    },
+    {
+      "set": "outline",
+      "from": "sigma-summ",
+      "to": "sigma-sum",
+      "reason": "typo"
+    },
+    {
+      "set": "outline",
+      "from": "speed-0_5",
+      "to": "speed-0-5",
+      "reason": "format"
+    },
+    {
+      "set": "outline",
+      "from": "speed-0_7",
+      "to": "speed-0-7",
+      "reason": "format"
+    },
+    {
+      "set": "outline",
+      "from": "speed-1_2",
+      "to": "speed-1-2",
+      "reason": "format"
+    },
+    {
+      "set": "outline",
+      "from": "speed-1_5",
+      "to": "speed-1-5",
+      "reason": "format"
+    },
+    {
+      "set": "outline",
+      "from": "speed-1_7",
+      "to": "speed-1-7",
+      "reason": "format"
+    },
+    {
+      "set": "outline",
+      "from": "tariff-scaner",
+      "to": "tariff-scanner",
+      "reason": "typo"
+    },
+    {
+      "set": "social",
+      "from": "call-infomation",
+      "to": "call-information",
+      "reason": "typo"
+    },
+    {
+      "set": "specialized",
+      "from": "carRent",
+      "to": "car-rent",
+      "reason": "format"
+    },
+    {
+      "set": "specialized",
+      "from": "equipmentRent",
+      "to": "equipment-rent",
+      "reason": "format"
+    },
+    {
+      "set": "specialized",
+      "from": "expertServices",
+      "to": "expert-services",
+      "reason": "format"
+    },
+    {
+      "set": "specialized",
+      "from": "medicalServices",
+      "to": "medical-services",
+      "reason": "format"
+    },
+    {
+      "set": "specialized",
+      "from": "roomRent",
+      "to": "room-rent",
+      "reason": "format"
+    },
+    {
+      "set": "social",
+      "from": "git-hub",
+      "to": "github",
+      "reason": "typo"
+    }
+  ],
+  "drops": [
+    {
+      "set": "common-service",
+      "from": "ui-service-fb-messanger",
+      "to": "fb-messenger",
+      "reason": "duplicate of ui-service-fb-messenger with a typo in the name"
+    }
+  ]
+}

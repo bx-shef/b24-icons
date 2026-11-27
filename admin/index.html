@@ -1,0 +1,403 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>bx24 · каталог иконок</title>
+<style>
+  :root {
+    --bg: #f6f7f9; --panel: #fff; --text: #1f2329; --muted: #6b7380; --line: #e3e6ea;
+    --accent: #2067b0; --accent-soft: #e5f0fb; --danger: #c4302b; --tile: #fff; --hidden: #b9bec6;
+    color-scheme: light;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #15181c; --panel: #1d2126; --text: #e6e8eb; --muted: #9aa2ad; --line: #2e343b;
+      --accent: #5ea2e8; --accent-soft: #1f3247; --danger: #ef6b66; --tile: #22272d; --hidden: #59616b;
+      color-scheme: dark;
+    }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; font: 14px/1.4 system-ui, -apple-system, "Segoe UI", sans-serif; background: var(--bg); color: var(--text); }
+  .app { display: grid; grid-template-columns: 280px 1fr; height: 100vh; }
+  aside { background: var(--panel); border-right: 1px solid var(--line); display: flex; flex-direction: column; min-height: 0; }
+  aside header { padding: 14px 16px 10px; border-bottom: 1px solid var(--line); }
+  aside h1 { font-size: 15px; margin: 0 0 2px; }
+  .status { font-size: 12px; color: var(--muted); }
+  .status.error { color: var(--danger); }
+  nav { overflow: auto; flex: 1; padding: 8px; }
+  .nav-item { display: flex; align-items: center; gap: 6px; padding: 6px 8px; border-radius: 6px; cursor: pointer; user-select: none; }
+  .nav-item:hover { background: var(--accent-soft); }
+  .nav-item.active { background: var(--accent); color: #fff; }
+  .nav-item.drop { outline: 2px dashed var(--accent); outline-offset: -2px; }
+  .nav-item .title { flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .nav-item .count { font-size: 12px; opacity: .7; }
+  .nav-item .del { visibility: hidden; border: 0; background: none; color: inherit; cursor: pointer; padding: 0 2px; font-size: 14px; }
+  .nav-item:hover .del { visibility: visible; }
+  .sep { margin: 10px 8px 4px; font-size: 11px; text-transform: uppercase; letter-spacing: .04em; color: var(--muted); }
+  .add-theme { display: flex; gap: 6px; padding: 8px; border-top: 1px solid var(--line); }
+  input, select, button { font: inherit; color: inherit; }
+  input[type=search], input[type=text], select { background: var(--bg); border: 1px solid var(--line); border-radius: 6px; padding: 6px 8px; min-width: 0; }
+  .add-theme input { flex: 1; }
+  button.btn { background: var(--panel); border: 1px solid var(--line); border-radius: 6px; padding: 6px 10px; cursor: pointer; white-space: nowrap; }
+  button.btn:hover:not(:disabled) { border-color: var(--accent); }
+  button.btn.primary { background: var(--accent); border-color: var(--accent); color: #fff; }
+  button.btn:disabled { opacity: .45; cursor: default; }
+  main { display: flex; flex-direction: column; min-width: 0; min-height: 0; }
+  .toolbar { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; padding: 10px 16px; border-bottom: 1px solid var(--line); background: var(--panel); }
+  .toolbar input[type=search] { width: 240px; }
+  .toolbar .spacer { flex: 1; }
+  .selection { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; padding: 8px 16px; border-bottom: 1px solid var(--line); background: var(--accent-soft); }
+  .selection[hidden] { display: none; }
+  .grid { flex: 1; overflow: auto; padding: 16px; display: grid; grid-template-columns: repeat(auto-fill, minmax(var(--tile-size, 104px), 1fr)); gap: 8px; align-content: start; }
+  .tile { position: relative; background: var(--tile); border: 1px solid var(--line); border-radius: 8px; padding: 10px 6px 6px; display: flex; flex-direction: column; align-items: center; gap: 6px; cursor: pointer; user-select: none; }
+  .tile:hover { border-color: var(--accent); }
+  .tile.selected { border-color: var(--accent); box-shadow: 0 0 0 2px var(--accent) inset; background: var(--accent-soft); }
+  .tile.is-hidden svg { opacity: .35; }
+  .tile svg { width: var(--icon-size, 32px); height: var(--icon-size, 32px); color: var(--text); }
+  .tile .name { font-size: 11px; color: var(--muted); text-align: center; word-break: break-all; line-height: 1.2; }
+  .tile .badge { position: absolute; top: 4px; right: 5px; font-size: 10px; color: var(--muted); }
+  .tile .badge.none { color: var(--danger); }
+  .empty { color: var(--muted); padding: 40px; text-align: center; grid-column: 1 / -1; }
+  .chips { display: flex; flex-wrap: wrap; gap: 4px; }
+  .chip { font-size: 12px; padding: 2px 8px; border-radius: 10px; background: var(--panel); border: 1px solid var(--line); }
+  .chip button { border: 0; background: none; color: var(--muted); cursor: pointer; padding: 0 0 0 4px; }
+  kbd { font: 11px ui-monospace, monospace; border: 1px solid var(--line); border-radius: 4px; padding: 0 4px; }
+  .hint { font-size: 12px; color: var(--muted); }
+  @media (max-width: 720px) {
+    .app { grid-template-columns: 1fr; grid-template-rows: auto 1fr; height: auto; min-height: 100vh; }
+    aside { max-height: 40vh; border-right: 0; border-bottom: 1px solid var(--line); }
+    .toolbar input[type=search] { width: 100%; }
+  }
+</style>
+</head>
+<body>
+<div class="app">
+  <aside>
+    <header>
+      <h1>bx24 · каталог</h1>
+      <div class="status" id="status">Загрузка…</div>
+    </header>
+    <nav id="nav"></nav>
+    <form class="add-theme" id="add-theme">
+      <input type="text" id="new-theme" placeholder="Новая тема" aria-label="Название новой темы">
+      <button class="btn" type="submit">Добавить</button>
+    </form>
+  </aside>
+  <main>
+    <div class="toolbar">
+      <input type="search" id="search" placeholder="Поиск по имени…" aria-label="Поиск">
+      <select id="set-filter" aria-label="Набор"></select>
+      <label class="hint"><input type="checkbox" id="show-hidden" checked> показывать скрытые</label>
+      <span class="spacer"></span>
+      <label class="hint">размер <input type="range" id="size" min="20" max="64" value="32"></label>
+      <button class="btn" id="select-all" type="button">Выбрать все на экране</button>
+    </div>
+    <div class="selection" id="selection" hidden>
+      <strong id="sel-count"></strong>
+      <select id="sel-theme" aria-label="Тема"></select>
+      <button class="btn primary" id="sel-add" type="button">Добавить в тему</button>
+      <button class="btn" id="sel-remove-current" type="button">Убрать из текущей темы</button>
+      <button class="btn" id="sel-hide" type="button">Скрыть</button>
+      <button class="btn" id="sel-unhide" type="button">Вернуть</button>
+      <button class="btn" id="sel-clear" type="button">Снять выделение</button>
+      <div class="chips" id="sel-themes"></div>
+      <span class="hint">Можно перетащить выбранные иконки на тему слева. Одна иконка может быть в нескольких темах. <kbd>Shift</kbd> + клик — диапазон, <kbd>Esc</kbd> — снять.</span>
+    </div>
+    <div class="grid" id="grid"></div>
+  </main>
+</div>
+<script>
+const SETS = ['outline','solid','main','actions','animated','button','button-specialized','common-b24','common-service','contact-center','crm','editor','file-type','social','specialized']
+const ALL = '__all__', NONE = '__none__', HIDDEN = '__hidden__'
+
+const state = {
+  icons: [],            // [{ name, set, svg }]
+  catalog: { categories: {}, hidden: [] },
+  view: ALL,
+  search: '',
+  set: '',
+  showHidden: true,
+  selected: new Set(),
+  lastClicked: null
+}
+
+const $ = id => document.getElementById(id)
+const esc = s => String(s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]))
+
+function setOf(name) {
+  return SETS.filter(s => name.startsWith(s + '-')).sort((a, b) => b.length - a.length)[0] || ''
+}
+
+function themesOf(name) {
+  return Object.entries(state.catalog.categories).filter(([, list]) => list.includes(name)).map(([t]) => t)
+}
+
+function hiddenSet() { return new Set(state.catalog.hidden) }
+
+// ---------- persistence ----------
+let saveTimer = null
+function setStatus(text, error = false) {
+  const el = $('status')
+  el.textContent = text
+  el.classList.toggle('error', error)
+}
+function scheduleSave() {
+  setStatus('Есть несохранённые изменения…')
+  clearTimeout(saveTimer)
+  saveTimer = setTimeout(save, 400)
+}
+async function save() {
+  try {
+    const res = await fetch('/api/catalog', { method: 'PUT', headers: { 'content-type': 'application/json' }, body: JSON.stringify(state.catalog) })
+    if (!res.ok) throw new Error((await res.json()).error || res.statusText)
+    const saved = await res.json()
+    // keep the editor's category order, take normalized lists
+    state.catalog = saved
+    setStatus(`Сохранено в data/catalog.json · ${new Date().toLocaleTimeString()}`)
+  } catch (e) {
+    setStatus('Ошибка сохранения: ' + e.message, true)
+  }
+}
+window.addEventListener('beforeunload', e => { if (saveTimer && $('status').textContent.startsWith('Есть')) e.preventDefault() })
+
+// ---------- catalog operations ----------
+function addToTheme(title, names) {
+  const list = new Set(state.catalog.categories[title] || [])
+  names.forEach(n => list.add(n))
+  state.catalog.categories[title] = [...list]
+  changed()
+}
+function removeFromTheme(title, names) {
+  const drop = new Set(names)
+  state.catalog.categories[title] = (state.catalog.categories[title] || []).filter(n => !drop.has(n))
+  changed()
+}
+function setHidden(names, hidden) {
+  const set = hiddenSet()
+  names.forEach(n => hidden ? set.add(n) : set.delete(n))
+  state.catalog.hidden = [...set]
+  changed()
+}
+function changed() { scheduleSave(); render() }
+
+// ---------- rendering ----------
+function visibleIcons() {
+  const q = state.search.trim().toLowerCase()
+  const hidden = hiddenSet()
+  let list = state.icons
+  if (state.view === NONE) list = list.filter(i => !themesOf(i.name).length)
+  else if (state.view === HIDDEN) list = list.filter(i => hidden.has(i.name))
+  else if (state.view !== ALL) {
+    const inTheme = new Set(state.catalog.categories[state.view] || [])
+    list = list.filter(i => inTheme.has(i.name))
+  }
+  if (state.view !== HIDDEN && !state.showHidden) list = list.filter(i => !hidden.has(i.name))
+  if (state.set) list = list.filter(i => i.set === state.set)
+  if (q) {
+    const words = q.split(/\s+/)
+    list = list.filter(i => words.every(w => i.name.includes(w)))
+  }
+  return list
+}
+
+function renderNav() {
+  const hidden = hiddenSet()
+  const noTheme = state.icons.filter(i => !themesOf(i.name).length).length
+  const item = (id, title, count, removable = false) => `
+    <div class="nav-item${state.view === id ? ' active' : ''}" data-view="${esc(id)}" ${removable ? 'data-theme="' + esc(id) + '"' : ''}>
+      <span class="title" title="${esc(title)}">${esc(title)}</span>
+      <span class="count">${count}</span>
+      ${removable ? '<button class="del" type="button" data-del="' + esc(id) + '" title="Удалить тему" aria-label="Удалить тему">×</button>' : ''}
+    </div>`
+  const themes = Object.keys(state.catalog.categories)
+  $('nav').innerHTML =
+    item(ALL, 'Все иконки', state.icons.length) +
+    item(NONE, 'Без темы', noTheme) +
+    item(HIDDEN, 'Скрытые', hidden.size) +
+    `<div class="sep">Темы · ${themes.length}</div>` +
+    (themes.length ? themes.map(t => item(t, t, state.catalog.categories[t].length, true)).join('') : '<div class="hint" style="padding:6px 8px">Добавьте первую тему внизу.</div>')
+
+  const opts = themes.map(t => `<option value="${esc(t)}">${esc(t)}</option>`).join('')
+  const current = $('sel-theme').value
+  $('sel-theme').innerHTML = opts || '<option value="">— нет тем —</option>'
+  if (themes.includes(current)) $('sel-theme').value = current
+  else if (themes.includes(state.view)) $('sel-theme').value = state.view
+}
+
+function renderGrid() {
+  const list = visibleIcons()
+  const hidden = hiddenSet()
+  state.visible = list
+  $('grid').innerHTML = list.length ? list.map(i => {
+    const themes = themesOf(i.name)
+    const short = i.name.slice(i.set.length + 1)
+    return `<div class="tile${state.selected.has(i.name) ? ' selected' : ''}${hidden.has(i.name) ? ' is-hidden' : ''}" draggable="true" data-name="${i.name}" title="${esc(i.name + (themes.length ? '\nТемы: ' + themes.join(', ') : '\nБез темы') + (hidden.has(i.name) ? '\nСкрыта' : ''))}">
+      <span class="badge${themes.length ? '' : ' none'}">${themes.length || '•'}</span>
+      ${i.svg}
+      <span class="name">${esc(i.set)}<br>${esc(short)}</span>
+    </div>`
+  }).join('') : '<div class="empty">Ничего не найдено</div>'
+}
+
+function renderSelection() {
+  const n = state.selected.size
+  $('selection').hidden = n === 0
+  if (!n) return
+  $('sel-count').textContent = `Выбрано: ${n}`
+  const isTheme = state.catalog.categories[state.view] !== undefined
+  $('sel-remove-current').disabled = !isTheme
+  $('sel-remove-current').textContent = isTheme ? `Убрать из «${state.view}»` : 'Убрать из текущей темы'
+  $('sel-add').disabled = !Object.keys(state.catalog.categories).length
+  // themes shared by the selection (show as removable chips)
+  const counts = {}
+  state.selected.forEach(name => themesOf(name).forEach(t => { counts[t] = (counts[t] || 0) + 1 }))
+  $('sel-themes').innerHTML = Object.entries(counts).map(([t, c]) =>
+    `<span class="chip">${esc(t)}${n > 1 ? ' · ' + c : ''}<button type="button" data-unchip="${esc(t)}" title="Убрать выбранные из темы" aria-label="Убрать из темы">×</button></span>`).join('')
+}
+
+function render() { renderNav(); renderGrid(); renderSelection() }
+
+// ---------- events ----------
+$('nav').addEventListener('click', e => {
+  const del = e.target.closest('[data-del]')
+  if (del) {
+    const t = del.dataset.del
+    if (confirm(`Удалить тему «${t}»? Иконки останутся в коллекции.`)) {
+      delete state.catalog.categories[t]
+      if (state.view === t) state.view = ALL
+      changed()
+    }
+    return
+  }
+  const item = e.target.closest('.nav-item')
+  if (!item) return
+  state.view = item.dataset.view
+  render()
+})
+$('nav').addEventListener('dblclick', e => {
+  const item = e.target.closest('[data-theme]')
+  if (!item) return
+  const old = item.dataset.theme
+  const title = prompt('Новое название темы', old)?.trim()
+  if (!title || title === old) return
+  if (state.catalog.categories[title]) return alert('Такая тема уже есть')
+  const entries = Object.entries(state.catalog.categories).map(([k, v]) => [k === old ? title : k, v])
+  state.catalog.categories = Object.fromEntries(entries)
+  if (state.view === old) state.view = title
+  changed()
+})
+
+$('add-theme').addEventListener('submit', e => {
+  e.preventDefault()
+  const title = $('new-theme').value.trim()
+  if (!title) return
+  if (state.catalog.categories[title]) return alert('Такая тема уже есть')
+  state.catalog.categories[title] = []
+  $('new-theme').value = ''
+  if (state.selected.size && confirm(`Добавить в «${title}» выбранные иконки (${state.selected.size})?`)) {
+    state.catalog.categories[title] = [...state.selected]
+  }
+  changed()
+  $('sel-theme').value = title
+})
+
+$('grid').addEventListener('click', e => {
+  const tile = e.target.closest('.tile')
+  if (!tile) return
+  const name = tile.dataset.name
+  if (e.shiftKey && state.lastClicked) {
+    const names = state.visible.map(i => i.name)
+    const a = names.indexOf(state.lastClicked), b = names.indexOf(name)
+    if (a >= 0 && b >= 0) names.slice(Math.min(a, b), Math.max(a, b) + 1).forEach(n => state.selected.add(n))
+  } else if (state.selected.has(name)) state.selected.delete(name)
+  else state.selected.add(name)
+  state.lastClicked = name
+  renderGrid(); renderSelection()
+})
+
+// drag & drop onto themes
+$('grid').addEventListener('dragstart', e => {
+  const tile = e.target.closest('.tile')
+  if (!tile) return
+  const name = tile.dataset.name
+  const names = state.selected.has(name) ? [...state.selected] : [name]
+  e.dataTransfer.setData('application/x-bx24-icons', JSON.stringify(names))
+  e.dataTransfer.effectAllowed = 'copy'
+})
+$('nav').addEventListener('dragover', e => {
+  const item = e.target.closest('[data-theme]')
+  if (!item) return
+  e.preventDefault()
+  document.querySelectorAll('.nav-item.drop').forEach(el => el !== item && el.classList.remove('drop'))
+  item.classList.add('drop')
+})
+$('nav').addEventListener('dragleave', e => e.target.closest('.nav-item')?.classList.remove('drop'))
+$('nav').addEventListener('drop', e => {
+  const item = e.target.closest('[data-theme]')
+  document.querySelectorAll('.nav-item.drop').forEach(el => el.classList.remove('drop'))
+  if (!item) return
+  e.preventDefault()
+  const names = JSON.parse(e.dataTransfer.getData('application/x-bx24-icons') || '[]')
+  if (names.length) addToTheme(item.dataset.theme, names)
+})
+
+$('search').addEventListener('input', e => { state.search = e.target.value; renderGrid() })
+$('set-filter').addEventListener('change', e => { state.set = e.target.value; renderGrid() })
+$('show-hidden').addEventListener('change', e => { state.showHidden = e.target.checked; renderGrid() })
+$('size').addEventListener('input', e => {
+  document.documentElement.style.setProperty('--icon-size', e.target.value + 'px')
+  document.documentElement.style.setProperty('--tile-size', Math.max(96, Number(e.target.value) * 2.6) + 'px')
+})
+$('select-all').addEventListener('click', () => { state.visible.forEach(i => state.selected.add(i.name)); renderGrid(); renderSelection() })
+$('sel-clear').addEventListener('click', () => { state.selected.clear(); renderGrid(); renderSelection() })
+$('sel-add').addEventListener('click', () => {
+  const t = $('sel-theme').value
+  if (!t) return
+  addToTheme(t, [...state.selected])
+  state.selected.clear()
+  render()
+})
+$('sel-remove-current').addEventListener('click', () => {
+  if (state.catalog.categories[state.view]) { removeFromTheme(state.view, [...state.selected]); state.selected.clear(); render() }
+})
+$('sel-hide').addEventListener('click', () => setHidden([...state.selected], true))
+$('sel-unhide').addEventListener('click', () => setHidden([...state.selected], false))
+$('sel-themes').addEventListener('click', e => {
+  const b = e.target.closest('[data-unchip]')
+  if (b) removeFromTheme(b.dataset.unchip, [...state.selected])
+})
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape' && state.selected.size) { state.selected.clear(); renderGrid(); renderSelection() }
+  if (e.key === '/' && document.activeElement.tagName !== 'INPUT') { e.preventDefault(); $('search').focus() }
+})
+
+// ---------- boot ----------
+async function boot() {
+  const [icons, catalog] = await Promise.all([
+    fetch('/api/icons').then(r => r.json()),
+    fetch('/api/catalog').then(r => r.json())
+  ])
+  const W = icons.width || 16, H = icons.height || 16
+  state.icons = Object.entries(icons.icons).map(([name, icon]) => {
+    const w = icon.width || W, h = icon.height || H
+    // ids must be unique on the page (gradients, clip paths)
+    const body = icon.body
+      .replace(/\bid="([^"]+)"/g, `id="${name}-$1"`)
+      .replace(/url\(#([^)]+)\)/g, `url(#${name}-$1)`)
+      .replace(/href="#([^"]+)"/g, `href="#${name}-$1"`)
+    return {
+      name,
+      set: setOf(name),
+      svg: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="${icon.left || 0} ${icon.top || 0} ${w} ${h}" aria-hidden="true">${body}</svg>`
+    }
+  }).sort((a, b) => SETS.indexOf(a.set) - SETS.indexOf(b.set) || a.name.localeCompare(b.name))
+  state.catalog = { categories: catalog.categories || {}, hidden: catalog.hidden || [] }
+  $('set-filter').innerHTML = '<option value="">Все наборы</option>' + SETS.map(s => `<option value="${s}">${s} · ${state.icons.filter(i => i.set === s).length}</option>`).join('')
+  setStatus(`${state.icons.length} иконок · data/catalog.json`)
+  render()
+}
+boot().catch(e => setStatus('Не удалось загрузить: ' + e.message, true))
+</script>
+</body>
+</html>

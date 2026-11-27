@@ -1,0 +1,33 @@
+{
+  "name": "@bxshefby/icons-json",
+  "version": "0.1.0",
+  "description": "Bitrix24 UI icons (bx24) as an Iconify JSON collection — for Nuxt UI / @nuxt/icon, @iconify/vue, @iconify/react and iconify-icon",
+  "license": "MIT",
+  "author": "bx-shef",
+  "homepage": "https://github.com/bx-shef/b24-icons#readme",
+  "repository": { "type": "git", "url": "git+https://github.com/bx-shef/b24-icons.git", "directory": "packages/icons-json" },
+  "bugs": { "url": "https://github.com/bx-shef/b24-icons/issues" },
+  "keywords": ["icons", "iconify", "iconify-json", "bitrix24", "bx24", "nuxt", "nuxt-ui", "vue", "react", "svg"],
+  "type": "module",
+  "sideEffects": false,
+  "main": "./index.cjs",
+  "module": "./index.mjs",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./index.mjs",
+      "require": "./index.cjs"
+    },
+    "./icons.json": "./icons.json",
+    "./info.json": "./info.json",
+    "./metadata.json": "./metadata.json",
+    "./package.json": "./package.json"
+  },
+  "files": ["index.mjs", "index.cjs", "index.d.ts", "icons.json", "info.json", "metadata.json"],
+  "iconSetInfo": { "prefix": "bx24", "name": "Bitrix24 Icons (bx24)" },
+  "dependencies": {
+    "@iconify/types": "^2.0.0"
+  },
+  "publishConfig": { "access": "public" }
+}
