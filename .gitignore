@@ -1,0 +1,6 @@
+node_modules/
+packages/icons-json/*.json
+!packages/icons-json/package.json
+packages/icons-json/index.*
+packages/icons-svg/svg/
+.DS_Store

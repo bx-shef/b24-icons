@@ -1,0 +1,22 @@
+{
+  "name": "bx24-icons-monorepo",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@10.28.0",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "check": "node scripts/build.mjs --check",
+    "test": "node --test test/",
+    "admin": "node admin/server.mjs"
+  },
+  "devDependencies": {
+    "@iconify/tools": "^4.2.0",
+    "@iconify/types": "^2.0.0",
+    "@iconify/utils": "^3.1.7",
+    "camelcase": "^9.0.0"
+  }
+}
