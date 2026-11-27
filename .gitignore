@@ -5,3 +5,4 @@ packages/icons-json/index.*
 packages/icons-svg/svg/
 .DS_Store
 packages/icons-migrate/legacy-map.json
+site-dist/

@@ -29,6 +29,7 @@ pnpm build                          # icons/ + data/ → packages/*
 pnpm test                           # тесты (нужна сборка)
 node scripts/build.mjs --check      # только проверка исходников
 pnpm admin                          # редактор тем, http://127.0.0.1:4224
+pnpm site                           # публичный каталог в site-dist/ (после pnpm build)
 ```
 
 Сверка цветов со старой библиотекой:
