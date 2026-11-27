@@ -13,8 +13,9 @@
 - Воркфлоу `.github/workflows/site-image.yml`:
   - на PR — сборка и дымовая проверка: контейнер с теми же ограничениями, что в compose;
   - на push в `main` — ещё и публикация `ghcr.io/bx-shef/b24-icons-site:latest` и `:sha-…`.
-- Адрес сайта для canonical, og, `sitemap.xml` и `robots.txt` — **https://b24-icons.bx-shef.by**
-  (по умолчанию в `site-image.yml`; переменная репозитория `SITE_URL` его переопределяет).
+- Адрес сайта для canonical, og, `sitemap.xml` и `robots.txt` — переменная репозитория `SITE_URL`
+  (Settings → Secrets and variables → Actions → Variables): `https://b24-icons.bx-shef.by`.
+  Пусто — без них.
 - Пакет в ghcr после первой публикации может оказаться приватным. Watchtower на сервере входит в ghcr,
   так что это не мешает. Чтобы образ можно было скачать без входа: Packages → b24-icons-site →
   Package settings → Change visibility → Public.
