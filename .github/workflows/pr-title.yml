@@ -1,0 +1,32 @@
+name: PR title
+
+# Заголовок PR становится сообщением squash-коммита в main, по нему release-please
+# собирает версию и журнал изменений. Проверяем заранее.
+on:
+  pull_request:
+    branches: [ main ]
+    types: [ opened, edited, reopened, synchronize ]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pr-title-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
+jobs:
+  title:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    if: github.event.action != 'edited' || github.event.changes.title != null
+    steps:
+      - name: Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      # Через окружение, не через командную строку: заголовок — чужой текст.
+      - name: Assert the title is a conventional commit
+        env:
+          PR_TITLE: ${{ github.event.pull_request.title }}
+        run: node .github/scripts/assert-pr-title.mjs

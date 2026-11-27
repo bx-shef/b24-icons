@@ -1,0 +1,24 @@
+# Actions закреплены по SHA. Dependabot следит за ними, но свои PR не открывает
+# (open-pull-requests-limit: 0, как в bx-shef/b24-js-sdk и bx-shef/b24-ui):
+# обновления видны во вкладке Security и переносятся вручную.
+version: 2
+updates:
+  - package-ecosystem: "github-actions"
+    open-pull-requests-limit: 0
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    cooldown:
+      default-days: 3
+    commit-message:
+      prefix: "ci"
+
+  - package-ecosystem: "npm"
+    open-pull-requests-limit: 0
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    cooldown:
+      default-days: 3
+    commit-message:
+      prefix: "deps"
