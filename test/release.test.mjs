@@ -50,3 +50,8 @@ test('actions are pinned by SHA', () => {
     }
   }
 })
+
+test('deploy/install-server.sh is valid bash', async () => {
+  const { execFileSync } = await import('node:child_process')
+  execFileSync('bash', ['-n', new URL('../deploy/install-server.sh', import.meta.url).pathname])
+})
