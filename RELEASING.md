@@ -29,11 +29,12 @@ job `build` пропускается, а `publish` ждёт его и тоже �
 слияние только squash, ветка должна быть обновлена до `main` (strict). У владельца (роль admin)
 есть bypass.
 
-PR выпуска создаёт release-please от имени `GITHUB_TOKEN`. Его собственный запуск `ci` может не
-выполниться или остаться на ручном подтверждении (`action_required`), и тогда проверки `ci` и
-`title` не появляются, а GitHub пишет «Required status check is expected». В bx-shef/b24-ui это
-разобрано подробно (`.github/contributing/releasing.md`, «Approving the release PR's CI»). Здесь
-PR выпуска ещё не создавался, поэтому порядок такой:
+PR выпуска создаёт release-please от имени `GITHUB_TOKEN`. Запуски его проверок GitHub удерживает
+в состоянии `action_required`: job не создаются, check run нет, ruleset ждёт `ci` и `title`, и PR
+остаётся `blocked` («Required status check is expected»). Так это выглядит на release PR в
+bx-shef/b24-js-sdk (#55), разобрано в bx-shef/b24-ui (`.github/contributing/releasing.md`,
+«Approving the release PR's CI»). Здесь PR выпуска ещё не создавался, поэтому порядок взят оттуда;
+после первого выпуска сверить и поправить по факту:
 
 1. Открыть PR выпуска → вкладка Checks / Actions: если запуск ждёт подтверждения, подтвердить его
    (*Approve and run*) и дождаться зелёных `ci` и `title`.
