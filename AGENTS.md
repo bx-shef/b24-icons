@@ -57,6 +57,22 @@ bx-shef/b24-js-sdk: `deploy/README.md`. Проверка сайта агенто
   библиотеки → имя `bx24`». Сгенерирован один раз `scripts/migrate/legacy-map.mjs`.
 - Сгенерированные файлы пакетов в git не хранятся (`.gitignore`).
 
+## Переход со старой библиотеки, MCP и навыки
+
+- Пользователю — раздел «Переход со старой библиотеки» в `README.md` (шаги, команды под тип проекта, промпт для агента).
+- Агенту, который переводит чужой проект, — навык `packages/icons-migrate/skills/bx24-icons-migration/SKILL.md`
+  (едет в npm-пакете `@bxshefby/icons-migrate`). Codemod — `packages/icons-migrate/bin/bx24-icons-migrate.mjs`.
+- **b24-ui принимает строковые иконки в пропах только после bx-shef/b24-ui#69.** До этого codemod для проектов на b24-ui
+  с `--write` не запускать: иконки в пропах пропадут. Codemod предупреждает об этом («now go to component props as strings»),
+  навык велит остановиться.
+- Меняешь codemod или навык — прогони их на практике, а не только тестами:
+  - небольшой Vue-проект с `@bitrix24/b24icons-vue` → переход до конца по навыку, `vite build` проходит;
+  - копия bx-shef/b24-js-sdk (`docs/`) → агент по навыку останавливается из-за #69; codemod без `--write` даёт отчёт без ложных `manual:`.
+- MCP и чат для иконок — **только в b24-ui** (`b24-ui-search-icons`, `b24-ui-get-icon`, `docs/server/utils/bx24Icons.ts`),
+  у каталога своего MCP нет. Поиск один — `packages/icons-json/search.mjs`; меняешь его выдачу — проверь и каталог, и MCP.
+- Навык самой b24-ui (`skills/b24-ui-nuxt`, раздаётся на `/.well-known/skills/`) про иконки — bx-shef/b24-ui#94,
+  страница про MCP в документации b24-ui — bx-shef/b24-ui#93.
+
 ## Правила
 
 - **Имена иконок после 1.0 не меняются.** Переименование до 1.0 — только с записью в
