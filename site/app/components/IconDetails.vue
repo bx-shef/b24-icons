@@ -106,6 +106,7 @@ const downloadHref = computed(() => props.name ? `data:image/svg+xml;charset=utf
 
         <div class="flex flex-wrap gap-2">
           <B24Button :to="downloadHref" :download="`${name}.svg`" color="air-secondary" label="Скачать SVG" />
+          <B24Button :to="`/icons/${name}`" color="air-tertiary" label="Страница иконки" />
           <B24Button color="air-tertiary" label="data:URI" @click="emit('copy', name, 'datauri')" />
         </div>
 

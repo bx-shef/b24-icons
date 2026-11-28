@@ -62,7 +62,10 @@ execFileSync('pnpm', ['--dir', SITE, 'exec', 'nuxt', 'generate'], {
 await fs.rm(OUT, { recursive: true, force: true })
 await fs.cp(resolve(SITE, '.output/public'), OUT, { recursive: true })
 if (SITE_URL) {
-  await fs.writeFile(resolve(OUT, 'sitemap.xml'), `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url><loc>${SITE_URL}/</loc></url></urlset>\n`)
+  // главная и страница каждой видимой иконки (/icons/<имя>, bx-shef/b24-icons#20)
+  const pages = ['/', ...Object.keys(icons.icons).filter(n => !icons.icons[n].hidden).map(n => `/icons/${n}`)]
+  const urls = pages.map(p => `<url><loc>${SITE_URL}${p}</loc></url>`).join('\n')
+  await fs.writeFile(resolve(OUT, 'sitemap.xml'), `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls}\n</urlset>\n`)
   await fs.writeFile(resolve(OUT, 'robots.txt'), `User-agent: *\nAllow: /\nSitemap: ${SITE_URL}/sitemap.xml\n`)
 }
 console.log(`✓ site-dist${SITE_URL ? ` (${SITE_URL})` : ''}`)

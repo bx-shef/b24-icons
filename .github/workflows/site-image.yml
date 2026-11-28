@@ -62,6 +62,10 @@ jobs:
           check 200 localhost:8080/data/search.json
           check 200 localhost:8080/svg/outline-check-l.svg
           check 404 localhost:8080/nope
+          # страница иконки (#20): своя, с именем в заголовке; несуществующая — 404
+          check 200 localhost:8080/icons/outline-check-l
+          curl -fs localhost:8080/icons/outline-check-l | grep -q '<title>outline-check-l' || { echo "::error::нет страницы иконки"; exit 1; }
+          check 404 localhost:8080/icons/nope
           # неизвестный адрес — страница 404 каталога, а не голый ответ nginx
           curl -s -o nope.html localhost:8080/nope
           grep -q '_nuxt' nope.html || { echo "::error::404 — не страница каталога"; exit 1; }
