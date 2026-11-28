@@ -83,10 +83,18 @@ if ! certs_ok && [ "${SKIP_DNS_CHECK:-}" != 1 ]; then
   ip_srv=$(curl -fsS --max-time 5 https://api.ipify.org 2>/dev/null || true)
   if [ -z "$ip_dns" ]; then
     echo "!! DNS: $D не резолвится — создайте A-запись на ${ip_srv:-этот сервер} и запустите скрипт снова (или SKIP_DNS_CHECK=1)"; exit 1
-  elif [ -n "$ip_srv" ] && [ "$ip_dns" != "$ip_srv" ]; then
-    echo "!! DNS: $D → $ip_dns, а этот сервер — $ip_srv. Поправьте A-запись (или SKIP_DNS_CHECK=1, если адрес сервера определился неверно)"; exit 1
   fi
-  echo "DNS: $D → $ip_dns"
+  # Входящий адрес сервера может отличаться от исходящего (у bx-shef: сайты на 178.159.45.87, наружу —
+  # 178.159.44.110), поэтому свой — и адрес из ipify, и адреса сайтов, которые уже обслуживает этот прокси.
+  ok=""
+  [ -n "$ip_srv" ] && [ "$ip_dns" = "$ip_srv" ] && ok="адрес сервера"
+  if [ -z "$ok" ]; then
+    for host in $(grep -oE '^[[:space:]]*server_name[[:space:]]+[a-z0-9.-]+;' "$CONF" | awk '{ print $2 }' | tr -d ';' | grep -vxF "$D" | sort -u | head -20); do
+      if [ "$(getent ahostsv4 "$host" 2>/dev/null | awk 'NR==1 { print $1 }')" = "$ip_dns" ]; then ok="как у $host"; break; fi
+    done
+  fi
+  [ -n "$ok" ] || { echo "!! DNS: $D → $ip_dns: это не адрес сервера (${ip_srv:-не определился}) и не адрес соседних сайтов прокси. Поправьте A-запись (или SKIP_DNS_CHECK=1)"; exit 1; }
+  echo "DNS: $D → $ip_dns ($ok)"
 fi
 
 reload() { docker exec proxy nginx -t && docker exec proxy nginx -s reload; }
