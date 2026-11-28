@@ -12,13 +12,21 @@ export default defineNuxtConfig({
 
   app: {
     head: {
-      htmlAttrs: { lang: 'ru', class: 'edge-dark' },
+      htmlAttrs: { lang: 'ru' },
       title: 'bx24 icons — иконки Битрикс24',
       meta: [
         { name: 'description', content: 'Иконки Битрикс24 как коллекция Iconify bx24: поиск по-русски и по-английски, темы, имена для Nuxt, b24-ui, Vue, React и SVG.' }
       ],
       // Keep ?q=&set=&theme=&icon= before Nuxt hydrates the prerendered "/" and drops them
-      script: [{ innerHTML: 'window.__bx24Search=location.search', tagPosition: 'head' }],
+      script: [
+        { innerHTML: 'window.__bx24Search=location.search', tagPosition: 'head' },
+        // Класс темы до первой отрисовки (без вспышки) — та же логика, что у useColorMode b24-ui
+        // (ключ vueuse-color-scheme; нет выбора — системная тема). Копия из docs/nuxt.config.ts bx-shef/b24-ui.
+        {
+          innerHTML: '(function(){try{var k="vueuse-color-scheme",s=localStorage.getItem(k);if(s==="edge-dark"){s="dark";localStorage.setItem(k,s)}var m=s&&s!=="auto"?s:(matchMedia("(prefers-color-scheme: dark)").matches?"dark":"edge-light");if(m==="light")m="edge-light";document.documentElement.classList.add(m)}catch(e){document.documentElement.classList.add("edge-light")}})()',
+          tagPosition: 'head'
+        }
+      ],
       link: [
         { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' },
         ...(siteUrl ? [{ rel: 'canonical', href: `${siteUrl}/` }] : [])
@@ -35,9 +43,6 @@ export default defineNuxtConfig({
     }
   },
 
-  colorMode: {
-    preference: 'dark'
-  },
 
   nitro: {
     prerender: { routes: ['/'], crawlLinks: false }

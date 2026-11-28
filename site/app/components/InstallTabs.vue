@@ -44,10 +44,10 @@ addCollection(bx24)
 
 <template>
   <div class="w-full max-w-2xl">
-    <code class="block text-sm mb-3 px-3 py-2 rounded-md bg-black/30 text-white/90 font-mono">pnpm add @bxshefby/icons-json</code>
+    <code class="block text-sm mb-3 px-3 py-2 rounded-md bg-[#1b1a22] text-white/90 font-mono">pnpm add @bxshefby/icons-json</code>
     <B24Tabs :items="items" size="sm" :b24ui="{ content: 'pt-2' }">
       <template v-for="item in items" #[item.slot] :key="item.slot">
-        <pre class="text-xs leading-relaxed overflow-x-auto px-3 py-2 rounded-md bg-black/30 text-white/90"><code>{{ item.code }}</code></pre>
+        <pre class="text-xs leading-relaxed overflow-x-auto px-3 py-2 rounded-md bg-[#1b1a22] text-white/90"><code>{{ item.code }}</code></pre>
       </template>
     </B24Tabs>
   </div>

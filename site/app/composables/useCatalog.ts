@@ -88,8 +88,9 @@ export function useCatalog() {
   function svgFile(name: string): string {
     const data = state.icons && getIconData(state.icons, name)
     if (!data) return ''
-    const r = iconToSVG(data)
-    return iconToHTML(r.body, { xmlns: 'http://www.w3.org/2000/svg', ...r.attributes })
+    // реальный размер иконки; xmlns iconToHTML добавляет сам (второй — невалидный XML)
+    const r = iconToSVG(data, { height: 'auto' })
+    return iconToHTML(r.body, r.attributes)
   }
 
   function snippet(name: string, format: CopyFormat): string {

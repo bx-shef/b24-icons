@@ -97,8 +97,8 @@ const downloadHref = computed(() => props.name ? `data:image/svg+xml;charset=utf
         <div class="space-y-2">
           <div v-for="row in rows" :key="row.value" class="space-y-1">
             <p class="text-xs opacity-70">{{ row.label }}</p>
-            <div class="flex gap-2 min-w-0">
-              <code class="flex-1 min-w-0 overflow-x-auto whitespace-pre rounded-md bg-black/5 dark:bg-white/10 px-3 py-2 text-xs font-mono">{{ row.text }}</code>
+            <div class="flex flex-col sm:flex-row gap-2 min-w-0">
+              <code class="flex-1 min-w-0 max-h-32 overflow-auto whitespace-pre-wrap break-all rounded-md bg-black/5 dark:bg-white/10 px-3 py-2 text-xs font-mono">{{ row.text }}</code>
               <B24Button size="sm" color="air-secondary-accent" label="Копировать" @click="emit('copy', name, row.value)" />
             </div>
           </div>

@@ -70,7 +70,10 @@ const setItems = computed(() => {
 // themes in the order the owner set in the catalog editor (metadata.json), with group counts
 const themeItems = computed(() => {
   const counts: Record<string, number> = {}
-  for (const g of state.index?.groups ?? []) for (const t of g.themes) counts[t] = (counts[t] ?? 0) + 1
+  for (const g of state.index?.groups ?? []) {
+    if (set.value && !g.variants.some(v => v.set === set.value)) continue
+    for (const t of g.themes) counts[t] = (counts[t] ?? 0) + 1
+  }
   return state.themes.filter(t => counts[t]).map(t => ({ title: t, count: counts[t]! }))
 })
 const total = computed(() => state.index?.groups.length ?? 0)
@@ -85,6 +88,10 @@ function resetFilters() {
   query.value = ''
   set.value = ''
   theme.value = ''
+}
+
+function setOf(name: string, group: Bx24SearchResult) {
+  return group.variants.find(v => v.name === name)?.set ?? ''
 }
 
 function variantsLabel(n: number) {
@@ -122,6 +129,10 @@ defineShortcuts({
   '/': () => searchInput.value?.inputRef?.focus()
 })
 
+function focusFirstCard() {
+  document.querySelector<HTMLElement>('[data-card]')?.focus()
+}
+
 function onGridKey(e: KeyboardEvent) {
   const el = e.target as HTMLElement
   const card = el.closest<HTMLElement>('[data-card]')
@@ -146,12 +157,12 @@ function onGridKey(e: KeyboardEvent) {
     <B24Container class="pt-10 pb-6">
       <div class="flex flex-col lg:flex-row gap-8 lg:items-start justify-between">
         <div class="max-w-xl lg:pt-6">
-          <h1 class="text-3xl sm:text-4xl font-semibold tracking-tight text-white">
+          <h1 class="text-3xl sm:text-4xl font-semibold tracking-tight text-[#1b1a22] dark:text-white">
             Иконки <span class="vsk-gradient-text">Битрикс24</span>
           </h1>
-          <p class="mt-3 text-white/80">
+          <p class="mt-3 text-(--tai-text-2)">
             {{ iconCount || '…' }} иконок коллекции Iconify <code class="font-mono">bx24</code> для Nuxt, b24-ui, Vue, React и SVG.
-            Размеры и стили одной иконки собраны в одну карточку.
+            Размеры и стили одной иконки собраны в одну карточку — всего {{ total || '…' }} карточек.
             Клик по иконке копирует её имя; ищите по-русски, по-английски и по старому имени компонента.
           </p>
         </div>
@@ -159,7 +170,7 @@ function onGridKey(e: KeyboardEvent) {
       </div>
     </B24Container>
 
-    <div class="sticky top-(--b24ui-header-height) z-10 backdrop-blur-md bg-(--ui-color-copilot-bg-content-3)/50 border-y border-white/10">
+    <div class="sticky top-(--b24ui-header-height) z-10 backdrop-blur-md bg-white/70 dark:bg-(--ui-color-copilot-bg-content-3)/50 border-y border-black/10 dark:border-white/10">
       <B24Container class="py-3 flex flex-wrap gap-2 items-center">
         <B24Input
           ref="searchInput"
@@ -169,9 +180,10 @@ function onGridKey(e: KeyboardEvent) {
           class="w-full sm:w-80"
           aria-label="Поиск иконок"
           autofocus
+          @keydown.down.prevent="focusFirstCard"
         >
           <template #trailing>
-            <B24Kbd value="/" />
+            <B24Kbd value="/" class="hidden sm:inline-flex" />
           </template>
         </B24Input>
         <B24Select v-model="setModel" :items="setItems" class="w-full sm:w-52" aria-label="Набор" />
@@ -181,7 +193,7 @@ function onGridKey(e: KeyboardEvent) {
           class="w-full sm:w-60"
           aria-label="Что копировать по клику"
         />
-        <label class="flex items-center gap-2 text-sm text-white/80">
+        <label class="flex items-center gap-2 text-sm text-(--tai-text-2)">
           Размер
           <input v-model.number="iconSize" type="range" min="16" max="64" step="4" class="w-24 accent-(--tai-accent)">
         </label>
@@ -194,7 +206,7 @@ function onGridKey(e: KeyboardEvent) {
           <button
             type="button"
             class="w-full flex justify-between gap-2 rounded-md px-2 py-1.5 text-sm text-start transition-colors"
-            :class="!theme ? 'bg-white/15 text-white' : 'text-white/75 hover:bg-white/10'"
+            :class="!theme ? 'bg-black/10 dark:bg-white/15 text-[#1b1a22] dark:text-white' : 'text-(--tai-text-2) hover:bg-black/5 dark:hover:bg-white/10'"
             @click="theme = ''"
           >
             <span>Все темы</span><span class="opacity-60">{{ total }}</span>
@@ -204,7 +216,7 @@ function onGridKey(e: KeyboardEvent) {
             :key="t.title"
             type="button"
             class="w-full flex justify-between gap-2 rounded-md px-2 py-1.5 text-sm text-start transition-colors"
-            :class="theme === t.title ? 'bg-white/15 text-white' : 'text-white/75 hover:bg-white/10'"
+            :class="theme === t.title ? 'bg-black/10 dark:bg-white/15 text-[#1b1a22] dark:text-white' : 'text-(--tai-text-2) hover:bg-black/5 dark:hover:bg-white/10'"
             @click="theme = t.title"
           >
             <span>{{ t.title }}</span><span class="opacity-60">{{ t.count }}</span>
@@ -222,12 +234,12 @@ function onGridKey(e: KeyboardEvent) {
           />
         </div>
 
-        <p class="text-sm text-white/70 mb-3">
+        <p class="text-sm text-(--tai-text-2) mb-3">
           <template v-if="state.error">Не удалось загрузить коллекцию: {{ state.error }}</template>
           <template v-else-if="!state.ready">Загрузка коллекции…</template>
           <template v-else>
-            {{ results.length }} из {{ total }}
-            <button v-if="query || set || theme" type="button" class="ms-2 vsk-link text-white" @click="resetFilters">
+            {{ results.length }} из {{ total }} карточек
+            <button v-if="query || set || theme" type="button" class="ms-2 vsk-link text-[#1b1a22] dark:text-white" @click="resetFilters">
               сбросить фильтры
             </button>
           </template>
@@ -247,7 +259,7 @@ function onGridKey(e: KeyboardEvent) {
             tabindex="0"
             role="button"
             :aria-label="`${nameFor(group)}: копировать`"
-            class="group relative flex flex-col items-center gap-2 rounded-lg border border-white/10 bg-white/5 hover:bg-white/10 hover:border-white/25 focus-visible:outline-2 px-2 pt-4 pb-2 cursor-pointer text-white transition-colors"
+            class="group relative flex flex-col items-center gap-2 rounded-lg border border-black/10 dark:border-white/10 bg-white/60 dark:bg-white/5 hover:bg-black/5 dark:hover:bg-white/10 hover:border-(--tai-accent) focus-visible:outline-2 px-2 pt-4 pb-2 cursor-pointer text-[#1b1a22] dark:text-white transition-colors"
             @click="copy(nameFor(group))"
             @keydown.enter.prevent="copy(nameFor(group))"
           >
@@ -256,13 +268,13 @@ function onGridKey(e: KeyboardEvent) {
               :style="{ width: `${iconSize}px`, height: `${iconSize}px` }"
               v-html="svg(nameFor(group), iconSize)"
             />
-            <span class="text-xs text-white/75 text-center break-all leading-tight">{{ group.base }}</span>
-            <span v-if="group.variants.length > 1" class="text-[10px] text-white/50">
-              {{ variantsLabel(group.variants.length) }}
+            <span class="text-xs text-(--tai-text-2) text-center break-all leading-tight">{{ group.base }}</span>
+            <span class="text-[10px] text-(--tai-text-2) opacity-70 text-center">
+              {{ SET_TITLES[setOf(nameFor(group), group)] ?? '' }}<template v-if="group.variants.length > 1"> · {{ variantsLabel(group.variants.length) }}</template>
             </span>
             <button
               type="button"
-              class="absolute top-1 end-1 size-6 rounded-md text-xs text-white/60 hover:text-white hover:bg-white/15 opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 focus-visible:opacity-100"
+              class="absolute top-0.5 end-0.5 size-8 sm:size-6 rounded-md text-sm sm:text-xs text-(--tai-text-2) hover:text-[#1b1a22] dark:hover:text-white hover:bg-black/10 dark:hover:bg-white/15 sm:opacity-0 sm:group-hover:opacity-100 sm:group-focus-within:opacity-100 focus-visible:opacity-100"
               :aria-label="`Подробнее: ${group.base}`"
               title="Подробнее (I)"
               @click.stop="open(nameFor(group))"
