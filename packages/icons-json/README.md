@@ -23,4 +23,4 @@ addCollection(bx24)
 Exports: `icons` (IconifyJSON), `info`, `metadata` (themes as categories), types `Bx24Icon` /
 `Bx24IconName`; raw files `@bxshefby/icons-json/icons.json`, `info.json`, `metadata.json`.
 
-Docs: https://github.com/bx-shef/b24-icons
+Catalog: https://b24-icons.bx-shef.by · Docs: https://github.com/bx-shef/b24-icons

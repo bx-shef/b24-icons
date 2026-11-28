@@ -47,8 +47,9 @@ for (const file of ['icons.json', 'search.json', 'metadata.json', 'info.json']) 
 }
 const icons = JSON.parse(await fs.readFile(resolve(JSON_PKG, 'icons.json'), 'utf8'))
 for (const name of Object.keys(icons.icons)) {
-  const r = iconToSVG(getIconData(icons, name))
-  await fs.writeFile(resolve(svgDir, `${name}.svg`), iconToHTML(r.body, { xmlns: 'http://www.w3.org/2000/svg', ...r.attributes }) + '\n')
+  // реальный размер; xmlns iconToHTML добавляет сам — второй делает файл невалидным XML
+  const r = iconToSVG(getIconData(icons, name), { height: 'auto' })
+  await fs.writeFile(resolve(svgDir, `${name}.svg`), iconToHTML(r.body, r.attributes) + '\n')
 }
 
 // 2. nuxt generate

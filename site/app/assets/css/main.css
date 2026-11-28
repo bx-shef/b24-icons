@@ -5,7 +5,8 @@
 @source "../..";
 
 @layer base {
-  .edge-dark {
+  .edge-light,
+  .dark {
     --air-theme-bg-position: 0 0;
     --air-theme-bg-size: cover;
     --air-theme-bg-repeat: no-repeat;

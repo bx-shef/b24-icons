@@ -62,6 +62,12 @@ jobs:
           check 200 localhost:8080/data/search.json
           check 200 localhost:8080/svg/outline-check-l.svg
           check 404 localhost:8080/nope
+          # неизвестный адрес — страница 404 каталога, а не голый ответ nginx
+          curl -s -o nope.html localhost:8080/nope
+          grep -q '_nuxt' nope.html || { echo "::error::404 — не страница каталога"; exit 1; }
+          # файлы иконок — валидный XML (раньше был двойной xmlns, браузер их не открывал)
+          curl -fs -o check.svg localhost:8080/svg/outline-check-l.svg
+          python3 -c 'import sys, xml.dom.minidom; xml.dom.minidom.parse(sys.argv[1])' check.svg || { echo "::error::SVG невалиден"; exit 1; }
           # Ответы — в файлы: `curl | grep -q` обрывает канал на первом совпадении, и curl падает.
           curl -fs -o icons.json localhost:8080/data/icons.json
           grep -q '"prefix": *"bx24"' icons.json || { echo "::error::icons.json без prefix bx24"; exit 1; }
