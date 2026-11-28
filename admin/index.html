@@ -59,6 +59,9 @@
   .tile .badge { position: absolute; top: 4px; right: 5px; font-size: 10px; color: var(--muted); }
   .tile .badge.none { color: var(--danger); }
   .empty { color: var(--muted); padding: 40px; text-align: center; grid-column: 1 / -1; }
+  .keywords { display: flex; gap: 6px; align-items: center; flex: 1 1 100%; }
+  .keywords label { font-size: 12px; color: var(--muted); white-space: nowrap; }
+  .keywords input { flex: 1; min-width: 0; }
   .chips { display: flex; flex-wrap: wrap; gap: 4px; }
   .chip { font-size: 12px; padding: 2px 8px; border-radius: 10px; background: var(--panel); border: 1px solid var(--line); }
   .chip button { border: 0; background: none; color: var(--muted); cursor: pointer; padding: 0 0 0 4px; }
@@ -102,6 +105,11 @@
       <button class="btn" id="sel-unhide" type="button">Вернуть</button>
       <button class="btn" id="sel-clear" type="button">Снять выделение</button>
       <div class="chips" id="sel-themes"></div>
+      <form class="keywords" id="kw-form" hidden>
+        <label for="kw-input" id="kw-label">Ключевые слова</label>
+        <input type="text" id="kw-input" placeholder="корзина, удалить, delete">
+        <button class="btn" type="submit">Сохранить слова</button>
+      </form>
       <span class="hint">Можно перетащить выбранные иконки на тему слева. Одна иконка может быть в нескольких темах. <kbd>Shift</kbd> + клик — диапазон, <kbd>Esc</kbd> — снять.</span>
     </div>
     <div class="grid" id="grid"></div>
@@ -112,6 +120,7 @@ const SETS = ['outline','solid','main','actions','animated','button','button-spe
 const ALL = '__all__', NONE = '__none__', HIDDEN = '__hidden__'
 
 const state = {
+  keywords: {},
   icons: [],            // [{ name, set, svg }]
   catalog: { categories: {}, hidden: [] },
   view: ALL,
@@ -254,11 +263,40 @@ function renderSelection() {
   state.selected.forEach(name => themesOf(name).forEach(t => { counts[t] = (counts[t] || 0) + 1 }))
   $('sel-themes').innerHTML = Object.entries(counts).map(([t, c]) =>
     `<span class="chip">${esc(t)}${n > 1 ? ' · ' + c : ''}<button type="button" data-unchip="${esc(t)}" title="Убрать выбранные из темы" aria-label="Убрать из темы">×</button></span>`).join('')
+  renderKeywords()
+}
+
+// keywords belong to a group: the name without set prefix and size suffix
+function baseOf(name) {
+  return name.slice(setOf(name).length + 1).replace(/-(xs|s|m|l)$/, '')
+}
+function renderKeywords() {
+  const one = state.selected.size === 1 ? [...state.selected][0] : null
+  $('kw-form').hidden = !one
+  if (!one) return
+  const base = baseOf(one)
+  $('kw-form').dataset.base = base
+  $('kw-label').textContent = `Ключевые слова «${base}» (все наборы и размеры)`
+  if (document.activeElement !== $('kw-input')) $('kw-input').value = (state.keywords[base] || []).join(', ')
 }
 
 function render() { renderNav(); renderGrid(); renderSelection() }
 
 // ---------- events ----------
+$('kw-form').addEventListener('submit', async e => {
+  e.preventDefault()
+  const base = $('kw-form').dataset.base
+  const keywords = $('kw-input').value.split(',').map(k => k.trim()).filter(Boolean)
+  try {
+    const res = await fetch('/api/keywords', { method: 'PUT', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ base, keywords }) })
+    if (!res.ok) throw new Error((await res.json()).error || res.statusText)
+    const saved = await res.json()
+    state.keywords[base] = saved.keywords
+    setStatus(`Ключевые слова «${base}» сохранены в data/keywords.json`)
+  } catch (err) {
+    setStatus('Ошибка сохранения слов: ' + err.message, true)
+  }
+})
 $('nav').addEventListener('click', e => {
   const del = e.target.closest('[data-del]')
   if (del) {
@@ -374,10 +412,12 @@ document.addEventListener('keydown', e => {
 
 // ---------- boot ----------
 async function boot() {
-  const [icons, catalog] = await Promise.all([
+  const [icons, catalog, keywords] = await Promise.all([
     fetch('/api/icons').then(r => r.json()),
-    fetch('/api/catalog').then(r => r.json())
+    fetch('/api/catalog').then(r => r.json()),
+    fetch('/api/keywords').then(r => r.json())
   ])
+  state.keywords = keywords
   const W = icons.width || 16, H = icons.height || 16
   state.icons = Object.entries(icons.icons).map(([name, icon]) => {
     const w = icon.width || W, h = icon.height || H

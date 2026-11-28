@@ -16,11 +16,20 @@ const PORT = Number(process.env.PORT || 4224)
 const HOST = '127.0.0.1'
 const ICONS_FILE = resolve(ROOT, 'packages/icons-json/icons.json')
 const CATALOG_FILE = resolve(DATA_DIR, 'catalog.json')
+const KEYWORDS_FILE = resolve(DATA_DIR, 'keywords.json')
 const PAGE_FILE = resolve(ROOT, 'admin/index.html')
 
 if (!existsSync(ICONS_FILE)) {
   console.log('Collection is not built yet, running the build…')
   execFileSync(process.execPath, [resolve(ROOT, 'scripts/build.mjs')], { stdio: 'inherit' })
+}
+
+async function readJson(file, fallback) {
+  try {
+    return JSON.parse(await fs.readFile(file, 'utf8'))
+  } catch {
+    return fallback
+  }
 }
 
 async function readCatalog() {
@@ -60,7 +69,10 @@ const server = http.createServer(async (req, res) => {
     if (req.method === 'GET' && url.pathname === '/api/catalog') {
       return send(res, 200, await readCatalog())
     }
-    if (req.method === 'PUT' && url.pathname === '/api/catalog') {
+    if (req.method === 'GET' && url.pathname === '/api/keywords') {
+      return send(res, 200, await readJson(KEYWORDS_FILE, {}))
+    }
+    if (req.method === 'PUT' && (url.pathname === '/api/catalog' || url.pathname === '/api/keywords')) {
       // same-origin only: refuse requests a foreign page could send from the browser
       const origin = req.headers.origin
       if (origin && origin !== `http://${HOST}:${PORT}` && origin !== `http://localhost:${PORT}`) {
@@ -68,6 +80,20 @@ const server = http.createServer(async (req, res) => {
       }
       let raw = ''
       for await (const chunk of req) raw += chunk
+      if (url.pathname === '/api/keywords') {
+        // { base, keywords: [] } — one group at a time, the rest of the file is kept as is
+        const { base, keywords } = JSON.parse(raw)
+        if (typeof base !== 'string' || !/^[a-z0-9]+(-[a-z0-9]+)*$/.test(base) || !Array.isArray(keywords)) {
+          return send(res, 400, { error: 'bad request' })
+        }
+        const all = await readJson(KEYWORDS_FILE, {})
+        const clean = [...new Set(keywords.map(k => String(k).trim().toLowerCase()).filter(Boolean))]
+        if (clean.length) all[base] = clean
+        else delete all[base]
+        const sorted = Object.fromEntries(Object.entries(all).sort(([a], [b]) => a.localeCompare(b)))
+        await fs.writeFile(KEYWORDS_FILE, JSON.stringify(sorted, null, 2) + '\n')
+        return send(res, 200, { base, keywords: clean })
+      }
       const icons = JSON.parse(await fs.readFile(ICONS_FILE, 'utf8'))
       const known = new Set([...Object.keys(icons.icons), ...Object.keys(icons.aliases ?? {})])
       const catalog = normalizeCatalog(JSON.parse(raw), known)

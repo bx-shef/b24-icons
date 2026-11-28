@@ -53,6 +53,14 @@ function normalizeColors(svg, set, name) {
   })
 }
 
+async function readJson(file, fallback) {
+  try {
+    return JSON.parse(await fs.readFile(file, 'utf8'))
+  } catch {
+    return fallback
+  }
+}
+
 async function readCatalog() {
   try {
     return JSON.parse(await fs.readFile(resolve(DATA_DIR, 'catalog.json'), 'utf8'))
@@ -165,6 +173,36 @@ export declare const icons: IconifyJSON
 export declare const info: IconifyInfo
 export declare const metadata: IconifyMetaData
 `)
+
+  // search index: one group per name without set and size (see packages/icons-json/search.mjs)
+  const keywords = await readJson(resolve(DATA_DIR, 'keywords.json'), {})
+  const legacyMap = await readJson(resolve(DATA_DIR, 'legacy-map.json'), {})
+  const legacyOf = {}
+  for (const [component, target] of Object.entries(legacyMap)) (legacyOf[target.split(':')[1]] ??= []).push(component)
+  const hiddenSet = new Set(catalog.hidden ?? [])
+  const themesOf = {}
+  for (const [title, list] of Object.entries(categories)) for (const n of list) (themesOf[n] ??= []).push(title)
+  const groups = new Map()
+  for (const name of names) {
+    if (hiddenSet.has(name)) continue
+    const { set, base: fileBase } = setOf.get(name)
+    const m = /^(.*)-(xs|s|m|l)$/.exec(fileBase)
+    const base = m ? m[1] : fileBase
+    const group = groups.get(base) ?? { base, variants: [], themes: new Set(), keywords: keywords[base] ?? [], legacy: new Set() }
+    group.variants.push({ name, set, size: m ? m[2] : '' })
+    for (const t of themesOf[name] ?? []) group.themes.add(t)
+    for (const l of legacyOf[name] ?? []) group.legacy.add(l)
+    groups.set(base, group)
+  }
+  for (const k of Object.keys(keywords)) if (!groups.has(k)) console.warn(`⚠ keywords: no icon group "${k}"`)
+  const search = {
+    prefix: PREFIX,
+    version: pkg.version,
+    groups: [...groups.values()]
+      .map(g => ({ ...g, themes: [...g.themes].sort(), legacy: [...g.legacy].sort() }))
+      .sort((a, b) => a.base.localeCompare(b.base))
+  }
+  await fs.writeFile(resolve(JSON_PKG, 'search.json'), JSON.stringify(search) + '\n')
 
   // packages/icons-svg
   const svgDir = resolve(SVG_PKG, 'svg')

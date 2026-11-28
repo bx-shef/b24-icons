@@ -1,0 +1,11765 @@
+{
+  "a-letter": [
+    "письмо",
+    "буква",
+    "mail",
+    "character"
+  ],
+  "achievement": [
+    "достижение",
+    "награда",
+    "успех",
+    "award",
+    "trophy",
+    "goal"
+  ],
+  "action-required": [
+    "действие",
+    "операция",
+    "operation",
+    "do"
+  ],
+  "activity": [
+    "активность",
+    "дело",
+    "действие",
+    "task",
+    "event"
+  ],
+  "add": [
+    "добавить",
+    "создать",
+    "новый",
+    "create",
+    "new",
+    "plus"
+  ],
+  "add-chat": [
+    "добавить",
+    "чат",
+    "создать",
+    "переписка",
+    "новый",
+    "диалог",
+    "create",
+    "conversation",
+    "new",
+    "messenger",
+    "plus",
+    "dialog"
+  ],
+  "add-event": [
+    "добавить",
+    "событие",
+    "создать",
+    "мероприятие",
+    "новый",
+    "create",
+    "happening",
+    "new",
+    "appointment",
+    "plus"
+  ],
+  "add-file": [
+    "добавить",
+    "файл",
+    "создать",
+    "документ",
+    "новый",
+    "create",
+    "document",
+    "new",
+    "plus"
+  ],
+  "add-folder-black": [
+    "добавить",
+    "папка",
+    "создать",
+    "каталог",
+    "новый",
+    "create",
+    "directory",
+    "new",
+    "dir",
+    "plus"
+  ],
+  "add-from-addressbook": [
+    "добавить",
+    "адресная книга",
+    "создать",
+    "контакты",
+    "новый",
+    "create",
+    "contacts",
+    "new",
+    "directory",
+    "plus"
+  ],
+  "add-from-crm": [
+    "добавить",
+    "црм",
+    "создать",
+    "клиенты",
+    "новый",
+    "продажи",
+    "create",
+    "customers",
+    "new",
+    "sales",
+    "plus"
+  ],
+  "add-funnel": [
+    "добавить",
+    "воронка",
+    "создать",
+    "фильтр",
+    "новый",
+    "продажи",
+    "create",
+    "filter",
+    "new",
+    "sales",
+    "plus",
+    "pipeline"
+  ],
+  "add-person": [
+    "добавить",
+    "человек",
+    "создать",
+    "пользователь",
+    "новый",
+    "сотрудник",
+    "контакт",
+    "create",
+    "user",
+    "new",
+    "people",
+    "plus",
+    "profile"
+  ],
+  "add-product": [
+    "добавить",
+    "товар",
+    "создать",
+    "продукт",
+    "новый",
+    "create",
+    "goods",
+    "new",
+    "item",
+    "plus",
+    "sku"
+  ],
+  "add-tag": [
+    "добавить",
+    "тег",
+    "создать",
+    "метка",
+    "новый",
+    "create",
+    "label",
+    "new",
+    "mark",
+    "plus"
+  ],
+  "add-timeline": [
+    "добавить",
+    "таймлайн",
+    "создать",
+    "лента времени",
+    "новый",
+    "история",
+    "create",
+    "history",
+    "new",
+    "schedule",
+    "plus",
+    "feed"
+  ],
+  "add-to-checklist": [
+    "добавить",
+    "создать",
+    "новый",
+    "create",
+    "new",
+    "plus"
+  ],
+  "agenda-gap": [
+    "повестка",
+    "промежуток",
+    "план",
+    "окно",
+    "расписание",
+    "интервал",
+    "schedule",
+    "slot",
+    "plan",
+    "break"
+  ],
+  "ai": [
+    "ии",
+    "искусственный интеллект",
+    "нейросеть",
+    "artificial intelligence",
+    "gpt",
+    "neural"
+  ],
+  "ai-internet-search": [
+    "ии",
+    "интернет",
+    "поиск",
+    "искусственный интеллект",
+    "сеть",
+    "найти",
+    "нейросеть",
+    "веб",
+    "artificial intelligence",
+    "web",
+    "find",
+    "gpt",
+    "online",
+    "lookup"
+  ],
+  "ai-process": [
+    "ии",
+    "процесс",
+    "искусственный интеллект",
+    "обработка",
+    "нейросеть",
+    "artificial intelligence",
+    "workflow",
+    "gpt",
+    "progress",
+    "neural"
+  ],
+  "ai-reflection": [
+    "ии",
+    "рефлексия",
+    "искусственный интеллект",
+    "отражение",
+    "нейросеть",
+    "анализ",
+    "artificial intelligence",
+    "mirror",
+    "gpt",
+    "review",
+    "neural"
+  ],
+  "ai-stars": [
+    "ии",
+    "звезды",
+    "искусственный интеллект",
+    "искры",
+    "нейросеть",
+    "artificial intelligence",
+    "sparkles",
+    "gpt",
+    "magic",
+    "neural"
+  ],
+  "ai-stars-question": [
+    "ии",
+    "звезды",
+    "вопрос",
+    "искусственный интеллект",
+    "искры",
+    "справка",
+    "нейросеть",
+    "artificial intelligence",
+    "sparkles",
+    "help",
+    "gpt",
+    "magic",
+    "ask"
+  ],
+  "air-folder": [
+    "эйр",
+    "папка",
+    "каталог",
+    "drive",
+    "directory",
+    "dir"
+  ],
+  "air-folder-24": [
+    "эйр",
+    "папка",
+    "каталог",
+    "drive",
+    "directory",
+    "dir"
+  ],
+  "air-folder-collab": [
+    "эйр",
+    "папка",
+    "коллаб",
+    "каталог",
+    "совместная работа",
+    "группа",
+    "drive",
+    "directory",
+    "team",
+    "dir",
+    "workspace"
+  ],
+  "air-folder-group": [
+    "эйр",
+    "папка",
+    "группа",
+    "каталог",
+    "команда",
+    "drive",
+    "directory",
+    "team",
+    "dir",
+    "collective"
+  ],
+  "air-folder-person": [
+    "эйр",
+    "папка",
+    "человек",
+    "каталог",
+    "пользователь",
+    "сотрудник",
+    "контакт",
+    "drive",
+    "directory",
+    "user",
+    "dir",
+    "people",
+    "profile"
+  ],
+  "air-folder-shared": [
+    "эйр",
+    "папка",
+    "общий",
+    "каталог",
+    "совместный",
+    "доступ",
+    "drive",
+    "directory",
+    "sharing",
+    "dir",
+    "access"
+  ],
+  "alarm": [
+    "будильник",
+    "тревога",
+    "сигнал",
+    "alert",
+    "clock",
+    "siren"
+  ],
+  "alert": [
+    "уведомление",
+    "тревога",
+    "предупреждение",
+    "warning",
+    "notice",
+    "attention"
+  ],
+  "alert-accent": [
+    "уведомление",
+    "акцент",
+    "тревога",
+    "выделенный",
+    "предупреждение",
+    "warning",
+    "highlight",
+    "notice",
+    "attention"
+  ],
+  "alert-black": [
+    "уведомление",
+    "тревога",
+    "предупреждение",
+    "warning",
+    "notice",
+    "attention"
+  ],
+  "alice": [
+    "алиса",
+    "яндекс алиса",
+    "голосовой помощник",
+    "ассистент",
+    "yandex",
+    "voice assistant",
+    "smart speaker",
+    "bot"
+  ],
+  "align-center": [
+    "выравнивание",
+    "центр",
+    "выровнять",
+    "по центру",
+    "alignment",
+    "middle",
+    "format",
+    "centered"
+  ],
+  "align-justify": [
+    "выравнивание",
+    "по ширине",
+    "выровнять",
+    "alignment",
+    "format",
+    "block"
+  ],
+  "align-left": [
+    "выравнивание",
+    "влево",
+    "выровнять",
+    "слева",
+    "налево",
+    "alignment",
+    "back",
+    "format",
+    "previous"
+  ],
+  "align-right": [
+    "выравнивание",
+    "вправо",
+    "выровнять",
+    "справа",
+    "направо",
+    "alignment",
+    "forward",
+    "format",
+    "next"
+  ],
+  "anchor": [
+    "якорь",
+    "привязка",
+    "ссылка",
+    "link"
+  ],
+  "android": [
+    "андроид",
+    "мобильная система",
+    "робот",
+    "mobile os",
+    "google",
+    "robot"
+  ],
+  "angle-down-black": [
+    "угол",
+    "вниз",
+    "уголок",
+    "нижний",
+    "стрелка",
+    "chevron",
+    "bottom",
+    "caret",
+    "lower"
+  ],
+  "angle-up-black": [
+    "угол",
+    "вверх",
+    "уголок",
+    "верхний",
+    "стрелка",
+    "chevron",
+    "top",
+    "caret",
+    "raise"
+  ],
+  "apple": [
+    "эппл",
+    "яблоко",
+    "айфон",
+    "ios",
+    "mac",
+    "iphone",
+    "macos"
+  ],
+  "apple-and-ios": [
+    "эппл",
+    "айос",
+    "айфон",
+    "мобильная система",
+    "iphone",
+    "mobile os",
+    "macos",
+    "store"
+  ],
+  "approved-list": [
+    "одобрено",
+    "список",
+    "утверждено",
+    "перечень",
+    "согласовано",
+    "accepted",
+    "items",
+    "confirmed",
+    "menu"
+  ],
+  "apps": [
+    "приложения",
+    "программы",
+    "маркет",
+    "applications",
+    "market"
+  ],
+  "arduino": [
+    "ардуино",
+    "микроконтроллер",
+    "плата",
+    "электроника",
+    "microcontroller",
+    "board",
+    "electronics",
+    "iot"
+  ],
+  "arrow-back-dark": [
+    "стрелка",
+    "назад",
+    "направление",
+    "вернуться",
+    "возврат",
+    "pointer",
+    "return",
+    "direction",
+    "previous"
+  ],
+  "arrow-down": [
+    "стрелка",
+    "вниз",
+    "направление",
+    "нижний",
+    "pointer",
+    "bottom",
+    "direction",
+    "lower"
+  ],
+  "arrow-download": [
+    "стрелка",
+    "скачать",
+    "направление",
+    "загрузить",
+    "загрузка",
+    "pointer",
+    "save",
+    "direction",
+    "import"
+  ],
+  "arrow-left": [
+    "стрелка",
+    "влево",
+    "направление",
+    "слева",
+    "налево",
+    "pointer",
+    "back",
+    "direction",
+    "previous"
+  ],
+  "arrow-line": [
+    "стрелка",
+    "линия",
+    "направление",
+    "строка",
+    "pointer",
+    "stroke",
+    "direction",
+    "row"
+  ],
+  "arrow-right": [
+    "стрелка",
+    "вправо",
+    "направление",
+    "справа",
+    "направо",
+    "pointer",
+    "forward",
+    "direction",
+    "next"
+  ],
+  "arrow-to-the-left": [
+    "стрелка",
+    "влево",
+    "направление",
+    "слева",
+    "налево",
+    "pointer",
+    "back",
+    "direction",
+    "previous"
+  ],
+  "arrow-to-the-right": [
+    "стрелка",
+    "вправо",
+    "направление",
+    "справа",
+    "направо",
+    "pointer",
+    "forward",
+    "direction",
+    "next"
+  ],
+  "arrow-to-the-top": [
+    "стрелка",
+    "верх",
+    "направление",
+    "вверх",
+    "pointer",
+    "up",
+    "direction",
+    "upper"
+  ],
+  "arrow-top": [
+    "стрелка",
+    "верх",
+    "направление",
+    "вверх",
+    "pointer",
+    "up",
+    "direction",
+    "upper"
+  ],
+  "arrows": [
+    "стрелки",
+    "directions"
+  ],
+  "arrows-meet": [
+    "стрелки",
+    "встреча",
+    "сойтись",
+    "directions",
+    "converge"
+  ],
+  "ascending-sort": [
+    "по возрастанию",
+    "сортировка",
+    "восходящий",
+    "упорядочить",
+    "сортировать",
+    "asc",
+    "order",
+    "up",
+    "arrange"
+  ],
+  "assembly": [
+    "сборка",
+    "монтаж",
+    "build",
+    "construct"
+  ],
+  "attach": [
+    "прикрепить",
+    "вложение",
+    "скрепка",
+    "attachment",
+    "clip",
+    "paperclip"
+  ],
+  "attach-2": [
+    "прикрепить",
+    "вложение",
+    "скрепка",
+    "attachment",
+    "clip",
+    "paperclip"
+  ],
+  "attach-picture": [
+    "прикрепить",
+    "картинка",
+    "вложение",
+    "изображение",
+    "скрепка",
+    "фото",
+    "attachment",
+    "image",
+    "clip",
+    "photo",
+    "paperclip"
+  ],
+  "attention-i-black": [
+    "внимание",
+    "важно",
+    "предупреждение",
+    "warning",
+    "alert",
+    "notice"
+  ],
+  "attention-i-circle": [
+    "внимание",
+    "круг",
+    "важно",
+    "кружок",
+    "предупреждение",
+    "warning",
+    "round",
+    "alert",
+    "ring",
+    "notice"
+  ],
+  "audio-infocall": [
+    "аудио",
+    "инфозвонок",
+    "звук",
+    "обзвон",
+    "оповещение",
+    "sound",
+    "autodial",
+    "voice",
+    "broadcast"
+  ],
+  "auto-check-in": [
+    "авто",
+    "галочка",
+    "автоматический",
+    "проверить",
+    "готово",
+    "подтвердить",
+    "automatic",
+    "tick",
+    "automation",
+    "done",
+    "ok",
+    "verify"
+  ],
+  "auto-selection": [
+    "авто",
+    "выбор",
+    "автоматический",
+    "выделение",
+    "automatic",
+    "select",
+    "automation",
+    "choose"
+  ],
+  "autofill": [
+    "автозаполнение",
+    "заполнить",
+    "auto-complete",
+    "prefill"
+  ],
+  "avito": [
+    "авито",
+    "объявления",
+    "маркетплейс",
+    "площадка",
+    "classifieds",
+    "marketplace",
+    "ads"
+  ],
+  "b-24": [
+    "битрикс24",
+    "б24",
+    "логотип",
+    "црм",
+    "bitrix24",
+    "logo",
+    "crm"
+  ],
+  "back-10": [
+    "назад",
+    "вернуться",
+    "возврат",
+    "return",
+    "previous"
+  ],
+  "back-15": [
+    "назад",
+    "вернуться",
+    "возврат",
+    "return",
+    "previous"
+  ],
+  "back-black": [
+    "назад",
+    "вернуться",
+    "возврат",
+    "return",
+    "previous"
+  ],
+  "backspace": [
+    "стереть",
+    "удаление символа",
+    "erase",
+    "delete char",
+    "key"
+  ],
+  "ban": [
+    "запрет",
+    "блокировка",
+    "заблокировать",
+    "forbidden",
+    "block",
+    "prohibit"
+  ],
+  "barcode": [
+    "штрихкод",
+    "штрих-код",
+    "сканер",
+    "scan",
+    "code",
+    "ean"
+  ],
+  "barcode-1": [
+    "штрихкод",
+    "штрих-код",
+    "сканер",
+    "scan",
+    "code",
+    "ean"
+  ],
+  "battery-1-stick": [
+    "батарея",
+    "полоска",
+    "заряд",
+    "деление",
+    "аккумулятор",
+    "charge",
+    "bar",
+    "power",
+    "level",
+    "energy"
+  ],
+  "battery-2-sticks": [
+    "батарея",
+    "полоски",
+    "заряд",
+    "деления",
+    "аккумулятор",
+    "charge",
+    "bars",
+    "power",
+    "levels",
+    "energy"
+  ],
+  "battery-black": [
+    "батарея",
+    "заряд",
+    "аккумулятор",
+    "charge",
+    "power",
+    "energy"
+  ],
+  "battery-no-charge": [
+    "батарея",
+    "нет",
+    "заряд",
+    "без",
+    "аккумулятор",
+    "запрет",
+    "not",
+    "power",
+    "none",
+    "energy",
+    "disabled"
+  ],
+  "bb-code-mode": [
+    "код",
+    "режим",
+    "программирование",
+    "programming",
+    "state",
+    "develop",
+    "view",
+    "script"
+  ],
+  "bell": [
+    "колокольчик",
+    "уведомления",
+    "звонок",
+    "notification",
+    "alert",
+    "ring"
+  ],
+  "bell-1": [
+    "колокольчик",
+    "уведомления",
+    "звонок",
+    "notification",
+    "alert",
+    "ring"
+  ],
+  "bicep": [
+    "бицепс",
+    "сила",
+    "мускул",
+    "muscle",
+    "strong",
+    "arm"
+  ],
+  "bitrix-1c": [
+    "битрикс 1с",
+    "интеграция",
+    "учет",
+    "1с",
+    "integration",
+    "accounting",
+    "erp"
+  ],
+  "bitrix-24": [
+    "битрикс24",
+    "б24",
+    "логотип",
+    "црм",
+    "logo",
+    "crm",
+    "platform"
+  ],
+  "bitrix24": [
+    "битрикс24",
+    "б24",
+    "логотип",
+    "црм",
+    "bitrix 24",
+    "logo",
+    "crm",
+    "platform"
+  ],
+  "bitrix24-sms": [
+    "смс битрикс24",
+    "рассылка смс",
+    "сообщение",
+    "text message",
+    "mailing",
+    "bitrix"
+  ],
+  "bitrix24-virtual-wa": [
+    "виртуальный",
+    "cloud"
+  ],
+  "blogger": [
+    "блоггер",
+    "блог",
+    "гугл",
+    "сервис",
+    "blog",
+    "google",
+    "publishing",
+    "platform"
+  ],
+  "blue-notes": [
+    "заметки",
+    "блокнот",
+    "memo",
+    "notepad"
+  ],
+  "blue-zoom": [
+    "зум",
+    "видеоконференция",
+    "масштаб",
+    "video call",
+    "conference",
+    "scale"
+  ],
+  "bluetooth": [
+    "блютуз",
+    "беспроводная связь",
+    "wireless",
+    "connection"
+  ],
+  "board": [
+    "доска",
+    "панель",
+    "dashboard",
+    "panel"
+  ],
+  "bold": [
+    "жирный",
+    "полужирный",
+    "strong",
+    "font"
+  ],
+  "book-closed": [
+    "книга",
+    "закрытый",
+    "справочник",
+    "закрыто",
+    "manual",
+    "shut",
+    "docs"
+  ],
+  "book-open": [
+    "книга",
+    "открыть",
+    "справочник",
+    "открытый",
+    "manual",
+    "opened",
+    "docs",
+    "expand"
+  ],
+  "book-open-1": [
+    "книга",
+    "открыть",
+    "справочник",
+    "открытый",
+    "manual",
+    "opened",
+    "docs",
+    "expand"
+  ],
+  "book-opened-with-arrow": [
+    "книга",
+    "открытый",
+    "стрелка",
+    "справочник",
+    "раскрытый",
+    "направление",
+    "manual",
+    "open",
+    "pointer",
+    "docs",
+    "direction"
+  ],
+  "bookmark": [
+    "закладка",
+    "избранное",
+    "сохранить",
+    "save",
+    "favorite",
+    "mark"
+  ],
+  "bookmark-1": [
+    "закладка",
+    "избранное",
+    "сохранить",
+    "save",
+    "favorite",
+    "mark"
+  ],
+  "bookmark-2": [
+    "закладка",
+    "избранное",
+    "сохранить",
+    "save",
+    "favorite",
+    "mark"
+  ],
+  "bottleneck": [
+    "узкое место",
+    "затор",
+    "задержка",
+    "choke",
+    "blockage",
+    "limit"
+  ],
+  "bottom": [
+    "низ",
+    "вниз",
+    "down",
+    "lower"
+  ],
+  "bottom-menu": [
+    "низ",
+    "меню",
+    "вниз",
+    "список",
+    "down",
+    "navigation",
+    "lower",
+    "list"
+  ],
+  "box": [
+    "коробка",
+    "ящик",
+    "упаковка",
+    "package",
+    "container"
+  ],
+  "box-with-lid": [
+    "коробка",
+    "крышка",
+    "ящик",
+    "упаковка",
+    "package",
+    "cover",
+    "container"
+  ],
+  "bp": [
+    "бп",
+    "бизнес-процесс",
+    "автоматизация",
+    "workflow",
+    "process",
+    "automation"
+  ],
+  "breaks": [
+    "перерыв",
+    "паузы",
+    "pause",
+    "rest"
+  ],
+  "brightness": [
+    "яркость",
+    "свет",
+    "light",
+    "sun"
+  ],
+  "brightness-bold-emoji": [
+    "яркость",
+    "жирный",
+    "эмодзи",
+    "свет",
+    "полужирный",
+    "смайлик",
+    "light",
+    "strong",
+    "smiley",
+    "sun",
+    "font",
+    "emoticon"
+  ],
+  "broom": [
+    "метла",
+    "веник",
+    "очистка",
+    "clean",
+    "sweep",
+    "clear"
+  ],
+  "browser": [
+    "браузер",
+    "обозреватель",
+    "web",
+    "chrome"
+  ],
+  "brush": [
+    "кисть",
+    "рисовать",
+    "покраска",
+    "paint",
+    "draw"
+  ],
+  "btn-clock": [
+    "кнопка",
+    "часы",
+    "время",
+    "button",
+    "time",
+    "watch"
+  ],
+  "btn-icon-copy-dark": [
+    "кнопка",
+    "копировать",
+    "копия",
+    "дублировать",
+    "button",
+    "duplicate",
+    "clone"
+  ],
+  "btn-icon-funnel-black": [
+    "кнопка",
+    "воронка",
+    "фильтр",
+    "продажи",
+    "button",
+    "filter",
+    "sales",
+    "pipeline"
+  ],
+  "btn-icon-note": [
+    "кнопка",
+    "заметка",
+    "запись",
+    "примечание",
+    "button",
+    "memo",
+    "comment"
+  ],
+  "btn-icon-print-2": [
+    "кнопка",
+    "печать",
+    "печатать",
+    "принтер",
+    "button",
+    "printer",
+    "output"
+  ],
+  "btn-icon-script": [
+    "кнопка",
+    "скрипт",
+    "сценарий",
+    "код",
+    "button",
+    "code",
+    "automation"
+  ],
+  "btn-spinner": [
+    "кнопка",
+    "спиннер",
+    "загрузка",
+    "ожидание",
+    "button",
+    "loader",
+    "loading",
+    "wait"
+  ],
+  "btn-wait": [
+    "кнопка",
+    "ожидание",
+    "подождать",
+    "ждать",
+    "button",
+    "waiting",
+    "loading",
+    "pending"
+  ],
+  "bug": [
+    "баг",
+    "ошибка",
+    "жук",
+    "error",
+    "defect",
+    "issue"
+  ],
+  "bulleted-list": [
+    "маркированный",
+    "список",
+    "перечень",
+    "bullets",
+    "items",
+    "menu"
+  ],
+  "bun": [
+    "булочка",
+    "хлеб",
+    "bread",
+    "food"
+  ],
+  "business-process": [
+    "бизнес",
+    "процесс",
+    "деловой",
+    "обработка",
+    "company",
+    "workflow",
+    "commerce",
+    "progress"
+  ],
+  "business-process-black": [
+    "бизнес",
+    "процесс",
+    "деловой",
+    "обработка",
+    "company",
+    "workflow",
+    "commerce",
+    "progress"
+  ],
+  "business-process-confirm-black": [
+    "бизнес",
+    "процесс",
+    "подтвердить",
+    "деловой",
+    "обработка",
+    "подтверждение",
+    "company",
+    "workflow",
+    "approve",
+    "commerce",
+    "progress",
+    "accept"
+  ],
+  "business-process-money": [
+    "бизнес",
+    "процесс",
+    "деньги",
+    "деловой",
+    "обработка",
+    "финансы",
+    "оплата",
+    "company",
+    "workflow",
+    "cash",
+    "commerce",
+    "progress",
+    "finance"
+  ],
+  "business-process-progress": [
+    "бизнес",
+    "процесс",
+    "прогресс",
+    "деловой",
+    "обработка",
+    "выполнение",
+    "ход",
+    "company",
+    "workflow",
+    "status",
+    "commerce",
+    "advance"
+  ],
+  "business-process-stages": [
+    "бизнес",
+    "процесс",
+    "этапы",
+    "деловой",
+    "обработка",
+    "стадии",
+    "шаги",
+    "company",
+    "workflow",
+    "steps",
+    "commerce",
+    "progress",
+    "phases"
+  ],
+  "business-process-warning-black": [
+    "бизнес",
+    "процесс",
+    "предупреждение",
+    "деловой",
+    "обработка",
+    "внимание",
+    "осторожно",
+    "company",
+    "workflow",
+    "alert",
+    "commerce",
+    "progress",
+    "caution"
+  ],
+  "calculator": [
+    "калькулятор",
+    "расчет",
+    "счет",
+    "calc",
+    "math",
+    "compute"
+  ],
+  "calendar": [
+    "календарь",
+    "дата",
+    "расписание",
+    "date",
+    "schedule",
+    "planner"
+  ],
+  "calendar-1": [
+    "календарь",
+    "дата",
+    "расписание",
+    "date",
+    "schedule",
+    "planner"
+  ],
+  "calendar-2": [
+    "календарь",
+    "дата",
+    "расписание",
+    "date",
+    "schedule",
+    "planner"
+  ],
+  "calendar-24": [
+    "календарь",
+    "дата",
+    "расписание",
+    "date",
+    "schedule",
+    "planner"
+  ],
+  "calendar-check": [
+    "календарь",
+    "галочка",
+    "дата",
+    "проверить",
+    "расписание",
+    "готово",
+    "подтвердить",
+    "date",
+    "tick",
+    "schedule",
+    "done",
+    "planner",
+    "ok"
+  ],
+  "calendar-deadline": [
+    "календарь",
+    "дедлайн",
+    "дата",
+    "срок",
+    "расписание",
+    "крайний срок",
+    "date",
+    "due",
+    "schedule",
+    "term",
+    "planner",
+    "limit"
+  ],
+  "calendar-empty": [
+    "календарь",
+    "пустой",
+    "дата",
+    "пусто",
+    "расписание",
+    "date",
+    "blank",
+    "schedule",
+    "void",
+    "planner"
+  ],
+  "calendar-off": [
+    "календарь",
+    "выключить",
+    "дата",
+    "отключено",
+    "расписание",
+    "выкл",
+    "date",
+    "disabled",
+    "schedule",
+    "disable",
+    "planner"
+  ],
+  "calendar-share": [
+    "календарь",
+    "поделиться",
+    "дата",
+    "доступ",
+    "расписание",
+    "расшарить",
+    "date",
+    "send",
+    "schedule",
+    "access",
+    "planner",
+    "sharing"
+  ],
+  "calendar-sharing": [
+    "календарь",
+    "общий доступ",
+    "дата",
+    "поделиться",
+    "расписание",
+    "date",
+    "share",
+    "schedule",
+    "access",
+    "planner"
+  ],
+  "calendar-slots": [
+    "календарь",
+    "слоты",
+    "дата",
+    "окна",
+    "расписание",
+    "время",
+    "date",
+    "time slots",
+    "schedule",
+    "booking",
+    "planner"
+  ],
+  "calendar-with-checks": [
+    "календарь",
+    "дата",
+    "расписание",
+    "date",
+    "schedule",
+    "planner"
+  ],
+  "calendar-with-slots": [
+    "календарь",
+    "слоты",
+    "дата",
+    "окна",
+    "расписание",
+    "время",
+    "date",
+    "time slots",
+    "schedule",
+    "booking",
+    "planner"
+  ],
+  "call": [
+    "звонок",
+    "позвонить",
+    "вызов",
+    "phone",
+    "dial",
+    "ring"
+  ],
+  "call-back": [
+    "звонок",
+    "назад",
+    "позвонить",
+    "вернуться",
+    "вызов",
+    "возврат",
+    "phone",
+    "return",
+    "dial",
+    "previous",
+    "ring"
+  ],
+  "call-chat": [
+    "звонок",
+    "чат",
+    "позвонить",
+    "переписка",
+    "вызов",
+    "диалог",
+    "phone",
+    "conversation",
+    "dial",
+    "messenger",
+    "ring",
+    "dialog"
+  ],
+  "call-forwarding": [
+    "звонок",
+    "переадресация",
+    "позвонить",
+    "перенаправление",
+    "вызов",
+    "phone",
+    "redirect",
+    "dial",
+    "forward",
+    "ring"
+  ],
+  "call-in": [
+    "звонок",
+    "позвонить",
+    "вызов",
+    "phone",
+    "dial",
+    "ring"
+  ],
+  "call-information": [
+    "звонок",
+    "информация",
+    "позвонить",
+    "сведения",
+    "вызов",
+    "phone",
+    "info",
+    "dial",
+    "ring"
+  ],
+  "call-out": [
+    "звонок",
+    "позвонить",
+    "вызов",
+    "phone",
+    "dial",
+    "ring"
+  ],
+  "call-up": [
+    "звонок",
+    "вверх",
+    "позвонить",
+    "верхний",
+    "вызов",
+    "phone",
+    "top",
+    "dial",
+    "raise",
+    "ring"
+  ],
+  "calltracking": [
+    "коллтрекинг",
+    "отслеживание звонков",
+    "call tracking",
+    "analytics"
+  ],
+  "camera": [
+    "камера",
+    "фото",
+    "съемка",
+    "photo",
+    "webcam",
+    "shoot"
+  ],
+  "camera-black": [
+    "камера",
+    "фото",
+    "съемка",
+    "photo",
+    "webcam",
+    "shoot"
+  ],
+  "camera-off": [
+    "камера",
+    "выключить",
+    "фото",
+    "отключено",
+    "съемка",
+    "выкл",
+    "photo",
+    "disabled",
+    "webcam",
+    "disable",
+    "shoot"
+  ],
+  "campaign": [
+    "кампания",
+    "рассылка",
+    "реклама",
+    "marketing",
+    "promo",
+    "mailing"
+  ],
+  "cancel-dark": [
+    "отмена",
+    "отменить",
+    "abort",
+    "stop",
+    "cross"
+  ],
+  "car": [
+    "машина",
+    "автомобиль",
+    "авто",
+    "vehicle",
+    "auto",
+    "transport"
+  ],
+  "car-rent": [
+    "машина",
+    "аренда",
+    "автомобиль",
+    "прокат",
+    "авто",
+    "vehicle",
+    "lease",
+    "auto",
+    "hire",
+    "transport"
+  ],
+  "card": [
+    "карта",
+    "карточка",
+    "credit card",
+    "bank card"
+  ],
+  "cart": [
+    "корзина",
+    "покупки",
+    "тележка",
+    "basket",
+    "shop",
+    "purchase"
+  ],
+  "cart-image": [
+    "корзина",
+    "изображение",
+    "покупки",
+    "картинка",
+    "тележка",
+    "фото",
+    "basket",
+    "picture",
+    "shop",
+    "photo",
+    "purchase"
+  ],
+  "cart-text": [
+    "корзина",
+    "текст",
+    "покупки",
+    "надпись",
+    "тележка",
+    "basket",
+    "label",
+    "shop",
+    "string",
+    "purchase"
+  ],
+  "cart-with-cursor": [
+    "корзина",
+    "курсор",
+    "покупки",
+    "указатель",
+    "тележка",
+    "мышь",
+    "basket",
+    "pointer",
+    "shop",
+    "mouse",
+    "purchase"
+  ],
+  "cash-terminal": [
+    "наличные",
+    "терминал",
+    "касса",
+    "консоль",
+    "деньги",
+    "money",
+    "console",
+    "register",
+    "command line",
+    "shell"
+  ],
+  "center-align": [
+    "центр",
+    "выравнивание",
+    "по центру",
+    "выровнять",
+    "middle",
+    "alignment",
+    "centered",
+    "format"
+  ],
+  "change-funnel": [
+    "изменить",
+    "воронка",
+    "сменить",
+    "фильтр",
+    "поменять",
+    "продажи",
+    "edit",
+    "filter",
+    "switch",
+    "sales",
+    "pipeline"
+  ],
+  "change-order": [
+    "изменить",
+    "заказ",
+    "сменить",
+    "порядок",
+    "поменять",
+    "edit",
+    "purchase",
+    "switch",
+    "sort"
+  ],
+  "change-order-2": [
+    "изменить",
+    "заказ",
+    "сменить",
+    "порядок",
+    "поменять",
+    "edit",
+    "purchase",
+    "switch",
+    "sort"
+  ],
+  "chat-1": [
+    "чат",
+    "переписка",
+    "диалог",
+    "conversation",
+    "messenger",
+    "dialog"
+  ],
+  "chat-black": [
+    "чат",
+    "переписка",
+    "диалог",
+    "conversation",
+    "messenger",
+    "dialog"
+  ],
+  "chat-button": [
+    "чат",
+    "переписка",
+    "диалог",
+    "conversation",
+    "messenger",
+    "dialog"
+  ],
+  "chat-line": [
+    "чат",
+    "линия",
+    "переписка",
+    "строка",
+    "диалог",
+    "conversation",
+    "stroke",
+    "messenger",
+    "row",
+    "dialog"
+  ],
+  "chat-list": [
+    "чат",
+    "список",
+    "переписка",
+    "перечень",
+    "диалог",
+    "conversation",
+    "items",
+    "messenger",
+    "menu",
+    "dialog"
+  ],
+  "chat-message": [
+    "чат",
+    "сообщение",
+    "переписка",
+    "письмо",
+    "диалог",
+    "conversation",
+    "msg",
+    "messenger",
+    "text",
+    "dialog",
+    "dm"
+  ],
+  "chatbot": [
+    "чат-бот",
+    "бот",
+    "автоответчик",
+    "bot",
+    "assistant",
+    "auto-reply"
+  ],
+  "chats": [
+    "чаты",
+    "переписки",
+    "диалоги",
+    "conversations",
+    "messengers"
+  ],
+  "chats-1": [
+    "чаты",
+    "переписки",
+    "диалоги",
+    "conversations",
+    "messengers"
+  ],
+  "chats-2": [
+    "чаты",
+    "переписки",
+    "диалоги",
+    "conversations",
+    "messengers"
+  ],
+  "chats-24": [
+    "чаты",
+    "переписки",
+    "диалоги",
+    "conversations",
+    "messengers"
+  ],
+  "chats-3": [
+    "чаты",
+    "переписки",
+    "диалоги",
+    "conversations",
+    "messengers"
+  ],
+  "chats-computer": [
+    "чаты",
+    "компьютер",
+    "переписки",
+    "пк",
+    "диалоги",
+    "ноутбук",
+    "conversations",
+    "pc",
+    "messengers",
+    "desktop",
+    "laptop"
+  ],
+  "chats-persons": [
+    "чаты",
+    "люди",
+    "переписки",
+    "пользователи",
+    "диалоги",
+    "сотрудники",
+    "conversations",
+    "people",
+    "messengers",
+    "users",
+    "team"
+  ],
+  "chats-with-check": [
+    "чаты",
+    "галочка",
+    "переписки",
+    "проверить",
+    "диалоги",
+    "готово",
+    "подтвердить",
+    "conversations",
+    "tick",
+    "messengers",
+    "done",
+    "ok",
+    "verify"
+  ],
+  "check": [
+    "галочка",
+    "проверить",
+    "готово",
+    "подтвердить",
+    "tick",
+    "done",
+    "ok",
+    "verify"
+  ],
+  "check-deferred": [
+    "отложенная проверка",
+    "отложено",
+    "ожидание",
+    "pending",
+    "postponed",
+    "later"
+  ],
+  "check-grammar": [
+    "галочка",
+    "грамматика",
+    "проверить",
+    "орфография",
+    "готово",
+    "подтвердить",
+    "tick",
+    "spelling",
+    "done",
+    "language",
+    "ok",
+    "verify"
+  ],
+  "check-in-box": [
+    "галочка",
+    "коробка",
+    "проверить",
+    "ящик",
+    "готово",
+    "упаковка",
+    "подтвердить",
+    "tick",
+    "package",
+    "done",
+    "container",
+    "ok",
+    "verify"
+  ],
+  "check-in-cancel": [
+    "галочка",
+    "отмена",
+    "проверить",
+    "отменить",
+    "готово",
+    "подтвердить",
+    "tick",
+    "abort",
+    "done",
+    "stop",
+    "ok",
+    "cross"
+  ],
+  "check-in-negative": [
+    "нет отметки",
+    "отказ",
+    "не пришел",
+    "absent",
+    "no show",
+    "reject"
+  ],
+  "check-list": [
+    "галочка",
+    "список",
+    "проверить",
+    "перечень",
+    "готово",
+    "подтвердить",
+    "tick",
+    "items",
+    "done",
+    "menu",
+    "ok",
+    "verify"
+  ],
+  "check-receipt": [
+    "галочка",
+    "чек",
+    "проверить",
+    "квитанция",
+    "готово",
+    "подтвердить",
+    "tick",
+    "bill",
+    "done",
+    "voucher",
+    "ok",
+    "verify"
+  ],
+  "chemistry": [
+    "химия",
+    "колба",
+    "science",
+    "flask",
+    "lab"
+  ],
+  "chevron-down": [
+    "шеврон",
+    "вниз",
+    "стрелка",
+    "нижний",
+    "уголок",
+    "arrow",
+    "bottom",
+    "caret",
+    "lower"
+  ],
+  "chevron-left": [
+    "шеврон",
+    "влево",
+    "стрелка",
+    "слева",
+    "уголок",
+    "налево",
+    "arrow",
+    "back",
+    "caret",
+    "previous"
+  ],
+  "chevron-right": [
+    "шеврон",
+    "вправо",
+    "стрелка",
+    "справа",
+    "уголок",
+    "направо",
+    "arrow",
+    "forward",
+    "caret",
+    "next"
+  ],
+  "chevron-to-the-left": [
+    "шеврон",
+    "влево",
+    "стрелка",
+    "слева",
+    "уголок",
+    "налево",
+    "arrow",
+    "back",
+    "caret",
+    "previous"
+  ],
+  "chevron-to-the-right": [
+    "шеврон",
+    "вправо",
+    "стрелка",
+    "справа",
+    "уголок",
+    "направо",
+    "arrow",
+    "forward",
+    "caret",
+    "next"
+  ],
+  "chevron-top": [
+    "шеврон",
+    "верх",
+    "стрелка",
+    "вверх",
+    "уголок",
+    "arrow",
+    "up",
+    "caret",
+    "upper"
+  ],
+  "chevron-up": [
+    "шеврон",
+    "вверх",
+    "стрелка",
+    "верхний",
+    "уголок",
+    "arrow",
+    "top",
+    "caret",
+    "raise"
+  ],
+  "choose": [
+    "выбрать",
+    "выбор",
+    "select",
+    "pick"
+  ],
+  "circle-check": [
+    "круг",
+    "галочка",
+    "кружок",
+    "проверить",
+    "готово",
+    "подтвердить",
+    "round",
+    "tick",
+    "ring",
+    "done",
+    "ok",
+    "verify"
+  ],
+  "circle-check-thin": [
+    "круг",
+    "галочка",
+    "тонкий",
+    "кружок",
+    "проверить",
+    "готово",
+    "подтвердить",
+    "round",
+    "tick",
+    "light",
+    "ring",
+    "done",
+    "slim"
+  ],
+  "circle-cross": [
+    "круг",
+    "крест",
+    "кружок",
+    "закрыть",
+    "отмена",
+    "удалить",
+    "round",
+    "close",
+    "ring",
+    "cancel",
+    "x",
+    "delete"
+  ],
+  "circle-minus": [
+    "круг",
+    "минус",
+    "кружок",
+    "убрать",
+    "вычесть",
+    "уменьшить",
+    "round",
+    "remove",
+    "ring",
+    "subtract",
+    "less"
+  ],
+  "circle-more": [
+    "круг",
+    "еще",
+    "кружок",
+    "больше",
+    "подробнее",
+    "round",
+    "extra",
+    "ring",
+    "options",
+    "menu"
+  ],
+  "circle-plus": [
+    "круг",
+    "плюс",
+    "кружок",
+    "добавить",
+    "создать",
+    "новый",
+    "round",
+    "add",
+    "ring",
+    "new",
+    "create"
+  ],
+  "city": [
+    "город",
+    "здание",
+    "офис",
+    "building",
+    "town",
+    "urban"
+  ],
+  "city-plus": [
+    "город",
+    "плюс",
+    "здание",
+    "добавить",
+    "офис",
+    "создать",
+    "новый",
+    "building",
+    "add",
+    "town",
+    "new",
+    "urban",
+    "create"
+  ],
+  "click": [
+    "клик",
+    "нажатие",
+    "щелчок",
+    "press",
+    "tap"
+  ],
+  "clock": [
+    "часы",
+    "время",
+    "time",
+    "watch"
+  ],
+  "clock-1": [
+    "часы",
+    "время",
+    "time",
+    "watch"
+  ],
+  "clock-2": [
+    "часы",
+    "время",
+    "time",
+    "watch"
+  ],
+  "clock-back": [
+    "часы",
+    "назад",
+    "время",
+    "вернуться",
+    "возврат",
+    "time",
+    "return",
+    "watch",
+    "previous"
+  ],
+  "clock-blk": [
+    "часы",
+    "время",
+    "time",
+    "watch"
+  ],
+  "clock-blk-wht": [
+    "часы",
+    "время",
+    "time",
+    "watch"
+  ],
+  "clock-fill": [
+    "часы",
+    "заполнить",
+    "время",
+    "time",
+    "full",
+    "watch"
+  ],
+  "clock-sector": [
+    "часы",
+    "время",
+    "time",
+    "watch"
+  ],
+  "clock-with-arrow": [
+    "часы",
+    "стрелка",
+    "время",
+    "направление",
+    "time",
+    "pointer",
+    "watch",
+    "direction"
+  ],
+  "close-chat": [
+    "чат",
+    "переписка",
+    "диалог",
+    "conversation",
+    "messenger",
+    "dialog"
+  ],
+  "cloud": [
+    "облако",
+    "хранилище",
+    "сервис",
+    "storage",
+    "saas",
+    "online"
+  ],
+  "cloud-black": [
+    "облако",
+    "хранилище",
+    "сервис",
+    "storage",
+    "saas",
+    "online"
+  ],
+  "cloud-clock": [
+    "облако",
+    "часы",
+    "хранилище",
+    "время",
+    "сервис",
+    "storage",
+    "time",
+    "saas",
+    "watch",
+    "online"
+  ],
+  "cloud-cloud": [
+    "облако",
+    "хранилище",
+    "сервис",
+    "storage",
+    "saas",
+    "online"
+  ],
+  "cloud-download": [
+    "облако",
+    "скачать",
+    "хранилище",
+    "загрузить",
+    "сервис",
+    "загрузка",
+    "storage",
+    "save",
+    "saas",
+    "import",
+    "online"
+  ],
+  "cloud-empty": [
+    "облако",
+    "пустой",
+    "хранилище",
+    "пусто",
+    "сервис",
+    "storage",
+    "blank",
+    "saas",
+    "void",
+    "online"
+  ],
+  "cloud-error": [
+    "облако",
+    "ошибка",
+    "хранилище",
+    "сбой",
+    "сервис",
+    "storage",
+    "fail",
+    "saas",
+    "problem",
+    "online"
+  ],
+  "cloud-letter-post": [
+    "облако",
+    "письмо",
+    "хранилище",
+    "буква",
+    "сервис",
+    "storage",
+    "mail",
+    "saas",
+    "character",
+    "online"
+  ],
+  "cloud-pause": [
+    "облако",
+    "пауза",
+    "хранилище",
+    "приостановить",
+    "сервис",
+    "storage",
+    "stop",
+    "saas",
+    "hold",
+    "online"
+  ],
+  "cloud-sifre": [
+    "облако",
+    "хранилище",
+    "сервис",
+    "storage",
+    "saas",
+    "online"
+  ],
+  "cloud-sso": [
+    "облако",
+    "единый вход",
+    "хранилище",
+    "сервис",
+    "авторизация",
+    "storage",
+    "single sign-on",
+    "saas",
+    "login",
+    "online"
+  ],
+  "cloud-sync": [
+    "облако",
+    "синхронизация",
+    "хранилище",
+    "обновить",
+    "сервис",
+    "storage",
+    "synchronize",
+    "saas",
+    "refresh",
+    "online"
+  ],
+  "cloud-time": [
+    "облако",
+    "время",
+    "хранилище",
+    "часы",
+    "сервис",
+    "storage",
+    "clock",
+    "saas",
+    "duration",
+    "online"
+  ],
+  "cloud-transfer-data": [
+    "облако",
+    "перенос",
+    "данные",
+    "хранилище",
+    "передача",
+    "информация",
+    "сервис",
+    "storage",
+    "move",
+    "info",
+    "saas",
+    "migrate",
+    "database"
+  ],
+  "cloud-with-check": [
+    "облако",
+    "галочка",
+    "хранилище",
+    "проверить",
+    "сервис",
+    "готово",
+    "подтвердить",
+    "storage",
+    "tick",
+    "saas",
+    "done",
+    "online",
+    "ok"
+  ],
+  "code": [
+    "код",
+    "программирование",
+    "programming",
+    "develop",
+    "script"
+  ],
+  "collab": [
+    "коллаб",
+    "совместная работа",
+    "группа",
+    "team",
+    "workspace"
+  ],
+  "collab-add": [
+    "коллаб",
+    "добавить",
+    "совместная работа",
+    "создать",
+    "группа",
+    "новый",
+    "team",
+    "create",
+    "workspace",
+    "new",
+    "plus"
+  ],
+  "collaboration": [
+    "совместная работа",
+    "сотрудничество",
+    "teamwork",
+    "cooperation"
+  ],
+  "collapse": [
+    "свернуть",
+    "скрыть",
+    "уменьшить",
+    "shrink",
+    "fold",
+    "minimize"
+  ],
+  "collapse-diagonal": [
+    "свернуть",
+    "диагональ",
+    "скрыть",
+    "по диагонали",
+    "уменьшить",
+    "shrink",
+    "corner",
+    "fold",
+    "minimize"
+  ],
+  "columns": [
+    "колонки",
+    "столбцы",
+    "cols",
+    "layout"
+  ],
+  "columns-sidebar-pending": [
+    "колонки",
+    "боковая панель",
+    "ожидание",
+    "столбцы",
+    "сайдбар",
+    "в ожидании",
+    "cols",
+    "panel",
+    "waiting",
+    "layout",
+    "side menu",
+    "queue"
+  ],
+  "comment-plus": [
+    "комментарий",
+    "плюс",
+    "отзыв",
+    "добавить",
+    "создать",
+    "новый",
+    "reply",
+    "add",
+    "remark",
+    "new",
+    "create"
+  ],
+  "commercial-offer": [
+    "коммерческий",
+    "предложение",
+    "business",
+    "proposal"
+  ],
+  "common": [
+    "общий",
+    "обычный",
+    "shared",
+    "general"
+  ],
+  "company": [
+    "компания",
+    "организация",
+    "фирма",
+    "organization",
+    "business",
+    "firm"
+  ],
+  "compass": [
+    "компас",
+    "навигация",
+    "направление",
+    "navigation",
+    "direction"
+  ],
+  "complete": [
+    "завершить",
+    "выполнено",
+    "готово",
+    "finish",
+    "done",
+    "end"
+  ],
+  "complete-task-list": [
+    "завершить",
+    "задача",
+    "список",
+    "выполнено",
+    "задание",
+    "перечень",
+    "готово",
+    "поручение",
+    "finish",
+    "todo",
+    "items",
+    "done",
+    "job",
+    "menu"
+  ],
+  "condition": [
+    "условие",
+    "критерий",
+    "rule",
+    "if"
+  ],
+  "connection": [
+    "соединение",
+    "связь",
+    "подключение",
+    "link",
+    "network",
+    "connect"
+  ],
+  "contact": [
+    "контакт",
+    "клиент",
+    "адресат",
+    "person",
+    "client",
+    "address"
+  ],
+  "contact-center": [
+    "контакт",
+    "центр",
+    "клиент",
+    "по центру",
+    "адресат",
+    "person",
+    "middle",
+    "client",
+    "centered",
+    "address"
+  ],
+  "contact-details": [
+    "контакт",
+    "детали",
+    "клиент",
+    "подробности",
+    "адресат",
+    "person",
+    "info",
+    "client",
+    "more",
+    "address"
+  ],
+  "contrast": [
+    "контраст",
+    "brightness",
+    "theme"
+  ],
+  "conversion-1": [
+    "конверсия",
+    "преобразование",
+    "convert",
+    "funnel"
+  ],
+  "conversion-2": [
+    "конверсия",
+    "преобразование",
+    "convert",
+    "funnel"
+  ],
+  "copilot": [
+    "копилот",
+    "помощник",
+    "ии",
+    "assistant",
+    "ai",
+    "helper"
+  ],
+  "copilot-ai": [
+    "копилот",
+    "ии",
+    "помощник",
+    "искусственный интеллект",
+    "нейросеть",
+    "assistant",
+    "artificial intelligence",
+    "gpt",
+    "helper",
+    "neural"
+  ],
+  "copilot-ai-1": [
+    "копилот",
+    "ии",
+    "помощник",
+    "искусственный интеллект",
+    "нейросеть",
+    "assistant",
+    "artificial intelligence",
+    "gpt",
+    "helper",
+    "neural"
+  ],
+  "copilot-ai-2": [
+    "копилот",
+    "ии",
+    "помощник",
+    "искусственный интеллект",
+    "нейросеть",
+    "assistant",
+    "artificial intelligence",
+    "gpt",
+    "helper",
+    "neural"
+  ],
+  "copy": [
+    "копировать",
+    "копия",
+    "дублировать",
+    "duplicate",
+    "clone"
+  ],
+  "copy-file": [
+    "копировать",
+    "файл",
+    "копия",
+    "документ",
+    "дублировать",
+    "duplicate",
+    "document",
+    "clone"
+  ],
+  "copy-plates": [
+    "копировать",
+    "плитки",
+    "копия",
+    "блоки",
+    "дублировать",
+    "карточки",
+    "duplicate",
+    "tiles",
+    "clone",
+    "cards"
+  ],
+  "cppheader": [
+    "заголовочный файл",
+    "си плюс плюс",
+    "код",
+    "c++",
+    "header",
+    "programming language",
+    "source"
+  ],
+  "create-chat": [
+    "создать",
+    "чат",
+    "новый",
+    "переписка",
+    "диалог",
+    "new",
+    "conversation",
+    "add",
+    "messenger",
+    "dialog"
+  ],
+  "create-file": [
+    "создать",
+    "файл",
+    "новый",
+    "документ",
+    "new",
+    "document",
+    "add"
+  ],
+  "create-prompt": [
+    "создать",
+    "промпт",
+    "новый",
+    "запрос",
+    "подсказка",
+    "new",
+    "query",
+    "add",
+    "instruction",
+    "command"
+  ],
+  "credit-debit-card": [
+    "кредит",
+    "дебет",
+    "карта",
+    "карточка",
+    "credit card",
+    "loan",
+    "bank card"
+  ],
+  "crit-battery-black": [
+    "батарея",
+    "заряд",
+    "аккумулятор",
+    "charge",
+    "power",
+    "energy"
+  ],
+  "crm": [
+    "црм",
+    "клиенты",
+    "продажи",
+    "customers",
+    "sales"
+  ],
+  "crm-field-except": [
+    "црм",
+    "поле",
+    "исключение",
+    "клиенты",
+    "реквизит",
+    "кроме",
+    "продажи",
+    "customers",
+    "attribute",
+    "exclude",
+    "sales",
+    "property"
+  ],
+  "crm-field-linked": [
+    "црм",
+    "поле",
+    "связанный",
+    "клиенты",
+    "реквизит",
+    "привязан",
+    "продажи",
+    "customers",
+    "attribute",
+    "related",
+    "sales",
+    "property",
+    "connected"
+  ],
+  "crm-field-simple": [
+    "црм",
+    "поле",
+    "простой",
+    "клиенты",
+    "реквизит",
+    "продажи",
+    "customers",
+    "attribute",
+    "basic",
+    "sales",
+    "property",
+    "plain"
+  ],
+  "crm-group": [
+    "црм",
+    "группа",
+    "клиенты",
+    "команда",
+    "продажи",
+    "customers",
+    "team",
+    "sales",
+    "collective"
+  ],
+  "crm-letters": [
+    "црм",
+    "клиенты",
+    "продажи",
+    "customers",
+    "sales"
+  ],
+  "crm-map": [
+    "црм",
+    "карта",
+    "клиенты",
+    "схема",
+    "продажи",
+    "локация",
+    "customers",
+    "geo",
+    "sales",
+    "location",
+    "plan"
+  ],
+  "crm-payment": [
+    "црм",
+    "оплата",
+    "клиенты",
+    "платеж",
+    "продажи",
+    "customers",
+    "pay",
+    "sales",
+    "billing"
+  ],
+  "crm-search": [
+    "црм",
+    "поиск",
+    "клиенты",
+    "найти",
+    "продажи",
+    "искать",
+    "customers",
+    "find",
+    "sales",
+    "lookup"
+  ],
+  "cross": [
+    "крест",
+    "закрыть",
+    "отмена",
+    "удалить",
+    "close",
+    "cancel",
+    "x",
+    "delete"
+  ],
+  "cross-20": [
+    "крест",
+    "закрыть",
+    "отмена",
+    "удалить",
+    "close",
+    "cancel",
+    "x",
+    "delete"
+  ],
+  "cross-25": [
+    "крест",
+    "закрыть",
+    "отмена",
+    "удалить",
+    "close",
+    "cancel",
+    "x",
+    "delete"
+  ],
+  "cross-30": [
+    "крест",
+    "закрыть",
+    "отмена",
+    "удалить",
+    "close",
+    "cancel",
+    "x",
+    "delete"
+  ],
+  "cross-40": [
+    "крест",
+    "закрыть",
+    "отмена",
+    "удалить",
+    "close",
+    "cancel",
+    "x",
+    "delete"
+  ],
+  "cross-45": [
+    "крест",
+    "закрыть",
+    "отмена",
+    "удалить",
+    "close",
+    "cancel",
+    "x",
+    "delete"
+  ],
+  "cross-50": [
+    "крест",
+    "закрыть",
+    "отмена",
+    "удалить",
+    "close",
+    "cancel",
+    "x",
+    "delete"
+  ],
+  "cross-55": [
+    "крест",
+    "закрыть",
+    "отмена",
+    "удалить",
+    "close",
+    "cancel",
+    "x",
+    "delete"
+  ],
+  "cross-60": [
+    "крест",
+    "закрыть",
+    "отмена",
+    "удалить",
+    "close",
+    "cancel",
+    "x",
+    "delete"
+  ],
+  "cross-circle-50": [
+    "крест",
+    "круг",
+    "закрыть",
+    "кружок",
+    "отмена",
+    "удалить",
+    "close",
+    "round",
+    "cancel",
+    "ring",
+    "x",
+    "delete"
+  ],
+  "cross-circle-60": [
+    "крест",
+    "круг",
+    "закрыть",
+    "кружок",
+    "отмена",
+    "удалить",
+    "close",
+    "round",
+    "cancel",
+    "ring",
+    "x",
+    "delete"
+  ],
+  "cross-circle-70": [
+    "крест",
+    "круг",
+    "закрыть",
+    "кружок",
+    "отмена",
+    "удалить",
+    "close",
+    "round",
+    "cancel",
+    "ring",
+    "x",
+    "delete"
+  ],
+  "crossed-eye": [
+    "глаз",
+    "просмотр",
+    "view",
+    "see",
+    "visible"
+  ],
+  "crossed-eye-2": [
+    "глаз",
+    "просмотр",
+    "view",
+    "see",
+    "visible"
+  ],
+  "crown": [
+    "корона",
+    "премиум",
+    "vip",
+    "premium",
+    "king",
+    "pro"
+  ],
+  "crown-1": [
+    "корона",
+    "премиум",
+    "vip",
+    "premium",
+    "king",
+    "pro"
+  ],
+  "crown-2": [
+    "корона",
+    "премиум",
+    "vip",
+    "premium",
+    "king",
+    "pro"
+  ],
+  "csharp": [
+    "си шарп",
+    "язык программирования",
+    "дотнет",
+    "c#",
+    "programming language",
+    "dotnet"
+  ],
+  "csv": [
+    "цсв",
+    "таблица",
+    "экспорт",
+    "данные",
+    "table",
+    "export",
+    "data",
+    "spreadsheet",
+    "comma"
+  ],
+  "cube-plus": [
+    "куб",
+    "плюс",
+    "кубик",
+    "добавить",
+    "создать",
+    "новый",
+    "block",
+    "add",
+    "3d",
+    "new",
+    "create"
+  ],
+  "cubes-3": [
+    "кубы",
+    "кубики",
+    "блоки",
+    "blocks",
+    "3d"
+  ],
+  "cursor-click": [
+    "курсор",
+    "клик",
+    "указатель",
+    "нажатие",
+    "мышь",
+    "щелчок",
+    "pointer",
+    "press",
+    "mouse",
+    "tap"
+  ],
+  "cursors-strike": [
+    "зачеркнуть",
+    "cross out"
+  ],
+  "curved-arrow-left": [
+    "изогнутая",
+    "стрелка",
+    "влево",
+    "дугой",
+    "направление",
+    "слева",
+    "налево",
+    "arc",
+    "pointer",
+    "back",
+    "bend",
+    "direction",
+    "previous"
+  ],
+  "customer-card": [
+    "клиент",
+    "карта",
+    "покупатель",
+    "карточка",
+    "client",
+    "credit card",
+    "buyer",
+    "bank card"
+  ],
+  "customer-card-1": [
+    "клиент",
+    "карта",
+    "покупатель",
+    "карточка",
+    "client",
+    "credit card",
+    "buyer",
+    "bank card"
+  ],
+  "customer-card-plus": [
+    "клиент",
+    "карта",
+    "плюс",
+    "покупатель",
+    "карточка",
+    "добавить",
+    "создать",
+    "новый",
+    "client",
+    "credit card",
+    "add",
+    "buyer",
+    "bank card",
+    "new"
+  ],
+  "customer-cards": [
+    "клиент",
+    "покупатель",
+    "client",
+    "buyer"
+  ],
+  "customization": [
+    "настройка",
+    "персонализация",
+    "tuning",
+    "personalize"
+  ],
+  "cut": [
+    "вырезать",
+    "ножницы",
+    "scissors",
+    "clip"
+  ],
+  "dartlang": [
+    "дарт",
+    "язык программирования",
+    "флаттер",
+    "dart",
+    "programming language",
+    "flutter"
+  ],
+  "database": [
+    "база данных",
+    "бд",
+    "хранилище",
+    "db",
+    "storage",
+    "sql"
+  ],
+  "day-off": [
+    "день",
+    "выключить",
+    "сутки",
+    "отключено",
+    "выкл",
+    "date",
+    "disabled",
+    "disable"
+  ],
+  "ddos-attack": [
+    "ддос",
+    "атака",
+    "hack",
+    "security",
+    "threat"
+  ],
+  "dead-battery": [
+    "разряженный",
+    "батарея",
+    "мертвый",
+    "заряд",
+    "аккумулятор",
+    "empty",
+    "charge",
+    "discharged",
+    "power",
+    "energy"
+  ],
+  "deal": [
+    "сделка",
+    "продажа",
+    "заказ",
+    "sale",
+    "opportunity",
+    "transaction"
+  ],
+  "deal-1": [
+    "сделка",
+    "продажа",
+    "заказ",
+    "sale",
+    "opportunity",
+    "transaction"
+  ],
+  "deal-plus": [
+    "сделка",
+    "плюс",
+    "продажа",
+    "добавить",
+    "заказ",
+    "создать",
+    "новый",
+    "sale",
+    "add",
+    "opportunity",
+    "new",
+    "transaction",
+    "create"
+  ],
+  "deal-plus-1": [
+    "сделка",
+    "плюс",
+    "продажа",
+    "добавить",
+    "заказ",
+    "создать",
+    "новый",
+    "sale",
+    "add",
+    "opportunity",
+    "new",
+    "transaction",
+    "create"
+  ],
+  "decrease-indent": [
+    "уменьшить",
+    "отступ",
+    "сократить",
+    "абзац",
+    "reduce",
+    "tab",
+    "less",
+    "paragraph",
+    "shrink"
+  ],
+  "delay": [
+    "задержка",
+    "отложить",
+    "postpone",
+    "defer",
+    "wait"
+  ],
+  "delegate": [
+    "делегировать",
+    "передать",
+    "assign",
+    "handover"
+  ],
+  "delete-event": [
+    "удалить",
+    "событие",
+    "убрать",
+    "мероприятие",
+    "стереть",
+    "remove",
+    "happening",
+    "erase",
+    "appointment",
+    "trash"
+  ],
+  "delete-hyperlink": [
+    "удалить",
+    "ссылка",
+    "убрать",
+    "гиперссылка",
+    "стереть",
+    "remove",
+    "url",
+    "erase",
+    "link",
+    "trash"
+  ],
+  "delete-person": [
+    "удалить",
+    "человек",
+    "убрать",
+    "пользователь",
+    "стереть",
+    "сотрудник",
+    "контакт",
+    "remove",
+    "user",
+    "erase",
+    "people",
+    "trash",
+    "profile"
+  ],
+  "delivery": [
+    "доставка",
+    "курьер",
+    "shipping",
+    "courier",
+    "transport"
+  ],
+  "delivery-1": [
+    "доставка",
+    "курьер",
+    "shipping",
+    "courier",
+    "transport"
+  ],
+  "delivery-2": [
+    "доставка",
+    "курьер",
+    "shipping",
+    "courier",
+    "transport"
+  ],
+  "delivery-car": [
+    "доставка",
+    "машина",
+    "курьер",
+    "автомобиль",
+    "авто",
+    "shipping",
+    "vehicle",
+    "courier",
+    "auto",
+    "transport"
+  ],
+  "delivery-with-item": [
+    "доставка",
+    "элемент",
+    "курьер",
+    "пункт",
+    "предмет",
+    "shipping",
+    "element",
+    "courier",
+    "entry",
+    "transport"
+  ],
+  "demo-black": [
+    "демо",
+    "показ",
+    "demonstration",
+    "preview"
+  ],
+  "demonstration-graphics": [
+    "демонстрация",
+    "графика",
+    "показ",
+    "диаграмма",
+    "презентация",
+    "presentation",
+    "chart",
+    "show",
+    "diagram",
+    "slides"
+  ],
+  "demonstration-graphics-2": [
+    "демонстрация",
+    "графика",
+    "показ",
+    "диаграмма",
+    "презентация",
+    "presentation",
+    "chart",
+    "show",
+    "diagram",
+    "slides"
+  ],
+  "demonstration-off": [
+    "демонстрация",
+    "выключить",
+    "показ",
+    "отключено",
+    "презентация",
+    "выкл",
+    "presentation",
+    "disabled",
+    "show",
+    "disable",
+    "slides"
+  ],
+  "demonstration-on": [
+    "демонстрация",
+    "показ",
+    "презентация",
+    "presentation",
+    "show",
+    "slides"
+  ],
+  "demonstration-on-1": [
+    "демонстрация",
+    "показ",
+    "презентация",
+    "presentation",
+    "show",
+    "slides"
+  ],
+  "demonstration-on-2": [
+    "демонстрация",
+    "показ",
+    "презентация",
+    "presentation",
+    "show",
+    "slides"
+  ],
+  "department": [
+    "отдел",
+    "подразделение",
+    "division",
+    "unit"
+  ],
+  "descending-sort": [
+    "по убыванию",
+    "сортировка",
+    "нисходящий",
+    "упорядочить",
+    "сортировать",
+    "desc",
+    "order",
+    "down",
+    "arrange"
+  ],
+  "descending-sort-by-name": [
+    "по убыванию",
+    "сортировка",
+    "нисходящий",
+    "упорядочить",
+    "сортировать",
+    "desc",
+    "order",
+    "down",
+    "arrange"
+  ],
+  "descending-sort-names": [
+    "по убыванию",
+    "сортировка",
+    "нисходящий",
+    "упорядочить",
+    "сортировать",
+    "desc",
+    "order",
+    "down",
+    "arrange"
+  ],
+  "design": [
+    "дизайн",
+    "оформление",
+    "style",
+    "layout"
+  ],
+  "developer-resources": [
+    "разработчик",
+    "ресурсы",
+    "программист",
+    "материалы",
+    "dev",
+    "assets",
+    "coder",
+    "materials"
+  ],
+  "device-rotate": [
+    "устройство",
+    "повернуть",
+    "гаджет",
+    "вращать",
+    "gadget",
+    "turn",
+    "spin"
+  ],
+  "devices": [
+    "устройства",
+    "гаджеты",
+    "gadgets"
+  ],
+  "dial-10": [
+    "набор",
+    "циферблат",
+    "номеронабиратель",
+    "keypad",
+    "number"
+  ],
+  "dial-5": [
+    "набор",
+    "циферблат",
+    "номеронабиратель",
+    "keypad",
+    "number"
+  ],
+  "dialogue": [
+    "диалог",
+    "разговор",
+    "беседа",
+    "conversation",
+    "dialog"
+  ],
+  "dialogue-1": [
+    "диалог",
+    "разговор",
+    "беседа",
+    "conversation",
+    "dialog"
+  ],
+  "diamond": [
+    "бриллиант",
+    "алмаз",
+    "ромб",
+    "gem",
+    "premium"
+  ],
+  "digits-24": [
+    "цифры",
+    "числа",
+    "numbers"
+  ],
+  "digits123": [
+    "цифры",
+    "числа",
+    "числовой",
+    "numbers",
+    "numeric",
+    "digits"
+  ],
+  "directline": [
+    "прямая линия",
+    "открытая линия",
+    "direct line",
+    "support"
+  ],
+  "disconnection": [
+    "отключение",
+    "разрыв",
+    "disconnect",
+    "offline"
+  ],
+  "disk": [
+    "диск",
+    "хранилище",
+    "файлы",
+    "drive",
+    "storage",
+    "files"
+  ],
+  "disk-dark": [
+    "диск",
+    "хранилище",
+    "файлы",
+    "drive",
+    "storage",
+    "files"
+  ],
+  "disk-shared": [
+    "диск",
+    "общий",
+    "хранилище",
+    "совместный",
+    "файлы",
+    "доступ",
+    "drive",
+    "sharing",
+    "storage",
+    "access",
+    "files"
+  ],
+  "dislike": [
+    "дизлайк",
+    "не нравится",
+    "thumbs down",
+    "unlike"
+  ],
+  "distribution": [
+    "распределение",
+    "рассылка",
+    "allocation",
+    "spread"
+  ],
+  "doc": [
+    "документ",
+    "док",
+    "document",
+    "word"
+  ],
+  "document": [
+    "документ",
+    "файл",
+    "бумага",
+    "doc",
+    "paper",
+    "file"
+  ],
+  "document-plus": [
+    "документ",
+    "плюс",
+    "файл",
+    "добавить",
+    "бумага",
+    "создать",
+    "новый",
+    "doc",
+    "add",
+    "paper",
+    "new",
+    "file",
+    "create"
+  ],
+  "document-sign": [
+    "документ",
+    "подпись",
+    "файл",
+    "знак",
+    "бумага",
+    "подписать",
+    "doc",
+    "signature",
+    "paper",
+    "mark",
+    "file"
+  ],
+  "document-stream": [
+    "документ",
+    "поток",
+    "файл",
+    "бумага",
+    "doc",
+    "flow",
+    "paper",
+    "feed",
+    "file"
+  ],
+  "document-update": [
+    "документ",
+    "обновить",
+    "файл",
+    "обновление",
+    "бумага",
+    "doc",
+    "refresh",
+    "paper",
+    "upgrade",
+    "file"
+  ],
+  "docx": [
+    "ворд",
+    "документ",
+    "текст",
+    "файл",
+    "word",
+    "document",
+    "microsoft",
+    "text"
+  ],
+  "dod": [
+    "дод",
+    "критерий готовности",
+    "definition of done"
+  ],
+  "donation": [
+    "пожертвование",
+    "донат",
+    "charity",
+    "gift"
+  ],
+  "done-dark": [
+    "готово",
+    "выполнено",
+    "complete",
+    "finished"
+  ],
+  "door-opened": [
+    "дверь",
+    "открытый",
+    "вход",
+    "раскрытый",
+    "выход",
+    "exit",
+    "open",
+    "entrance",
+    "gate"
+  ],
+  "dotenv": [
+    "переменные окружения",
+    "конфиг",
+    "окружение",
+    "env",
+    "environment",
+    "config",
+    "secrets"
+  ],
+  "dots": [
+    "точки",
+    "многоточие",
+    "more",
+    "ellipsis"
+  ],
+  "dots-black": [
+    "точки",
+    "многоточие",
+    "more",
+    "ellipsis"
+  ],
+  "double-arrow-counter-clockwise-scrum": [
+    "двойной",
+    "стрелка",
+    "счетчик",
+    "по часовой стрелке",
+    "скрам",
+    "двойная",
+    "направление",
+    "против",
+    "two",
+    "pointer",
+    "count",
+    "rotate",
+    "sprint",
+    "dual"
+  ],
+  "double-check": [
+    "двойной",
+    "галочка",
+    "двойная",
+    "проверить",
+    "готово",
+    "подтвердить",
+    "two",
+    "tick",
+    "dual",
+    "done",
+    "ok",
+    "verify"
+  ],
+  "double-chevrons-left": [
+    "двойной",
+    "шевроны",
+    "влево",
+    "двойная",
+    "стрелки",
+    "слева",
+    "налево",
+    "two",
+    "arrows",
+    "back",
+    "dual",
+    "previous"
+  ],
+  "double-chevrons-right": [
+    "двойной",
+    "шевроны",
+    "вправо",
+    "двойная",
+    "стрелки",
+    "справа",
+    "направо",
+    "two",
+    "arrows",
+    "forward",
+    "dual",
+    "next"
+  ],
+  "double-gis": [
+    "двойной",
+    "двойная",
+    "two",
+    "dual"
+  ],
+  "double-rhombus": [
+    "двойной",
+    "двойная",
+    "two",
+    "dual"
+  ],
+  "download": [
+    "скачать",
+    "загрузить",
+    "загрузка",
+    "save",
+    "import"
+  ],
+  "download-2": [
+    "скачать",
+    "загрузить",
+    "загрузка",
+    "save",
+    "import"
+  ],
+  "download-3": [
+    "скачать",
+    "загрузить",
+    "загрузка",
+    "save",
+    "import"
+  ],
+  "download-black": [
+    "скачать",
+    "загрузить",
+    "загрузка",
+    "save",
+    "import"
+  ],
+  "download-double": [
+    "скачать",
+    "двойной",
+    "загрузить",
+    "двойная",
+    "загрузка",
+    "save",
+    "two",
+    "import",
+    "dual"
+  ],
+  "drag": [
+    "перетащить",
+    "перемещение",
+    "move",
+    "drop"
+  ],
+  "drawer": [
+    "ящик",
+    "выдвижной ящик",
+    "cabinet",
+    "storage"
+  ],
+  "dropbox": [
+    "дропбокс",
+    "облачное хранилище",
+    "файлы",
+    "облако",
+    "cloud storage",
+    "files",
+    "sync",
+    "sharing"
+  ],
+  "duplicate": [
+    "дубликат",
+    "копия",
+    "дублировать",
+    "copy",
+    "clone"
+  ],
+  "earth": [
+    "земля",
+    "глобус",
+    "планета",
+    "globe",
+    "world",
+    "planet"
+  ],
+  "earth-language": [
+    "земля",
+    "язык",
+    "глобус",
+    "локализация",
+    "планета",
+    "globe",
+    "locale",
+    "world",
+    "translate",
+    "planet"
+  ],
+  "earth-time": [
+    "земля",
+    "время",
+    "глобус",
+    "часы",
+    "планета",
+    "globe",
+    "clock",
+    "world",
+    "duration",
+    "planet"
+  ],
+  "earth-with-check": [
+    "земля",
+    "галочка",
+    "глобус",
+    "проверить",
+    "планета",
+    "готово",
+    "подтвердить",
+    "globe",
+    "tick",
+    "world",
+    "done",
+    "planet",
+    "ok"
+  ],
+  "earth-with-clock": [
+    "земля",
+    "часы",
+    "глобус",
+    "время",
+    "планета",
+    "globe",
+    "time",
+    "world",
+    "watch",
+    "planet"
+  ],
+  "earth-with-cross": [
+    "земля",
+    "крест",
+    "глобус",
+    "закрыть",
+    "планета",
+    "отмена",
+    "удалить",
+    "globe",
+    "close",
+    "world",
+    "cancel",
+    "planet",
+    "x"
+  ],
+  "earth-with-stop": [
+    "земля",
+    "стоп",
+    "глобус",
+    "остановить",
+    "планета",
+    "globe",
+    "halt",
+    "world",
+    "end",
+    "planet"
+  ],
+  "earth-with-tree": [
+    "земля",
+    "дерево",
+    "глобус",
+    "иерархия",
+    "планета",
+    "globe",
+    "hierarchy",
+    "world",
+    "planet"
+  ],
+  "edit": [
+    "редактировать",
+    "изменить",
+    "правка",
+    "change",
+    "modify",
+    "pencil"
+  ],
+  "edit-black": [
+    "редактировать",
+    "изменить",
+    "правка",
+    "change",
+    "modify",
+    "pencil"
+  ],
+  "edit-menu": [
+    "редактировать",
+    "меню",
+    "изменить",
+    "список",
+    "правка",
+    "change",
+    "navigation",
+    "modify",
+    "list",
+    "pencil"
+  ],
+  "edit-pencil": [
+    "редактировать",
+    "карандаш",
+    "изменить",
+    "правка",
+    "change",
+    "modify",
+    "write",
+    "pen"
+  ],
+  "editorconfig": [
+    "эдиторконфиг",
+    "настройки редактора",
+    "конфиг",
+    "config",
+    "code style",
+    "settings"
+  ],
+  "edna": [
+    "эдна",
+    "мессенджер",
+    "omnichannel",
+    "чат",
+    "messenger",
+    "chat",
+    "communication"
+  ],
+  "elements": [
+    "элементы",
+    "компоненты",
+    "components",
+    "items"
+  ],
+  "elixir": [
+    "эликсир",
+    "язык программирования",
+    "programming language",
+    "functional",
+    "beam"
+  ],
+  "email": [
+    "почта",
+    "письмо",
+    "электронная почта",
+    "mail",
+    "message",
+    "envelope"
+  ],
+  "employee": [
+    "сотрудник",
+    "работник",
+    "worker",
+    "staff",
+    "person"
+  ],
+  "empty": [
+    "пустой",
+    "пусто",
+    "blank",
+    "void"
+  ],
+  "empty-battery": [
+    "пустой",
+    "батарея",
+    "пусто",
+    "заряд",
+    "аккумулятор",
+    "blank",
+    "charge",
+    "void",
+    "power",
+    "energy"
+  ],
+  "empty-message": [
+    "пустой",
+    "сообщение",
+    "пусто",
+    "письмо",
+    "чат",
+    "blank",
+    "msg",
+    "void",
+    "text",
+    "dm"
+  ],
+  "enclose-text-in-code-tag": [
+    "обернуть",
+    "текст",
+    "код",
+    "тег",
+    "вставить",
+    "надпись",
+    "программирование",
+    "метка",
+    "wrap",
+    "label",
+    "programming",
+    "string",
+    "develop",
+    "mark"
+  ],
+  "enterprise": [
+    "предприятие",
+    "корпорация",
+    "corporate",
+    "business"
+  ],
+  "envelope": [
+    "конверт",
+    "письмо",
+    "почта",
+    "mail",
+    "message"
+  ],
+  "epics": [
+    "эпики",
+    "крупные задачи",
+    "epic",
+    "stories"
+  ],
+  "equipment-rent": [
+    "оборудование",
+    "аренда",
+    "техника",
+    "прокат",
+    "gear",
+    "lease",
+    "hardware",
+    "hire"
+  ],
+  "eraser": [
+    "ластик",
+    "стереть",
+    "clear",
+    "remove"
+  ],
+  "erlang": [
+    "эрланг",
+    "язык программирования",
+    "programming language",
+    "functional",
+    "beam"
+  ],
+  "eslint": [
+    "эслинт",
+    "линтер",
+    "проверка кода",
+    "linter",
+    "javascript",
+    "code quality"
+  ],
+  "estore": [
+    "интернет-магазин",
+    "магазин",
+    "shop",
+    "store",
+    "ecommerce"
+  ],
+  "evernote": [
+    "эвернот",
+    "заметки",
+    "блокнот",
+    "записная книжка",
+    "notes",
+    "notebook",
+    "notepad",
+    "memo"
+  ],
+  "exclusion-list": [
+    "исключение",
+    "список",
+    "перечень",
+    "exclude",
+    "items",
+    "blacklist",
+    "menu"
+  ],
+  "expand": [
+    "развернуть",
+    "раскрыть",
+    "увеличить",
+    "enlarge",
+    "unfold",
+    "maximize"
+  ],
+  "expand-1": [
+    "развернуть",
+    "раскрыть",
+    "увеличить",
+    "enlarge",
+    "unfold",
+    "maximize"
+  ],
+  "expand-diagonal": [
+    "развернуть",
+    "диагональ",
+    "раскрыть",
+    "по диагонали",
+    "увеличить",
+    "enlarge",
+    "corner",
+    "unfold",
+    "maximize"
+  ],
+  "expand-to-full-screen": [
+    "развернуть",
+    "полный",
+    "экран",
+    "раскрыть",
+    "во весь экран",
+    "монитор",
+    "увеличить",
+    "enlarge",
+    "entire",
+    "display",
+    "unfold",
+    "fullscreen",
+    "monitor"
+  ],
+  "expert-mode": [
+    "эксперт",
+    "режим",
+    "специалист",
+    "professional",
+    "state",
+    "specialist",
+    "view"
+  ],
+  "expert-services": [
+    "эксперт",
+    "услуги",
+    "специалист",
+    "сервисы",
+    "professional",
+    "service",
+    "specialist",
+    "offerings"
+  ],
+  "eye-closed-black": [
+    "глаз",
+    "закрытый",
+    "просмотр",
+    "закрыто",
+    "view",
+    "shut",
+    "see",
+    "visible"
+  ],
+  "eye-opened-black": [
+    "глаз",
+    "открытый",
+    "просмотр",
+    "раскрытый",
+    "view",
+    "open",
+    "see",
+    "visible"
+  ],
+  "face-ident": [
+    "лицо",
+    "идентификация",
+    "face-id",
+    "person",
+    "identify",
+    "identification",
+    "recognition"
+  ],
+  "facebook": [
+    "фейсбук",
+    "фб",
+    "соцсеть",
+    "мета",
+    "social network",
+    "meta",
+    "social",
+    "fb"
+  ],
+  "facebook-chats": [
+    "чаты",
+    "переписки",
+    "диалоги",
+    "conversations",
+    "messengers"
+  ],
+  "fail": [
+    "неудача",
+    "ошибка",
+    "сбой",
+    "error",
+    "failure"
+  ],
+  "favicon": [
+    "фавикон",
+    "иконка сайта",
+    "site icon",
+    "browser"
+  ],
+  "favorite": [
+    "избранное",
+    "любимое",
+    "star",
+    "bookmark",
+    "like"
+  ],
+  "favorite-0": [
+    "избранное",
+    "любимое",
+    "star",
+    "bookmark",
+    "like"
+  ],
+  "favorite-1": [
+    "избранное",
+    "любимое",
+    "star",
+    "bookmark",
+    "like"
+  ],
+  "favorite-prompt": [
+    "избранное",
+    "промпт",
+    "любимое",
+    "запрос",
+    "подсказка",
+    "star",
+    "query",
+    "bookmark",
+    "instruction",
+    "like",
+    "command"
+  ],
+  "fb": [
+    "фейсбук",
+    "фб",
+    "соцсеть",
+    "мета",
+    "facebook",
+    "social network",
+    "meta",
+    "social"
+  ],
+  "fb-ads": [
+    "реклама фейсбук",
+    "фб реклама",
+    "таргет",
+    "маркетинг",
+    "facebook ads",
+    "advertising",
+    "target",
+    "meta",
+    "marketing"
+  ],
+  "fb-comments": [
+    "комментарии фейсбук",
+    "отзывы",
+    "соцсеть",
+    "facebook comments",
+    "reviews",
+    "social"
+  ],
+  "fb-instagram": [
+    "фейсбук и инстаграм",
+    "мета",
+    "соцсети",
+    "facebook",
+    "meta",
+    "social networks"
+  ],
+  "fb-messenger": [
+    "мессенджер",
+    "chat",
+    "im"
+  ],
+  "feed": [
+    "лента",
+    "новости",
+    "news",
+    "stream",
+    "posts"
+  ],
+  "feed-bold": [
+    "лента",
+    "жирный",
+    "новости",
+    "полужирный",
+    "news",
+    "strong",
+    "stream",
+    "font",
+    "posts"
+  ],
+  "feedback": [
+    "обратная связь",
+    "отзыв",
+    "review",
+    "comment"
+  ],
+  "feedback-form": [
+    "обратная связь",
+    "форма",
+    "отзыв",
+    "анкета",
+    "review",
+    "survey",
+    "comment",
+    "webform"
+  ],
+  "file": [
+    "файл",
+    "документ",
+    "document"
+  ],
+  "file-2": [
+    "файл",
+    "документ",
+    "document",
+    "page"
+  ],
+  "file-3": [
+    "файл",
+    "документ",
+    "document",
+    "page"
+  ],
+  "file-arrow-down": [
+    "файл",
+    "стрелка",
+    "вниз",
+    "документ",
+    "направление",
+    "нижний",
+    "document",
+    "pointer",
+    "bottom",
+    "direction",
+    "lower"
+  ],
+  "file-arrow-top": [
+    "файл",
+    "стрелка",
+    "верх",
+    "документ",
+    "направление",
+    "вверх",
+    "document",
+    "pointer",
+    "up",
+    "direction",
+    "upper"
+  ],
+  "file-check": [
+    "файл проверен",
+    "галочка",
+    "файл",
+    "готово",
+    "document",
+    "verified",
+    "approved"
+  ],
+  "file-check-1": [
+    "файл проверен",
+    "галочка",
+    "файл",
+    "готово",
+    "document",
+    "verified",
+    "approved"
+  ],
+  "file-delete": [
+    "файл",
+    "удалить",
+    "документ",
+    "убрать",
+    "стереть",
+    "document",
+    "remove",
+    "erase",
+    "trash"
+  ],
+  "file-download": [
+    "файл",
+    "скачать",
+    "документ",
+    "загрузить",
+    "загрузка",
+    "document",
+    "save",
+    "import"
+  ],
+  "file-sync": [
+    "файл",
+    "синхронизация",
+    "документ",
+    "обновить",
+    "document",
+    "synchronize",
+    "refresh"
+  ],
+  "file-upload": [
+    "файл",
+    "загрузить",
+    "документ",
+    "выгрузить",
+    "отправить",
+    "document",
+    "export",
+    "send"
+  ],
+  "file-with-check": [
+    "файл проверен",
+    "галочка",
+    "файл",
+    "готово",
+    "document",
+    "verified",
+    "approved"
+  ],
+  "file-with-check-2": [
+    "файл проверен",
+    "галочка",
+    "файл",
+    "готово",
+    "document",
+    "verified",
+    "approved"
+  ],
+  "file-with-clock": [
+    "файл",
+    "часы",
+    "документ",
+    "время",
+    "document",
+    "time",
+    "watch"
+  ],
+  "filial-network": [
+    "филиал",
+    "сеть",
+    "отделение",
+    "связь",
+    "branch",
+    "net",
+    "web"
+  ],
+  "filter": [
+    "фильтр",
+    "отфильтровать",
+    "sort",
+    "funnel",
+    "refine"
+  ],
+  "filter-1": [
+    "фильтр",
+    "отфильтровать",
+    "sort",
+    "funnel",
+    "refine"
+  ],
+  "filter-2": [
+    "фильтр",
+    "отфильтровать",
+    "sort",
+    "funnel",
+    "refine"
+  ],
+  "filter-2-lines": [
+    "фильтр",
+    "линии",
+    "отфильтровать",
+    "строки",
+    "sort",
+    "rows",
+    "funnel",
+    "strokes",
+    "refine"
+  ],
+  "filter-by-name": [
+    "фильтр",
+    "отфильтровать",
+    "sort",
+    "funnel",
+    "refine"
+  ],
+  "filter-funnel": [
+    "фильтр",
+    "воронка",
+    "отфильтровать",
+    "продажи",
+    "sort",
+    "sales",
+    "refine",
+    "pipeline"
+  ],
+  "filter-plus": [
+    "фильтр",
+    "плюс",
+    "отфильтровать",
+    "добавить",
+    "создать",
+    "новый",
+    "sort",
+    "add",
+    "funnel",
+    "new",
+    "refine",
+    "create"
+  ],
+  "find-filters": [
+    "фильтры",
+    "funnel"
+  ],
+  "fingerprint": [
+    "отпечаток пальца",
+    "биометрия",
+    "biometric",
+    "touch id"
+  ],
+  "fire": [
+    "огонь",
+    "горячий",
+    "пламя",
+    "flame",
+    "hot",
+    "urgent"
+  ],
+  "fire-solid": [
+    "огонь",
+    "сплошной",
+    "горячий",
+    "закрашенный",
+    "пламя",
+    "flame",
+    "filled",
+    "hot",
+    "urgent"
+  ],
+  "flag": [
+    "флаг",
+    "флажок",
+    "метка",
+    "mark",
+    "banner"
+  ],
+  "flag-1": [
+    "флаг",
+    "флажок",
+    "метка",
+    "mark",
+    "banner"
+  ],
+  "flag-2": [
+    "флаг",
+    "флажок",
+    "метка",
+    "mark",
+    "banner"
+  ],
+  "flag-with-cross": [
+    "флаг",
+    "крест",
+    "флажок",
+    "закрыть",
+    "метка",
+    "отмена",
+    "удалить",
+    "mark",
+    "close",
+    "banner",
+    "cancel",
+    "x",
+    "delete"
+  ],
+  "flipchart": [
+    "флипчарт",
+    "доска",
+    "презентация",
+    "whiteboard",
+    "presentation"
+  ],
+  "folder": [
+    "папка",
+    "каталог",
+    "directory",
+    "dir"
+  ],
+  "folder-24": [
+    "папка",
+    "каталог",
+    "directory",
+    "dir"
+  ],
+  "folder-curved-arrow": [
+    "папка",
+    "изогнутая",
+    "стрелка",
+    "каталог",
+    "дугой",
+    "направление",
+    "directory",
+    "arc",
+    "pointer",
+    "dir",
+    "bend",
+    "direction"
+  ],
+  "folder-empty": [
+    "папка",
+    "пустой",
+    "каталог",
+    "пусто",
+    "directory",
+    "blank",
+    "dir",
+    "void"
+  ],
+  "folder-info": [
+    "папка",
+    "информация",
+    "каталог",
+    "справка",
+    "инфо",
+    "directory",
+    "information",
+    "dir",
+    "about",
+    "details"
+  ],
+  "folder-left-arrow": [
+    "папка",
+    "влево",
+    "стрелка",
+    "каталог",
+    "слева",
+    "направление",
+    "налево",
+    "directory",
+    "back",
+    "pointer",
+    "dir",
+    "previous",
+    "direction"
+  ],
+  "folder-plus": [
+    "папка",
+    "плюс",
+    "каталог",
+    "добавить",
+    "создать",
+    "новый",
+    "directory",
+    "add",
+    "dir",
+    "new",
+    "create"
+  ],
+  "folder-right-arrow": [
+    "папка",
+    "вправо",
+    "стрелка",
+    "каталог",
+    "справа",
+    "направление",
+    "направо",
+    "directory",
+    "forward",
+    "pointer",
+    "dir",
+    "next",
+    "direction"
+  ],
+  "folder-shared": [
+    "папка",
+    "общий",
+    "каталог",
+    "совместный",
+    "доступ",
+    "directory",
+    "sharing",
+    "dir",
+    "access"
+  ],
+  "folder-shared-2": [
+    "папка",
+    "общий",
+    "каталог",
+    "совместный",
+    "доступ",
+    "directory",
+    "sharing",
+    "dir",
+    "access"
+  ],
+  "folder-shared-3": [
+    "папка",
+    "общий",
+    "каталог",
+    "совместный",
+    "доступ",
+    "directory",
+    "sharing",
+    "dir",
+    "access"
+  ],
+  "folder-success": [
+    "папка",
+    "успех",
+    "каталог",
+    "успешно",
+    "directory",
+    "ok",
+    "dir",
+    "done"
+  ],
+  "folder-with-card": [
+    "папка",
+    "карта",
+    "каталог",
+    "карточка",
+    "directory",
+    "credit card",
+    "dir",
+    "bank card"
+  ],
+  "folders": [
+    "папки",
+    "каталоги",
+    "directories"
+  ],
+  "follow-black": [
+    "следить",
+    "подписаться",
+    "watch",
+    "subscribe"
+  ],
+  "font-size": [
+    "шрифт",
+    "размер",
+    "typeface",
+    "dimension",
+    "text"
+  ],
+  "form": [
+    "форма",
+    "анкета",
+    "survey",
+    "webform"
+  ],
+  "form-settings": [
+    "форма",
+    "настройки",
+    "анкета",
+    "параметры",
+    "конфигурация",
+    "survey",
+    "options",
+    "webform",
+    "preferences",
+    "gear"
+  ],
+  "formatting": [
+    "форматирование",
+    "format",
+    "style"
+  ],
+  "fortran": [
+    "фортран",
+    "язык программирования",
+    "programming language",
+    "scientific"
+  ],
+  "forward": [
+    "вперед",
+    "переслать",
+    "next",
+    "fast forward",
+    "send"
+  ],
+  "forward-1": [
+    "вперед",
+    "переслать",
+    "next",
+    "fast forward",
+    "send"
+  ],
+  "forward-10": [
+    "вперед",
+    "переслать",
+    "next",
+    "fast forward",
+    "send"
+  ],
+  "forward-15": [
+    "вперед",
+    "переслать",
+    "next",
+    "fast forward",
+    "send"
+  ],
+  "forward-2": [
+    "вперед",
+    "переслать",
+    "next",
+    "fast forward",
+    "send"
+  ],
+  "forward-2-1": [
+    "вперед",
+    "переслать",
+    "next",
+    "fast forward",
+    "send"
+  ],
+  "forward-3": [
+    "вперед",
+    "переслать",
+    "next",
+    "fast forward",
+    "send"
+  ],
+  "forward-dark": [
+    "вперед",
+    "переслать",
+    "next",
+    "fast forward",
+    "send"
+  ],
+  "four-cubes-1": [
+    "четыре",
+    "кубы",
+    "кубики",
+    "блоки",
+    "4",
+    "blocks",
+    "3d"
+  ],
+  "four-cubes-2": [
+    "четыре",
+    "кубы",
+    "кубики",
+    "блоки",
+    "4",
+    "blocks",
+    "3d"
+  ],
+  "freelance": [
+    "фриланс",
+    "удаленная работа",
+    "freelancer",
+    "remote"
+  ],
+  "fsharp": [
+    "эф шарп",
+    "язык программирования",
+    "дотнет",
+    "f#",
+    "programming language",
+    "dotnet"
+  ],
+  "full-battery": [
+    "полный",
+    "батарея",
+    "во весь экран",
+    "заряд",
+    "аккумулятор",
+    "entire",
+    "charge",
+    "fullscreen",
+    "power",
+    "energy"
+  ],
+  "full-screen": [
+    "полный",
+    "экран",
+    "во весь экран",
+    "монитор",
+    "entire",
+    "display",
+    "fullscreen",
+    "monitor"
+  ],
+  "funnel": [
+    "воронка",
+    "фильтр",
+    "продажи",
+    "filter",
+    "sales",
+    "pipeline"
+  ],
+  "funnel-1": [
+    "воронка",
+    "фильтр",
+    "продажи",
+    "filter",
+    "sales",
+    "pipeline"
+  ],
+  "funnel-2": [
+    "воронка",
+    "фильтр",
+    "продажи",
+    "filter",
+    "sales",
+    "pipeline"
+  ],
+  "funnels": [
+    "воронки",
+    "фильтры",
+    "pipelines",
+    "filters"
+  ],
+  "g-assistant": [
+    "гугл ассистент",
+    "голосовой помощник",
+    "ассистент",
+    "google assistant",
+    "voice assistant",
+    "bot",
+    "ai"
+  ],
+  "gantt-graphs": [
+    "гант",
+    "графики",
+    "диаграмма ганта",
+    "диаграммы",
+    "chart",
+    "charts",
+    "timeline",
+    "diagrams"
+  ],
+  "gift": [
+    "подарок",
+    "бонус",
+    "present",
+    "bonus"
+  ],
+  "git": [
+    "гит",
+    "система контроля версий",
+    "vcs",
+    "version control"
+  ],
+  "github": [
+    "гитхаб",
+    "репозиторий",
+    "git",
+    "code",
+    "repository"
+  ],
+  "glasses": [
+    "очки",
+    "spectacles",
+    "view"
+  ],
+  "gleam": [
+    "глим",
+    "язык программирования",
+    "programming language",
+    "functional"
+  ],
+  "globe": [
+    "глобус",
+    "мир",
+    "интернет",
+    "world",
+    "earth",
+    "web"
+  ],
+  "globe-extranet": [
+    "глобус",
+    "экстранет",
+    "мир",
+    "внешний доступ",
+    "интернет",
+    "world",
+    "external",
+    "earth",
+    "portal",
+    "web"
+  ],
+  "go": [
+    "перейти",
+    "идти",
+    "вперед",
+    "open",
+    "navigate"
+  ],
+  "go-to": [
+    "перейти",
+    "идти",
+    "вперед",
+    "open",
+    "navigate"
+  ],
+  "go-to-message": [
+    "перейти",
+    "сообщение",
+    "идти",
+    "письмо",
+    "вперед",
+    "чат",
+    "open",
+    "msg",
+    "navigate",
+    "text",
+    "dm"
+  ],
+  "google": [
+    "гугл",
+    "поиск",
+    "search",
+    "service"
+  ],
+  "google-ads": [
+    "гугл",
+    "поиск",
+    "search",
+    "service"
+  ],
+  "google-maps": [
+    "гугл",
+    "поиск",
+    "search",
+    "service"
+  ],
+  "googleads": [
+    "гугл реклама",
+    "реклама",
+    "контекстная реклама",
+    "маркетинг",
+    "google ads",
+    "adwords",
+    "advertising",
+    "marketing"
+  ],
+  "graduation-cap": [
+    "выпуск",
+    "шапка",
+    "обучение",
+    "колпак",
+    "education",
+    "hat",
+    "study"
+  ],
+  "graphs-diagram": [
+    "графики",
+    "диаграмма",
+    "диаграммы",
+    "схема",
+    "charts",
+    "chart",
+    "diagrams",
+    "scheme"
+  ],
+  "graphs-settings": [
+    "графики",
+    "настройки",
+    "диаграммы",
+    "параметры",
+    "конфигурация",
+    "charts",
+    "options",
+    "diagrams",
+    "preferences",
+    "gear"
+  ],
+  "green-sberbank": [
+    "сбербанк",
+    "зеленый сбер",
+    "банк",
+    "оплата",
+    "sber",
+    "bank",
+    "payment",
+    "pay"
+  ],
+  "grid": [
+    "сетка",
+    "таблица",
+    "table",
+    "layout"
+  ],
+  "group": [
+    "группа",
+    "команда",
+    "team",
+    "collective"
+  ],
+  "groupme": [
+    "групми",
+    "мессенджер",
+    "групповой чат",
+    "messenger",
+    "group chat",
+    "chat",
+    "microsoft"
+  ],
+  "half-battery-black": [
+    "половина",
+    "батарея",
+    "наполовину",
+    "заряд",
+    "аккумулятор",
+    "partial",
+    "charge",
+    "power",
+    "energy"
+  ],
+  "half-numbers": [
+    "половина",
+    "числа",
+    "наполовину",
+    "цифры",
+    "partial",
+    "digits"
+  ],
+  "hamburger-menu": [
+    "гамбургер",
+    "меню",
+    "список",
+    "navigation",
+    "list"
+  ],
+  "handshake": [
+    "рукопожатие",
+    "договор",
+    "партнерство",
+    "deal",
+    "agreement",
+    "partner"
+  ],
+  "haskell": [
+    "хаскель",
+    "язык программирования",
+    "programming language",
+    "functional"
+  ],
+  "header": [
+    "заголовок",
+    "шапка",
+    "title",
+    "heading"
+  ],
+  "headset": [
+    "гарнитура",
+    "наушники",
+    "поддержка",
+    "headphones",
+    "support",
+    "operator"
+  ],
+  "heart": [
+    "сердце",
+    "любовь",
+    "лайк",
+    "love",
+    "like",
+    "favorite"
+  ],
+  "help": [
+    "помощь",
+    "справка",
+    "поддержка",
+    "support",
+    "faq",
+    "question"
+  ],
+  "help-black": [
+    "помощь",
+    "справка",
+    "поддержка",
+    "support",
+    "faq",
+    "question"
+  ],
+  "high-temperature": [
+    "высокий",
+    "температура",
+    "высокая",
+    "жара",
+    "tall",
+    "heat",
+    "thermometer"
+  ],
+  "home": [
+    "дом",
+    "главная",
+    "домой",
+    "house",
+    "main",
+    "start"
+  ],
+  "home-page": [
+    "дом",
+    "страница",
+    "главная",
+    "лист",
+    "домой",
+    "house",
+    "sheet",
+    "main",
+    "site",
+    "start"
+  ],
+  "home-star": [
+    "дом",
+    "звезда",
+    "главная",
+    "домой",
+    "house",
+    "favorite",
+    "main",
+    "rating",
+    "start"
+  ],
+  "hourglass": [
+    "песочные часы",
+    "ожидание",
+    "sandglass",
+    "timer",
+    "wait"
+  ],
+  "hourglass-sandglass": [
+    "песочные часы",
+    "ожидание",
+    "timer",
+    "wait"
+  ],
+  "hr": [
+    "кадры",
+    "персонал",
+    "human resources",
+    "staff"
+  ],
+  "hr-automation": [
+    "кадры",
+    "автоматизация",
+    "персонал",
+    "роботы",
+    "human resources",
+    "robots",
+    "staff",
+    "auto"
+  ],
+  "idea-lamp": [
+    "идея",
+    "лампа",
+    "лампочка",
+    "bulb",
+    "light",
+    "insight"
+  ],
+  "image": [
+    "изображение",
+    "картинка",
+    "фото",
+    "picture",
+    "photo"
+  ],
+  "image-rotate-left": [
+    "изображение",
+    "повернуть",
+    "влево",
+    "картинка",
+    "вращать",
+    "слева",
+    "фото",
+    "налево",
+    "picture",
+    "turn",
+    "back",
+    "photo",
+    "spin",
+    "previous"
+  ],
+  "image-rotate-right": [
+    "изображение",
+    "повернуть",
+    "вправо",
+    "картинка",
+    "вращать",
+    "справа",
+    "фото",
+    "направо",
+    "picture",
+    "turn",
+    "forward",
+    "photo",
+    "spin",
+    "next"
+  ],
+  "imessage": [
+    "аймесседж",
+    "сообщения эппл",
+    "мессенджер",
+    "айфон",
+    "apple messages",
+    "messenger",
+    "ios",
+    "chat"
+  ],
+  "img": [
+    "изображение",
+    "картинка",
+    "picture",
+    "image"
+  ],
+  "img-format": [
+    "изображение",
+    "формат",
+    "картинка",
+    "форматирование",
+    "picture",
+    "style",
+    "image"
+  ],
+  "implementation-request": [
+    "внедрение",
+    "запрос",
+    "реализация",
+    "заявка",
+    "deploy",
+    "query",
+    "rollout",
+    "ticket"
+  ],
+  "import": [
+    "импорт",
+    "загрузить",
+    "load",
+    "upload"
+  ],
+  "incoming-call": [
+    "входящий",
+    "звонок",
+    "позвонить",
+    "вызов",
+    "inbound",
+    "phone",
+    "receive",
+    "dial",
+    "ring"
+  ],
+  "incoming-call-sound-on": [
+    "входящий",
+    "звонок",
+    "звук",
+    "позвонить",
+    "аудио",
+    "вызов",
+    "inbound",
+    "phone",
+    "audio",
+    "receive",
+    "dial",
+    "volume"
+  ],
+  "increase-indent": [
+    "увеличить",
+    "отступ",
+    "больше",
+    "абзац",
+    "добавить",
+    "raise",
+    "tab",
+    "more",
+    "paragraph",
+    "grow"
+  ],
+  "indent": [
+    "отступ",
+    "абзац",
+    "tab",
+    "paragraph"
+  ],
+  "info": [
+    "информация",
+    "справка",
+    "инфо",
+    "information",
+    "about",
+    "details"
+  ],
+  "info-1": [
+    "информация",
+    "справка",
+    "инфо",
+    "information",
+    "about",
+    "details"
+  ],
+  "info-black": [
+    "информация",
+    "справка",
+    "инфо",
+    "information",
+    "about",
+    "details"
+  ],
+  "info-circle": [
+    "информация",
+    "круг",
+    "справка",
+    "кружок",
+    "инфо",
+    "information",
+    "round",
+    "about",
+    "ring",
+    "details"
+  ],
+  "info-circle-plus": [
+    "информация",
+    "круг",
+    "плюс",
+    "справка",
+    "кружок",
+    "добавить",
+    "инфо",
+    "создать",
+    "information",
+    "round",
+    "add",
+    "about",
+    "ring",
+    "new"
+  ],
+  "infocall": [
+    "инфозвонок",
+    "обзвон",
+    "оповещение",
+    "autodial",
+    "broadcast"
+  ],
+  "insert": [
+    "вставить",
+    "вставка",
+    "paste",
+    "add"
+  ],
+  "insert-emoji": [
+    "вставить",
+    "эмодзи",
+    "вставка",
+    "смайлик",
+    "paste",
+    "smiley",
+    "add",
+    "emoticon"
+  ],
+  "insert-hyperlink": [
+    "вставить",
+    "ссылка",
+    "вставка",
+    "гиперссылка",
+    "paste",
+    "url",
+    "add",
+    "link"
+  ],
+  "insert-image": [
+    "вставить",
+    "изображение",
+    "вставка",
+    "картинка",
+    "фото",
+    "paste",
+    "picture",
+    "add",
+    "photo"
+  ],
+  "insert-spoiler": [
+    "спойлер",
+    "скрыть текст",
+    "вставить",
+    "hide text",
+    "collapse",
+    "reveal"
+  ],
+  "insert-video": [
+    "вставить",
+    "видео",
+    "вставка",
+    "ролик",
+    "видеозвонок",
+    "paste",
+    "movie",
+    "add",
+    "clip",
+    "film"
+  ],
+  "instagram": [
+    "инстаграм",
+    "инста",
+    "соцсеть",
+    "фото",
+    "social network",
+    "photo",
+    "meta",
+    "insta"
+  ],
+  "instagram-direct": [
+    "директ инстаграм",
+    "личные сообщения",
+    "переписка",
+    "dm",
+    "private messages",
+    "chat"
+  ],
+  "instagram-facebook": [
+    "инстаграм и фейсбук",
+    "мета",
+    "соцсети",
+    "meta",
+    "social networks"
+  ],
+  "instagram-fb": [
+    "инстаграм и фейсбук",
+    "мета",
+    "соцсети",
+    "facebook",
+    "meta",
+    "social networks"
+  ],
+  "instagram-sh": [
+    "инстаграм шопинг",
+    "магазин инстаграм",
+    "продажи",
+    "instagram shopping",
+    "shop",
+    "sales",
+    "catalog"
+  ],
+  "interconnection": [
+    "взаимосвязь",
+    "интеграция",
+    "integration",
+    "link"
+  ],
+  "interval": [
+    "интервал",
+    "период",
+    "period",
+    "gap"
+  ],
+  "intranet": [
+    "интранет",
+    "корпоративный портал",
+    "portal",
+    "corporate"
+  ],
+  "inventory-management": [
+    "инвентаризация",
+    "управление",
+    "склад",
+    "учет",
+    "stock",
+    "control",
+    "warehouse",
+    "admin",
+    "stocktaking"
+  ],
+  "invite-mail": [
+    "пригласить",
+    "почта",
+    "приглашение",
+    "письмо",
+    "email",
+    "invitation",
+    "envelope",
+    "add",
+    "message",
+    "e-mail"
+  ],
+  "invoice": [
+    "счет",
+    "накладная",
+    "bill",
+    "payment"
+  ],
+  "ip": [
+    "ай-пи",
+    "сеть",
+    "адрес",
+    "network",
+    "address"
+  ],
+  "ip-address": [
+    "ай-пи",
+    "адрес",
+    "сеть",
+    "местоположение",
+    "network",
+    "location"
+  ],
+  "ip-address-crossed": [
+    "ай-пи",
+    "адрес",
+    "сеть",
+    "местоположение",
+    "network",
+    "location"
+  ],
+  "issue-invoice": [
+    "выставить",
+    "счет",
+    "проблема",
+    "накладная",
+    "тикет",
+    "create",
+    "bill",
+    "ticket",
+    "payment",
+    "bug"
+  ],
+  "italic": [
+    "курсив",
+    "наклонный",
+    "font",
+    "slanted"
+  ],
+  "item": [
+    "элемент",
+    "пункт",
+    "предмет",
+    "element",
+    "entry",
+    "thing"
+  ],
+  "js": [
+    "джаваскрипт",
+    "язык программирования",
+    "скрипт",
+    "javascript",
+    "programming language",
+    "script",
+    "ecmascript"
+  ],
+  "julia": [
+    "джулия",
+    "язык программирования",
+    "programming language",
+    "scientific"
+  ],
+  "justify": [
+    "по ширине",
+    "выравнивание",
+    "alignment",
+    "block"
+  ],
+  "kanban": [
+    "канбан",
+    "доска",
+    "задачи",
+    "board",
+    "cards",
+    "agile"
+  ],
+  "key": [
+    "ключ",
+    "пароль",
+    "доступ",
+    "password",
+    "access",
+    "lock"
+  ],
+  "keyboard": [
+    "клавиатура",
+    "ввод",
+    "keys",
+    "typing"
+  ],
+  "keyboard-2": [
+    "клавиатура",
+    "ввод",
+    "keys",
+    "typing"
+  ],
+  "kik": [
+    "кик",
+    "мессенджер",
+    "чат",
+    "messenger",
+    "chat",
+    "im"
+  ],
+  "knowledge-base": [
+    "знания",
+    "база",
+    "база знаний",
+    "основа",
+    "wiki",
+    "foundation",
+    "kb"
+  ],
+  "kotlin": [
+    "котлин",
+    "язык программирования",
+    "андроид",
+    "programming language",
+    "jvm",
+    "android"
+  ],
+  "kufar": [
+    "куфар",
+    "объявления",
+    "маркетплейс",
+    "белоруссия",
+    "classifieds",
+    "marketplace",
+    "belarus"
+  ],
+  "layers": [
+    "слои",
+    "уровни",
+    "stack",
+    "levels"
+  ],
+  "lead": [
+    "лид",
+    "потенциальный клиент",
+    "prospect",
+    "sale"
+  ],
+  "left-align": [
+    "влево",
+    "выравнивание",
+    "слева",
+    "выровнять",
+    "налево",
+    "back",
+    "alignment",
+    "previous",
+    "format"
+  ],
+  "left-right": [
+    "влево",
+    "вправо",
+    "слева",
+    "справа",
+    "налево",
+    "направо",
+    "back",
+    "forward",
+    "previous",
+    "next"
+  ],
+  "left-semicircular-anticlockwise-arrow-1": [
+    "влево",
+    "против часовой стрелки",
+    "стрелка",
+    "слева",
+    "направление",
+    "налево",
+    "back",
+    "rotate",
+    "pointer",
+    "previous",
+    "counter",
+    "direction"
+  ],
+  "left-semicircular-anticlockwise-arrow-2": [
+    "влево",
+    "против часовой стрелки",
+    "стрелка",
+    "слева",
+    "направление",
+    "налево",
+    "back",
+    "rotate",
+    "pointer",
+    "previous",
+    "counter",
+    "direction"
+  ],
+  "left-semicircular-anticlockwise-arrow-3": [
+    "влево",
+    "против часовой стрелки",
+    "стрелка",
+    "слева",
+    "направление",
+    "налево",
+    "back",
+    "rotate",
+    "pointer",
+    "previous",
+    "counter",
+    "direction"
+  ],
+  "left-semicircular-anticlockwise-arrow-4": [
+    "влево",
+    "против часовой стрелки",
+    "стрелка",
+    "слева",
+    "направление",
+    "налево",
+    "back",
+    "rotate",
+    "pointer",
+    "previous",
+    "counter",
+    "direction"
+  ],
+  "let-cat-in": [
+    "впустить",
+    "кот",
+    "пустить",
+    "кошка",
+    "allow",
+    "pet",
+    "animal"
+  ],
+  "letter-sort-down": [
+    "письмо",
+    "сортировка",
+    "вниз",
+    "буква",
+    "упорядочить",
+    "нижний",
+    "сортировать",
+    "mail",
+    "order",
+    "bottom",
+    "character",
+    "arrange",
+    "lower"
+  ],
+  "letter-sort-up": [
+    "письмо",
+    "сортировка",
+    "вверх",
+    "буква",
+    "упорядочить",
+    "верхний",
+    "сортировать",
+    "mail",
+    "order",
+    "top",
+    "character",
+    "arrange",
+    "raise"
+  ],
+  "light-bold": [
+    "свет",
+    "жирный",
+    "легкий",
+    "полужирный",
+    "lamp",
+    "strong",
+    "bright",
+    "font"
+  ],
+  "light-bold-sparkle": [
+    "свет",
+    "жирный",
+    "искра",
+    "легкий",
+    "полужирный",
+    "блеск",
+    "lamp",
+    "strong",
+    "shine",
+    "bright",
+    "font",
+    "magic"
+  ],
+  "lightning-plus": [
+    "молния",
+    "плюс",
+    "быстро",
+    "добавить",
+    "создать",
+    "новый",
+    "flash",
+    "add",
+    "fast",
+    "new",
+    "bolt",
+    "create"
+  ],
+  "like": [
+    "лайк",
+    "нравится",
+    "thumbs up",
+    "favorite"
+  ],
+  "line": [
+    "линия",
+    "строка",
+    "stroke",
+    "row"
+  ],
+  "lines": [
+    "линии",
+    "строки",
+    "rows",
+    "strokes"
+  ],
+  "lines-text": [
+    "линии",
+    "текст",
+    "строки",
+    "надпись",
+    "rows",
+    "label",
+    "strokes",
+    "string"
+  ],
+  "link": [
+    "ссылка",
+    "связь",
+    "url",
+    "hyperlink",
+    "chain"
+  ],
+  "link-3": [
+    "ссылка",
+    "связь",
+    "url",
+    "hyperlink",
+    "chain"
+  ],
+  "link-bold": [
+    "ссылка",
+    "жирный",
+    "связь",
+    "полужирный",
+    "url",
+    "strong",
+    "hyperlink",
+    "font",
+    "chain"
+  ],
+  "link-settings": [
+    "ссылка",
+    "настройки",
+    "связь",
+    "параметры",
+    "конфигурация",
+    "url",
+    "options",
+    "hyperlink",
+    "preferences",
+    "chain",
+    "gear"
+  ],
+  "linked-link": [
+    "связанный",
+    "ссылка",
+    "привязан",
+    "связь",
+    "related",
+    "url",
+    "connected",
+    "hyperlink",
+    "chain"
+  ],
+  "links-3": [
+    "ссылки",
+    "связи",
+    "urls"
+  ],
+  "links-list": [
+    "ссылки",
+    "список",
+    "связи",
+    "перечень",
+    "urls",
+    "items",
+    "menu"
+  ],
+  "linux": [
+    "линукс",
+    "операционная система",
+    "пингвин",
+    "os",
+    "tux",
+    "unix",
+    "operating system"
+  ],
+  "lisp": [
+    "лисп",
+    "язык программирования",
+    "programming language",
+    "functional"
+  ],
+  "list": [
+    "список",
+    "перечень",
+    "items",
+    "menu"
+  ],
+  "list-ai": [
+    "список",
+    "ии",
+    "перечень",
+    "искусственный интеллект",
+    "нейросеть",
+    "items",
+    "artificial intelligence",
+    "menu",
+    "gpt",
+    "neural"
+  ],
+  "list-black": [
+    "список",
+    "перечень",
+    "items",
+    "menu"
+  ],
+  "list-blk": [
+    "список",
+    "перечень",
+    "items",
+    "menu"
+  ],
+  "list-remove": [
+    "список",
+    "перечень",
+    "items",
+    "menu"
+  ],
+  "livechat": [
+    "лайвчат",
+    "онлайн-чат",
+    "чат на сайте",
+    "поддержка",
+    "live chat",
+    "online chat",
+    "widget",
+    "support"
+  ],
+  "livechat-24": [
+    "лайвчат",
+    "онлайн-чат",
+    "чат на сайте",
+    "поддержка",
+    "live chat",
+    "online chat",
+    "widget",
+    "support"
+  ],
+  "liveid": [
+    "лайв айди",
+    "майкрософт аккаунт",
+    "учетная запись",
+    "live id",
+    "microsoft account",
+    "login",
+    "account"
+  ],
+  "liveinternet": [
+    "лайвинтернет",
+    "счетчик",
+    "статистика",
+    "аналитика",
+    "live internet",
+    "counter",
+    "statistics",
+    "analytics"
+  ],
+  "livejournal": [
+    "живой журнал",
+    "жж",
+    "блог",
+    "соцсеть",
+    "blog",
+    "social network",
+    "diary",
+    "lj"
+  ],
+  "loader-clock": [
+    "загрузка",
+    "часы",
+    "лоадер",
+    "время",
+    "индикатор",
+    "spinner",
+    "time",
+    "progress",
+    "watch",
+    "loading"
+  ],
+  "loader-wait": [
+    "загрузка",
+    "ожидание",
+    "лоадер",
+    "подождать",
+    "индикатор",
+    "ждать",
+    "spinner",
+    "waiting",
+    "progress",
+    "loading",
+    "pending"
+  ],
+  "location": [
+    "местоположение",
+    "геолокация",
+    "адрес",
+    "place",
+    "geo",
+    "gps"
+  ],
+  "location-1": [
+    "местоположение",
+    "геолокация",
+    "адрес",
+    "place",
+    "geo",
+    "gps"
+  ],
+  "location-2": [
+    "местоположение",
+    "геолокация",
+    "адрес",
+    "place",
+    "geo",
+    "gps"
+  ],
+  "location-plus": [
+    "местоположение",
+    "плюс",
+    "геолокация",
+    "добавить",
+    "адрес",
+    "создать",
+    "новый",
+    "place",
+    "add",
+    "geo",
+    "new",
+    "gps",
+    "create"
+  ],
+  "location-time": [
+    "местоположение",
+    "время",
+    "геолокация",
+    "часы",
+    "адрес",
+    "place",
+    "clock",
+    "geo",
+    "duration",
+    "gps"
+  ],
+  "lock": [
+    "замок",
+    "блокировка",
+    "закрыть",
+    "secure",
+    "private",
+    "password"
+  ],
+  "lock-2": [
+    "замок",
+    "блокировка",
+    "закрыть",
+    "secure",
+    "private",
+    "password"
+  ],
+  "lock-dark": [
+    "замок",
+    "блокировка",
+    "закрыть",
+    "secure",
+    "private",
+    "password"
+  ],
+  "log-in": [
+    "журнал",
+    "вход",
+    "journal",
+    "history"
+  ],
+  "log-out": [
+    "журнал",
+    "вход",
+    "journal",
+    "history"
+  ],
+  "logo-android": [
+    "логотип",
+    "бренд",
+    "brand",
+    "emblem"
+  ],
+  "logo-apple": [
+    "логотип",
+    "бренд",
+    "brand",
+    "emblem"
+  ],
+  "low-battery": [
+    "низкий",
+    "батарея",
+    "малый",
+    "заряд",
+    "аккумулятор",
+    "small",
+    "charge",
+    "power",
+    "energy"
+  ],
+  "low-battery-black": [
+    "низкий",
+    "батарея",
+    "малый",
+    "заряд",
+    "аккумулятор",
+    "small",
+    "charge",
+    "power",
+    "energy"
+  ],
+  "low-wi-fi": [
+    "низкий",
+    "вай",
+    "малый",
+    "small"
+  ],
+  "lower-right-arrow": [
+    "вправо",
+    "стрелка",
+    "справа",
+    "направление",
+    "направо",
+    "forward",
+    "pointer",
+    "next",
+    "direction"
+  ],
+  "magic-image": [
+    "магия",
+    "изображение",
+    "волшебство",
+    "картинка",
+    "автоматически",
+    "фото",
+    "wizard",
+    "picture",
+    "auto",
+    "photo"
+  ],
+  "magic-wand": [
+    "магия",
+    "палочка",
+    "волшебство",
+    "волшебная палочка",
+    "автоматически",
+    "wizard",
+    "auto"
+  ],
+  "mail": [
+    "почта",
+    "письмо",
+    "email",
+    "envelope",
+    "message",
+    "e-mail"
+  ],
+  "mail-2": [
+    "почта",
+    "письмо",
+    "email",
+    "envelope",
+    "message",
+    "e-mail"
+  ],
+  "mail-black": [
+    "почта",
+    "письмо",
+    "email",
+    "envelope",
+    "message",
+    "e-mail"
+  ],
+  "mail-counter": [
+    "почта",
+    "счетчик",
+    "письмо",
+    "против",
+    "email",
+    "envelope",
+    "count",
+    "message",
+    "e-mail"
+  ],
+  "mail-forward": [
+    "почта",
+    "вперед",
+    "письмо",
+    "переслать",
+    "email",
+    "envelope",
+    "next",
+    "message",
+    "fast forward",
+    "e-mail",
+    "send"
+  ],
+  "mail-in": [
+    "почта",
+    "письмо",
+    "email",
+    "envelope",
+    "message",
+    "e-mail"
+  ],
+  "mail-in-progress": [
+    "почта",
+    "прогресс",
+    "письмо",
+    "выполнение",
+    "email",
+    "ход",
+    "envelope",
+    "status",
+    "message",
+    "advance",
+    "e-mail"
+  ],
+  "mail-money": [
+    "почта",
+    "деньги",
+    "письмо",
+    "финансы",
+    "email",
+    "оплата",
+    "envelope",
+    "cash",
+    "message",
+    "finance",
+    "e-mail",
+    "payment"
+  ],
+  "mail-open": [
+    "почта",
+    "открыть",
+    "письмо",
+    "открытый",
+    "email",
+    "envelope",
+    "opened",
+    "message",
+    "expand",
+    "e-mail"
+  ],
+  "mail-out": [
+    "почта",
+    "письмо",
+    "email",
+    "envelope",
+    "message",
+    "e-mail"
+  ],
+  "mail-read": [
+    "почта",
+    "письмо",
+    "email",
+    "envelope",
+    "message",
+    "e-mail"
+  ],
+  "mail-reply": [
+    "почта",
+    "ответить",
+    "письмо",
+    "ответ",
+    "email",
+    "envelope",
+    "respond",
+    "message",
+    "answer",
+    "e-mail"
+  ],
+  "mail-return": [
+    "почта",
+    "письмо",
+    "email",
+    "envelope",
+    "message",
+    "e-mail"
+  ],
+  "mail-send": [
+    "почта",
+    "отправить",
+    "письмо",
+    "послать",
+    "email",
+    "передать",
+    "envelope",
+    "submit",
+    "message",
+    "deliver",
+    "e-mail",
+    "post"
+  ],
+  "mail-sent": [
+    "почта",
+    "отправлено",
+    "письмо",
+    "доставлено",
+    "email",
+    "envelope",
+    "delivered",
+    "message",
+    "submitted",
+    "e-mail"
+  ],
+  "mailru": [
+    "майл ру",
+    "почта",
+    "портал",
+    "почтовый сервис",
+    "mail.ru",
+    "email",
+    "portal",
+    "mailbox"
+  ],
+  "main": [
+    "главный",
+    "основной",
+    "primary",
+    "home"
+  ],
+  "main-tool": [
+    "главный",
+    "инструмент",
+    "основной",
+    "primary",
+    "utility",
+    "home"
+  ],
+  "make-longer": [
+    "сделать",
+    "длиннее",
+    "создать",
+    "удлинить",
+    "do",
+    "extend",
+    "build",
+    "lengthen"
+  ],
+  "make-shorter": [
+    "сделать",
+    "короче",
+    "создать",
+    "сократить",
+    "do",
+    "shrink",
+    "build",
+    "shorten"
+  ],
+  "map": [
+    "карта",
+    "схема",
+    "локация",
+    "geo",
+    "location",
+    "plan"
+  ],
+  "markdown": [
+    "маркдаун",
+    "разметка",
+    "текст",
+    "md",
+    "markup",
+    "text format"
+  ],
+  "markers": [
+    "маркеры",
+    "метки",
+    "pins",
+    "marks"
+  ],
+  "market": [
+    "маркет",
+    "рынок",
+    "магазин",
+    "marketplace",
+    "store",
+    "shop"
+  ],
+  "market-1": [
+    "маркет",
+    "рынок",
+    "магазин",
+    "marketplace",
+    "store",
+    "shop"
+  ],
+  "market-2": [
+    "маркет",
+    "рынок",
+    "магазин",
+    "marketplace",
+    "store",
+    "shop"
+  ],
+  "marketing": [
+    "маркетинг",
+    "реклама",
+    "promotion",
+    "advertising"
+  ],
+  "maximize": [
+    "развернуть",
+    "увеличить",
+    "enlarge",
+    "expand"
+  ],
+  "maximize-2": [
+    "развернуть",
+    "увеличить",
+    "enlarge",
+    "expand"
+  ],
+  "mdnwebdocs": [
+    "документация",
+    "веб-документация",
+    "справочник",
+    "mdn",
+    "web docs",
+    "reference",
+    "mozilla"
+  ],
+  "media-message": [
+    "медиа",
+    "сообщение",
+    "мультимедиа",
+    "письмо",
+    "чат",
+    "multimedia",
+    "msg",
+    "text",
+    "dm"
+  ],
+  "medical-services": [
+    "медицина",
+    "услуги",
+    "здоровье",
+    "сервисы",
+    "health",
+    "service",
+    "clinic",
+    "offerings"
+  ],
+  "meeting-point": [
+    "встреча",
+    "точка",
+    "совещание",
+    "пункт",
+    "appointment",
+    "dot",
+    "conference",
+    "spot"
+  ],
+  "mention": [
+    "упоминание",
+    "собака",
+    "@",
+    "at",
+    "tag"
+  ],
+  "menu": [
+    "меню",
+    "список",
+    "navigation",
+    "list"
+  ],
+  "menu-point": [
+    "меню",
+    "точка",
+    "список",
+    "пункт",
+    "navigation",
+    "dot",
+    "list",
+    "spot"
+  ],
+  "message": [
+    "сообщение",
+    "письмо",
+    "чат",
+    "msg",
+    "text",
+    "dm"
+  ],
+  "message-chat-with-arrow": [
+    "сообщение",
+    "чат",
+    "стрелка",
+    "письмо",
+    "переписка",
+    "направление",
+    "диалог",
+    "msg",
+    "conversation",
+    "pointer",
+    "text",
+    "messenger",
+    "direction"
+  ],
+  "message-chat-with-point": [
+    "сообщение",
+    "чат",
+    "точка",
+    "письмо",
+    "переписка",
+    "пункт",
+    "диалог",
+    "msg",
+    "conversation",
+    "dot",
+    "text",
+    "messenger",
+    "spot"
+  ],
+  "message-template": [
+    "сообщение",
+    "шаблон",
+    "письмо",
+    "чат",
+    "msg",
+    "pattern",
+    "text",
+    "preset",
+    "dm"
+  ],
+  "message-widget": [
+    "сообщение",
+    "виджет",
+    "письмо",
+    "блок",
+    "чат",
+    "msg",
+    "block",
+    "text",
+    "component",
+    "dm"
+  ],
+  "messages": [
+    "сообщения",
+    "переписка",
+    "msgs",
+    "conversation"
+  ],
+  "messenger": [
+    "мессенджер",
+    "chat",
+    "im"
+  ],
+  "messenger-meta": [
+    "мессенджер",
+    "мета",
+    "chat",
+    "facebook",
+    "im"
+  ],
+  "microphone-off": [
+    "микрофон",
+    "выключить",
+    "голос",
+    "отключено",
+    "выкл",
+    "mic",
+    "disabled",
+    "voice",
+    "disable"
+  ],
+  "microphone-on": [
+    "микрофон",
+    "голос",
+    "mic",
+    "voice"
+  ],
+  "microsoft": [
+    "майкрософт",
+    "виндовс",
+    "корпорация",
+    "windows",
+    "company",
+    "office"
+  ],
+  "minimize": [
+    "свернуть",
+    "уменьшить",
+    "shrink",
+    "collapse"
+  ],
+  "minimize-2": [
+    "свернуть",
+    "уменьшить",
+    "shrink",
+    "collapse"
+  ],
+  "minus": [
+    "минус",
+    "убрать",
+    "вычесть",
+    "уменьшить",
+    "remove",
+    "subtract",
+    "less"
+  ],
+  "minus-20": [
+    "минус",
+    "убрать",
+    "уменьшить",
+    "remove",
+    "subtract",
+    "less"
+  ],
+  "minus-30": [
+    "минус",
+    "убрать",
+    "уменьшить",
+    "remove",
+    "subtract",
+    "less"
+  ],
+  "minus-40": [
+    "минус",
+    "убрать",
+    "уменьшить",
+    "remove",
+    "subtract",
+    "less"
+  ],
+  "minus-50": [
+    "минус",
+    "убрать",
+    "уменьшить",
+    "remove",
+    "subtract",
+    "less"
+  ],
+  "minus-60": [
+    "минус",
+    "убрать",
+    "уменьшить",
+    "remove",
+    "subtract",
+    "less"
+  ],
+  "minus-in-circle": [
+    "минус",
+    "круг",
+    "убрать",
+    "кружок",
+    "вычесть",
+    "уменьшить",
+    "remove",
+    "round",
+    "subtract",
+    "ring",
+    "less"
+  ],
+  "mobile": [
+    "мобильный",
+    "телефон",
+    "phone",
+    "smartphone"
+  ],
+  "mobile-2": [
+    "мобильный",
+    "телефон",
+    "phone",
+    "smartphone"
+  ],
+  "mobile-constructor": [
+    "мобильный",
+    "телефон",
+    "phone",
+    "smartphone"
+  ],
+  "mobile-selected": [
+    "мобильный",
+    "телефон",
+    "phone",
+    "smartphone"
+  ],
+  "mobile-service": [
+    "мобильный",
+    "услуга",
+    "телефон",
+    "сервис",
+    "phone",
+    "offering",
+    "smartphone"
+  ],
+  "mobile-stars": [
+    "мобильный",
+    "звезды",
+    "телефон",
+    "искры",
+    "phone",
+    "sparkles",
+    "smartphone",
+    "magic"
+  ],
+  "mobile-store": [
+    "мобильный",
+    "магазин",
+    "телефон",
+    "хранилище",
+    "phone",
+    "shop",
+    "smartphone",
+    "warehouse"
+  ],
+  "mobile-with-star": [
+    "мобильный",
+    "звезда",
+    "телефон",
+    "phone",
+    "favorite",
+    "smartphone",
+    "rating"
+  ],
+  "moderator": [
+    "модератор",
+    "администратор",
+    "admin",
+    "manager"
+  ],
+  "money": [
+    "деньги",
+    "финансы",
+    "оплата",
+    "cash",
+    "finance",
+    "payment"
+  ],
+  "moon": [
+    "луна",
+    "ночь",
+    "темная тема",
+    "night",
+    "dark mode"
+  ],
+  "more": [
+    "еще",
+    "больше",
+    "подробнее",
+    "extra",
+    "options",
+    "menu"
+  ],
+  "more-9-cubes-1": [
+    "еще",
+    "кубы",
+    "больше",
+    "кубики",
+    "подробнее",
+    "блоки",
+    "extra",
+    "blocks",
+    "options",
+    "3d",
+    "menu"
+  ],
+  "more-9-cubes-2": [
+    "еще",
+    "кубы",
+    "больше",
+    "кубики",
+    "подробнее",
+    "блоки",
+    "extra",
+    "blocks",
+    "options",
+    "3d",
+    "menu"
+  ],
+  "more-information": [
+    "еще",
+    "информация",
+    "больше",
+    "сведения",
+    "подробнее",
+    "extra",
+    "info",
+    "options",
+    "menu"
+  ],
+  "more-points": [
+    "еще",
+    "больше",
+    "подробнее",
+    "extra",
+    "options",
+    "menu"
+  ],
+  "more-vertical": [
+    "еще",
+    "вертикальный",
+    "больше",
+    "подробнее",
+    "extra",
+    "column",
+    "options",
+    "menu"
+  ],
+  "move-to": [
+    "переместить",
+    "перенести",
+    "transfer",
+    "relocate"
+  ],
+  "move-to-checklist": [
+    "переместить",
+    "перенести",
+    "transfer",
+    "relocate"
+  ],
+  "multi-page-form": [
+    "мульти",
+    "страница",
+    "форма",
+    "несколько",
+    "лист",
+    "анкета",
+    "multiple",
+    "sheet",
+    "survey",
+    "site",
+    "webform"
+  ],
+  "multichoice-off": [
+    "множественный выбор",
+    "выключить",
+    "отключено",
+    "выкл",
+    "multiple choice",
+    "disabled",
+    "multiselect",
+    "disable"
+  ],
+  "multichoice-on": [
+    "множественный выбор",
+    "multiple choice",
+    "multiselect"
+  ],
+  "music": [
+    "музыка",
+    "мелодия",
+    "audio",
+    "song",
+    "sound"
+  ],
+  "music-note-1": [
+    "музыка",
+    "заметка",
+    "мелодия",
+    "запись",
+    "примечание",
+    "audio",
+    "memo",
+    "song",
+    "comment",
+    "sound"
+  ],
+  "music-note-2": [
+    "музыка",
+    "заметка",
+    "мелодия",
+    "запись",
+    "примечание",
+    "audio",
+    "memo",
+    "song",
+    "comment",
+    "sound"
+  ],
+  "music-note-3": [
+    "музыка",
+    "заметка",
+    "мелодия",
+    "запись",
+    "примечание",
+    "audio",
+    "memo",
+    "song",
+    "comment",
+    "sound"
+  ],
+  "my-deals": [
+    "мой",
+    "сделки",
+    "мои",
+    "продажи",
+    "own",
+    "sales",
+    "opportunities"
+  ],
+  "my-plan": [
+    "мой",
+    "план",
+    "мои",
+    "тариф",
+    "own",
+    "schedule",
+    "tariff"
+  ],
+  "neutral": [
+    "нейтральный",
+    "neutral face"
+  ],
+  "new-file": [
+    "новый",
+    "файл",
+    "документ",
+    "create",
+    "document",
+    "add"
+  ],
+  "new-message": [
+    "новый",
+    "сообщение",
+    "письмо",
+    "чат",
+    "create",
+    "msg",
+    "add",
+    "text",
+    "dm"
+  ],
+  "new-message-mail": [
+    "новый",
+    "сообщение",
+    "почта",
+    "письмо",
+    "чат",
+    "email",
+    "create",
+    "msg",
+    "envelope",
+    "add",
+    "text"
+  ],
+  "newsfeed": [
+    "лента новостей",
+    "news",
+    "feed"
+  ],
+  "next": [
+    "следующий",
+    "далее",
+    "forward",
+    "continue"
+  ],
+  "no-battery-black": [
+    "нет",
+    "батарея",
+    "без",
+    "заряд",
+    "запрет",
+    "аккумулятор",
+    "not",
+    "charge",
+    "none",
+    "power",
+    "disabled",
+    "energy"
+  ],
+  "no-compass": [
+    "нет",
+    "компас",
+    "без",
+    "навигация",
+    "запрет",
+    "направление",
+    "not",
+    "navigation",
+    "none",
+    "direction",
+    "disabled"
+  ],
+  "no-picture": [
+    "нет",
+    "картинка",
+    "без",
+    "изображение",
+    "запрет",
+    "фото",
+    "not",
+    "image",
+    "none",
+    "photo",
+    "disabled"
+  ],
+  "no-screenshot": [
+    "запрет скриншотов",
+    "скриншот",
+    "защита",
+    "screen capture",
+    "forbidden",
+    "protected"
+  ],
+  "no-video": [
+    "нет",
+    "видео",
+    "без",
+    "ролик",
+    "запрет",
+    "видеозвонок",
+    "not",
+    "movie",
+    "none",
+    "clip",
+    "disabled",
+    "film"
+  ],
+  "no-wifi": [
+    "нет",
+    "вайфай",
+    "без",
+    "беспроводная сеть",
+    "запрет",
+    "not",
+    "wireless",
+    "none",
+    "network",
+    "disabled",
+    "wi-fi"
+  ],
+  "node": [
+    "нода",
+    "джаваскрипт",
+    "сервер",
+    "nodejs",
+    "javascript",
+    "backend",
+    "runtime"
+  ],
+  "non-favorite": [
+    "не",
+    "избранное",
+    "нет",
+    "любимое",
+    "not",
+    "star",
+    "bookmark",
+    "like"
+  ],
+  "none": [
+    "нет",
+    "ничего",
+    "empty",
+    "nothing"
+  ],
+  "note": [
+    "заметка",
+    "запись",
+    "примечание",
+    "memo",
+    "comment"
+  ],
+  "note-circle": [
+    "заметка",
+    "круг",
+    "запись",
+    "кружок",
+    "примечание",
+    "memo",
+    "round",
+    "comment",
+    "ring"
+  ],
+  "notification": [
+    "уведомление",
+    "оповещение",
+    "alert",
+    "notice",
+    "push"
+  ],
+  "notification-off": [
+    "уведомление",
+    "выключить",
+    "оповещение",
+    "отключено",
+    "выкл",
+    "alert",
+    "disabled",
+    "notice",
+    "disable",
+    "push"
+  ],
+  "notification-settings": [
+    "уведомление",
+    "настройки",
+    "оповещение",
+    "параметры",
+    "конфигурация",
+    "alert",
+    "options",
+    "notice",
+    "preferences",
+    "push",
+    "gear"
+  ],
+  "notification-with-cross": [
+    "уведомление",
+    "крест",
+    "оповещение",
+    "закрыть",
+    "отмена",
+    "удалить",
+    "alert",
+    "close",
+    "notice",
+    "cancel",
+    "push",
+    "x"
+  ],
+  "notifications-off": [
+    "уведомления",
+    "выключить",
+    "оповещения",
+    "отключено",
+    "выкл",
+    "alerts",
+    "disabled",
+    "notices",
+    "disable"
+  ],
+  "notifications-on": [
+    "уведомления",
+    "оповещения",
+    "alerts",
+    "notices"
+  ],
+  "npm": [
+    "нпм",
+    "менеджер пакетов",
+    "пакеты",
+    "package manager",
+    "node",
+    "registry"
+  ],
+  "numbered-list": [
+    "список",
+    "перечень",
+    "items",
+    "menu"
+  ],
+  "numbers-123": [
+    "числа",
+    "цифры",
+    "digits"
+  ],
+  "numerable-list": [
+    "список",
+    "перечень",
+    "items",
+    "menu"
+  ],
+  "nuxt": [
+    "накст",
+    "фреймворк",
+    "вью",
+    "framework",
+    "vue",
+    "ssr"
+  ],
+  "observer": [
+    "наблюдатель",
+    "слежение",
+    "watcher",
+    "follower"
+  ],
+  "observer-closed": [
+    "наблюдатель",
+    "закрытый",
+    "слежение",
+    "закрыто",
+    "watcher",
+    "shut",
+    "follower"
+  ],
+  "odf": [
+    "опен документ",
+    "документ",
+    "формат",
+    "opendocument",
+    "libreoffice",
+    "document"
+  ],
+  "odnoklassniki": [
+    "одноклассники",
+    "ок",
+    "соцсеть",
+    "social network",
+    "ok.ru",
+    "ok",
+    "social"
+  ],
+  "odp": [
+    "презентация",
+    "опен офис",
+    "либреофис",
+    "opendocument",
+    "libreoffice",
+    "impress",
+    "slides"
+  ],
+  "ods": [
+    "таблица",
+    "опен офис",
+    "либреофис",
+    "opendocument",
+    "libreoffice",
+    "calc",
+    "spreadsheet"
+  ],
+  "odt": [
+    "текстовый документ",
+    "опен офис",
+    "либреофис",
+    "opendocument",
+    "libreoffice",
+    "writer",
+    "text"
+  ],
+  "office365": [
+    "офис 365",
+    "майкрософт",
+    "облачный офис",
+    "microsoft",
+    "office",
+    "365",
+    "cloud"
+  ],
+  "ok": [
+    "одноклассники",
+    "ок",
+    "соцсеть",
+    "odnoklassniki",
+    "social network",
+    "ok.ru",
+    "social"
+  ],
+  "olx": [
+    "олх",
+    "объявления",
+    "маркетплейс",
+    "площадка",
+    "classifieds",
+    "marketplace",
+    "ads"
+  ],
+  "onec": [
+    "1с",
+    "учет",
+    "бухгалтерия",
+    "интеграция",
+    "1c",
+    "accounting",
+    "erp",
+    "integration"
+  ],
+  "online-booking": [
+    "онлайн",
+    "бронирование",
+    "в сети",
+    "запись",
+    "web",
+    "reservation",
+    "live",
+    "appointment"
+  ],
+  "online-events": [
+    "онлайн",
+    "события",
+    "в сети",
+    "мероприятия",
+    "web",
+    "happenings",
+    "live"
+  ],
+  "open-book": [
+    "открыть",
+    "книга",
+    "открытый",
+    "справочник",
+    "opened",
+    "manual",
+    "expand",
+    "docs"
+  ],
+  "open-channels": [
+    "открыть",
+    "каналы",
+    "открытый",
+    "opened",
+    "lines",
+    "expand"
+  ],
+  "open-chat": [
+    "открыть",
+    "чат",
+    "открытый",
+    "переписка",
+    "диалог",
+    "opened",
+    "conversation",
+    "expand",
+    "messenger",
+    "dialog"
+  ],
+  "open-in-30": [
+    "открыть",
+    "открытый",
+    "opened",
+    "expand"
+  ],
+  "open-in-40": [
+    "открыть",
+    "открытый",
+    "opened",
+    "expand"
+  ],
+  "open-in-50": [
+    "открыть",
+    "открытый",
+    "opened",
+    "expand"
+  ],
+  "open-lines": [
+    "открыть",
+    "линии",
+    "открытый",
+    "строки",
+    "opened",
+    "rows",
+    "expand",
+    "strokes"
+  ],
+  "opened-eye": [
+    "открытый",
+    "глаз",
+    "раскрытый",
+    "просмотр",
+    "open",
+    "view",
+    "see",
+    "visible"
+  ],
+  "opened-letter-mail": [
+    "открытый",
+    "письмо",
+    "почта",
+    "раскрытый",
+    "буква",
+    "email",
+    "open",
+    "envelope",
+    "character",
+    "message",
+    "e-mail"
+  ],
+  "openid": [
+    "опенайди",
+    "авторизация",
+    "единый вход",
+    "sso",
+    "login",
+    "authentication",
+    "oauth"
+  ],
+  "organic": [
+    "органика",
+    "органический",
+    "natural"
+  ],
+  "other": [
+    "другое",
+    "прочее",
+    "misc"
+  ],
+  "outdent": [
+    "убрать отступ",
+    "unindent"
+  ],
+  "outgoing-call": [
+    "исходящий",
+    "звонок",
+    "позвонить",
+    "вызов",
+    "outbound",
+    "phone",
+    "send",
+    "dial",
+    "ring"
+  ],
+  "outlook": [
+    "аутлук",
+    "майкрософт",
+    "почта",
+    "календарь",
+    "microsoft",
+    "email",
+    "mail client",
+    "calendar"
+  ],
+  "ownsite": [
+    "свой сайт",
+    "собственный сайт",
+    "сайт",
+    "own site",
+    "website",
+    "web",
+    "custom"
+  ],
+  "package": [
+    "пакет",
+    "посылка",
+    "упаковка",
+    "parcel",
+    "box"
+  ],
+  "package-numbers-five": [
+    "пакет",
+    "числа",
+    "пять",
+    "посылка",
+    "цифры",
+    "упаковка",
+    "parcel",
+    "digits",
+    "5",
+    "box"
+  ],
+  "package-numbers-ten": [
+    "пакет",
+    "числа",
+    "десять",
+    "посылка",
+    "цифры",
+    "упаковка",
+    "parcel",
+    "digits",
+    "10",
+    "box"
+  ],
+  "page-black": [
+    "страница"
+  ],
+  "paint-1": [
+    "краска",
+    "рисовать",
+    "draw",
+    "color"
+  ],
+  "paint-2": [
+    "краска",
+    "рисовать",
+    "draw",
+    "color"
+  ],
+  "paint-bucket": [
+    "краска",
+    "ведро",
+    "рисовать",
+    "заливка",
+    "draw",
+    "fill",
+    "color"
+  ],
+  "paint-bucket-formatting": [
+    "краска",
+    "ведро",
+    "форматирование",
+    "рисовать",
+    "заливка",
+    "draw",
+    "fill",
+    "format",
+    "color",
+    "style"
+  ],
+  "palette": [
+    "палитра",
+    "цвета",
+    "colors",
+    "swatches"
+  ],
+  "paragraph-background-colour": [
+    "абзац",
+    "фон",
+    "цвет",
+    "параграф",
+    "задний план",
+    "text",
+    "backdrop",
+    "color",
+    "block"
+  ],
+  "parallel-queue": [
+    "параллельный",
+    "очередь",
+    "concurrent",
+    "line",
+    "waiting"
+  ],
+  "partner-nfc": [
+    "партнер",
+    "нфс",
+    "бесконтактный",
+    "ally",
+    "contactless",
+    "reseller",
+    "wireless"
+  ],
+  "paste": [
+    "вставить",
+    "insert",
+    "clipboard"
+  ],
+  "path": [
+    "путь",
+    "маршрут",
+    "route",
+    "way"
+  ],
+  "pause": [
+    "пауза",
+    "приостановить",
+    "stop",
+    "hold"
+  ],
+  "pause-black": [
+    "пауза",
+    "приостановить",
+    "stop",
+    "hold"
+  ],
+  "payment": [
+    "оплата",
+    "платеж",
+    "pay",
+    "billing"
+  ],
+  "payment-and-delivery": [
+    "оплата",
+    "доставка",
+    "платеж",
+    "курьер",
+    "pay",
+    "shipping",
+    "billing",
+    "courier",
+    "transport"
+  ],
+  "payment-terminal": [
+    "оплата",
+    "терминал",
+    "платеж",
+    "консоль",
+    "pay",
+    "console",
+    "billing",
+    "command line",
+    "shell"
+  ],
+  "pdf": [
+    "пдф",
+    "документ",
+    "файл",
+    "чтение",
+    "document",
+    "adobe",
+    "acrobat",
+    "reader"
+  ],
+  "pen": [
+    "ручка",
+    "перо",
+    "писать",
+    "write",
+    "edit"
+  ],
+  "pencil-40": [
+    "карандаш",
+    "редактировать",
+    "edit",
+    "write",
+    "pen"
+  ],
+  "pencil-50": [
+    "карандаш",
+    "редактировать",
+    "edit",
+    "write",
+    "pen"
+  ],
+  "pencil-60": [
+    "карандаш",
+    "редактировать",
+    "edit",
+    "write",
+    "pen"
+  ],
+  "pencil-draw": [
+    "карандаш",
+    "редактировать",
+    "edit",
+    "write",
+    "pen"
+  ],
+  "perl": [
+    "перл",
+    "язык программирования",
+    "programming language",
+    "script"
+  ],
+  "person": [
+    "человек",
+    "пользователь",
+    "сотрудник",
+    "контакт",
+    "user",
+    "people",
+    "profile",
+    "member"
+  ],
+  "person-2-checks": [
+    "человек",
+    "пользователь",
+    "сотрудник",
+    "контакт",
+    "user",
+    "people",
+    "profile",
+    "member"
+  ],
+  "person-3-sticks": [
+    "человек",
+    "полоски",
+    "пользователь",
+    "деления",
+    "сотрудник",
+    "контакт",
+    "user",
+    "bars",
+    "people",
+    "levels",
+    "profile",
+    "member"
+  ],
+  "person-arrow-down": [
+    "человек",
+    "стрелка",
+    "вниз",
+    "пользователь",
+    "направление",
+    "нижний",
+    "сотрудник",
+    "контакт",
+    "user",
+    "pointer",
+    "bottom",
+    "people",
+    "direction",
+    "lower"
+  ],
+  "person-arrow-left-1": [
+    "человек",
+    "стрелка",
+    "влево",
+    "пользователь",
+    "направление",
+    "слева",
+    "сотрудник",
+    "налево",
+    "user",
+    "pointer",
+    "back",
+    "people",
+    "direction",
+    "previous"
+  ],
+  "person-arrow-left-2": [
+    "человек",
+    "стрелка",
+    "влево",
+    "пользователь",
+    "направление",
+    "слева",
+    "сотрудник",
+    "налево",
+    "user",
+    "pointer",
+    "back",
+    "people",
+    "direction",
+    "previous"
+  ],
+  "person-arrow-right": [
+    "человек",
+    "стрелка",
+    "вправо",
+    "пользователь",
+    "направление",
+    "справа",
+    "сотрудник",
+    "направо",
+    "user",
+    "pointer",
+    "forward",
+    "people",
+    "direction",
+    "next"
+  ],
+  "person-call": [
+    "человек",
+    "звонок",
+    "пользователь",
+    "позвонить",
+    "сотрудник",
+    "вызов",
+    "контакт",
+    "user",
+    "phone",
+    "people",
+    "dial",
+    "profile",
+    "ring"
+  ],
+  "person-camera": [
+    "человек",
+    "камера",
+    "пользователь",
+    "фото",
+    "сотрудник",
+    "съемка",
+    "контакт",
+    "user",
+    "photo",
+    "people",
+    "webcam",
+    "profile",
+    "shoot"
+  ],
+  "person-check": [
+    "человек",
+    "галочка",
+    "пользователь",
+    "проверить",
+    "сотрудник",
+    "готово",
+    "контакт",
+    "подтвердить",
+    "user",
+    "tick",
+    "people",
+    "done",
+    "profile",
+    "ok"
+  ],
+  "person-checks": [
+    "человек",
+    "пользователь",
+    "сотрудник",
+    "контакт",
+    "user",
+    "people",
+    "profile",
+    "member"
+  ],
+  "person-clock": [
+    "человек",
+    "часы",
+    "пользователь",
+    "время",
+    "сотрудник",
+    "контакт",
+    "user",
+    "time",
+    "people",
+    "watch",
+    "profile",
+    "member"
+  ],
+  "person-clock-2": [
+    "человек",
+    "часы",
+    "пользователь",
+    "время",
+    "сотрудник",
+    "контакт",
+    "user",
+    "time",
+    "people",
+    "watch",
+    "profile",
+    "member"
+  ],
+  "person-descending": [
+    "человек",
+    "по убыванию",
+    "пользователь",
+    "нисходящий",
+    "сотрудник",
+    "контакт",
+    "user",
+    "desc",
+    "people",
+    "down",
+    "profile",
+    "member"
+  ],
+  "person-detect": [
+    "человек",
+    "пользователь",
+    "сотрудник",
+    "контакт",
+    "user",
+    "people",
+    "profile",
+    "member"
+  ],
+  "person-flag": [
+    "человек",
+    "флаг",
+    "пользователь",
+    "флажок",
+    "сотрудник",
+    "метка",
+    "контакт",
+    "user",
+    "mark",
+    "people",
+    "banner",
+    "profile",
+    "member"
+  ],
+  "person-handset": [
+    "человек",
+    "трубка",
+    "пользователь",
+    "телефон",
+    "сотрудник",
+    "контакт",
+    "user",
+    "phone",
+    "people",
+    "receiver",
+    "profile",
+    "member"
+  ],
+  "person-letter": [
+    "человек",
+    "письмо",
+    "пользователь",
+    "буква",
+    "сотрудник",
+    "контакт",
+    "user",
+    "mail",
+    "people",
+    "character",
+    "profile",
+    "member"
+  ],
+  "person-location": [
+    "человек",
+    "местоположение",
+    "пользователь",
+    "геолокация",
+    "сотрудник",
+    "адрес",
+    "контакт",
+    "user",
+    "place",
+    "people",
+    "geo",
+    "profile",
+    "gps"
+  ],
+  "person-message": [
+    "человек",
+    "сообщение",
+    "пользователь",
+    "письмо",
+    "сотрудник",
+    "чат",
+    "контакт",
+    "user",
+    "msg",
+    "people",
+    "text",
+    "profile",
+    "dm"
+  ],
+  "person-message-arrow-1": [
+    "человек",
+    "сообщение",
+    "стрелка",
+    "пользователь",
+    "письмо",
+    "направление",
+    "сотрудник",
+    "чат",
+    "user",
+    "msg",
+    "pointer",
+    "people",
+    "text",
+    "direction"
+  ],
+  "person-message-arrow-2": [
+    "человек",
+    "сообщение",
+    "стрелка",
+    "пользователь",
+    "письмо",
+    "направление",
+    "сотрудник",
+    "чат",
+    "user",
+    "msg",
+    "pointer",
+    "people",
+    "text",
+    "direction"
+  ],
+  "person-phone": [
+    "человек",
+    "пользователь",
+    "сотрудник",
+    "контакт",
+    "user",
+    "people",
+    "profile",
+    "member"
+  ],
+  "person-plus": [
+    "человек",
+    "плюс",
+    "пользователь",
+    "добавить",
+    "сотрудник",
+    "создать",
+    "контакт",
+    "новый",
+    "user",
+    "add",
+    "people",
+    "new",
+    "profile",
+    "create"
+  ],
+  "person-plus-2": [
+    "человек",
+    "плюс",
+    "пользователь",
+    "добавить",
+    "сотрудник",
+    "создать",
+    "контакт",
+    "новый",
+    "user",
+    "add",
+    "people",
+    "new",
+    "profile",
+    "create"
+  ],
+  "person-plus-3": [
+    "человек",
+    "плюс",
+    "пользователь",
+    "добавить",
+    "сотрудник",
+    "создать",
+    "контакт",
+    "новый",
+    "user",
+    "add",
+    "people",
+    "new",
+    "profile",
+    "create"
+  ],
+  "person-search": [
+    "человек",
+    "поиск",
+    "пользователь",
+    "найти",
+    "сотрудник",
+    "искать",
+    "контакт",
+    "user",
+    "find",
+    "people",
+    "lookup",
+    "profile",
+    "member"
+  ],
+  "person-settings": [
+    "человек",
+    "настройки",
+    "пользователь",
+    "параметры",
+    "сотрудник",
+    "конфигурация",
+    "контакт",
+    "user",
+    "options",
+    "people",
+    "preferences",
+    "profile",
+    "gear"
+  ],
+  "person-speak": [
+    "человек",
+    "пользователь",
+    "сотрудник",
+    "контакт",
+    "user",
+    "people",
+    "profile",
+    "member"
+  ],
+  "personal-form": [
+    "форма",
+    "анкета",
+    "survey",
+    "webform"
+  ],
+  "persons-2": [
+    "люди",
+    "пользователи",
+    "сотрудники",
+    "people",
+    "users",
+    "team"
+  ],
+  "persons-3": [
+    "люди",
+    "пользователи",
+    "сотрудники",
+    "people",
+    "users",
+    "team"
+  ],
+  "persons-deny": [
+    "люди",
+    "пользователи",
+    "сотрудники",
+    "people",
+    "users",
+    "team"
+  ],
+  "persons-hand": [
+    "люди",
+    "рука",
+    "пользователи",
+    "ладонь",
+    "сотрудники",
+    "people",
+    "palm",
+    "users",
+    "team"
+  ],
+  "persons-storage": [
+    "люди",
+    "хранилище",
+    "пользователи",
+    "склад",
+    "сотрудники",
+    "people",
+    "disk",
+    "users",
+    "warehouse",
+    "team"
+  ],
+  "phone-add": [
+    "добавить",
+    "создать",
+    "новый",
+    "create",
+    "new",
+    "plus"
+  ],
+  "phone-broken": [
+    "обрыв связи",
+    "сбой звонка",
+    "телефон",
+    "dropped call",
+    "disconnected",
+    "failed",
+    "missed"
+  ],
+  "phone-call-black": [
+    "звонок",
+    "позвонить",
+    "вызов",
+    "dial",
+    "ring"
+  ],
+  "phone-down": [
+    "вниз",
+    "нижний",
+    "bottom",
+    "lower"
+  ],
+  "phone-down-black": [
+    "вниз",
+    "нижний",
+    "bottom",
+    "lower"
+  ],
+  "phone-in": [
+    "входящий звонок",
+    "телефон",
+    "звонок",
+    "incoming call",
+    "receive",
+    "inbound"
+  ],
+  "phone-out": [
+    "исходящий звонок",
+    "телефон",
+    "звонок",
+    "outgoing call",
+    "dial",
+    "outbound"
+  ],
+  "phone-up": [
+    "вверх",
+    "верхний",
+    "top",
+    "raise"
+  ],
+  "phone-up-black": [
+    "вверх",
+    "верхний",
+    "top",
+    "raise"
+  ],
+  "php": [
+    "пхп",
+    "язык программирования",
+    "бэкенд",
+    "programming language",
+    "backend",
+    "script"
+  ],
+  "picture": [
+    "картинка",
+    "изображение",
+    "фото",
+    "image",
+    "photo"
+  ],
+  "pin": [
+    "булавка",
+    "закрепить",
+    "метка",
+    "fix",
+    "mark",
+    "attach"
+  ],
+  "pin-1": [
+    "булавка",
+    "закрепить",
+    "метка",
+    "fix",
+    "mark",
+    "attach"
+  ],
+  "pin-2": [
+    "булавка",
+    "закрепить",
+    "метка",
+    "fix",
+    "mark",
+    "attach"
+  ],
+  "pin-list": [
+    "булавка",
+    "список",
+    "закрепить",
+    "перечень",
+    "метка",
+    "fix",
+    "items",
+    "mark",
+    "menu",
+    "attach"
+  ],
+  "ping": [
+    "пинг",
+    "проверка связи",
+    "latency",
+    "network"
+  ],
+  "pitch-zoom": [
+    "зум",
+    "видеоконференция",
+    "масштаб",
+    "video call",
+    "conference",
+    "scale"
+  ],
+  "plan-black": [
+    "план",
+    "тариф",
+    "schedule",
+    "tariff"
+  ],
+  "planning": [
+    "планирование",
+    "план",
+    "расписание",
+    "plan",
+    "schedule"
+  ],
+  "planning-2": [
+    "планирование",
+    "план",
+    "расписание",
+    "plan",
+    "schedule",
+    "planner"
+  ],
+  "plates": [
+    "плитки",
+    "блоки",
+    "карточки",
+    "tiles",
+    "cards"
+  ],
+  "play": [
+    "играть",
+    "запустить",
+    "воспроизвести",
+    "start",
+    "run",
+    "video"
+  ],
+  "play-black": [
+    "играть",
+    "запустить",
+    "воспроизвести",
+    "start",
+    "run",
+    "video"
+  ],
+  "play-circle": [
+    "играть",
+    "круг",
+    "запустить",
+    "кружок",
+    "воспроизвести",
+    "start",
+    "round",
+    "run",
+    "ring",
+    "video"
+  ],
+  "plug": [
+    "вилка",
+    "розетка",
+    "подключение",
+    "socket",
+    "connect",
+    "power"
+  ],
+  "plus": [
+    "плюс",
+    "добавить",
+    "создать",
+    "новый",
+    "add",
+    "new",
+    "create"
+  ],
+  "plus-20": [
+    "плюс",
+    "добавить",
+    "создать",
+    "новый",
+    "add",
+    "new",
+    "create"
+  ],
+  "plus-30": [
+    "плюс",
+    "добавить",
+    "создать",
+    "новый",
+    "add",
+    "new",
+    "create"
+  ],
+  "plus-40": [
+    "плюс",
+    "добавить",
+    "создать",
+    "новый",
+    "add",
+    "new",
+    "create"
+  ],
+  "plus-50": [
+    "плюс",
+    "добавить",
+    "создать",
+    "новый",
+    "add",
+    "new",
+    "create"
+  ],
+  "plus-60": [
+    "плюс",
+    "добавить",
+    "создать",
+    "новый",
+    "add",
+    "new",
+    "create"
+  ],
+  "plus-based-on": [
+    "создать на основании",
+    "копия",
+    "на основе",
+    "create from",
+    "clone",
+    "derive",
+    "duplicate"
+  ],
+  "plus-black": [
+    "плюс",
+    "добавить",
+    "создать",
+    "add",
+    "new",
+    "create"
+  ],
+  "plus-in-circle": [
+    "плюс",
+    "добавить",
+    "add"
+  ],
+  "pnpm": [
+    "пнпм",
+    "менеджер пакетов",
+    "пакеты",
+    "package manager",
+    "node"
+  ],
+  "point-left": [
+    "точка",
+    "влево",
+    "пункт",
+    "слева",
+    "налево",
+    "dot",
+    "back",
+    "spot",
+    "previous"
+  ],
+  "point-right": [
+    "точка",
+    "вправо",
+    "пункт",
+    "справа",
+    "направо",
+    "dot",
+    "forward",
+    "spot",
+    "next"
+  ],
+  "poll": [
+    "опрос",
+    "голосование",
+    "vote",
+    "survey"
+  ],
+  "power": [
+    "питание",
+    "включить",
+    "мощность",
+    "on",
+    "energy",
+    "shutdown"
+  ],
+  "powershell": [
+    "повершелл",
+    "консоль",
+    "скрипт",
+    "shell",
+    "terminal",
+    "microsoft",
+    "script"
+  ],
+  "ppt": [
+    "пауэрпоинт",
+    "презентация",
+    "слайды",
+    "powerpoint",
+    "presentation",
+    "slides",
+    "microsoft"
+  ],
+  "pptx": [
+    "пауэрпоинт",
+    "презентация",
+    "слайды",
+    "powerpoint",
+    "presentation",
+    "slides",
+    "microsoft"
+  ],
+  "print": [
+    "печать",
+    "печатать",
+    "принтер",
+    "printer",
+    "output"
+  ],
+  "print-1": [
+    "печать",
+    "печатать",
+    "принтер",
+    "printer",
+    "output"
+  ],
+  "print-2": [
+    "печать",
+    "печатать",
+    "принтер",
+    "printer",
+    "output"
+  ],
+  "print-black": [
+    "печать"
+  ],
+  "printer": [
+    "принтер",
+    "печать",
+    "print"
+  ],
+  "private-message": [
+    "личный",
+    "сообщение",
+    "приватный",
+    "письмо",
+    "чат",
+    "personal",
+    "msg",
+    "secret",
+    "text",
+    "dm"
+  ],
+  "process": [
+    "процесс",
+    "обработка",
+    "workflow",
+    "progress"
+  ],
+  "process-stop": [
+    "процесс",
+    "стоп",
+    "обработка",
+    "остановить",
+    "workflow",
+    "halt",
+    "progress",
+    "end"
+  ],
+  "processes": [
+    "процессы",
+    "workflows"
+  ],
+  "product": [
+    "товар",
+    "продукт",
+    "goods",
+    "item",
+    "sku"
+  ],
+  "product-wrapped": [
+    "товар",
+    "упакованный",
+    "продукт",
+    "goods",
+    "packed",
+    "item",
+    "sku"
+  ],
+  "products-cube": [
+    "товары",
+    "куб",
+    "продукты",
+    "кубик",
+    "goods",
+    "block",
+    "items",
+    "3d"
+  ],
+  "products-payment": [
+    "товары",
+    "оплата",
+    "продукты",
+    "платеж",
+    "goods",
+    "pay",
+    "items",
+    "billing"
+  ],
+  "products-photo": [
+    "товары",
+    "фото",
+    "продукты",
+    "снимок",
+    "goods",
+    "picture",
+    "items",
+    "image"
+  ],
+  "products-shirt": [
+    "товары",
+    "футболка",
+    "продукты",
+    "одежда",
+    "goods",
+    "clothes",
+    "items",
+    "t-shirt"
+  ],
+  "prompt": [
+    "промпт",
+    "запрос",
+    "подсказка",
+    "query",
+    "instruction",
+    "command"
+  ],
+  "prompt-library": [
+    "промпт",
+    "библиотека",
+    "запрос",
+    "коллекция",
+    "подсказка",
+    "query",
+    "collection",
+    "instruction",
+    "catalog",
+    "command"
+  ],
+  "prompt-var": [
+    "промпт",
+    "переменная",
+    "запрос",
+    "подсказка",
+    "query",
+    "variable",
+    "instruction",
+    "command"
+  ],
+  "prompts-library": [
+    "промпты",
+    "библиотека",
+    "запросы",
+    "коллекция",
+    "queries",
+    "collection",
+    "catalog"
+  ],
+  "proposal": [
+    "предложение",
+    "кп",
+    "коммерческое предложение",
+    "offer",
+    "quote",
+    "commercial offer"
+  ],
+  "proposal-done": [
+    "предложение",
+    "готово",
+    "кп",
+    "выполнено",
+    "коммерческое предложение",
+    "offer",
+    "complete",
+    "quote",
+    "finished",
+    "commercial offer"
+  ],
+  "proposal-settings": [
+    "предложение",
+    "настройки",
+    "кп",
+    "параметры",
+    "коммерческое предложение",
+    "конфигурация",
+    "offer",
+    "options",
+    "quote",
+    "preferences",
+    "commercial offer",
+    "gear"
+  ],
+  "psd": [
+    "фотошоп",
+    "графика",
+    "изображение",
+    "photoshop",
+    "adobe",
+    "graphics",
+    "layers"
+  ],
+  "pulse": [
+    "пульс",
+    "активность",
+    "heartbeat",
+    "activity"
+  ],
+  "pulse-circle": [
+    "пульс",
+    "круг",
+    "активность",
+    "кружок",
+    "heartbeat",
+    "round",
+    "activity",
+    "ring"
+  ],
+  "python": [
+    "питон",
+    "язык программирования",
+    "код",
+    "programming language",
+    "script",
+    "snake"
+  ],
+  "qr-code": [
+    "кьюар",
+    "код",
+    "qr-код",
+    "программирование",
+    "programming",
+    "scan",
+    "develop",
+    "script"
+  ],
+  "qr-code-1": [
+    "кьюар",
+    "код",
+    "qr-код",
+    "программирование",
+    "programming",
+    "scan",
+    "develop",
+    "script"
+  ],
+  "qr-code-2": [
+    "кьюар",
+    "код",
+    "qr-код",
+    "программирование",
+    "programming",
+    "scan",
+    "develop",
+    "script"
+  ],
+  "qr-dark": [
+    "кьюар",
+    "qr-код",
+    "code",
+    "scan"
+  ],
+  "quantity": [
+    "количество",
+    "amount",
+    "count"
+  ],
+  "question": [
+    "вопрос",
+    "справка",
+    "help",
+    "ask",
+    "faq"
+  ],
+  "quick-crm-fill": [
+    "быстрый",
+    "црм",
+    "заполнить",
+    "клиенты",
+    "продажи",
+    "fast",
+    "customers",
+    "full",
+    "sales"
+  ],
+  "quote": [
+    "цитата",
+    "кавычки",
+    "citation",
+    "quotation"
+  ],
+  "rar": [
+    "архив",
+    "сжатие",
+    "винрар",
+    "archive",
+    "compress",
+    "winrar"
+  ],
+  "receipt": [
+    "чек",
+    "квитанция",
+    "bill",
+    "voucher"
+  ],
+  "receipt-1": [
+    "чек",
+    "квитанция",
+    "bill",
+    "voucher"
+  ],
+  "receipt-2": [
+    "чек",
+    "квитанция",
+    "bill",
+    "voucher"
+  ],
+  "receipt-note": [
+    "чек",
+    "заметка",
+    "квитанция",
+    "запись",
+    "примечание",
+    "bill",
+    "memo",
+    "voucher",
+    "comment"
+  ],
+  "receive-payment-settings": [
+    "оплата",
+    "настройки",
+    "платеж",
+    "параметры",
+    "конфигурация",
+    "pay",
+    "options",
+    "billing",
+    "preferences",
+    "gear"
+  ],
+  "record-on": [
+    "запись",
+    "записать",
+    "rec",
+    "capture"
+  ],
+  "record-video": [
+    "запись",
+    "видео",
+    "записать",
+    "ролик",
+    "видеозвонок",
+    "rec",
+    "movie",
+    "capture",
+    "clip",
+    "film"
+  ],
+  "red-1c": [
+    "1с",
+    "учет",
+    "бухгалтерия",
+    "интеграция",
+    "accounting",
+    "erp",
+    "integration"
+  ],
+  "redo": [
+    "повторить",
+    "вернуть",
+    "reapply",
+    "forward"
+  ],
+  "redo-1": [
+    "повторить",
+    "вернуть",
+    "reapply",
+    "forward"
+  ],
+  "redo-2": [
+    "повторить",
+    "вернуть",
+    "reapply",
+    "forward"
+  ],
+  "reduce": [
+    "уменьшить",
+    "сократить",
+    "shrink",
+    "decrease",
+    "lessen"
+  ],
+  "refresh": [
+    "обновить",
+    "перезагрузить",
+    "reload",
+    "update",
+    "sync"
+  ],
+  "refresh-1": [
+    "обновить",
+    "перезагрузить",
+    "reload",
+    "update",
+    "sync"
+  ],
+  "refresh-10": [
+    "обновить",
+    "перезагрузить",
+    "reload",
+    "update",
+    "sync"
+  ],
+  "refresh-2": [
+    "обновить",
+    "перезагрузить",
+    "reload",
+    "update",
+    "sync"
+  ],
+  "refresh-3": [
+    "обновить",
+    "перезагрузить",
+    "reload",
+    "update",
+    "sync"
+  ],
+  "refresh-4": [
+    "обновить",
+    "перезагрузить",
+    "reload",
+    "update",
+    "sync"
+  ],
+  "refresh-5": [
+    "обновить",
+    "перезагрузить",
+    "reload",
+    "update",
+    "sync"
+  ],
+  "refresh-6": [
+    "обновить",
+    "перезагрузить",
+    "reload",
+    "update",
+    "sync"
+  ],
+  "refresh-7": [
+    "обновить",
+    "перезагрузить",
+    "reload",
+    "update",
+    "sync"
+  ],
+  "refresh-8": [
+    "обновить",
+    "перезагрузить",
+    "reload",
+    "update",
+    "sync"
+  ],
+  "refresh-9": [
+    "обновить",
+    "перезагрузить",
+    "reload",
+    "update",
+    "sync"
+  ],
+  "refresh-closed": [
+    "обновить",
+    "закрытый",
+    "перезагрузить",
+    "закрыто",
+    "reload",
+    "shut",
+    "update",
+    "sync"
+  ],
+  "registration-on-site": [
+    "регистрация",
+    "сайт",
+    "запись",
+    "веб-сайт",
+    "signup",
+    "website",
+    "register",
+    "web"
+  ],
+  "related-tasks": [
+    "связанные",
+    "задачи",
+    "связь",
+    "задания",
+    "поручения",
+    "linked",
+    "todos",
+    "connected",
+    "jobs"
+  ],
+  "remove-black": [
+    "удалить",
+    "убрать",
+    "крест",
+    "delete",
+    "erase",
+    "close"
+  ],
+  "remove-fontsize": [
+    "убрать размер шрифта",
+    "сбросить размер",
+    "форматирование",
+    "reset font",
+    "clear size",
+    "text"
+  ],
+  "remove-formatting": [
+    "форматирование",
+    "format",
+    "style"
+  ],
+  "remove-person": [
+    "человек",
+    "пользователь",
+    "сотрудник",
+    "контакт",
+    "user",
+    "people",
+    "profile",
+    "member"
+  ],
+  "repeat": [
+    "повтор",
+    "повторить",
+    "цикл",
+    "loop",
+    "again",
+    "recurring"
+  ],
+  "repeat-cycle": [
+    "повтор",
+    "цикл",
+    "повторить",
+    "loop",
+    "again",
+    "period",
+    "recurring"
+  ],
+  "repeat-dark": [
+    "повтор",
+    "повторить",
+    "цикл",
+    "loop",
+    "again",
+    "recurring"
+  ],
+  "repeat-sales": [
+    "повтор",
+    "продажи",
+    "повторить",
+    "цикл",
+    "loop",
+    "selling",
+    "again",
+    "recurring"
+  ],
+  "replay-all": [
+    "повторить",
+    "again"
+  ],
+  "reply": [
+    "ответить",
+    "ответ",
+    "respond",
+    "answer"
+  ],
+  "reply-all": [
+    "ответить",
+    "ответ",
+    "respond",
+    "answer"
+  ],
+  "rest-contact-center": [
+    "рест",
+    "контакт",
+    "центр",
+    "апи",
+    "клиент",
+    "по центру",
+    "адресат",
+    "api",
+    "person",
+    "middle",
+    "client",
+    "centered",
+    "address"
+  ],
+  "restore-password": [
+    "восстановить",
+    "пароль",
+    "recover",
+    "key",
+    "reset",
+    "secret"
+  ],
+  "resume": [
+    "резюме",
+    "продолжить",
+    "cv",
+    "continue"
+  ],
+  "right-align": [
+    "вправо",
+    "выравнивание",
+    "справа",
+    "выровнять",
+    "направо",
+    "forward",
+    "alignment",
+    "next",
+    "format"
+  ],
+  "robot": [
+    "робот",
+    "бот",
+    "bot",
+    "automation"
+  ],
+  "robots-dark": [
+    "роботы",
+    "боты",
+    "bots"
+  ],
+  "rocket": [
+    "ракета",
+    "запуск",
+    "старт",
+    "launch",
+    "start",
+    "boost"
+  ],
+  "roles-library": [
+    "роли",
+    "библиотека",
+    "коллекция",
+    "permissions",
+    "collection",
+    "access",
+    "catalog"
+  ],
+  "roles-rights": [
+    "роли",
+    "права",
+    "доступ",
+    "permissions",
+    "access"
+  ],
+  "room-rent": [
+    "комната",
+    "аренда",
+    "помещение",
+    "прокат",
+    "space",
+    "lease",
+    "hall",
+    "hire"
+  ],
+  "ruby": [
+    "руби",
+    "язык программирования",
+    "гем",
+    "programming language",
+    "gem",
+    "rails"
+  ],
+  "ruler-and-pencil": [
+    "линейка",
+    "карандаш",
+    "редактировать",
+    "measure",
+    "edit",
+    "write",
+    "pen"
+  ],
+  "running-man": [
+    "бегущий",
+    "человек",
+    "бег",
+    "мужчина",
+    "run",
+    "person"
+  ],
+  "rust": [
+    "раст",
+    "язык программирования",
+    "programming language",
+    "cargo"
+  ],
+  "sad": [
+    "грустный",
+    "печаль",
+    "unhappy",
+    "emoji"
+  ],
+  "sad-bold-emoji": [
+    "грустный",
+    "жирный",
+    "эмодзи",
+    "печаль",
+    "полужирный",
+    "смайлик",
+    "unhappy",
+    "strong",
+    "smiley",
+    "font",
+    "emoticon"
+  ],
+  "sale-tag": [
+    "продажа",
+    "тег",
+    "скидка",
+    "метка",
+    "discount",
+    "label",
+    "offer",
+    "mark"
+  ],
+  "saml-azure": [
+    "сэмл",
+    "азур",
+    "единый вход",
+    "авторизация",
+    "sso",
+    "login",
+    "authentication"
+  ],
+  "saml-azure-2": [
+    "сэмл",
+    "азур",
+    "единый вход",
+    "авторизация",
+    "sso",
+    "login",
+    "authentication"
+  ],
+  "save-prompt": [
+    "сохранить",
+    "промпт",
+    "запрос",
+    "подсказка",
+    "store",
+    "query",
+    "keep",
+    "instruction",
+    "command"
+  ],
+  "sberbank": [
+    "сбербанк",
+    "сбер",
+    "банк",
+    "оплата",
+    "sber",
+    "bank",
+    "payment",
+    "pay"
+  ],
+  "scala": [
+    "скала",
+    "язык программирования",
+    "programming language",
+    "jvm"
+  ],
+  "screen": [
+    "экран",
+    "монитор",
+    "display",
+    "monitor"
+  ],
+  "screen-1": [
+    "экран",
+    "монитор",
+    "display",
+    "monitor"
+  ],
+  "screen-2": [
+    "экран",
+    "монитор",
+    "display",
+    "monitor"
+  ],
+  "screen-arrow": [
+    "экран",
+    "стрелка",
+    "монитор",
+    "направление",
+    "display",
+    "pointer",
+    "monitor",
+    "direction"
+  ],
+  "screen-black-white": [
+    "экран",
+    "монитор",
+    "display",
+    "monitor"
+  ],
+  "screen-phone": [
+    "экран",
+    "монитор",
+    "display",
+    "monitor"
+  ],
+  "screen-selected": [
+    "экран",
+    "монитор",
+    "display",
+    "monitor"
+  ],
+  "screen-share": [
+    "экран",
+    "поделиться",
+    "монитор",
+    "доступ",
+    "расшарить",
+    "display",
+    "send",
+    "monitor",
+    "access",
+    "sharing"
+  ],
+  "screen-share-pause": [
+    "экран",
+    "поделиться",
+    "пауза",
+    "монитор",
+    "доступ",
+    "приостановить",
+    "расшарить",
+    "display",
+    "send",
+    "stop",
+    "monitor",
+    "access",
+    "hold"
+  ],
+  "scrum": [
+    "скрам",
+    "спринт",
+    "agile",
+    "sprint"
+  ],
+  "search": [
+    "поиск",
+    "найти",
+    "искать",
+    "find",
+    "lookup"
+  ],
+  "search-1": [
+    "поиск",
+    "найти",
+    "искать",
+    "find",
+    "lookup"
+  ],
+  "search-2": [
+    "поиск",
+    "найти",
+    "искать",
+    "find",
+    "lookup"
+  ],
+  "search-black": [
+    "поиск",
+    "найти",
+    "искать",
+    "find",
+    "lookup"
+  ],
+  "send": [
+    "отправить",
+    "послать",
+    "передать",
+    "submit",
+    "deliver",
+    "post"
+  ],
+  "send-attach-file": [
+    "отправить",
+    "прикрепить",
+    "файл",
+    "послать",
+    "вложение",
+    "документ",
+    "передать",
+    "скрепка",
+    "submit",
+    "attachment",
+    "document",
+    "deliver",
+    "clip",
+    "post"
+  ],
+  "send-contact": [
+    "отправить",
+    "контакт",
+    "послать",
+    "клиент",
+    "передать",
+    "адресат",
+    "submit",
+    "person",
+    "deliver",
+    "client",
+    "post",
+    "address"
+  ],
+  "send-file": [
+    "отправить файл",
+    "передать документ",
+    "вложение",
+    "share file",
+    "attach",
+    "deliver"
+  ],
+  "sent": [
+    "отправлено",
+    "доставлено",
+    "delivered",
+    "submitted"
+  ],
+  "sequential-queue": [
+    "последовательный",
+    "очередь",
+    "serial",
+    "line",
+    "waiting"
+  ],
+  "server-settings": [
+    "сервер",
+    "настройки",
+    "параметры",
+    "конфигурация",
+    "hosting",
+    "options",
+    "backend",
+    "preferences",
+    "gear"
+  ],
+  "service": [
+    "услуга",
+    "сервис",
+    "offering"
+  ],
+  "services": [
+    "услуги",
+    "сервисы",
+    "service",
+    "offerings"
+  ],
+  "set-columns": [
+    "колонки",
+    "столбцы",
+    "cols",
+    "layout"
+  ],
+  "setting-black": [
+    "настройка",
+    "параметр",
+    "option",
+    "gear"
+  ],
+  "settings": [
+    "настройки",
+    "параметры",
+    "конфигурация",
+    "options",
+    "preferences",
+    "gear"
+  ],
+  "settings-1": [
+    "настройки",
+    "параметры",
+    "конфигурация",
+    "options",
+    "preferences",
+    "gear"
+  ],
+  "settings-2": [
+    "настройки",
+    "параметры",
+    "конфигурация",
+    "options",
+    "preferences",
+    "gear"
+  ],
+  "settings-3": [
+    "настройки",
+    "параметры",
+    "конфигурация",
+    "options",
+    "preferences",
+    "gear"
+  ],
+  "settings-4": [
+    "настройки",
+    "параметры",
+    "конфигурация",
+    "options",
+    "preferences",
+    "gear"
+  ],
+  "settings-5": [
+    "настройки",
+    "параметры",
+    "конфигурация",
+    "options",
+    "preferences",
+    "gear"
+  ],
+  "shape": [
+    "фигура",
+    "форма",
+    "form",
+    "figure"
+  ],
+  "shape-1": [
+    "фигура",
+    "форма",
+    "figure",
+    "geometry"
+  ],
+  "share": [
+    "поделиться",
+    "доступ",
+    "расшарить",
+    "send",
+    "access",
+    "sharing"
+  ],
+  "share-1": [
+    "поделиться",
+    "доступ",
+    "расшарить",
+    "send",
+    "access",
+    "sharing"
+  ],
+  "share-2": [
+    "поделиться",
+    "доступ",
+    "расшарить",
+    "send",
+    "access",
+    "sharing"
+  ],
+  "share-black": [
+    "поделиться",
+    "доступ",
+    "расшарить",
+    "send",
+    "access",
+    "sharing"
+  ],
+  "share-task": [
+    "поделиться",
+    "задача",
+    "доступ",
+    "задание",
+    "расшарить",
+    "поручение",
+    "send",
+    "todo",
+    "access",
+    "job",
+    "sharing",
+    "assignment"
+  ],
+  "shield": [
+    "щит",
+    "защита",
+    "безопасность",
+    "security",
+    "protection",
+    "guard"
+  ],
+  "shield-2-attention": [
+    "щит",
+    "внимание",
+    "защита",
+    "важно",
+    "безопасность",
+    "предупреждение",
+    "security",
+    "warning",
+    "protection",
+    "alert",
+    "guard",
+    "notice"
+  ],
+  "shield-2-checked": [
+    "щит",
+    "защита",
+    "безопасность",
+    "security",
+    "protection",
+    "guard"
+  ],
+  "shield-2-contour": [
+    "щит",
+    "контур",
+    "защита",
+    "безопасность",
+    "security",
+    "outline",
+    "protection",
+    "guard"
+  ],
+  "shield-2-core-problem": [
+    "щит",
+    "ядро",
+    "защита",
+    "безопасность",
+    "security",
+    "main",
+    "protection",
+    "center",
+    "guard"
+  ],
+  "shield-2-defended": [
+    "щит",
+    "защищено",
+    "защита",
+    "безопасность",
+    "security",
+    "protected",
+    "protection",
+    "secure",
+    "guard"
+  ],
+  "shield-2-menu": [
+    "щит",
+    "меню",
+    "защита",
+    "список",
+    "безопасность",
+    "security",
+    "navigation",
+    "protection",
+    "list",
+    "guard"
+  ],
+  "shield-2-plain": [
+    "щит",
+    "простой",
+    "защита",
+    "безопасность",
+    "security",
+    "simple",
+    "protection",
+    "guard"
+  ],
+  "shield-2-time": [
+    "щит",
+    "время",
+    "защита",
+    "часы",
+    "безопасность",
+    "security",
+    "clock",
+    "protection",
+    "duration",
+    "guard"
+  ],
+  "shield-2-update": [
+    "щит",
+    "обновить",
+    "защита",
+    "обновление",
+    "безопасность",
+    "security",
+    "refresh",
+    "protection",
+    "upgrade",
+    "guard"
+  ],
+  "shield-attention": [
+    "щит",
+    "внимание",
+    "защита",
+    "важно",
+    "безопасность",
+    "предупреждение",
+    "security",
+    "warning",
+    "protection",
+    "alert",
+    "guard",
+    "notice"
+  ],
+  "shield-checked": [
+    "щит",
+    "защита",
+    "безопасность",
+    "security",
+    "protection",
+    "guard"
+  ],
+  "shining": [
+    "сияние",
+    "блеск",
+    "shine",
+    "glow"
+  ],
+  "shining-2": [
+    "сияние",
+    "блеск",
+    "shine",
+    "glow"
+  ],
+  "shop-list": [
+    "магазин",
+    "список",
+    "покупки",
+    "перечень",
+    "store",
+    "items",
+    "buy",
+    "menu"
+  ],
+  "shop-seen": [
+    "магазин",
+    "просмотрено",
+    "покупки",
+    "увидел",
+    "store",
+    "viewed",
+    "buy",
+    "read"
+  ],
+  "shopping-cart": [
+    "покупки",
+    "корзина",
+    "шопинг",
+    "тележка",
+    "buy",
+    "basket",
+    "shop",
+    "purchase"
+  ],
+  "shuffle": [
+    "перемешать",
+    "случайный",
+    "random",
+    "mix"
+  ],
+  "sick": [
+    "больничный",
+    "болезнь",
+    "ill",
+    "sick leave",
+    "health"
+  ],
+  "sigma-sum": [
+    "сигма",
+    "сумма",
+    "итого",
+    "total"
+  ],
+  "sigma-sum-a": [
+    "сигма",
+    "сумма",
+    "итого",
+    "total"
+  ],
+  "sign": [
+    "подпись",
+    "знак",
+    "подписать",
+    "signature",
+    "mark"
+  ],
+  "sign-default": [
+    "подпись",
+    "знак",
+    "подписать",
+    "signature",
+    "mark"
+  ],
+  "signal-wifi": [
+    "вайфай",
+    "беспроводная сеть",
+    "wireless",
+    "network",
+    "wi-fi"
+  ],
+  "signal-wifi-off": [
+    "вайфай",
+    "выключить",
+    "беспроводная сеть",
+    "отключено",
+    "выкл",
+    "wireless",
+    "disabled",
+    "network",
+    "disable",
+    "wi-fi"
+  ],
+  "siteb24": [
+    "сайт битрикс24",
+    "сайты",
+    "конструктор сайтов",
+    "лендинг",
+    "bitrix24 site",
+    "website builder",
+    "landing",
+    "site"
+  ],
+  "sitemap": [
+    "карта сайта",
+    "структура",
+    "structure",
+    "hierarchy"
+  ],
+  "sites-stores": [
+    "сайты",
+    "магазины",
+    "websites",
+    "shops"
+  ],
+  "size-w": [
+    "размер",
+    "dimension"
+  ],
+  "skype": [
+    "скайп",
+    "видеозвонок",
+    "мессенджер",
+    "звонки",
+    "video call",
+    "messenger",
+    "microsoft",
+    "call"
+  ],
+  "slack": [
+    "слак",
+    "мессенджер",
+    "командный чат",
+    "рабочий чат",
+    "messenger",
+    "team chat",
+    "workspace",
+    "collaboration"
+  ],
+  "smart-activities": [
+    "умный",
+    "активности",
+    "смарт",
+    "дела",
+    "intelligent",
+    "tasks",
+    "auto"
+  ],
+  "smart-activity": [
+    "умный",
+    "активность",
+    "смарт",
+    "дело",
+    "действие",
+    "intelligent",
+    "task",
+    "auto",
+    "event"
+  ],
+  "smart-process": [
+    "умный",
+    "процесс",
+    "смарт",
+    "обработка",
+    "intelligent",
+    "workflow",
+    "auto",
+    "progress"
+  ],
+  "smart-sort": [
+    "умный",
+    "сортировка",
+    "смарт",
+    "упорядочить",
+    "сортировать",
+    "intelligent",
+    "order",
+    "auto",
+    "arrange"
+  ],
+  "smile": [
+    "улыбка",
+    "смайлик",
+    "happy",
+    "emoji"
+  ],
+  "sms": [
+    "смс",
+    "сообщение",
+    "текстовое сообщение",
+    "рассылка",
+    "text message",
+    "mailing",
+    "mobile",
+    "notification"
+  ],
+  "snowflake": [
+    "снежинка",
+    "холод",
+    "snow",
+    "cold",
+    "winter"
+  ],
+  "sort": [
+    "сортировка",
+    "упорядочить",
+    "сортировать",
+    "order",
+    "arrange"
+  ],
+  "sort-activity": [
+    "сортировка",
+    "активность",
+    "упорядочить",
+    "дело",
+    "сортировать",
+    "действие",
+    "order",
+    "task",
+    "arrange",
+    "event"
+  ],
+  "sort-calendar": [
+    "сортировка",
+    "календарь",
+    "упорядочить",
+    "дата",
+    "сортировать",
+    "расписание",
+    "order",
+    "date",
+    "arrange",
+    "schedule",
+    "planner"
+  ],
+  "sound-2": [
+    "звук",
+    "аудио",
+    "audio",
+    "volume"
+  ],
+  "sound-off": [
+    "звук",
+    "выключить",
+    "аудио",
+    "отключено",
+    "выкл",
+    "audio",
+    "disabled",
+    "volume",
+    "disable"
+  ],
+  "sound-on": [
+    "звук",
+    "аудио",
+    "audio",
+    "volume"
+  ],
+  "spanner": [
+    "гаечный ключ",
+    "инструмент",
+    "wrench",
+    "tool",
+    "fix"
+  ],
+  "speaker": [
+    "динамик",
+    "колонка",
+    "спикер",
+    "loudspeaker",
+    "audio"
+  ],
+  "speaker-add": [
+    "динамик",
+    "добавить",
+    "колонка",
+    "создать",
+    "спикер",
+    "новый",
+    "loudspeaker",
+    "create",
+    "audio",
+    "new",
+    "plus"
+  ],
+  "speaker-mouthpiece": [
+    "динамик",
+    "микрофон",
+    "колонка",
+    "трубка",
+    "спикер",
+    "loudspeaker",
+    "handset",
+    "audio",
+    "mic"
+  ],
+  "speaker-mouthpiece-plus": [
+    "динамик",
+    "микрофон",
+    "плюс",
+    "колонка",
+    "трубка",
+    "добавить",
+    "спикер",
+    "создать",
+    "loudspeaker",
+    "handset",
+    "add",
+    "audio",
+    "mic",
+    "new"
+  ],
+  "speakerphone": [
+    "громкая связь",
+    "спикерфон",
+    "loudspeaker"
+  ],
+  "special-characters": [
+    "специальный",
+    "символы",
+    "знаки",
+    "custom",
+    "symbols",
+    "chars"
+  ],
+  "speed-0-5": [
+    "скорость",
+    "rate",
+    "tempo",
+    "fast"
+  ],
+  "speed-0-7": [
+    "скорость",
+    "rate",
+    "tempo",
+    "fast"
+  ],
+  "speed-1": [
+    "скорость",
+    "rate",
+    "tempo",
+    "fast"
+  ],
+  "speed-1-0": [
+    "скорость",
+    "rate",
+    "tempo",
+    "fast"
+  ],
+  "speed-1-2": [
+    "скорость",
+    "rate",
+    "tempo",
+    "fast"
+  ],
+  "speed-1-5": [
+    "скорость",
+    "rate",
+    "tempo",
+    "fast"
+  ],
+  "speed-1-7": [
+    "скорость",
+    "rate",
+    "tempo",
+    "fast"
+  ],
+  "speed-2": [
+    "скорость",
+    "rate",
+    "tempo",
+    "fast"
+  ],
+  "speed-2-0": [
+    "скорость",
+    "rate",
+    "tempo",
+    "fast"
+  ],
+  "speed-meter": [
+    "скорость",
+    "счетчик",
+    "спидометр",
+    "rate",
+    "gauge",
+    "tempo",
+    "speedometer",
+    "fast"
+  ],
+  "spinner": [
+    "спиннер",
+    "загрузка",
+    "ожидание",
+    "loader",
+    "loading",
+    "wait"
+  ],
+  "sport-marathon": [
+    "спорт",
+    "марафон",
+    "бег",
+    "fitness",
+    "run"
+  ],
+  "stage": [
+    "этап",
+    "стадия",
+    "шаг",
+    "step",
+    "phase"
+  ],
+  "stage-minus": [
+    "этап",
+    "минус",
+    "стадия",
+    "убрать",
+    "шаг",
+    "вычесть",
+    "уменьшить",
+    "step",
+    "remove",
+    "phase",
+    "subtract",
+    "less"
+  ],
+  "stage-plus": [
+    "этап",
+    "плюс",
+    "стадия",
+    "добавить",
+    "шаг",
+    "создать",
+    "новый",
+    "step",
+    "add",
+    "phase",
+    "new",
+    "create"
+  ],
+  "stages": [
+    "этапы",
+    "стадии",
+    "шаги",
+    "steps",
+    "phases"
+  ],
+  "statistics-arrow": [
+    "статистика",
+    "стрелка",
+    "аналитика",
+    "направление",
+    "stats",
+    "pointer",
+    "analytics",
+    "direction",
+    "metrics"
+  ],
+  "sticker": [
+    "стикер",
+    "наклейка",
+    "label",
+    "emoji"
+  ],
+  "stock": [
+    "склад",
+    "запас",
+    "остаток",
+    "товар",
+    "inventory",
+    "warehouse",
+    "supply",
+    "goods"
+  ],
+  "stop": [
+    "стоп",
+    "остановить",
+    "halt",
+    "end"
+  ],
+  "stop-black": [
+    "стоп",
+    "остановить",
+    "halt",
+    "end"
+  ],
+  "stop-hand": [
+    "стоп",
+    "рука",
+    "остановить",
+    "ладонь",
+    "halt",
+    "palm",
+    "end"
+  ],
+  "stop-hand-crossed": [
+    "стоп",
+    "рука",
+    "остановить",
+    "ладонь",
+    "halt",
+    "palm",
+    "end"
+  ],
+  "stopwatch": [
+    "секундомер",
+    "таймер",
+    "timer"
+  ],
+  "storage": [
+    "хранилище",
+    "склад",
+    "disk",
+    "warehouse"
+  ],
+  "stress": [
+    "стресс",
+    "нагрузка",
+    "pressure"
+  ],
+  "strikethrough": [
+    "зачеркнутый",
+    "strike",
+    "text"
+  ],
+  "structure-horizontal": [
+    "структура",
+    "горизонтальный",
+    "иерархия",
+    "оргструктура",
+    "hierarchy",
+    "row",
+    "org chart",
+    "tree"
+  ],
+  "structure-vertical": [
+    "структура",
+    "вертикальный",
+    "иерархия",
+    "оргструктура",
+    "hierarchy",
+    "column",
+    "org chart",
+    "tree"
+  ],
+  "sub-point": [
+    "точка",
+    "пункт",
+    "dot",
+    "spot"
+  ],
+  "subscript": [
+    "нижний индекс",
+    "index",
+    "text"
+  ],
+  "subscription": [
+    "подписка",
+    "subscribe",
+    "plan"
+  ],
+  "subtask": [
+    "подзадача",
+    "child task",
+    "sub-task"
+  ],
+  "success": [
+    "успех",
+    "успешно",
+    "ok",
+    "done"
+  ],
+  "suitcase": [
+    "чемодан",
+    "портфель",
+    "командировка",
+    "briefcase",
+    "business trip",
+    "luggage"
+  ],
+  "sun": [
+    "солнце",
+    "день",
+    "sunny",
+    "light",
+    "day"
+  ],
+  "sunglasses": [
+    "солнцезащитные очки",
+    "shades",
+    "cool"
+  ],
+  "superscript": [
+    "верхний индекс",
+    "index",
+    "exponent"
+  ],
+  "swap": [
+    "поменять",
+    "обмен",
+    "switch",
+    "exchange"
+  ],
+  "switch": [
+    "переключить",
+    "переключатель",
+    "toggle",
+    "change"
+  ],
+  "switch-camera": [
+    "переключить",
+    "камера",
+    "переключатель",
+    "фото",
+    "съемка",
+    "toggle",
+    "photo",
+    "change",
+    "webcam",
+    "shoot"
+  ],
+  "switcher": [
+    "переключатель",
+    "toggle",
+    "switch"
+  ],
+  "sync-circle": [
+    "синхронизация"
+  ],
+  "sync-settings": [
+    "синхронизация",
+    "настройки",
+    "обновить",
+    "параметры",
+    "конфигурация",
+    "synchronize",
+    "options",
+    "refresh",
+    "preferences",
+    "gear"
+  ],
+  "table": [
+    "таблица",
+    "grid",
+    "spreadsheet"
+  ],
+  "table-editor": [
+    "таблица",
+    "редактор",
+    "grid",
+    "editing",
+    "spreadsheet"
+  ],
+  "tablet": [
+    "планшет",
+    "ipad",
+    "device"
+  ],
+  "tag": [
+    "тег",
+    "метка",
+    "label",
+    "mark"
+  ],
+  "tailwind": [
+    "тейлвинд",
+    "css",
+    "стили",
+    "фреймворк",
+    "styles",
+    "framework",
+    "utility css"
+  ],
+  "take-photo": [
+    "сделать",
+    "фото",
+    "взять",
+    "снимок",
+    "capture",
+    "picture",
+    "image"
+  ],
+  "target": [
+    "цель",
+    "мишень",
+    "goal",
+    "aim"
+  ],
+  "target-1": [
+    "цель",
+    "мишень",
+    "goal",
+    "aim"
+  ],
+  "target-timer": [
+    "цель",
+    "таймер",
+    "мишень",
+    "секундомер",
+    "goal",
+    "countdown",
+    "aim",
+    "stopwatch"
+  ],
+  "tariff-black": [
+    "тариф",
+    "цена",
+    "price",
+    "plan"
+  ],
+  "tariff-scanner": [
+    "тариф",
+    "сканер",
+    "цена",
+    "price",
+    "scan",
+    "plan"
+  ],
+  "task": [
+    "задача",
+    "задание",
+    "поручение",
+    "todo",
+    "job",
+    "assignment"
+  ],
+  "task-black": [
+    "задача",
+    "задание",
+    "поручение",
+    "todo",
+    "job",
+    "assignment"
+  ],
+  "task-list": [
+    "задача",
+    "список",
+    "задание",
+    "перечень",
+    "поручение",
+    "todo",
+    "items",
+    "job",
+    "menu",
+    "assignment"
+  ],
+  "tasks": [
+    "задачи",
+    "задания",
+    "поручения",
+    "todos",
+    "jobs"
+  ],
+  "taxi": [
+    "такси",
+    "поездка",
+    "машина",
+    "транспорт",
+    "cab",
+    "ride",
+    "car",
+    "transport"
+  ],
+  "telegram": [
+    "телеграм",
+    "телега",
+    "мессенджер",
+    "чат",
+    "messenger",
+    "chat",
+    "tg",
+    "paper plane"
+  ],
+  "telegram-in-circle": [
+    "круг",
+    "кружок",
+    "round",
+    "ring"
+  ],
+  "telegram-in-circle-1": [
+    "круг",
+    "кружок",
+    "round",
+    "ring"
+  ],
+  "telephony": [
+    "телефония",
+    "звонки",
+    "атс",
+    "phone",
+    "voip",
+    "pbx"
+  ],
+  "telephony-handset-1": [
+    "телефония",
+    "трубка",
+    "звонки",
+    "телефон",
+    "атс",
+    "phone",
+    "voip",
+    "receiver",
+    "pbx"
+  ],
+  "telephony-handset-2": [
+    "телефония",
+    "трубка",
+    "звонки",
+    "телефон",
+    "атс",
+    "phone",
+    "voip",
+    "receiver",
+    "pbx"
+  ],
+  "telephony-handset-3": [
+    "телефония",
+    "трубка",
+    "звонки",
+    "телефон",
+    "атс",
+    "phone",
+    "voip",
+    "receiver",
+    "pbx"
+  ],
+  "telephony-handset-4": [
+    "телефония",
+    "трубка",
+    "звонки",
+    "телефон",
+    "атс",
+    "phone",
+    "voip",
+    "receiver",
+    "pbx"
+  ],
+  "telephony-handset-5": [
+    "телефония",
+    "трубка",
+    "звонки",
+    "телефон",
+    "атс",
+    "phone",
+    "voip",
+    "receiver",
+    "pbx"
+  ],
+  "telephony-handset-6": [
+    "телефония",
+    "трубка",
+    "звонки",
+    "телефон",
+    "атс",
+    "phone",
+    "voip",
+    "receiver",
+    "pbx"
+  ],
+  "telephony-phonebook": [
+    "телефония",
+    "телефонная книга",
+    "звонки",
+    "справочник",
+    "атс",
+    "phone",
+    "contacts",
+    "voip",
+    "directory",
+    "pbx"
+  ],
+  "telephony-phonebook-2": [
+    "телефония",
+    "телефонная книга",
+    "звонки",
+    "справочник",
+    "атс",
+    "phone",
+    "contacts",
+    "voip",
+    "directory",
+    "pbx"
+  ],
+  "telephonybot": [
+    "бот телефонии"
+  ],
+  "temp-1": [
+    "температура",
+    "временный",
+    "temporary"
+  ],
+  "temp-2": [
+    "температура",
+    "временный",
+    "temporary"
+  ],
+  "template-task": [
+    "шаблон",
+    "задача",
+    "задание",
+    "поручение",
+    "pattern",
+    "todo",
+    "preset",
+    "job",
+    "assignment"
+  ],
+  "templates": [
+    "шаблоны",
+    "presets"
+  ],
+  "terminal": [
+    "терминал",
+    "консоль",
+    "console",
+    "command line",
+    "shell"
+  ],
+  "text": [
+    "текст",
+    "надпись",
+    "label",
+    "string"
+  ],
+  "text-amount": [
+    "текст",
+    "надпись",
+    "label",
+    "string"
+  ],
+  "text-check": [
+    "текст",
+    "галочка",
+    "надпись",
+    "проверить",
+    "готово",
+    "подтвердить",
+    "label",
+    "tick",
+    "string",
+    "done",
+    "ok",
+    "verify"
+  ],
+  "text-color": [
+    "текст",
+    "цвет",
+    "надпись",
+    "label",
+    "colour",
+    "string"
+  ],
+  "text-format-bottom": [
+    "текст",
+    "формат",
+    "низ",
+    "надпись",
+    "форматирование",
+    "вниз",
+    "label",
+    "style",
+    "down",
+    "string",
+    "lower"
+  ],
+  "text-format-cancel": [
+    "текст",
+    "формат",
+    "отмена",
+    "надпись",
+    "форматирование",
+    "отменить",
+    "label",
+    "style",
+    "abort",
+    "string",
+    "stop",
+    "cross"
+  ],
+  "text-format-top": [
+    "текст",
+    "формат",
+    "верх",
+    "надпись",
+    "форматирование",
+    "вверх",
+    "label",
+    "style",
+    "up",
+    "string",
+    "upper"
+  ],
+  "text-format-top-left": [
+    "текст",
+    "формат",
+    "верх",
+    "влево",
+    "надпись",
+    "форматирование",
+    "вверх",
+    "слева",
+    "label",
+    "style",
+    "up",
+    "back",
+    "string",
+    "upper"
+  ],
+  "text-format-top-right": [
+    "текст",
+    "формат",
+    "верх",
+    "вправо",
+    "надпись",
+    "форматирование",
+    "вверх",
+    "справа",
+    "label",
+    "style",
+    "up",
+    "forward",
+    "string",
+    "upper"
+  ],
+  "theme": [
+    "тема",
+    "оформление",
+    "skin",
+    "style"
+  ],
+  "thread": [
+    "тред",
+    "ветка",
+    "обсуждение",
+    "discussion",
+    "topic"
+  ],
+  "thread-single": [
+    "тред",
+    "ветка",
+    "обсуждение",
+    "discussion",
+    "topic"
+  ],
+  "three-persons": [
+    "люди",
+    "пользователи",
+    "сотрудники",
+    "people",
+    "users",
+    "team"
+  ],
+  "time-picker": [
+    "время",
+    "часы",
+    "clock",
+    "duration"
+  ],
+  "timeline": [
+    "таймлайн",
+    "лента времени",
+    "история",
+    "history",
+    "schedule",
+    "feed"
+  ],
+  "timeline-plus": [
+    "добавить в ленту",
+    "таймлайн",
+    "запись",
+    "add to timeline",
+    "history",
+    "new entry"
+  ],
+  "timer": [
+    "таймер",
+    "секундомер",
+    "countdown",
+    "stopwatch"
+  ],
+  "timer-dot": [
+    "таймер",
+    "секундомер",
+    "countdown",
+    "stopwatch"
+  ],
+  "toloka": [
+    "толока",
+    "краудсорсинг",
+    "разметка данных",
+    "яндекс",
+    "crowdsourcing",
+    "data labeling",
+    "yandex",
+    "tasks"
+  ],
+  "topic": [
+    "тема",
+    "обсуждение",
+    "subject",
+    "thread"
+  ],
+  "torrent": [
+    "торрент",
+    "скачивание",
+    "раздача",
+    "download",
+    "p2p",
+    "file sharing"
+  ],
+  "trainee": [
+    "стажер",
+    "практикант",
+    "intern",
+    "student"
+  ],
+  "transcription": [
+    "транскрипция",
+    "расшифровка",
+    "speech to text",
+    "text"
+  ],
+  "translation": [
+    "перевод",
+    "переводчик",
+    "translate",
+    "language"
+  ],
+  "trash-bin": [
+    "мусор",
+    "корзина",
+    "контейнер",
+    "garbage",
+    "delete"
+  ],
+  "trashcan": [
+    "мусорка",
+    "корзина",
+    "удалить",
+    "garbage",
+    "delete",
+    "remove"
+  ],
+  "trend-down": [
+    "тренд",
+    "вниз",
+    "динамика",
+    "нижний",
+    "dynamics",
+    "bottom",
+    "statistics",
+    "lower"
+  ],
+  "trend-up": [
+    "тренд",
+    "вверх",
+    "динамика",
+    "верхний",
+    "dynamics",
+    "top",
+    "statistics",
+    "raise"
+  ],
+  "tsconfig": [
+    "конфиг тайпскрипт",
+    "настройки",
+    "конфиг",
+    "typescript config",
+    "settings",
+    "ts"
+  ],
+  "tutorial": [
+    "обучение",
+    "руководство",
+    "инструкция",
+    "guide",
+    "help",
+    "course"
+  ],
+  "twilio": [
+    "твилио",
+    "телефония",
+    "смс",
+    "api",
+    "telephony",
+    "sms",
+    "voip",
+    "cpaas"
+  ],
+  "twitter": [
+    "твиттер",
+    "твит",
+    "соцсеть",
+    "микроблог",
+    "tweet",
+    "social network",
+    "microblog",
+    "x"
+  ],
+  "txt": [
+    "текстовый файл",
+    "текст",
+    "блокнот",
+    "text file",
+    "plain text",
+    "notepad"
+  ],
+  "typescript": [
+    "тайпскрипт",
+    "язык программирования",
+    "типизация",
+    "ts",
+    "programming language",
+    "javascript"
+  ],
+  "unavailable": [
+    "недоступно",
+    "disabled",
+    "not available"
+  ],
+  "underline": [
+    "подчеркнутый",
+    "text",
+    "underscore"
+  ],
+  "undo": [
+    "отменить",
+    "назад",
+    "revert",
+    "back"
+  ],
+  "undo-1": [
+    "отменить",
+    "назад",
+    "revert",
+    "back"
+  ],
+  "unfollow-black": [
+    "отписаться",
+    "unsubscribe"
+  ],
+  "union": [
+    "объединение",
+    "слияние",
+    "merge",
+    "combine"
+  ],
+  "universal": [
+    "универсальный",
+    "general"
+  ],
+  "unlink": [
+    "разорвать связь",
+    "убрать ссылку",
+    "detach",
+    "break"
+  ],
+  "unlock": [
+    "разблокировать",
+    "открыть замок",
+    "open",
+    "access"
+  ],
+  "unpin": [
+    "открепить",
+    "detach"
+  ],
+  "unsub-point": [
+    "точка",
+    "пункт",
+    "dot",
+    "spot"
+  ],
+  "upload": [
+    "загрузить",
+    "выгрузить",
+    "отправить",
+    "export",
+    "send"
+  ],
+  "upload-document": [
+    "загрузить",
+    "документ",
+    "выгрузить",
+    "файл",
+    "отправить",
+    "бумага",
+    "export",
+    "doc",
+    "send",
+    "paper",
+    "file"
+  ],
+  "upload-file": [
+    "загрузить файл"
+  ],
+  "user": [
+    "пользователь",
+    "человек",
+    "профиль",
+    "аккаунт",
+    "person",
+    "account",
+    "member"
+  ],
+  "user-company": [
+    "пользователь",
+    "компания",
+    "человек",
+    "организация",
+    "профиль",
+    "фирма",
+    "аккаунт",
+    "person",
+    "organization",
+    "account",
+    "business",
+    "member",
+    "firm"
+  ],
+  "user-group": [
+    "пользователь",
+    "группа",
+    "человек",
+    "команда",
+    "профиль",
+    "аккаунт",
+    "person",
+    "team",
+    "account",
+    "collective",
+    "member"
+  ],
+  "user-mail": [
+    "пользователь",
+    "почта",
+    "человек",
+    "письмо",
+    "профиль",
+    "email",
+    "аккаунт",
+    "person",
+    "envelope",
+    "account",
+    "message",
+    "member",
+    "e-mail"
+  ],
+  "user-mask": [
+    "пользователь",
+    "человек",
+    "профиль",
+    "аккаунт",
+    "person",
+    "account",
+    "member"
+  ],
+  "user-profile": [
+    "пользователь",
+    "человек",
+    "профиль",
+    "аккаунт",
+    "person",
+    "account",
+    "member"
+  ],
+  "vacation": [
+    "отпуск",
+    "отдых",
+    "holiday",
+    "leave",
+    "day off"
+  ],
+  "verification": [
+    "проверка",
+    "верификация",
+    "check",
+    "validate"
+  ],
+  "viber": [
+    "вайбер",
+    "мессенджер",
+    "чат",
+    "звонки",
+    "messenger",
+    "chat",
+    "call",
+    "im"
+  ],
+  "video": [
+    "видео",
+    "ролик",
+    "видеозвонок",
+    "movie",
+    "clip",
+    "film"
+  ],
+  "video-1": [
+    "видео",
+    "ролик",
+    "видеозвонок",
+    "movie",
+    "clip",
+    "film"
+  ],
+  "video-2": [
+    "видео",
+    "ролик",
+    "видеозвонок",
+    "movie",
+    "clip",
+    "film"
+  ],
+  "video-3": [
+    "видео",
+    "ролик",
+    "видеозвонок",
+    "movie",
+    "clip",
+    "film"
+  ],
+  "video-and-chat": [
+    "видео",
+    "чат",
+    "ролик",
+    "переписка",
+    "видеозвонок",
+    "диалог",
+    "movie",
+    "conversation",
+    "clip",
+    "messenger",
+    "film",
+    "dialog"
+  ],
+  "viewmode-code": [
+    "режим просмотра",
+    "код",
+    "программирование",
+    "view",
+    "programming",
+    "develop",
+    "script"
+  ],
+  "viewmode-split-hor": [
+    "режим просмотра",
+    "разделить",
+    "разделение",
+    "view",
+    "divide"
+  ],
+  "viewmode-split-ver": [
+    "режим просмотра",
+    "разделить",
+    "разделение",
+    "view",
+    "divide"
+  ],
+  "viewmode-wysiwyg": [
+    "режим просмотра",
+    "визуальный редактор",
+    "view",
+    "visual editor"
+  ],
+  "virtual-server": [
+    "виртуальный",
+    "сервер",
+    "cloud",
+    "hosting",
+    "backend"
+  ],
+  "virtual-storage": [
+    "виртуальный",
+    "хранилище",
+    "склад",
+    "cloud",
+    "disk",
+    "warehouse"
+  ],
+  "vk": [
+    "вконтакте",
+    "вк",
+    "соцсеть",
+    "соц сеть",
+    "vkontakte",
+    "social network",
+    "social",
+    "vk.com"
+  ],
+  "vk-ads": [
+    "реклама вконтакте",
+    "вк реклама",
+    "таргет",
+    "маркетинг",
+    "advertising",
+    "target",
+    "marketing"
+  ],
+  "vk-lead-form": [
+    "лид",
+    "форма",
+    "потенциальный клиент",
+    "анкета",
+    "prospect",
+    "survey",
+    "sale",
+    "webform"
+  ],
+  "vk-lists": [
+    "списки вконтакте",
+    "вк списки",
+    "сообщества",
+    "аудитории",
+    "audience",
+    "communities",
+    "groups"
+  ],
+  "vk-order": [
+    "заказ",
+    "порядок",
+    "purchase",
+    "sort"
+  ],
+  "vk-shop": [
+    "магазин",
+    "покупки",
+    "store",
+    "buy"
+  ],
+  "vkads": [
+    "реклама вконтакте",
+    "вк реклама",
+    "таргет",
+    "маркетинг",
+    "vk ads",
+    "advertising",
+    "target",
+    "marketing"
+  ],
+  "vscode": [
+    "вс код",
+    "редактор кода",
+    "ide",
+    "visual studio code",
+    "editor",
+    "microsoft"
+  ],
+  "vue": [
+    "вью",
+    "фреймворк",
+    "фронтенд",
+    "framework",
+    "frontend",
+    "javascript"
+  ],
+  "wait-list": [
+    "ожидание",
+    "список",
+    "подождать",
+    "перечень",
+    "ждать",
+    "waiting",
+    "items",
+    "loading",
+    "menu",
+    "pending"
+  ],
+  "waiting-list": [
+    "ожидание",
+    "список",
+    "очередь",
+    "перечень",
+    "pending",
+    "items",
+    "queue",
+    "menu"
+  ],
+  "waiting-points": [
+    "ожидание",
+    "очередь",
+    "pending",
+    "queue"
+  ],
+  "wallet": [
+    "кошелек",
+    "money",
+    "pay"
+  ],
+  "warning": [
+    "предупреждение",
+    "внимание",
+    "осторожно",
+    "alert",
+    "caution",
+    "danger"
+  ],
+  "warning-alarm": [
+    "предупреждение",
+    "будильник",
+    "внимание",
+    "тревога",
+    "осторожно",
+    "сигнал",
+    "alert",
+    "caution",
+    "clock",
+    "danger",
+    "siren"
+  ],
+  "warning-circle": [
+    "предупреждение",
+    "круг",
+    "внимание",
+    "кружок",
+    "осторожно",
+    "alert",
+    "round",
+    "caution",
+    "ring",
+    "danger"
+  ],
+  "watch": [
+    "часы",
+    "наблюдать",
+    "clock",
+    "smartwatch"
+  ],
+  "watermark": [
+    "водяной знак",
+    "stamp",
+    "mark"
+  ],
+  "waves": [
+    "волны",
+    "звук",
+    "sound",
+    "wave"
+  ],
+  "webchat": [
+    "веб-чат",
+    "виджет чата",
+    "widget",
+    "live chat"
+  ],
+  "webform": [
+    "веб-форма",
+    "форма",
+    "form",
+    "widget"
+  ],
+  "wechat": [
+    "вичат",
+    "мессенджер",
+    "китай",
+    "соцсеть",
+    "messenger",
+    "chat",
+    "china",
+    "social network"
+  ],
+  "whatsapp": [
+    "ватсап",
+    "вацап",
+    "мессенджер",
+    "чат",
+    "messenger",
+    "chat",
+    "wa",
+    "im"
+  ],
+  "wheel": [
+    "колесо",
+    "руль",
+    "steering"
+  ],
+  "widget": [
+    "виджет",
+    "блок",
+    "block",
+    "component"
+  ],
+  "wifi": [
+    "вайфай",
+    "беспроводная сеть",
+    "wireless",
+    "network",
+    "wi-fi"
+  ],
+  "wiki": [
+    "вики",
+    "база знаний",
+    "энциклопедия",
+    "статьи",
+    "knowledge base",
+    "encyclopedia",
+    "articles",
+    "wikipedia"
+  ],
+  "window": [
+    "окно",
+    "app window"
+  ],
+  "window-arrow": [
+    "окно",
+    "стрелка",
+    "направление",
+    "app window",
+    "pointer",
+    "direction"
+  ],
+  "window-check-arrow": [
+    "окно",
+    "галочка",
+    "стрелка",
+    "проверить",
+    "направление",
+    "готово",
+    "подтвердить",
+    "app window",
+    "tick",
+    "pointer",
+    "done",
+    "direction",
+    "ok"
+  ],
+  "window-check-link": [
+    "окно",
+    "галочка",
+    "ссылка",
+    "проверить",
+    "связь",
+    "готово",
+    "подтвердить",
+    "app window",
+    "tick",
+    "url",
+    "done",
+    "hyperlink",
+    "ok"
+  ],
+  "window-check-pencil": [
+    "окно",
+    "галочка",
+    "карандаш",
+    "проверить",
+    "редактировать",
+    "готово",
+    "подтвердить",
+    "app window",
+    "tick",
+    "edit",
+    "done",
+    "write",
+    "ok"
+  ],
+  "window-check-with-folder": [
+    "окно",
+    "галочка",
+    "папка",
+    "проверить",
+    "каталог",
+    "готово",
+    "подтвердить",
+    "app window",
+    "tick",
+    "directory",
+    "done",
+    "dir",
+    "ok"
+  ],
+  "window-double-check-1": [
+    "окно",
+    "двойной",
+    "галочка",
+    "двойная",
+    "проверить",
+    "готово",
+    "подтвердить",
+    "app window",
+    "two",
+    "tick",
+    "dual",
+    "done",
+    "ok"
+  ],
+  "window-double-check-2": [
+    "окно",
+    "двойной",
+    "галочка",
+    "двойная",
+    "проверить",
+    "готово",
+    "подтвердить",
+    "app window",
+    "two",
+    "tick",
+    "dual",
+    "done",
+    "ok"
+  ],
+  "window-flag": [
+    "окно",
+    "флаг",
+    "флажок",
+    "метка",
+    "app window",
+    "mark",
+    "banner"
+  ],
+  "window-ring": [
+    "окно",
+    "app window"
+  ],
+  "window-screen": [
+    "окно",
+    "экран",
+    "монитор",
+    "app window",
+    "display",
+    "monitor"
+  ],
+  "window-with-point": [
+    "окно",
+    "точка",
+    "пункт",
+    "app window",
+    "dot",
+    "spot"
+  ],
+  "windows": [
+    "окна",
+    "microsoft"
+  ],
+  "xls": [
+    "эксель",
+    "таблица",
+    "электронная таблица",
+    "excel",
+    "spreadsheet",
+    "microsoft",
+    "table"
+  ],
+  "ya": [
+    "яндекс",
+    "я",
+    "поиск",
+    "сервис",
+    "yandex",
+    "search",
+    "service"
+  ],
+  "ya-dialogs": [
+    "яндекс диалоги",
+    "чат-бот",
+    "алиса",
+    "навыки",
+    "yandex dialogs",
+    "bot",
+    "alice",
+    "skills"
+  ],
+  "ya-direct": [
+    "яндекс директ",
+    "реклама",
+    "контекстная реклама",
+    "маркетинг",
+    "yandex direct",
+    "advertising",
+    "marketing",
+    "ads"
+  ],
+  "ya-toloka": [
+    "яндекс толока",
+    "краудсорсинг",
+    "разметка данных",
+    "yandex toloka",
+    "crowdsourcing",
+    "data labeling",
+    "tasks"
+  ],
+  "yahoo": [
+    "яху",
+    "поисковик",
+    "почта",
+    "портал",
+    "yahoo mail",
+    "search engine",
+    "portal"
+  ],
+  "yaml": [
+    "ямл",
+    "конфиг",
+    "разметка",
+    "yml",
+    "config",
+    "data format"
+  ],
+  "yandex": [
+    "яндекс",
+    "поиск",
+    "поисковик",
+    "сервис",
+    "search",
+    "search engine",
+    "russian",
+    "service"
+  ],
+  "yandex-maps": [
+    "яндекс карты",
+    "карты",
+    "навигация",
+    "геолокация",
+    "navigation",
+    "geolocation",
+    "location"
+  ],
+  "yarn": [
+    "ярн",
+    "менеджер пакетов",
+    "пакеты",
+    "package manager",
+    "node"
+  ],
+  "zip": [
+    "архив",
+    "сжатие",
+    "упаковать",
+    "archive",
+    "compress",
+    "pack"
+  ],
+  "zoom": [
+    "зум",
+    "видеоконференция",
+    "масштаб",
+    "video call",
+    "conference",
+    "scale"
+  ],
+  "zoom-in": [
+    "зум",
+    "видеоконференция",
+    "масштаб",
+    "video call",
+    "conference",
+    "scale"
+  ],
+  "zoom-out": [
+    "зум",
+    "видеоконференция",
+    "масштаб",
+    "video call",
+    "conference",
+    "scale"
+  ]
+}
