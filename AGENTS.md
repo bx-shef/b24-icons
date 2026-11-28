@@ -52,7 +52,9 @@ bx-shef/b24-js-sdk: `deploy/README.md`. Проверка сайта агенто
   `packages/icons-json/search.mjs`, общий для каталога и MCP `b24-ui-search-icons` в bx-shef/b24-ui.
 - `site/` — публичный каталог: Nuxt на b24-ui (`@bitrix24/b24ui-nuxt`, оформление «Василёк» из документации
   b24-ui). `pnpm site` кладёт коллекцию в `site/public/data`, файлы иконок в `site/public/svg`, делает
-  `nuxt generate` и собирает `site-dist/`. Поиск на странице — тот же `searchIcons()`.
+  `nuxt generate` и собирает `site-dist/`. Поиск на странице — тот же `searchIcons()`. Страница на каждую видимую
+  иконку — `/icons/<имя>` (`site/app/pages/icons/[name].vue`, данные из `site/server/api/icon` только при генерации,
+  на сервере API нет); они же в `sitemap.xml`.
 - `data/renames.json` — переименования при переносе; `data/legacy-map.json` — «компонент старой
   библиотеки → имя `bx24`». Сгенерирован один раз `scripts/migrate/legacy-map.mjs`.
 - Сгенерированные файлы пакетов в git не хранятся (`.gitignore`).

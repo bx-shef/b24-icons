@@ -1,7 +1,16 @@
 // Публичный каталог иконок bx24 на b24-ui (bx-shef/b24-icons#20). Статическая генерация:
 // `pnpm site` → site-dist/ (образ deploy/Dockerfile). Данные коллекции — в public/data
 // (кладёт scripts/site.mjs из packages/icons-json), страница читает их в браузере.
+import { readFileSync } from 'node:fs'
+import { fileURLToPath } from 'node:url'
+
 const siteUrl = (process.env.SITE_URL || '').replace(/\/+$/, '')
+
+// Страница на каждую видимую иконку: /icons/<имя> (bx-shef/b24-icons#20). Коллекцию собирает `pnpm build`.
+const collection = JSON.parse(readFileSync(fileURLToPath(new URL('../packages/icons-json/icons.json', import.meta.url)), 'utf8'))
+const iconRoutes = Object.entries(collection.icons as Record<string, { hidden?: boolean }>)
+  .filter(([, icon]) => !icon.hidden)
+  .map(([name]) => `/icons/${name}`)
 
 export default defineNuxtConfig({
   modules: ['@bitrix24/b24ui-nuxt'],
@@ -19,7 +28,7 @@ export default defineNuxtConfig({
       ],
       // Keep ?q=&set=&theme=&icon= before Nuxt hydrates the prerendered "/" and drops them
       script: [
-        { innerHTML: 'window.__bx24Search=location.search', tagPosition: 'head' },
+        { innerHTML: 'if(location.pathname==="/")window.__bx24Search=location.search', tagPosition: 'head' },
         // Класс темы до первой отрисовки (без вспышки) — та же логика, что у useColorMode b24-ui
         // (ключ vueuse-color-scheme; нет выбора — системная тема). Копия из docs/nuxt.config.ts bx-shef/b24-ui.
         {
@@ -45,7 +54,7 @@ export default defineNuxtConfig({
 
 
   nitro: {
-    prerender: { routes: ['/'], crawlLinks: false }
+    prerender: { routes: ['/', ...iconRoutes], crawlLinks: false }
   },
 
   compatibilityDate: '2026-11-01'

@@ -2,10 +2,11 @@
 import type { Bx24SearchResult } from '@bxshefby/icons-json/search'
 import Search2Icon from '@bitrix24/b24icons-vue/main/Search2Icon'
 import { refDebounced, useIntersectionObserver } from '@vueuse/core'
+import { strToU8, zipSync } from 'fflate'
 
 const router = useRouter()
 const toast = useToast()
-const { state, find, svg, snippet } = useCatalog()
+const { state, find, svg, svgFile, snippet } = useCatalog()
 
 // ---- state in the URL: ?q=&set=&theme=&icon= ----
 const query = ref('')
@@ -16,21 +17,34 @@ const openName = ref('')
 // The page is prerendered without a query string, and hydration resets the address to "/".
 // An inline script in nuxt.config.ts keeps the original query in window.__bx24Search.
 onMounted(() => {
-  const p = new URLSearchParams((window as { __bx24Search?: string }).__bx24Search ?? window.location.search)
+  const w = window as { __bx24Search?: string }
+  // only the first page load needs the saved query; later client-side visits (e.g. from /icons/<name>) have it in location
+  const p = new URLSearchParams(w.__bx24Search ?? window.location.search)
+  delete w.__bx24Search
+  // Hydration of the prerendered "/" then finishes its own navigation to plain "/" and drops the query
+  // from the address bar: write the state back once, as soon as that happens (checked for 3 s).
+  if (p.size) {
+    const poll = setInterval(() => {
+      if (window.location.pathname === '/' && !window.location.search) syncUrl(true)
+    }, 100)
+    setTimeout(() => clearInterval(poll), 3000)
+  }
   query.value = p.get('q') ?? ''
   set.value = p.get('set') ?? ''
   theme.value = p.get('theme') ?? ''
   openName.value = p.get('icon') ?? ''
 })
 
-watch([query, set, theme, openName], () => {
+watch([query, set, theme, openName], syncUrl)
+function syncUrl(force = false) {
   const q: Record<string, string> = {}
   if (query.value) q.q = query.value
   if (set.value) q.set = set.value
   if (theme.value) q.theme = theme.value
   if (openName.value) q.icon = openName.value
-  router.replace({ query: q })
-})
+  if (force && Object.keys(q).length) history.replaceState(history.state, '', router.resolve({ path: '/', query: q }).href)
+  else router.replace({ query: q })
+}
 
 // ---- copy format and preview size: per-viewer, kept in localStorage ----
 const format = ref<CopyFormat>('nuxt')
@@ -115,6 +129,48 @@ async function copy(name: string, fmt: CopyFormat = format.value) {
   }
 }
 
+// ---- several icons: selection mode, copy the list, download a ZIP of SVG files ----
+const selecting = ref(false)
+const selected = ref<string[]>([])
+function toggle(name: string) {
+  const i = selected.value.indexOf(name)
+  if (i === -1) selected.value.push(name)
+  else selected.value.splice(i, 1)
+}
+function activate(name: string) {
+  if (selecting.value) toggle(name)
+  else copy(name)
+}
+function stopSelecting() {
+  selecting.value = false
+  selected.value = []
+}
+function selectShown() {
+  for (const g of shown.value) {
+    const n = nameFor(g)
+    if (!selected.value.includes(n)) selected.value.push(n)
+  }
+}
+async function copySelected() {
+  const text = selected.value.map(n => snippet(n, format.value)).join('\n')
+  try {
+    await navigator.clipboard.writeText(text)
+    toast.add({ title: 'Скопировано', description: `${selected.value.length} шт. · ${COPY_FORMATS.find(f => f.value === format.value)?.label ?? ''}`, duration: 1800 })
+  } catch {
+    toast.add({ title: 'Не удалось скопировать', color: 'air-primary-alert', duration: 2500 })
+  }
+}
+function downloadZip() {
+  const files: Record<string, Uint8Array> = {}
+  for (const n of selected.value) files[`${n}.svg`] = strToU8(svgFile(n) + '\n')
+  const blob = new Blob([zipSync(files, { level: 6 })], { type: 'application/zip' })
+  const a = document.createElement('a')
+  a.href = URL.createObjectURL(blob)
+  a.download = `bx24-icons-${selected.value.length}.zip`
+  a.click()
+  setTimeout(() => URL.revokeObjectURL(a.href), 1000)
+}
+
 const openGroup = computed(() => openName.value
   ? state.index?.groups.find(g => g.variants.some(v => v.name === openName.value)) ?? null
   : null)
@@ -193,6 +249,12 @@ function onGridKey(e: KeyboardEvent) {
           class="w-full sm:w-60"
           aria-label="Что копировать по клику"
         />
+        <B24Button
+          :color="selecting ? 'air-primary' : 'air-tertiary'"
+          :label="selecting ? 'Готово' : 'Выбрать несколько'"
+          :aria-pressed="selecting"
+          @click="selecting ? stopSelecting() : (selecting = true)"
+        />
         <label class="flex items-center gap-2 text-sm text-(--tai-text-2)">
           Размер
           <input v-model.number="iconSize" type="range" min="16" max="64" step="4" class="w-24 accent-(--tai-accent)">
@@ -258,11 +320,15 @@ function onGridKey(e: KeyboardEvent) {
             :data-name="nameFor(group)"
             tabindex="0"
             role="button"
-            :aria-label="`${nameFor(group)}: копировать`"
+            :aria-label="selecting ? `${nameFor(group)}: выбрать` : `${nameFor(group)}: копировать`"
+            :aria-pressed="selecting ? selected.includes(nameFor(group)) : undefined"
+            :class="selecting && selected.includes(nameFor(group)) ? 'ring-2 ring-(--tai-accent) border-(--tai-accent) bg-black/5 dark:bg-white/10' : ''"
             class="group relative flex flex-col items-center gap-2 rounded-lg border border-black/10 dark:border-white/10 bg-white/60 dark:bg-white/5 hover:bg-black/5 dark:hover:bg-white/10 hover:border-(--tai-accent) focus-visible:outline-2 px-2 pt-4 pb-2 cursor-pointer text-[#1b1a22] dark:text-white transition-colors"
-            @click="copy(nameFor(group))"
-            @keydown.enter.prevent="copy(nameFor(group))"
+            @click="activate(nameFor(group))"
+            @keydown.enter.prevent="activate(nameFor(group))"
+            @keydown.space.prevent="selecting && toggle(nameFor(group))"
           >
+            <span v-if="selecting" class="absolute top-1 start-1 size-4 rounded border text-[10px] leading-none flex items-center justify-center" :class="selected.includes(nameFor(group)) ? 'bg-(--tai-accent) border-(--tai-accent) text-white' : 'border-black/30 dark:border-white/40'" aria-hidden="true">{{ selected.includes(nameFor(group)) ? '✓' : '' }}</span>
             <span
               class="flex items-center justify-center"
               :style="{ width: `${iconSize}px`, height: `${iconSize}px` }"
@@ -292,6 +358,23 @@ function onGridKey(e: KeyboardEvent) {
         <div ref="sentinel" class="h-1" />
       </section>
     </B24Container>
+
+    <div
+      v-if="selecting"
+      class="fixed bottom-0 inset-x-0 z-20 border-t border-black/10 dark:border-white/10 backdrop-blur-md bg-white/85 dark:bg-(--ui-color-copilot-bg-content-3)/80"
+      role="region"
+      aria-label="Выбранные иконки"
+    >
+      <B24Container class="py-3 flex flex-wrap gap-2 items-center">
+        <span class="text-sm text-[#1b1a22] dark:text-white me-2">Выбрано: {{ selected.length }}</span>
+        <B24Button size="sm" color="air-primary" label="Скачать ZIP" :disabled="!selected.length" @click="downloadZip" />
+        <B24Button size="sm" color="air-secondary" label="Копировать список" :disabled="!selected.length" @click="copySelected" />
+        <B24Button size="sm" color="air-tertiary" label="Выбрать показанные" @click="selectShown" />
+        <B24Button size="sm" color="air-tertiary" label="Снять выбор" :disabled="!selected.length" @click="selected = []" />
+        <span class="hidden md:inline text-xs text-(--tai-text-2) ms-auto">Клик или пробел — выбрать, список копируется в формате «{{ COPY_FORMATS.find(f => f.value === format)?.label }}»</span>
+      </B24Container>
+    </div>
+    <div v-if="selecting" class="h-16" />
 
     <IconDetails
       :group="openGroup"
