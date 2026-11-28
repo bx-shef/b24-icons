@@ -16,12 +16,24 @@ import { ROOT } from './lib/config.mjs'
 const SITE = resolve(ROOT, 'site')
 const OUT = resolve(ROOT, 'site-dist')
 const JSON_PKG = resolve(ROOT, 'packages/icons-json')
-const SITE_URL = (process.env.SITE_URL || '').trim().replace(/\/+$/, '')
-
-if (SITE_URL && !/^https:\/\/[a-z0-9.-]+$/i.test(SITE_URL)) {
-  console.error(`✗ SITE_URL must look like https://example.com, got "${SITE_URL}"`)
-  process.exit(1)
+/**
+ * Site address from SITE_URL (repository variable SITE_URL or secret DOCS_SITE_URL, as in b24-js-sdk).
+ * Lenient: `b24-icons.bx-shef.by`, `https://b24-icons.bx-shef.by/` and the like all work; an address
+ * that cannot be parsed is ignored with a warning (no canonical, sitemap, robots) instead of failing the image.
+ */
+function siteUrl(raw) {
+  const value = String(raw || '').trim()
+  if (!value) return ''
+  try {
+    const url = new URL(/^[a-z][a-z0-9+.-]*:\/\//i.test(value) ? value : `https://${value}`)
+    if (url.protocol !== 'https:' && url.protocol !== 'http:') throw new Error('protocol')
+    return `${url.origin}${url.pathname}`.replace(/\/+$/, '')
+  } catch {
+    console.warn('⚠ SITE_URL is not a valid address, building without canonical/sitemap/robots')
+    return ''
+  }
 }
+const SITE_URL = siteUrl(process.env.SITE_URL)
 
 // 1. data
 const data = resolve(SITE, 'public/data')
