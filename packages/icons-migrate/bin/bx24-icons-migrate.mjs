@@ -67,9 +67,11 @@ const NAMED_IMPORT_RE = /import\s*\{[^}]*\}\s*from\s*['"]@bitrix24\/b24icons-vue
 /** Old-package mentions the codemod does not rewrite: commented-out imports and plain strings (configs). */
 function leftovers(text) {
   const notes = []
-  const commented = text.match(/^[ \t]*(\/\/|\*|<!--).*@bitrix24\/b24icons-vue.*$/gm) ?? []
+  // whole comments, multi-line included: <!-- … -->, /* … */, // …
+  const COMMENT_RE = /<!--[\s\S]*?-->|\/\*[\s\S]*?\*\/|\/\/[^\n]*/g
+  const commented = (text.match(COMMENT_RE) ?? []).filter(c => c.includes('@bitrix24/b24icons-vue'))
   if (commented.length) notes.push(`${commented.length} commented-out import(s) of @bitrix24/b24icons-vue: delete them`)
-  const rest = text.replace(/^[ \t]*(\/\/|\*|<!--).*$/gm, '').replace(IMPORT_RE, '')
+  const rest = text.replace(COMMENT_RE, '').replace(IMPORT_RE, '')
   const strings = rest.match(/['"]@bitrix24\/b24icons-vue[^'"]*['"]/g) ?? []
   if (strings.length) notes.push(`${strings.length} string mention(s) of @bitrix24/b24icons-vue (e.g. optimizeDeps.include in nuxt.config): remove once nothing imports the package`)
   return notes
