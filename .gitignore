@@ -6,3 +6,8 @@ packages/icons-svg/svg/
 .DS_Store
 packages/icons-migrate/legacy-map.json
 site-dist/
+site/.nuxt/
+site/.output/
+site/public/data/
+site/public/svg/
+site/dist

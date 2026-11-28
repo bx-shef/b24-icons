@@ -1,0 +1,25 @@
+@import "tailwindcss" theme(static) source(none);
+@import "@bitrix24/b24ui-nuxt";
+@import "./vasilek.css";
+
+@source "../..";
+
+@layer base {
+  .edge-dark {
+    --air-theme-bg-position: 0 0;
+    --air-theme-bg-size: cover;
+    --air-theme-bg-repeat: no-repeat;
+    --air-theme-bg-attachment: fixed;
+  }
+  body {
+    font-family: var(--tai-font);
+  }
+}
+
+/* Фон под предпросмотром иконки */
+.bx-bg-light { background: #f4f5f7; color: #1f2329; }
+.bx-bg-dark { background: #16181d; color: #e6e8eb; }
+.bx-bg-checker {
+  background: repeating-conic-gradient(#d9dce1 0% 25%, #f4f5f7 0% 50%) 50% / 16px 16px;
+  color: #1f2329;
+}

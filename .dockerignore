@@ -7,3 +7,7 @@ site-dist
 packages/icons-json/*.json
 !packages/icons-json/package.json
 packages/icons-svg/svg
+site/.nuxt
+site/.output
+site/public/data
+site/public/svg
