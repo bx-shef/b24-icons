@@ -7,25 +7,81 @@
   "packages": {
     ".": {
       "release-type": "node",
+      "initial-version": "0.1.0",
       "extra-files": [
-        { "type": "json", "path": "packages/icons-json/package.json", "jsonpath": "$.version" },
-        { "type": "json", "path": "packages/icons-svg/package.json", "jsonpath": "$.version" },
-        { "type": "json", "path": "packages/icons-migrate/package.json", "jsonpath": "$.version" }
+        {
+          "type": "json",
+          "path": "packages/icons-json/package.json",
+          "jsonpath": "$.version"
+        },
+        {
+          "type": "json",
+          "path": "packages/icons-svg/package.json",
+          "jsonpath": "$.version"
+        },
+        {
+          "type": "json",
+          "path": "packages/icons-migrate/package.json",
+          "jsonpath": "$.version"
+        }
       ],
       "changelog-sections": [
-        { "type": "feat", "section": "Новое" },
-        { "type": "fix", "section": "Исправления" },
-        { "type": "perf", "section": "Производительность" },
-        { "type": "revert", "section": "Откаты" },
-        { "type": "security", "section": "Безопасность" },
-        { "type": "deps", "section": "Зависимости" },
-        { "type": "refactor", "section": "Изменения" },
-        { "type": "build", "section": "Изменения" },
-        { "type": "docs", "section": "Документация" },
-        { "type": "test", "section": "Тесты", "hidden": true },
-        { "type": "ci", "section": "CI", "hidden": true },
-        { "type": "chore", "section": "Прочее", "hidden": true },
-        { "type": "style", "section": "Прочее", "hidden": true }
+        {
+          "type": "feat",
+          "section": "Новое"
+        },
+        {
+          "type": "fix",
+          "section": "Исправления"
+        },
+        {
+          "type": "perf",
+          "section": "Производительность"
+        },
+        {
+          "type": "revert",
+          "section": "Откаты"
+        },
+        {
+          "type": "security",
+          "section": "Безопасность"
+        },
+        {
+          "type": "deps",
+          "section": "Зависимости"
+        },
+        {
+          "type": "refactor",
+          "section": "Изменения"
+        },
+        {
+          "type": "build",
+          "section": "Изменения"
+        },
+        {
+          "type": "docs",
+          "section": "Документация"
+        },
+        {
+          "type": "test",
+          "section": "Тесты",
+          "hidden": true
+        },
+        {
+          "type": "ci",
+          "section": "CI",
+          "hidden": true
+        },
+        {
+          "type": "chore",
+          "section": "Прочее",
+          "hidden": true
+        },
+        {
+          "type": "style",
+          "section": "Прочее",
+          "hidden": true
+        }
       ]
     }
   }
