@@ -1,5 +1,22 @@
 # Changelog
 
+## [0.2.0](https://github.com/bx-shef/b24-icons/compare/v0.1.1...v0.2.0) (2026-11-28)
+
+
+### Новое
+
+* **site:** страницы иконок, выбор нескольких и ZIP ([#44](https://github.com/bx-shef/b24-icons/issues/44)) ([d5412ef](https://github.com/bx-shef/b24-icons/commit/d5412eff8aec9e2e32dbb482c2c0b2a9802d4b78))
+
+
+### Исправления
+
+* **migrate:** README на русском, переход по шагам и MCP; codemod и навык проверены на практике ([#43](https://github.com/bx-shef/b24-icons/issues/43)) ([6a2ef2f](https://github.com/bx-shef/b24-icons/commit/6a2ef2f69c9796c64bd78d9264146741ef3ed849))
+
+
+### Зависимости
+
+* @iconify/tools 5 — без extract-zip, кавычки атрибутов нормализуются при сборке ([#40](https://github.com/bx-shef/b24-icons/issues/40)) ([373bf11](https://github.com/bx-shef/b24-icons/commit/373bf11ff14b02faeab97e670a6f1072ef21fc42))
+
 ## [0.1.1](https://github.com/bx-shef/b24-icons/compare/v0.1.0...v0.1.1) (2026-11-28)
 
 
