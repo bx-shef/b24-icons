@@ -6,7 +6,11 @@ WORKDIR /src
 RUN corepack enable
 # Адрес сайта попадает в canonical, og, sitemap.xml и robots.txt. Пусто — без них.
 ARG SITE_URL=""
-ENV SITE_URL=${SITE_URL}
+# Номер счётчика Яндекс Метрики (публичный: он и так виден в коде страницы). Пусто — ни Метрики,
+# ни баннера cookie.
+ARG YANDEX_METRIKA_ID=""
+ENV SITE_URL=${SITE_URL} \
+    NUXT_PUBLIC_YANDEX_METRIKA_ID=${YANDEX_METRIKA_ID}
 COPY . .
 RUN corepack install && pnpm install --frozen-lockfile && pnpm build && pnpm site
 
