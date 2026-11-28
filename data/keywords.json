@@ -14,10 +14,12 @@
     "goal"
   ],
   "action-required": [
-    "действие",
-    "операция",
-    "operation",
-    "do"
+    "требуется действие",
+    "обязательное действие",
+    "внимание",
+    "needs action",
+    "attention",
+    "todo"
   ],
   "activity": [
     "активность",
@@ -178,11 +180,16 @@
   ],
   "add-to-checklist": [
     "добавить",
+    "чек-лист",
     "создать",
+    "список дел",
     "новый",
+    "контрольный список",
     "create",
+    "to-do",
     "new",
-    "plus"
+    "plus",
+    "tasks"
   ],
   "agenda-gap": [
     "повестка",
@@ -273,73 +280,67 @@
     "ask"
   ],
   "air-folder": [
-    "эйр",
+    "эйр-папка",
     "папка",
-    "каталог",
-    "drive",
-    "directory",
-    "dir"
+    "диск",
+    "air drive",
+    "drive"
   ],
   "air-folder-24": [
-    "эйр",
+    "эйр-папка",
     "папка",
-    "каталог",
-    "drive",
-    "directory",
-    "dir"
+    "диск",
+    "air drive",
+    "drive"
   ],
   "air-folder-collab": [
-    "эйр",
-    "папка",
+    "эйр-папка",
     "коллаб",
-    "каталог",
+    "папка",
     "совместная работа",
+    "диск",
     "группа",
-    "drive",
-    "directory",
+    "air drive",
     "team",
-    "dir",
-    "workspace"
+    "workspace",
+    "drive"
   ],
   "air-folder-group": [
-    "эйр",
-    "папка",
+    "эйр-папка",
     "группа",
-    "каталог",
+    "папка",
     "команда",
-    "drive",
-    "directory",
+    "диск",
+    "air drive",
     "team",
-    "dir",
-    "collective"
+    "collective",
+    "drive"
   ],
   "air-folder-person": [
-    "эйр",
-    "папка",
+    "эйр-папка",
     "человек",
-    "каталог",
+    "папка",
     "пользователь",
+    "диск",
     "сотрудник",
     "контакт",
-    "drive",
-    "directory",
+    "air drive",
     "user",
-    "dir",
     "people",
+    "drive",
     "profile"
   ],
   "air-folder-shared": [
-    "эйр",
-    "папка",
+    "эйр-папка",
     "общий",
-    "каталог",
+    "папка",
     "совместный",
+    "диск",
     "доступ",
-    "drive",
-    "directory",
+    "air drive",
     "sharing",
-    "dir",
-    "access"
+    "access",
+    "drive"
   ],
   "alarm": [
     "будильник",
@@ -387,44 +388,40 @@
     "bot"
   ],
   "align-center": [
-    "выравнивание",
-    "центр",
-    "выровнять",
+    "выравнивание по центру",
     "по центру",
+    "текст",
     "alignment",
-    "middle",
     "format",
-    "centered"
+    "text",
+    "middle"
   ],
   "align-justify": [
-    "выравнивание",
+    "выравнивание по ширине",
     "по ширине",
-    "выровнять",
+    "текст",
     "alignment",
     "format",
+    "text",
     "block"
   ],
   "align-left": [
-    "выравнивание",
-    "влево",
-    "выровнять",
+    "выравнивание по левому краю",
+    "по левому краю",
     "слева",
-    "налево",
+    "текст",
     "alignment",
-    "back",
     "format",
-    "previous"
+    "text"
   ],
   "align-right": [
-    "выравнивание",
-    "вправо",
-    "выровнять",
+    "выравнивание по правому краю",
+    "по правому краю",
     "справа",
-    "направо",
+    "текст",
     "alignment",
-    "forward",
     "format",
-    "next"
+    "text"
   ],
   "anchor": [
     "якорь",
@@ -548,9 +545,8 @@
     "слева",
     "налево",
     "pointer",
-    "back",
-    "direction",
-    "previous"
+    "west",
+    "direction"
   ],
   "arrow-line": [
     "стрелка",
@@ -569,9 +565,8 @@
     "справа",
     "направо",
     "pointer",
-    "forward",
-    "direction",
-    "next"
+    "east",
+    "direction"
   ],
   "arrow-to-the-left": [
     "стрелка",
@@ -580,9 +575,8 @@
     "слева",
     "налево",
     "pointer",
-    "back",
-    "direction",
-    "previous"
+    "west",
+    "direction"
   ],
   "arrow-to-the-right": [
     "стрелка",
@@ -591,9 +585,8 @@
     "справа",
     "направо",
     "pointer",
-    "forward",
-    "direction",
-    "next"
+    "east",
+    "direction"
   ],
   "arrow-to-the-top": [
     "стрелка",
@@ -704,18 +697,11 @@
     "broadcast"
   ],
   "auto-check-in": [
-    "авто",
-    "галочка",
-    "автоматический",
-    "проверить",
-    "готово",
-    "подтвердить",
-    "automatic",
-    "tick",
-    "automation",
-    "done",
-    "ok",
-    "verify"
+    "автоматическая регистрация",
+    "автоотметка",
+    "отметка",
+    "attendance",
+    "register"
   ],
   "auto-selection": [
     "авто",
@@ -836,27 +822,21 @@
     "energy"
   ],
   "battery-no-charge": [
+    "нет заряда",
+    "разряжена",
     "батарея",
-    "нет",
-    "заряд",
-    "без",
-    "аккумулятор",
-    "запрет",
-    "not",
-    "power",
-    "none",
-    "energy",
-    "disabled"
+    "empty",
+    "discharged",
+    "no power"
   ],
   "bb-code-mode": [
-    "код",
-    "режим",
-    "программирование",
-    "programming",
-    "state",
-    "develop",
-    "view",
-    "script"
+    "бб-код",
+    "разметка",
+    "форум",
+    "режим кода",
+    "bbcode",
+    "markup",
+    "forum"
   ],
   "bell": [
     "колокольчик",
@@ -919,8 +899,15 @@
     "bitrix"
   ],
   "bitrix24-virtual-wa": [
+    "битрикс24",
     "виртуальный",
-    "cloud"
+    "ватсап",
+    "б24",
+    "мессенджер",
+    "bitrix",
+    "cloud",
+    "whatsapp",
+    "messenger"
   ],
   "blogger": [
     "блоггер",
@@ -933,6 +920,7 @@
     "platform"
   ],
   "blue-notes": [
+    "синий",
     "заметки",
     "блокнот",
     "memo",
@@ -941,10 +929,12 @@
   "blue-zoom": [
     "зум",
     "видеоконференция",
-    "масштаб",
+    "видеозвонок",
+    "созвон",
     "video call",
     "conference",
-    "scale"
+    "meeting",
+    "online meeting"
   ],
   "bluetooth": [
     "блютуз",
@@ -1045,14 +1035,12 @@
     "lower"
   ],
   "bottom-menu": [
-    "низ",
+    "нижнее меню",
+    "панель навигации",
     "меню",
-    "вниз",
-    "список",
-    "down",
+    "tab bar",
     "navigation",
-    "lower",
-    "list"
+    "footer"
   ],
   "box": [
     "коробка",
@@ -1092,16 +1080,10 @@
   ],
   "brightness-bold-emoji": [
     "яркость",
-    "жирный",
+    "солнце",
     "эмодзи",
-    "свет",
-    "полужирный",
-    "смайлик",
-    "light",
-    "strong",
-    "smiley",
     "sun",
-    "font",
+    "light",
     "emoticon"
   ],
   "broom": [
@@ -1135,48 +1117,67 @@
   ],
   "btn-icon-copy-dark": [
     "кнопка",
+    "иконка",
     "копировать",
+    "значок",
     "копия",
     "дублировать",
     "button",
+    "symbol",
     "duplicate",
+    "pictogram",
     "clone"
   ],
   "btn-icon-funnel-black": [
     "кнопка",
+    "иконка",
     "воронка",
+    "значок",
     "фильтр",
     "продажи",
     "button",
+    "symbol",
     "filter",
-    "sales",
-    "pipeline"
+    "pictogram",
+    "sales"
   ],
   "btn-icon-note": [
     "кнопка",
+    "иконка",
     "заметка",
+    "значок",
     "запись",
     "примечание",
     "button",
+    "symbol",
     "memo",
+    "pictogram",
     "comment"
   ],
   "btn-icon-print-2": [
     "кнопка",
+    "иконка",
     "печать",
+    "значок",
     "печатать",
     "принтер",
     "button",
+    "symbol",
     "printer",
+    "pictogram",
     "output"
   ],
   "btn-icon-script": [
     "кнопка",
+    "иконка",
     "скрипт",
+    "значок",
     "сценарий",
     "код",
     "button",
+    "symbol",
     "code",
+    "pictogram",
     "automation"
   ],
   "btn-spinner": [
@@ -1222,97 +1223,79 @@
     "food"
   ],
   "business-process": [
-    "бизнес",
-    "процесс",
-    "деловой",
-    "обработка",
-    "company",
+    "бп",
+    "бизнес-процесс",
+    "автоматизация",
     "workflow",
-    "commerce",
-    "progress"
+    "automation"
   ],
   "business-process-black": [
-    "бизнес",
-    "процесс",
-    "деловой",
-    "обработка",
-    "company",
+    "бп",
+    "бизнес-процесс",
+    "автоматизация",
     "workflow",
-    "commerce",
-    "progress"
+    "automation"
   ],
   "business-process-confirm-black": [
-    "бизнес",
-    "процесс",
+    "бп",
     "подтвердить",
-    "деловой",
-    "обработка",
+    "бизнес-процесс",
     "подтверждение",
-    "company",
+    "автоматизация",
     "workflow",
     "approve",
-    "commerce",
-    "progress",
-    "accept"
+    "accept",
+    "automation"
   ],
   "business-process-money": [
-    "бизнес",
-    "процесс",
+    "бп",
     "деньги",
-    "деловой",
-    "обработка",
+    "бизнес-процесс",
     "финансы",
+    "автоматизация",
     "оплата",
-    "company",
     "workflow",
     "cash",
-    "commerce",
-    "progress",
-    "finance"
+    "finance",
+    "automation",
+    "payment"
   ],
   "business-process-progress": [
-    "бизнес",
-    "процесс",
+    "бп",
     "прогресс",
-    "деловой",
-    "обработка",
+    "бизнес-процесс",
     "выполнение",
+    "автоматизация",
     "ход",
-    "company",
     "workflow",
     "status",
-    "commerce",
-    "advance"
+    "advance",
+    "automation"
   ],
   "business-process-stages": [
-    "бизнес",
-    "процесс",
+    "бп",
     "этапы",
-    "деловой",
-    "обработка",
+    "бизнес-процесс",
     "стадии",
+    "автоматизация",
     "шаги",
-    "company",
     "workflow",
     "steps",
-    "commerce",
-    "progress",
-    "phases"
+    "phases",
+    "automation"
   ],
   "business-process-warning-black": [
-    "бизнес",
-    "процесс",
+    "бп",
     "предупреждение",
-    "деловой",
-    "обработка",
+    "бизнес-процесс",
     "внимание",
+    "автоматизация",
     "осторожно",
-    "company",
     "workflow",
     "alert",
-    "commerce",
-    "progress",
-    "caution"
+    "caution",
+    "automation",
+    "danger"
   ],
   "calculator": [
     "калькулятор",
@@ -1449,10 +1432,15 @@
   ],
   "calendar-with-checks": [
     "календарь",
+    "галочки",
     "дата",
+    "отметки",
     "расписание",
+    "проверки",
     "date",
+    "ticks",
     "schedule",
+    "marks",
     "planner"
   ],
   "calendar-with-slots": [
@@ -1477,17 +1465,12 @@
     "ring"
   ],
   "call-back": [
+    "обратный звонок",
+    "перезвонить",
     "звонок",
-    "назад",
-    "позвонить",
-    "вернуться",
-    "вызов",
-    "возврат",
-    "phone",
-    "return",
-    "dial",
-    "previous",
-    "ring"
+    "callback",
+    "return call",
+    "phone"
   ],
   "call-chat": [
     "звонок",
@@ -1516,12 +1499,12 @@
     "ring"
   ],
   "call-in": [
+    "входящий звонок",
     "звонок",
-    "позвонить",
-    "вызов",
-    "phone",
-    "dial",
-    "ring"
+    "телефон",
+    "incoming call",
+    "inbound",
+    "receive"
   ],
   "call-information": [
     "звонок",
@@ -1535,23 +1518,19 @@
     "ring"
   ],
   "call-out": [
+    "исходящий звонок",
     "звонок",
-    "позвонить",
-    "вызов",
-    "phone",
-    "dial",
-    "ring"
+    "телефон",
+    "outgoing call",
+    "outbound",
+    "dial"
   ],
   "call-up": [
     "звонок",
-    "вверх",
     "позвонить",
-    "верхний",
     "вызов",
     "phone",
-    "top",
     "dial",
-    "raise",
     "ring"
   ],
   "calltracking": [
@@ -1677,26 +1656,22 @@
     "purchase"
   ],
   "cash-terminal": [
-    "наличные",
-    "терминал",
+    "платежный терминал",
     "касса",
-    "консоль",
-    "деньги",
-    "money",
-    "console",
-    "register",
-    "command line",
-    "shell"
+    "оплата картой",
+    "эквайринг",
+    "pos",
+    "card payment",
+    "checkout"
   ],
   "center-align": [
-    "центр",
-    "выравнивание",
+    "выравнивание по центру",
     "по центру",
-    "выровнять",
-    "middle",
+    "текст",
     "alignment",
-    "centered",
-    "format"
+    "format",
+    "text",
+    "middle"
   ],
   "change-funnel": [
     "изменить",
@@ -1751,9 +1726,11 @@
   ],
   "chat-button": [
     "чат",
+    "кнопка",
     "переписка",
     "диалог",
     "conversation",
+    "btn",
     "messenger",
     "dialog"
   ],
@@ -1875,8 +1852,7 @@
     "tick",
     "messengers",
     "done",
-    "ok",
-    "verify"
+    "ok"
   ],
   "check": [
     "галочка",
@@ -1907,37 +1883,22 @@
     "spelling",
     "done",
     "language",
-    "ok",
-    "verify"
+    "ok"
   ],
   "check-in-box": [
-    "галочка",
-    "коробка",
-    "проверить",
-    "ящик",
-    "готово",
-    "упаковка",
-    "подтвердить",
+    "отметка",
+    "чекбокс",
+    "галочка в ячейке",
+    "checkbox",
     "tick",
-    "package",
-    "done",
-    "container",
-    "ok",
-    "verify"
+    "checked"
   ],
   "check-in-cancel": [
-    "галочка",
+    "отмена отметки",
+    "снять отметку",
     "отмена",
-    "проверить",
-    "отменить",
-    "готово",
-    "подтвердить",
-    "tick",
-    "abort",
-    "done",
-    "stop",
-    "ok",
-    "cross"
+    "uncheck",
+    "untick"
   ],
   "check-in-negative": [
     "нет отметки",
@@ -1958,8 +1919,7 @@
     "items",
     "done",
     "menu",
-    "ok",
-    "verify"
+    "ok"
   ],
   "check-receipt": [
     "галочка",
@@ -1972,8 +1932,7 @@
     "bill",
     "done",
     "voucher",
-    "ok",
-    "verify"
+    "ok"
   ],
   "chemistry": [
     "химия",
@@ -2001,9 +1960,8 @@
     "уголок",
     "налево",
     "arrow",
-    "back",
-    "caret",
-    "previous"
+    "west",
+    "caret"
   ],
   "chevron-right": [
     "шеврон",
@@ -2013,9 +1971,8 @@
     "уголок",
     "направо",
     "arrow",
-    "forward",
-    "caret",
-    "next"
+    "east",
+    "caret"
   ],
   "chevron-to-the-left": [
     "шеврон",
@@ -2025,9 +1982,8 @@
     "уголок",
     "налево",
     "arrow",
-    "back",
-    "caret",
-    "previous"
+    "west",
+    "caret"
   ],
   "chevron-to-the-right": [
     "шеврон",
@@ -2037,9 +1993,8 @@
     "уголок",
     "направо",
     "arrow",
-    "forward",
-    "caret",
-    "next"
+    "east",
+    "caret"
   ],
   "chevron-top": [
     "шеврон",
@@ -2080,8 +2035,7 @@
     "tick",
     "ring",
     "done",
-    "ok",
-    "verify"
+    "ok"
   ],
   "circle-check-thin": [
     "круг",
@@ -2090,7 +2044,6 @@
     "кружок",
     "проверить",
     "готово",
-    "подтвердить",
     "round",
     "tick",
     "light",
@@ -2109,8 +2062,7 @@
     "close",
     "ring",
     "cancel",
-    "x",
-    "delete"
+    "x"
   ],
   "circle-minus": [
     "круг",
@@ -2231,9 +2183,13 @@
   ],
   "clock-sector": [
     "часы",
+    "сектор",
     "время",
+    "доля",
     "time",
-    "watch"
+    "segment",
+    "watch",
+    "part"
   ],
   "clock-with-arrow": [
     "часы",
@@ -2246,10 +2202,13 @@
     "direction"
   ],
   "close-chat": [
+    "закрыть",
     "чат",
     "переписка",
     "диалог",
+    "shut",
     "conversation",
+    "end",
     "messenger",
     "dialog"
   ],
@@ -2329,14 +2288,17 @@
   "cloud-letter-post": [
     "облако",
     "письмо",
+    "почта",
     "хранилище",
     "буква",
+    "пост",
     "сервис",
+    "публикация",
     "storage",
     "mail",
     "saas",
     "character",
-    "online"
+    "publication"
   ],
   "cloud-pause": [
     "облако",
@@ -2352,10 +2314,14 @@
   ],
   "cloud-sifre": [
     "облако",
+    "шифр",
     "хранилище",
+    "шифрование",
     "сервис",
     "storage",
+    "cipher",
     "saas",
+    "encryption",
     "online"
   ],
   "cloud-sso": [
@@ -2583,16 +2549,12 @@
     "address"
   ],
   "contact-center": [
-    "контакт",
-    "центр",
-    "клиент",
-    "по центру",
-    "адресат",
-    "person",
-    "middle",
-    "client",
-    "centered",
-    "address"
+    "контакт-центр",
+    "колл-центр",
+    "операторы",
+    "call center",
+    "support",
+    "operators"
   ],
   "contact-details": [
     "контакт",
@@ -2748,10 +2710,14 @@
     "bank card"
   ],
   "crit-battery-black": [
+    "критический",
     "батарея",
+    "критичный",
     "заряд",
     "аккумулятор",
+    "critical",
     "charge",
+    "severe",
     "power",
     "energy"
   ],
@@ -2818,10 +2784,14 @@
   ],
   "crm-letters": [
     "црм",
+    "письма",
     "клиенты",
+    "буквы",
     "продажи",
     "customers",
-    "sales"
+    "mail",
+    "sales",
+    "characters"
   ],
   "crm-map": [
     "црм",
@@ -2960,8 +2930,7 @@
     "round",
     "cancel",
     "ring",
-    "x",
-    "delete"
+    "x"
   ],
   "cross-circle-60": [
     "крест",
@@ -2974,8 +2943,7 @@
     "round",
     "cancel",
     "ring",
-    "x",
-    "delete"
+    "x"
   ],
   "cross-circle-70": [
     "крест",
@@ -2988,21 +2956,32 @@
     "round",
     "cancel",
     "ring",
-    "x",
-    "delete"
+    "x"
   ],
   "crossed-eye": [
+    "перечеркнутый",
     "глаз",
+    "зачеркнутый",
     "просмотр",
+    "скрытый",
+    "struck",
     "view",
+    "disabled",
     "see",
+    "hidden",
     "visible"
   ],
   "crossed-eye-2": [
+    "перечеркнутый",
     "глаз",
+    "зачеркнутый",
     "просмотр",
+    "скрытый",
+    "struck",
     "view",
+    "disabled",
     "see",
+    "hidden",
     "visible"
   ],
   "crown": [
@@ -3081,7 +3060,10 @@
     "tap"
   ],
   "cursors-strike": [
+    "курсоры",
     "зачеркнуть",
+    "выделение",
+    "selection",
     "cross out"
   ],
   "curved-arrow-left": [
@@ -3094,10 +3076,9 @@
     "налево",
     "arc",
     "pointer",
-    "back",
+    "west",
     "bend",
-    "direction",
-    "previous"
+    "direction"
   ],
   "customer-card": [
     "клиент",
@@ -3127,7 +3108,6 @@
     "карточка",
     "добавить",
     "создать",
-    "новый",
     "client",
     "credit card",
     "add",
@@ -3137,7 +3117,9 @@
   ],
   "customer-cards": [
     "клиент",
+    "карточки",
     "покупатель",
+    "карты",
     "client",
     "buyer"
   ],
@@ -3170,14 +3152,12 @@
     "sql"
   ],
   "day-off": [
-    "день",
-    "выключить",
-    "сутки",
-    "отключено",
-    "выкл",
-    "date",
-    "disabled",
-    "disable"
+    "выходной",
+    "отгул",
+    "отпуск",
+    "weekend",
+    "holiday",
+    "time off"
   ],
   "ddos-attack": [
     "ддос",
@@ -3439,22 +3419,29 @@
   "descending-sort-by-name": [
     "по убыванию",
     "сортировка",
+    "имя",
     "нисходящий",
     "упорядочить",
+    "название",
     "сортировать",
     "desc",
     "order",
+    "title",
     "down",
-    "arrange"
+    "arrange",
+    "label"
   ],
   "descending-sort-names": [
     "по убыванию",
     "сортировка",
+    "имена",
     "нисходящий",
     "упорядочить",
+    "названия",
     "сортировать",
     "desc",
     "order",
+    "titles",
     "down",
     "arrange"
   ],
@@ -3714,20 +3701,15 @@
     "ellipsis"
   ],
   "double-arrow-counter-clockwise-scrum": [
-    "двойной",
-    "стрелка",
-    "счетчик",
-    "по часовой стрелке",
+    "спринт",
     "скрам",
-    "двойная",
-    "направление",
-    "против",
-    "two",
-    "pointer",
-    "count",
-    "rotate",
+    "цикл",
+    "итерация",
+    "повтор",
     "sprint",
-    "dual"
+    "iteration",
+    "cycle",
+    "loop"
   ],
   "double-check": [
     "двойной",
@@ -3740,47 +3722,42 @@
     "tick",
     "dual",
     "done",
-    "ok",
-    "verify"
+    "ok"
   ],
   "double-chevrons-left": [
-    "двойной",
-    "шевроны",
-    "влево",
-    "двойная",
-    "стрелки",
-    "слева",
-    "налево",
-    "two",
-    "arrows",
-    "back",
-    "dual",
-    "previous"
+    "двойная стрелка влево",
+    "в начало",
+    "перемотка назад",
+    "rewind",
+    "first",
+    "skip back",
+    "double arrow"
   ],
   "double-chevrons-right": [
-    "двойной",
-    "шевроны",
-    "вправо",
-    "двойная",
-    "стрелки",
-    "справа",
-    "направо",
-    "two",
-    "arrows",
-    "forward",
-    "dual",
-    "next"
+    "двойная стрелка вправо",
+    "в конец",
+    "перемотка вперед",
+    "fast forward",
+    "last",
+    "skip",
+    "double arrow"
   ],
   "double-gis": [
-    "двойной",
-    "двойная",
-    "two",
-    "dual"
+    "2гис",
+    "двагис",
+    "карты",
+    "справочник организаций",
+    "2gis",
+    "maps",
+    "directory",
+    "navigation"
   ],
   "double-rhombus": [
     "двойной",
+    "ромб",
     "двойная",
     "two",
+    "diamond",
     "dual"
   ],
   "download": [
@@ -4182,18 +4159,14 @@
   ],
   "expand-to-full-screen": [
     "развернуть",
-    "полный",
-    "экран",
+    "полный экран",
     "раскрыть",
-    "во весь экран",
-    "монитор",
+    "на весь экран",
     "увеличить",
     "enlarge",
-    "entire",
-    "display",
+    "maximize",
     "unfold",
-    "fullscreen",
-    "monitor"
+    "fit"
   ],
   "expert-mode": [
     "эксперт",
@@ -4254,10 +4227,15 @@
     "fb"
   ],
   "facebook-chats": [
+    "фейсбук",
     "чаты",
+    "фб",
     "переписки",
+    "соцсеть",
     "диалоги",
+    "meta",
     "conversations",
+    "social network",
     "messengers"
   ],
   "fail": [
@@ -4345,8 +4323,13 @@
     "social networks"
   ],
   "fb-messenger": [
+    "фейсбук",
     "мессенджер",
+    "фб",
+    "соцсеть",
+    "meta",
     "chat",
+    "social network",
     "im"
   ],
   "feed": [
@@ -4554,9 +4537,13 @@
   ],
   "filter-by-name": [
     "фильтр",
+    "имя",
     "отфильтровать",
+    "название",
     "sort",
+    "title",
     "funnel",
+    "label",
     "refine"
   ],
   "filter-funnel": [
@@ -4584,8 +4571,13 @@
     "create"
   ],
   "find-filters": [
+    "найти",
     "фильтры",
-    "funnel"
+    "искать",
+    "поиск",
+    "search",
+    "funnel",
+    "locate"
   ],
   "fingerprint": [
     "отпечаток пальца",
@@ -4645,8 +4637,7 @@
     "close",
     "banner",
     "cancel",
-    "x",
-    "delete"
+    "x"
   ],
   "flipchart": [
     "флипчарт",
@@ -4712,10 +4703,9 @@
     "направление",
     "налево",
     "directory",
-    "back",
+    "west",
     "pointer",
     "dir",
-    "previous",
     "direction"
   ],
   "folder-plus": [
@@ -4740,10 +4730,9 @@
     "направление",
     "направо",
     "directory",
-    "forward",
+    "east",
     "pointer",
     "dir",
-    "next",
     "direction"
   ],
   "folder-shared": [
@@ -4937,24 +4926,22 @@
   "full-battery": [
     "полный",
     "батарея",
-    "во весь экран",
+    "заполненный",
     "заряд",
     "аккумулятор",
-    "entire",
+    "filled",
     "charge",
-    "fullscreen",
+    "complete",
     "power",
     "energy"
   ],
   "full-screen": [
-    "полный",
-    "экран",
-    "во весь экран",
-    "монитор",
-    "entire",
-    "display",
-    "fullscreen",
-    "monitor"
+    "полный экран",
+    "на весь экран",
+    "развернуть",
+    "maximize",
+    "expand",
+    "fit"
   ],
   "funnel": [
     "воронка",
@@ -5090,15 +5077,24 @@
   ],
   "google-ads": [
     "гугл",
+    "реклама",
     "поиск",
+    "объявления",
     "search",
-    "service"
+    "advertising",
+    "service",
+    "promo",
+    "marketing"
   ],
   "google-maps": [
     "гугл",
+    "карты",
     "поиск",
+    "навигация",
     "search",
-    "service"
+    "navigation",
+    "service",
+    "geo"
   ],
   "googleads": [
     "гугл реклама",
@@ -5251,11 +5247,10 @@
     "question"
   ],
   "high-temperature": [
-    "высокий",
-    "температура",
-    "высокая",
+    "высокая температура",
     "жара",
-    "tall",
+    "перегрев",
+    "hot",
     "heat",
     "thermometer"
   ],
@@ -5268,16 +5263,12 @@
     "start"
   ],
   "home-page": [
-    "дом",
-    "страница",
-    "главная",
-    "лист",
-    "домой",
-    "house",
-    "sheet",
-    "main",
-    "site",
-    "start"
+    "главная страница",
+    "домашняя страница",
+    "стартовая",
+    "homepage",
+    "start page",
+    "main page"
   ],
   "home-star": [
     "дом",
@@ -5345,10 +5336,9 @@
     "налево",
     "picture",
     "turn",
-    "back",
+    "west",
     "photo",
-    "spin",
-    "previous"
+    "spin"
   ],
   "image-rotate-right": [
     "изображение",
@@ -5361,10 +5351,9 @@
     "направо",
     "picture",
     "turn",
-    "forward",
+    "east",
     "photo",
-    "spin",
-    "next"
+    "spin"
   ],
   "imessage": [
     "аймесседж",
@@ -5383,13 +5372,11 @@
     "image"
   ],
   "img-format": [
-    "изображение",
-    "формат",
-    "картинка",
-    "форматирование",
-    "picture",
-    "style",
-    "image"
+    "формат изображения",
+    "расширение картинки",
+    "image format",
+    "extension",
+    "picture"
   ],
   "implementation-request": [
     "внедрение",
@@ -5673,22 +5660,23 @@
   "ip-address-crossed": [
     "ай-пи",
     "адрес",
+    "перечеркнутый",
     "сеть",
     "местоположение",
+    "зачеркнутый",
+    "скрытый",
     "network",
-    "location"
+    "location",
+    "struck",
+    "disabled"
   ],
   "issue-invoice": [
-    "выставить",
-    "счет",
-    "проблема",
-    "накладная",
-    "тикет",
-    "create",
+    "выставить счет",
+    "создать счет",
+    "счет на оплату",
     "bill",
-    "ticket",
-    "payment",
-    "bug"
+    "create invoice",
+    "payment"
   ],
   "italic": [
     "курсив",
@@ -5720,9 +5708,12 @@
     "scientific"
   ],
   "justify": [
+    "выравнивание по ширине",
     "по ширине",
-    "выравнивание",
+    "текст",
     "alignment",
+    "format",
+    "text",
     "block"
   ],
   "kanban": [
@@ -5762,13 +5753,12 @@
     "im"
   ],
   "knowledge-base": [
-    "знания",
-    "база",
     "база знаний",
-    "основа",
+    "вики",
+    "статьи",
     "wiki",
-    "foundation",
-    "kb"
+    "kb",
+    "help center"
   ],
   "kotlin": [
     "котлин",
@@ -5800,83 +5790,61 @@
     "sale"
   ],
   "left-align": [
-    "влево",
-    "выравнивание",
+    "выравнивание по левому краю",
+    "по левому краю",
     "слева",
-    "выровнять",
-    "налево",
-    "back",
+    "текст",
     "alignment",
-    "previous",
-    "format"
+    "format",
+    "text"
   ],
   "left-right": [
-    "влево",
-    "вправо",
-    "слева",
-    "справа",
-    "налево",
-    "направо",
-    "back",
-    "forward",
-    "previous",
-    "next"
+    "влево-вправо",
+    "двусторонняя стрелка",
+    "туда-обратно",
+    "bidirectional",
+    "swap",
+    "exchange"
   ],
   "left-semicircular-anticlockwise-arrow-1": [
-    "влево",
-    "против часовой стрелки",
-    "стрелка",
-    "слева",
-    "направление",
-    "налево",
-    "back",
+    "отменить",
+    "повернуть против часовой",
+    "вернуть",
+    "откатить",
+    "undo",
     "rotate",
-    "pointer",
-    "previous",
-    "counter",
-    "direction"
+    "counter-clockwise",
+    "revert"
   ],
   "left-semicircular-anticlockwise-arrow-2": [
-    "влево",
-    "против часовой стрелки",
-    "стрелка",
-    "слева",
-    "направление",
-    "налево",
-    "back",
+    "отменить",
+    "повернуть против часовой",
+    "вернуть",
+    "откатить",
+    "undo",
     "rotate",
-    "pointer",
-    "previous",
-    "counter",
-    "direction"
+    "counter-clockwise",
+    "revert"
   ],
   "left-semicircular-anticlockwise-arrow-3": [
-    "влево",
-    "против часовой стрелки",
-    "стрелка",
-    "слева",
-    "направление",
-    "налево",
-    "back",
+    "отменить",
+    "повернуть против часовой",
+    "вернуть",
+    "откатить",
+    "undo",
     "rotate",
-    "pointer",
-    "previous",
-    "counter",
-    "direction"
+    "counter-clockwise",
+    "revert"
   ],
   "left-semicircular-anticlockwise-arrow-4": [
-    "влево",
-    "против часовой стрелки",
-    "стрелка",
-    "слева",
-    "направление",
-    "налево",
-    "back",
+    "отменить",
+    "повернуть против часовой",
+    "вернуть",
+    "откатить",
+    "undo",
     "rotate",
-    "pointer",
-    "previous",
-    "counter",
-    "direction"
+    "counter-clockwise",
+    "revert"
   ],
   "let-cat-in": [
     "впустить",
@@ -5888,58 +5856,36 @@
     "animal"
   ],
   "letter-sort-down": [
-    "письмо",
-    "сортировка",
-    "вниз",
-    "буква",
-    "упорядочить",
-    "нижний",
-    "сортировать",
-    "mail",
-    "order",
-    "bottom",
-    "character",
-    "arrange",
-    "lower"
+    "сортировка по алфавиту",
+    "а-я",
+    "по алфавиту",
+    "alphabetical",
+    "az"
   ],
   "letter-sort-up": [
-    "письмо",
-    "сортировка",
-    "вверх",
-    "буква",
-    "упорядочить",
-    "верхний",
-    "сортировать",
-    "mail",
-    "order",
-    "top",
-    "character",
-    "arrange",
-    "raise"
+    "сортировка по алфавиту",
+    "я-а",
+    "обратная сортировка",
+    "alphabetical",
+    "za",
+    "reverse"
   ],
   "light-bold": [
+    "лампочка",
+    "идея",
     "свет",
-    "жирный",
-    "легкий",
-    "полужирный",
-    "lamp",
-    "strong",
-    "bright",
-    "font"
+    "bulb",
+    "idea",
+    "lamp"
   ],
   "light-bold-sparkle": [
-    "свет",
-    "жирный",
+    "лампочка",
+    "идея",
     "искра",
-    "легкий",
-    "полужирный",
-    "блеск",
-    "lamp",
-    "strong",
-    "shine",
-    "bright",
-    "font",
-    "magic"
+    "инсайт",
+    "bulb",
+    "idea",
+    "insight"
   ],
   "lightning-plus": [
     "молния",
@@ -6093,9 +6039,13 @@
   ],
   "list-remove": [
     "список",
+    "удалить",
     "перечень",
+    "убрать",
     "items",
-    "menu"
+    "delete",
+    "menu",
+    "erase"
   ],
   "livechat": [
     "лайвчат",
@@ -6247,28 +6197,41 @@
     "password"
   ],
   "log-in": [
-    "журнал",
     "вход",
-    "journal",
-    "history"
+    "войти",
+    "авторизация",
+    "sign in",
+    "login",
+    "enter"
   ],
   "log-out": [
-    "журнал",
-    "вход",
-    "journal",
-    "history"
+    "выход",
+    "выйти",
+    "завершить сеанс",
+    "sign out",
+    "logout",
+    "exit"
   ],
   "logo-android": [
     "логотип",
+    "андроид",
     "бренд",
     "brand",
-    "emblem"
+    "google",
+    "emblem",
+    "mobile os"
   ],
   "logo-apple": [
     "логотип",
+    "эппл",
     "бренд",
+    "яблоко",
+    "айфон",
     "brand",
-    "emblem"
+    "iphone",
+    "emblem",
+    "ios",
+    "mac"
   ],
   "low-battery": [
     "низкий",
@@ -6295,31 +6258,25 @@
   "low-wi-fi": [
     "низкий",
     "вай",
+    "ви-фай",
     "малый",
-    "small"
+    "small",
+    "wifi"
   ],
   "lower-right-arrow": [
-    "вправо",
-    "стрелка",
-    "справа",
-    "направление",
-    "направо",
-    "forward",
-    "pointer",
-    "next",
-    "direction"
+    "стрелка вниз вправо",
+    "диагональная стрелка",
+    "diagonal",
+    "down-right"
   ],
   "magic-image": [
+    "волшебная картинка",
+    "генерация изображения",
     "магия",
-    "изображение",
-    "волшебство",
-    "картинка",
-    "автоматически",
-    "фото",
-    "wizard",
-    "picture",
-    "auto",
-    "photo"
+    "generate",
+    "ai image",
+    "wand",
+    "auto"
   ],
   "magic-wand": [
     "магия",
@@ -6355,15 +6312,13 @@
     "e-mail"
   ],
   "mail-counter": [
+    "счетчик писем",
+    "непрочитанные",
     "почта",
-    "счетчик",
-    "письмо",
-    "против",
-    "email",
-    "envelope",
+    "unread",
+    "badge",
     "count",
-    "message",
-    "e-mail"
+    "email"
   ],
   "mail-forward": [
     "почта",
@@ -6379,25 +6334,23 @@
     "send"
   ],
   "mail-in": [
-    "почта",
-    "письмо",
-    "email",
-    "envelope",
-    "message",
-    "e-mail"
+    "входящее письмо",
+    "входящая почта",
+    "inbox",
+    "incoming mail",
+    "receive"
   ],
   "mail-in-progress": [
-    "почта",
+    "входящее письмо",
     "прогресс",
-    "письмо",
+    "входящая почта",
     "выполнение",
-    "email",
     "ход",
-    "envelope",
+    "inbox",
     "status",
-    "message",
+    "incoming mail",
     "advance",
-    "e-mail"
+    "receive"
   ],
   "mail-money": [
     "почта",
@@ -6426,19 +6379,22 @@
     "e-mail"
   ],
   "mail-out": [
-    "почта",
-    "письмо",
-    "email",
-    "envelope",
-    "message",
-    "e-mail"
+    "исходящее письмо",
+    "исходящая почта",
+    "outbox",
+    "outgoing mail",
+    "send"
   ],
   "mail-read": [
     "почта",
+    "прочитано",
     "письмо",
+    "читать",
     "email",
     "envelope",
+    "seen",
     "message",
+    "opened",
     "e-mail"
   ],
   "mail-reply": [
@@ -6455,10 +6411,14 @@
   ],
   "mail-return": [
     "почта",
+    "вернуть",
     "письмо",
+    "возврат",
     "email",
     "envelope",
+    "back",
     "message",
+    "restore",
     "e-mail"
   ],
   "mail-send": [
@@ -6498,38 +6458,34 @@
     "mailbox"
   ],
   "main": [
-    "главный",
+    "главная",
     "основной",
+    "домой",
     "primary",
-    "home"
+    "home",
+    "start"
   ],
   "main-tool": [
-    "главный",
-    "инструмент",
-    "основной",
+    "основной инструмент",
+    "главное",
+    "инструменты",
     "primary",
-    "utility",
-    "home"
+    "toolbar",
+    "utility"
   ],
   "make-longer": [
-    "сделать",
-    "длиннее",
-    "создать",
     "удлинить",
-    "do",
+    "увеличить длину",
     "extend",
-    "build",
-    "lengthen"
+    "lengthen",
+    "stretch"
   ],
   "make-shorter": [
-    "сделать",
-    "короче",
-    "создать",
+    "укоротить",
     "сократить",
-    "do",
+    "shorten",
     "shrink",
-    "build",
-    "shorten"
+    "trim"
   ],
   "map": [
     "карта",
@@ -6626,14 +6582,12 @@
     "offerings"
   ],
   "meeting-point": [
-    "встреча",
-    "точка",
-    "совещание",
-    "пункт",
-    "appointment",
-    "dot",
-    "conference",
-    "spot"
+    "место встречи",
+    "точка сбора",
+    "метка",
+    "rendezvous",
+    "location",
+    "pin"
   ],
   "mention": [
     "упоминание",
@@ -6850,15 +6804,22 @@
   ],
   "mobile-constructor": [
     "мобильный",
+    "конструктор",
     "телефон",
     "phone",
-    "smartphone"
+    "builder",
+    "smartphone",
+    "designer"
   ],
   "mobile-selected": [
     "мобильный",
+    "выбранный",
     "телефон",
+    "выделено",
     "phone",
-    "smartphone"
+    "chosen",
+    "smartphone",
+    "active"
   ],
   "mobile-service": [
     "мобильный",
@@ -6880,14 +6841,12 @@
     "magic"
   ],
   "mobile-store": [
-    "мобильный",
-    "магазин",
-    "телефон",
-    "хранилище",
-    "phone",
-    "shop",
-    "smartphone",
-    "warehouse"
+    "мобильный магазин",
+    "мобильное приложение",
+    "каталог",
+    "app store",
+    "mobile shop",
+    "market"
   ],
   "mobile-with-star": [
     "мобильный",
@@ -6929,29 +6888,23 @@
   ],
   "more-9-cubes-1": [
     "еще",
-    "кубы",
-    "больше",
-    "кубики",
-    "подробнее",
-    "блоки",
-    "extra",
-    "blocks",
-    "options",
-    "3d",
-    "menu"
+    "приложения",
+    "меню",
+    "все приложения",
+    "apps",
+    "grid",
+    "menu",
+    "launcher"
   ],
   "more-9-cubes-2": [
     "еще",
-    "кубы",
-    "больше",
-    "кубики",
-    "подробнее",
-    "блоки",
-    "extra",
-    "blocks",
-    "options",
-    "3d",
-    "menu"
+    "приложения",
+    "меню",
+    "все приложения",
+    "apps",
+    "grid",
+    "menu",
+    "launcher"
   ],
   "more-information": [
     "еще",
@@ -6966,21 +6919,21 @@
   ],
   "more-points": [
     "еще",
-    "больше",
-    "подробнее",
-    "extra",
+    "три точки",
+    "меню",
+    "опции",
+    "ellipsis",
     "options",
-    "menu"
+    "kebab"
   ],
   "more-vertical": [
     "еще",
-    "вертикальный",
-    "больше",
-    "подробнее",
-    "extra",
-    "column",
+    "меню",
+    "три точки",
+    "опции",
+    "kebab",
     "options",
-    "menu"
+    "ellipsis"
   ],
   "move-to": [
     "переместить",
@@ -6990,22 +6943,24 @@
   ],
   "move-to-checklist": [
     "переместить",
+    "чек-лист",
     "перенести",
+    "список дел",
+    "контрольный список",
     "transfer",
-    "relocate"
+    "to-do",
+    "relocate",
+    "tasks"
   ],
   "multi-page-form": [
-    "мульти",
-    "страница",
-    "форма",
-    "несколько",
-    "лист",
+    "многостраничная форма",
     "анкета",
-    "multiple",
-    "sheet",
+    "страницы",
+    "шаги",
+    "multistep",
+    "wizard",
     "survey",
-    "site",
-    "webform"
+    "steps"
   ],
   "multichoice-off": [
     "множественный выбор",
@@ -7031,39 +6986,30 @@
   ],
   "music-note-1": [
     "музыка",
-    "заметка",
+    "нота",
     "мелодия",
-    "запись",
-    "примечание",
     "audio",
-    "memo",
-    "song",
-    "comment",
-    "sound"
+    "tone",
+    "melody",
+    "song"
   ],
   "music-note-2": [
     "музыка",
-    "заметка",
+    "нота",
     "мелодия",
-    "запись",
-    "примечание",
     "audio",
-    "memo",
-    "song",
-    "comment",
-    "sound"
+    "tone",
+    "melody",
+    "song"
   ],
   "music-note-3": [
     "музыка",
-    "заметка",
+    "нота",
     "мелодия",
-    "запись",
-    "примечание",
     "audio",
-    "memo",
-    "song",
-    "comment",
-    "sound"
+    "tone",
+    "melody",
+    "song"
   ],
   "my-deals": [
     "мой",
@@ -7215,14 +7161,12 @@
     "runtime"
   ],
   "non-favorite": [
-    "не",
-    "избранное",
-    "нет",
-    "любимое",
-    "not",
-    "star",
-    "bookmark",
-    "like"
+    "убрать из избранного",
+    "не избранное",
+    "снять звезду",
+    "unfavorite",
+    "remove favorite",
+    "unstar"
   ],
   "none": [
     "нет",
@@ -7320,9 +7264,12 @@
     "registry"
   ],
   "numbered-list": [
+    "нумерованный",
     "список",
     "перечень",
+    "ordered",
     "items",
+    "numeric",
     "menu"
   ],
   "numbers-123": [
@@ -7331,9 +7278,12 @@
     "digits"
   ],
   "numerable-list": [
+    "нумерованный",
     "список",
     "перечень",
+    "ordered",
     "items",
+    "numeric",
     "menu"
   ],
   "nuxt": [
@@ -7490,22 +7440,31 @@
     "dialog"
   ],
   "open-in-30": [
-    "открыть",
-    "открытый",
-    "opened",
-    "expand"
+    "открыть в",
+    "перейти",
+    "внешняя ссылка",
+    "новое окно",
+    "external",
+    "new window",
+    "launch"
   ],
   "open-in-40": [
-    "открыть",
-    "открытый",
-    "opened",
-    "expand"
+    "открыть в",
+    "перейти",
+    "внешняя ссылка",
+    "новое окно",
+    "external",
+    "new window",
+    "launch"
   ],
   "open-in-50": [
-    "открыть",
-    "открытый",
-    "opened",
-    "expand"
+    "открыть в",
+    "перейти",
+    "внешняя ссылка",
+    "новое окно",
+    "external",
+    "new window",
+    "launch"
   ],
   "open-lines": [
     "открыть",
@@ -7537,8 +7496,7 @@
     "open",
     "envelope",
     "character",
-    "message",
-    "e-mail"
+    "message"
   ],
   "openid": [
     "опенайди",
@@ -7625,7 +7583,10 @@
     "box"
   ],
   "page-black": [
-    "страница"
+    "страница",
+    "лист",
+    "sheet",
+    "document"
   ],
   "paint-1": [
     "краска",
@@ -7734,15 +7695,13 @@
     "transport"
   ],
   "payment-terminal": [
-    "оплата",
-    "терминал",
-    "платеж",
-    "консоль",
-    "pay",
-    "console",
-    "billing",
-    "command line",
-    "shell"
+    "платежный терминал",
+    "касса",
+    "оплата картой",
+    "эквайринг",
+    "pos",
+    "card payment",
+    "checkout"
   ],
   "pdf": [
     "пдф",
@@ -7784,9 +7743,13 @@
   ],
   "pencil-draw": [
     "карандаш",
+    "рисовать",
     "редактировать",
+    "рисунок",
     "edit",
+    "sketch",
     "write",
+    "paint",
     "pen"
   ],
   "perl": [
@@ -7807,27 +7770,24 @@
   ],
   "person-2-checks": [
     "человек",
+    "галочки",
     "пользователь",
+    "отметки",
     "сотрудник",
+    "проверки",
     "контакт",
     "user",
+    "ticks",
     "people",
-    "profile",
-    "member"
+    "marks",
+    "profile"
   ],
   "person-3-sticks": [
     "человек",
-    "полоски",
     "пользователь",
-    "деления",
     "сотрудник",
-    "контакт",
     "user",
-    "bars",
-    "people",
-    "levels",
-    "profile",
-    "member"
+    "profile"
   ],
   "person-arrow-down": [
     "человек",
@@ -7837,7 +7797,6 @@
     "направление",
     "нижний",
     "сотрудник",
-    "контакт",
     "user",
     "pointer",
     "bottom",
@@ -7856,10 +7815,9 @@
     "налево",
     "user",
     "pointer",
-    "back",
+    "west",
     "people",
-    "direction",
-    "previous"
+    "direction"
   ],
   "person-arrow-left-2": [
     "человек",
@@ -7872,10 +7830,9 @@
     "налево",
     "user",
     "pointer",
-    "back",
+    "west",
     "people",
-    "direction",
-    "previous"
+    "direction"
   ],
   "person-arrow-right": [
     "человек",
@@ -7888,10 +7845,9 @@
     "направо",
     "user",
     "pointer",
-    "forward",
+    "east",
     "people",
-    "direction",
-    "next"
+    "direction"
   ],
   "person-call": [
     "человек",
@@ -7941,13 +7897,17 @@
   ],
   "person-checks": [
     "человек",
+    "галочки",
     "пользователь",
+    "отметки",
     "сотрудник",
+    "проверки",
     "контакт",
     "user",
+    "ticks",
     "people",
-    "profile",
-    "member"
+    "marks",
+    "profile"
   ],
   "person-clock": [
     "человек",
@@ -7960,8 +7920,7 @@
     "time",
     "people",
     "watch",
-    "profile",
-    "member"
+    "profile"
   ],
   "person-clock-2": [
     "человек",
@@ -7974,32 +7933,28 @@
     "time",
     "people",
     "watch",
-    "profile",
-    "member"
+    "profile"
   ],
   "person-descending": [
-    "человек",
-    "по убыванию",
-    "пользователь",
-    "нисходящий",
-    "сотрудник",
-    "контакт",
-    "user",
+    "сотрудники по убыванию",
+    "сортировка людей",
+    "сортировка",
+    "sort users",
     "desc",
-    "people",
-    "down",
-    "profile",
-    "member"
+    "order"
   ],
   "person-detect": [
     "человек",
+    "обнаружить",
     "пользователь",
+    "распознать",
     "сотрудник",
     "контакт",
     "user",
+    "recognize",
     "people",
-    "profile",
-    "member"
+    "find",
+    "profile"
   ],
   "person-flag": [
     "человек",
@@ -8013,8 +7968,7 @@
     "mark",
     "people",
     "banner",
-    "profile",
-    "member"
+    "profile"
   ],
   "person-handset": [
     "человек",
@@ -8027,8 +7981,7 @@
     "phone",
     "people",
     "receiver",
-    "profile",
-    "member"
+    "profile"
   ],
   "person-letter": [
     "человек",
@@ -8041,8 +7994,7 @@
     "mail",
     "people",
     "character",
-    "profile",
-    "member"
+    "profile"
   ],
   "person-location": [
     "человек",
@@ -8108,13 +8060,18 @@
   ],
   "person-phone": [
     "человек",
+    "телефон",
     "пользователь",
+    "звонок",
     "сотрудник",
+    "трубка",
     "контакт",
     "user",
+    "call",
     "people",
+    "mobile",
     "profile",
-    "member"
+    "handset"
   ],
   "person-plus": [
     "человек",
@@ -8176,8 +8133,7 @@
     "find",
     "people",
     "lookup",
-    "profile",
-    "member"
+    "profile"
   ],
   "person-settings": [
     "человек",
@@ -8196,18 +8152,25 @@
   ],
   "person-speak": [
     "человек",
+    "говорить",
     "пользователь",
+    "речь",
     "сотрудник",
     "контакт",
     "user",
+    "talk",
     "people",
-    "profile",
-    "member"
+    "voice",
+    "profile"
   ],
   "personal-form": [
+    "личный",
     "форма",
+    "персональный",
     "анкета",
+    "private",
     "survey",
+    "own",
     "webform"
   ],
   "persons-2": [
@@ -8228,11 +8191,16 @@
   ],
   "persons-deny": [
     "люди",
+    "запретить",
     "пользователи",
+    "отказать",
     "сотрудники",
     "people",
+    "forbid",
     "users",
-    "team"
+    "block",
+    "team",
+    "reject"
   ],
   "persons-hand": [
     "люди",
@@ -8258,11 +8226,17 @@
     "team"
   ],
   "phone-add": [
+    "телефон",
     "добавить",
+    "звонок",
     "создать",
+    "трубка",
     "новый",
+    "call",
     "create",
+    "mobile",
     "new",
+    "handset",
     "plus"
   ],
   "phone-broken": [
@@ -8275,51 +8249,79 @@
     "missed"
   ],
   "phone-call-black": [
+    "телефон",
     "звонок",
     "позвонить",
+    "трубка",
     "вызов",
+    "mobile",
     "dial",
+    "handset",
     "ring"
   ],
   "phone-down": [
+    "телефон",
     "вниз",
+    "звонок",
     "нижний",
+    "трубка",
+    "call",
     "bottom",
-    "lower"
+    "mobile",
+    "lower",
+    "handset"
   ],
   "phone-down-black": [
+    "телефон",
     "вниз",
+    "звонок",
     "нижний",
+    "трубка",
+    "call",
     "bottom",
-    "lower"
+    "mobile",
+    "lower",
+    "handset"
   ],
   "phone-in": [
     "входящий звонок",
-    "телефон",
     "звонок",
+    "телефон",
     "incoming call",
-    "receive",
-    "inbound"
+    "inbound",
+    "receive"
   ],
   "phone-out": [
     "исходящий звонок",
-    "телефон",
     "звонок",
+    "телефон",
     "outgoing call",
-    "dial",
-    "outbound"
+    "outbound",
+    "dial"
   ],
   "phone-up": [
+    "телефон",
     "вверх",
+    "звонок",
     "верхний",
+    "трубка",
+    "call",
     "top",
-    "raise"
+    "mobile",
+    "raise",
+    "handset"
   ],
   "phone-up-black": [
+    "телефон",
     "вверх",
+    "звонок",
     "верхний",
+    "трубка",
+    "call",
     "top",
-    "raise"
+    "mobile",
+    "raise",
+    "handset"
   ],
   "php": [
     "пхп",
@@ -8379,10 +8381,14 @@
     "network"
   ],
   "pitch-zoom": [
+    "питч",
     "зум",
+    "презентация",
     "видеоконференция",
     "масштаб",
+    "presentation",
     "video call",
+    "pitch deck",
     "conference",
     "scale"
   ],
@@ -8534,26 +8540,20 @@
     "node"
   ],
   "point-left": [
-    "точка",
-    "влево",
-    "пункт",
-    "слева",
-    "налево",
-    "dot",
-    "back",
-    "spot",
-    "previous"
+    "указатель",
+    "рука",
+    "палец влево",
+    "finger",
+    "hand",
+    "pointer"
   ],
   "point-right": [
-    "точка",
-    "вправо",
-    "пункт",
-    "справа",
-    "направо",
-    "dot",
-    "forward",
-    "spot",
-    "next"
+    "указатель",
+    "рука",
+    "палец вправо",
+    "finger",
+    "hand",
+    "pointer"
   ],
   "poll": [
     "опрос",
@@ -8868,15 +8868,13 @@
     "faq"
   ],
   "quick-crm-fill": [
-    "быстрый",
+    "быстрое заполнение",
     "црм",
-    "заполнить",
-    "клиенты",
-    "продажи",
-    "fast",
-    "customers",
-    "full",
-    "sales"
+    "автозаполнение",
+    "карточка",
+    "quick fill",
+    "autofill",
+    "customer card"
   ],
   "quote": [
     "цитата",
@@ -8922,16 +8920,19 @@
     "comment"
   ],
   "receive-payment-settings": [
+    "получить",
     "оплата",
     "настройки",
+    "принять",
     "платеж",
     "параметры",
     "конфигурация",
+    "accept",
     "pay",
     "options",
+    "get",
     "billing",
-    "preferences",
-    "gear"
+    "preferences"
   ],
   "record-on": [
     "запись",
@@ -9110,19 +9111,26 @@
     "text"
   ],
   "remove-formatting": [
+    "удалить",
     "форматирование",
+    "убрать",
+    "delete",
     "format",
+    "erase",
     "style"
   ],
   "remove-person": [
+    "удалить",
     "человек",
+    "убрать",
     "пользователь",
     "сотрудник",
     "контакт",
+    "delete",
     "user",
+    "erase",
     "people",
-    "profile",
-    "member"
+    "profile"
   ],
   "repeat": [
     "повтор",
@@ -9161,7 +9169,11 @@
   ],
   "replay-all": [
     "повторить",
-    "again"
+    "все",
+    "всем",
+    "again",
+    "everyone",
+    "every"
   ],
   "reply": [
     "ответить",
@@ -9171,24 +9183,23 @@
   ],
   "reply-all": [
     "ответить",
+    "все",
     "ответ",
+    "всем",
     "respond",
-    "answer"
+    "everyone",
+    "answer",
+    "every"
   ],
   "rest-contact-center": [
-    "рест",
-    "контакт",
-    "центр",
-    "апи",
-    "клиент",
-    "по центру",
-    "адресат",
-    "api",
-    "person",
-    "middle",
-    "client",
-    "centered",
-    "address"
+    "рест апи",
+    "контакт-центр",
+    "интеграция",
+    "коннектор",
+    "rest api",
+    "integration",
+    "call center",
+    "connector"
   ],
   "restore-password": [
     "восстановить",
@@ -9205,15 +9216,13 @@
     "continue"
   ],
   "right-align": [
-    "вправо",
-    "выравнивание",
+    "выравнивание по правому краю",
+    "по правому краю",
     "справа",
-    "выровнять",
-    "направо",
-    "forward",
+    "текст",
     "alignment",
-    "next",
-    "format"
+    "format",
+    "text"
   ],
   "robot": [
     "робот",
@@ -9401,15 +9410,25 @@
   ],
   "screen-phone": [
     "экран",
+    "телефон",
     "монитор",
+    "звонок",
+    "трубка",
     "display",
-    "monitor"
+    "call",
+    "monitor",
+    "mobile",
+    "handset"
   ],
   "screen-selected": [
     "экран",
+    "выбранный",
     "монитор",
+    "выделено",
     "display",
-    "monitor"
+    "chosen",
+    "monitor",
+    "active"
   ],
   "screen-share": [
     "экран",
@@ -9493,8 +9512,7 @@
     "attachment",
     "document",
     "deliver",
-    "clip",
-    "post"
+    "clip"
   ],
   "send-contact": [
     "отправить",
@@ -9554,9 +9572,10 @@
     "offerings"
   ],
   "set-columns": [
-    "колонки",
-    "столбцы",
-    "cols",
+    "настроить колонки",
+    "выбор колонок",
+    "столбцы таблицы",
+    "table settings",
     "layout"
   ],
   "setting-black": [
@@ -9695,10 +9714,15 @@
   ],
   "shield-2-checked": [
     "щит",
+    "отмечено",
     "защита",
+    "проверено",
     "безопасность",
+    "подтверждено",
     "security",
+    "tick",
     "protection",
+    "verified",
     "guard"
   ],
   "shield-2-contour": [
@@ -9712,15 +9736,13 @@
     "guard"
   ],
   "shield-2-core-problem": [
+    "проблема защиты",
+    "уязвимость",
+    "угроза",
     "щит",
-    "ядро",
-    "защита",
-    "безопасность",
-    "security",
-    "main",
-    "protection",
-    "center",
-    "guard"
+    "vulnerability",
+    "threat",
+    "security issue"
   ],
   "shield-2-defended": [
     "щит",
@@ -9795,10 +9817,15 @@
   ],
   "shield-checked": [
     "щит",
+    "отмечено",
     "защита",
+    "проверено",
     "безопасность",
+    "подтверждено",
     "security",
+    "tick",
     "protection",
+    "verified",
     "guard"
   ],
   "shining": [
@@ -9877,29 +9904,38 @@
   ],
   "sign-default": [
     "подпись",
+    "по умолчанию",
     "знак",
+    "стандартный",
     "подписать",
     "signature",
-    "mark"
+    "standard",
+    "mark",
+    "main"
   ],
   "signal-wifi": [
+    "сигнал",
     "вайфай",
+    "связь",
     "беспроводная сеть",
+    "connection",
     "wireless",
     "network",
     "wi-fi"
   ],
   "signal-wifi-off": [
+    "сигнал",
     "вайфай",
     "выключить",
+    "связь",
     "беспроводная сеть",
     "отключено",
     "выкл",
+    "connection",
     "wireless",
     "disabled",
     "network",
-    "disable",
-    "wi-fi"
+    "disable"
   ],
   "siteb24": [
     "сайт битрикс24",
@@ -9924,7 +9960,11 @@
     "shops"
   ],
   "size-w": [
+    "ширина",
     "размер",
+    "изменить размер",
+    "width",
+    "resize",
     "dimension"
   ],
   "skype": [
@@ -9948,34 +9988,28 @@
     "collaboration"
   ],
   "smart-activities": [
-    "умный",
-    "активности",
-    "смарт",
-    "дела",
-    "intelligent",
-    "tasks",
-    "auto"
+    "смарт-дело",
+    "умное дело",
+    "автоматические дела",
+    "smart action",
+    "automatic",
+    "crm activity"
   ],
   "smart-activity": [
-    "умный",
-    "активность",
-    "смарт",
-    "дело",
-    "действие",
-    "intelligent",
-    "task",
-    "auto",
-    "event"
+    "смарт-дело",
+    "умное дело",
+    "автоматические дела",
+    "smart action",
+    "automatic",
+    "crm activity"
   ],
   "smart-process": [
-    "умный",
-    "процесс",
-    "смарт",
-    "обработка",
-    "intelligent",
+    "смарт-процесс",
+    "универсальная сущность",
+    "автоматизация",
+    "custom entity",
     "workflow",
-    "auto",
-    "progress"
+    "automation"
   ],
   "smart-sort": [
     "умный",
@@ -10134,58 +10168,94 @@
     "chars"
   ],
   "speed-0-5": [
+    "скорость воспроизведения",
+    "ускорение",
+    "замедление",
     "скорость",
+    "playback speed",
     "rate",
-    "tempo",
-    "fast"
+    "faster",
+    "slower"
   ],
   "speed-0-7": [
+    "скорость воспроизведения",
+    "ускорение",
+    "замедление",
     "скорость",
+    "playback speed",
     "rate",
-    "tempo",
-    "fast"
+    "faster",
+    "slower"
   ],
   "speed-1": [
+    "скорость воспроизведения",
+    "ускорение",
+    "замедление",
     "скорость",
+    "playback speed",
     "rate",
-    "tempo",
-    "fast"
+    "faster",
+    "slower"
   ],
   "speed-1-0": [
+    "скорость воспроизведения",
+    "ускорение",
+    "замедление",
     "скорость",
+    "playback speed",
     "rate",
-    "tempo",
-    "fast"
+    "faster",
+    "slower"
   ],
   "speed-1-2": [
+    "скорость воспроизведения",
+    "ускорение",
+    "замедление",
     "скорость",
+    "playback speed",
     "rate",
-    "tempo",
-    "fast"
+    "faster",
+    "slower"
   ],
   "speed-1-5": [
+    "скорость воспроизведения",
+    "ускорение",
+    "замедление",
     "скорость",
+    "playback speed",
     "rate",
-    "tempo",
-    "fast"
+    "faster",
+    "slower"
   ],
   "speed-1-7": [
+    "скорость воспроизведения",
+    "ускорение",
+    "замедление",
     "скорость",
+    "playback speed",
     "rate",
-    "tempo",
-    "fast"
+    "faster",
+    "slower"
   ],
   "speed-2": [
+    "скорость воспроизведения",
+    "ускорение",
+    "замедление",
     "скорость",
+    "playback speed",
     "rate",
-    "tempo",
-    "fast"
+    "faster",
+    "slower"
   ],
   "speed-2-0": [
+    "скорость воспроизведения",
+    "ускорение",
+    "замедление",
     "скорость",
+    "playback speed",
     "rate",
-    "tempo",
-    "fast"
+    "faster",
+    "slower"
   ],
   "speed-meter": [
     "скорость",
@@ -10303,13 +10373,12 @@
     "end"
   ],
   "stop-hand-crossed": [
-    "стоп",
-    "рука",
-    "остановить",
-    "ладонь",
-    "halt",
-    "palm",
-    "end"
+    "стоп отменен",
+    "разрешить",
+    "снять запрет",
+    "allowed",
+    "unblock",
+    "no stop"
   ],
   "stopwatch": [
     "секундомер",
@@ -10353,10 +10422,12 @@
     "tree"
   ],
   "sub-point": [
-    "точка",
-    "пункт",
-    "dot",
-    "spot"
+    "подпункт",
+    "вложенный пункт",
+    "дочерний",
+    "sub item",
+    "nested",
+    "child"
   ],
   "subscript": [
     "нижний индекс",
@@ -10434,7 +10505,11 @@
     "switch"
   ],
   "sync-circle": [
-    "синхронизация"
+    "синхронизация",
+    "обновление",
+    "обмен",
+    "synchronize",
+    "refresh"
   ],
   "sync-settings": [
     "синхронизация",
@@ -10581,15 +10656,25 @@
     "paper plane"
   ],
   "telegram-in-circle": [
+    "телеграм",
     "круг",
+    "телега",
     "кружок",
+    "мессенджер",
+    "messenger",
     "round",
+    "chat",
     "ring"
   ],
   "telegram-in-circle-1": [
+    "телеграм",
     "круг",
+    "телега",
     "кружок",
+    "мессенджер",
+    "messenger",
     "round",
+    "chat",
     "ring"
   ],
   "telephony": [
@@ -10691,7 +10776,12 @@
     "pbx"
   ],
   "telephonybot": [
-    "бот телефонии"
+    "бот телефонии",
+    "голосовой бот",
+    "автообзвон",
+    "voice bot",
+    "ivr",
+    "autodial"
   ],
   "temp-1": [
     "температура",
@@ -10733,9 +10823,13 @@
   ],
   "text-amount": [
     "текст",
+    "сумма",
     "надпись",
+    "количество",
     "label",
-    "string"
+    "total",
+    "string",
+    "quantity"
   ],
   "text-check": [
     "текст",
@@ -10748,8 +10842,7 @@
     "tick",
     "string",
     "done",
-    "ok",
-    "verify"
+    "ok"
   ],
   "text-color": [
     "текст",
@@ -10783,8 +10876,7 @@
     "style",
     "abort",
     "string",
-    "stop",
-    "cross"
+    "stop"
   ],
   "text-format-top": [
     "текст",
@@ -10811,7 +10903,7 @@
     "label",
     "style",
     "up",
-    "back",
+    "west",
     "string",
     "upper"
   ],
@@ -10827,7 +10919,7 @@
     "label",
     "style",
     "up",
-    "forward",
+    "east",
     "string",
     "upper"
   ],
@@ -10846,24 +10938,33 @@
   ],
   "thread-single": [
     "тред",
+    "одиночный",
     "ветка",
+    "один",
     "обсуждение",
     "discussion",
+    "one",
     "topic"
   ],
   "three-persons": [
+    "три",
     "люди",
     "пользователи",
     "сотрудники",
+    "3",
     "people",
     "users",
     "team"
   ],
   "time-picker": [
     "время",
+    "выбор",
     "часы",
+    "выбрать",
     "clock",
-    "duration"
+    "chooser",
+    "duration",
+    "select"
   ],
   "timeline": [
     "таймлайн",
@@ -10889,8 +10990,10 @@
   ],
   "timer-dot": [
     "таймер",
+    "точка",
     "секундомер",
     "countdown",
+    "point",
     "stopwatch"
   ],
   "toloka": [
@@ -10936,11 +11039,16 @@
     "language"
   ],
   "trash-bin": [
-    "мусор",
     "корзина",
-    "контейнер",
+    "удалить",
+    "мусор",
+    "урна",
+    "очистить",
+    "delete",
+    "remove",
     "garbage",
-    "delete"
+    "waste",
+    "rubbish"
   ],
   "trashcan": [
     "мусорка",
@@ -10951,24 +11059,24 @@
     "remove"
   ],
   "trend-down": [
-    "тренд",
-    "вниз",
+    "тренд вниз",
+    "падение",
+    "снижение",
     "динамика",
-    "нижний",
-    "dynamics",
-    "bottom",
-    "statistics",
-    "lower"
+    "decline",
+    "decrease",
+    "drop",
+    "fall"
   ],
   "trend-up": [
-    "тренд",
-    "вверх",
+    "тренд вверх",
+    "рост",
+    "увеличение",
     "динамика",
-    "верхний",
-    "dynamics",
-    "top",
-    "statistics",
-    "raise"
+    "growth",
+    "increase",
+    "rise",
+    "upward"
   ],
   "tsconfig": [
     "конфиг тайпскрипт",
@@ -11075,10 +11183,10 @@
     "detach"
   ],
   "unsub-point": [
-    "точка",
-    "пункт",
-    "dot",
-    "spot"
+    "отписаться от пункта",
+    "отписка",
+    "unsubscribe",
+    "unfollow"
   ],
   "upload": [
     "загрузить",
@@ -11101,7 +11209,12 @@
     "file"
   ],
   "upload-file": [
-    "загрузить файл"
+    "загрузить файл",
+    "выгрузить документ",
+    "отправить файл",
+    "attach",
+    "add file",
+    "import"
   ],
   "user": [
     "пользователь",
@@ -11157,17 +11270,20 @@
   ],
   "user-mask": [
     "пользователь",
+    "маска",
     "человек",
     "профиль",
     "аккаунт",
     "person",
+    "disguise",
     "account",
     "member"
   ],
   "user-profile": [
     "пользователь",
-    "человек",
     "профиль",
+    "человек",
+    "анкета",
     "аккаунт",
     "person",
     "account",
@@ -11306,12 +11422,17 @@
     "marketing"
   ],
   "vk-lead-form": [
+    "вконтакте",
     "лид",
     "форма",
+    "вк",
     "потенциальный клиент",
     "анкета",
+    "соцсеть",
+    "vkontakte",
     "prospect",
     "survey",
+    "social network",
     "sale",
     "webform"
   ],
@@ -11325,15 +11446,25 @@
     "groups"
   ],
   "vk-order": [
+    "вконтакте",
     "заказ",
+    "вк",
     "порядок",
+    "соцсеть",
+    "vkontakte",
     "purchase",
+    "social network",
     "sort"
   ],
   "vk-shop": [
+    "вконтакте",
     "магазин",
+    "вк",
     "покупки",
+    "соцсеть",
+    "vkontakte",
     "store",
+    "social network",
     "buy"
   ],
   "vkads": [
@@ -11386,9 +11517,13 @@
   ],
   "waiting-points": [
     "ожидание",
+    "точки",
     "очередь",
+    "пункты",
     "pending",
-    "queue"
+    "dots",
+    "queue",
+    "items"
   ],
   "wallet": [
     "кошелек",
@@ -11524,13 +11659,11 @@
     "проверить",
     "направление",
     "готово",
-    "подтвердить",
     "app window",
     "tick",
     "pointer",
     "done",
-    "direction",
-    "ok"
+    "direction"
   ],
   "window-check-link": [
     "окно",
@@ -11539,13 +11672,11 @@
     "проверить",
     "связь",
     "готово",
-    "подтвердить",
     "app window",
     "tick",
     "url",
     "done",
-    "hyperlink",
-    "ok"
+    "hyperlink"
   ],
   "window-check-pencil": [
     "окно",
@@ -11554,13 +11685,11 @@
     "проверить",
     "редактировать",
     "готово",
-    "подтвердить",
     "app window",
     "tick",
     "edit",
     "done",
-    "write",
-    "ok"
+    "write"
   ],
   "window-check-with-folder": [
     "окно",
@@ -11569,13 +11698,11 @@
     "проверить",
     "каталог",
     "готово",
-    "подтвердить",
     "app window",
     "tick",
     "directory",
     "done",
-    "dir",
-    "ok"
+    "dir"
   ],
   "window-double-check-1": [
     "окно",
@@ -11584,13 +11711,11 @@
     "двойная",
     "проверить",
     "готово",
-    "подтвердить",
     "app window",
     "two",
     "tick",
     "dual",
-    "done",
-    "ok"
+    "done"
   ],
   "window-double-check-2": [
     "окно",
@@ -11599,13 +11724,11 @@
     "двойная",
     "проверить",
     "готово",
-    "подтвердить",
     "app window",
     "two",
     "tick",
     "dual",
-    "done",
-    "ok"
+    "done"
   ],
   "window-flag": [
     "окно",
@@ -11618,7 +11741,11 @@
   ],
   "window-ring": [
     "окно",
-    "app window"
+    "звонок",
+    "кольцо",
+    "app window",
+    "bell",
+    "call"
   ],
   "window-screen": [
     "окно",
@@ -11637,8 +11764,13 @@
     "spot"
   ],
   "windows": [
-    "окна",
-    "microsoft"
+    "виндовс",
+    "майкрософт",
+    "операционная система",
+    "microsoft",
+    "os",
+    "win",
+    "operating system"
   ],
   "xls": [
     "эксель",
@@ -11741,25 +11873,27 @@
   "zoom": [
     "зум",
     "видеоконференция",
-    "масштаб",
+    "видеозвонок",
+    "созвон",
     "video call",
     "conference",
-    "scale"
+    "meeting",
+    "online meeting"
   ],
   "zoom-in": [
-    "зум",
-    "видеоконференция",
-    "масштаб",
-    "video call",
-    "conference",
-    "scale"
+    "приблизить",
+    "увеличить масштаб",
+    "лупа плюс",
+    "magnify",
+    "enlarge",
+    "scale up"
   ],
   "zoom-out": [
-    "зум",
-    "видеоконференция",
-    "масштаб",
-    "video call",
-    "conference",
-    "scale"
+    "отдалить",
+    "уменьшить масштаб",
+    "лупа минус",
+    "shrink",
+    "scale down",
+    "reduce"
   ]
 }
