@@ -8,15 +8,41 @@
 1. Push в `main` ничего не публикует. `release-please.yml` держит открытым PR
    `chore(main): release X.Y.Z`: версия и журнал собираются из заголовков смерженных PR
    (conventional commits: `feat` поднимает минорную версию, `fix` — патч; до 1.0 `feat!` тоже минорную).
-2. **Слияние этого PR — единственное действие человека.** release-please ставит тег `vX.Y.Z` и
-   GitHub Release, затем запускает `npm-publish.yml` на теге.
+2. **Человек делает одно: сливает этот PR** (squash, как любой другой). Перед слиянием нужно
+   дождаться обязательных проверок `ci` и `title`, см. [Проверки на PR выпуска](#проверки-на-pr-выпуска).
+   После слияния release-please ставит тег `vX.Y.Z` и GitHub Release, затем запускает
+   `npm-publish.yml` на теге.
 3. `npm-publish.yml`:
    - job `build` (без OIDC-токена) сверяет версии с тегом, собирает, тестирует и упаковывает
      три tarball (`pnpm pack`);
    - job `publish` (окружение `npm-release`, OIDC) проверяет sha256 и публикует их с provenance.
      Уже опубликованное пропускается, поэтому упавший запуск можно перезапустить.
 
-Ручной запуск: Actions → NPM publish → Run workflow → выбрать **тег** `vX.Y.Z` (с ветки не публикует).
+Версии с дефисом (`0.2.0-rc.1`) публикуются с dist-tag `next`, обычные — с `latest`.
+
+Ручной запуск: Actions → NPM publish → Run workflow → выбрать **тег** `vX.Y.Z` (с ветки не публикует:
+job `build` пропускается, а `publish` ждёт его и тоже пропускается).
+
+## Проверки на PR выпуска
+
+На `main` действует ruleset `Protect main`: PR, 0 одобрений, обязательные проверки `ci` и `title`,
+слияние только squash, ветка должна быть обновлена до `main` (strict). У владельца (роль admin)
+есть bypass.
+
+PR выпуска создаёт release-please от имени `GITHUB_TOKEN`. Запуски его проверок GitHub удерживает
+в состоянии `action_required`: job не создаются, check run нет, ruleset ждёт `ci` и `title`, и PR
+остаётся `blocked` («Required status check is expected»). Так это выглядит на release PR в
+bx-shef/b24-js-sdk (#55), разобрано в bx-shef/b24-ui (`.github/contributing/releasing.md`,
+«Approving the release PR's CI»). Здесь PR выпуска ещё не создавался, поэтому порядок взят оттуда;
+после первого выпуска сверить и поправить по факту:
+
+1. Открыть PR выпуска → вкладка Checks / Actions: если запуск ждёт подтверждения, подтвердить его
+   (*Approve and run*) и дождаться зелёных `ci` и `title`.
+2. Если после слияния любого другого PR в `main` кнопка слияния заблокирована — ветка отстала
+   (strict): нажать *Update branch*, подтвердить новый запуск, дождаться проверок.
+3. Запасной путь для владельца: bypass в ruleset (*Merge without waiting for requirements to be
+   met*). Использовать только когда проверки заведомо не могут появиться, и после первого выпуска
+   записать здесь, как это было на самом деле.
 
 ## Настройки владельца (один раз)
 
@@ -29,6 +55,8 @@
 | GitHub → Settings → Actions → General → Workflow permissions | *Allow GitHub Actions to create and approve pull requests* (иначе release-please не откроет PR). |
 | GitHub → Settings → Secrets and variables → Actions → Variables | `NPM_RELEASE` = `true` — выключатель всей схемы. |
 | GitHub → Settings → Advanced Security | *Private vulnerability reporting* — Enable (на него ведёт `SECURITY.md`). |
+| GitHub → Settings → Advanced Security | *Dependabot alerts* и *Dependabot security updates* — Enable; *Secret scanning* и *Push protection* — Enable; *Code scanning* → *Default setup* (CodeQL). |
+| GitHub → Settings → Rules → Rulesets | `Protect main` на default-ветку: запрет удаления и force-push, PR с 0 одобрений, только squash, обязательные проверки `ci` и `title` со strict, bypass для роли Repository admin. |
 
 Заглушки (из любой папки, под своим аккаунтом npm):
 
