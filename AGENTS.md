@@ -33,7 +33,8 @@ pnpm site                           # публичный каталог в site-
 ```
 
 Публичный каталог — образ `ghcr.io/bx-shef/b24-icons-site` на сервере bx-shef, как сайт
-bx-shef/b24-js-sdk: `deploy/README.md`.
+bx-shef/b24-js-sdk: `deploy/README.md`. Проверка сайта агентом с браузером — промпты в
+`.github/contributing/site-check.md` (правятся в том же PR, что меняет `site/`).
 
 Сверка цветов со старой библиотекой:
 `npm pack @bitrix24/b24icons-vue`, распаковать, `node scripts/migrate/parity.mjs <package/dist>`.
