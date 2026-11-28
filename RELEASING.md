@@ -33,16 +33,16 @@ PR выпуска создаёт release-please от имени `GITHUB_TOKEN`. 
 в состоянии `action_required`: job не создаются, check run нет, ruleset ждёт `ci` и `title`, и PR
 остаётся `blocked` («Required status check is expected»). Так это выглядит на release PR в
 bx-shef/b24-js-sdk (#55), разобрано в bx-shef/b24-ui (`.github/contributing/releasing.md`,
-«Approving the release PR's CI»). Здесь PR выпуска ещё не создавался, поэтому порядок взят оттуда;
-после первого выпуска сверить и поправить по факту:
+«Approving the release PR's CI»). Проверено на выпуске 0.1.0 (PR #32, 2026-11-28): так и было —
+`ci`, `title`, `site-image`, `dependency-review` стояли в `action_required`, одно нажатие владельца
+*Approve and run* их запустило, bypass не понадобился.
 
 1. Открыть PR выпуска → вкладка Checks / Actions: если запуск ждёт подтверждения, подтвердить его
    (*Approve and run*) и дождаться зелёных `ci` и `title`.
 2. Если после слияния любого другого PR в `main` кнопка слияния заблокирована — ветка отстала
    (strict): нажать *Update branch*, подтвердить новый запуск, дождаться проверок.
 3. Запасной путь для владельца: bypass в ruleset (*Merge without waiting for requirements to be
-   met*). Использовать только когда проверки заведомо не могут появиться, и после первого выпуска
-   записать здесь, как это было на самом деле.
+   met*). Использовать только когда проверки заведомо не могут появиться.
 
 ## Настройки владельца (один раз)
 
@@ -75,7 +75,20 @@ done
 npm deprecate @bxshefby/icons-vue "Use @bxshefby/icons-json (Iconify collection bx24): https://github.com/bx-shef/b24-icons"
 ```
 
-## Первый выпуск
+## Первый выпуск — 0.1.0 (2026-11-28)
 
-Версии в репозитории — `0.0.0`; первый PR выпуска поднимет их до `0.1.0`. Перед слиянием
-проверить журнал изменений в PR выпуска и поправить руками, если нужно.
+Как прошёл, чтобы следующий раз не наступить на то же:
+
+1. **Версия.** Для самого первого выпуска release-please предложил `1.0.0` и не учёл
+   `bump-minor-pre-major`. Исправлено настройкой `"initial-version": "0.1.0"` (PR #33); дальше версии
+   растут как обычно (до 1.0 `feat` — минорная).
+2. **Заглушки в npm.** После `npm publish` пакет виден в реестре только через несколько минут, поэтому
+   `npm deprecate` сразу после публикации отвечает 404 — повторить позже. При входе через браузер
+   (2FA) у пакетов дополнительно появилась версия `0.0.0-stage` — ни на что не влияет.
+3. **Trusted Publisher.** Первая публикация упала на `npm publish`: `404 … you do not have permission`,
+   хотя provenance уже был подписан. Причина — настройки Trusted Publisher пакета не совпадали с
+   запуском (проверить: `bx-shef` / `b24-icons` / `npm-publish.yml` / `npm-release`, отмечено
+   *Allow npm publish*). После правки — *Re-run failed jobs* у запуска «NPM publish»: сборка не
+   повторяется, публикуется тот же tarball, опубликованное пропускается.
+4. Итог: `@bxshefby/icons-json`, `@bxshefby/icons-svg`, `@bxshefby/icons-migrate` 0.1.0 с provenance,
+   dist-tag `latest`.
