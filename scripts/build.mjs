@@ -6,7 +6,7 @@
  */
 import fs from 'node:fs/promises'
 import { resolve } from 'node:path'
-import { blankIconSet, SVG, cleanupSVG, parseColors, isEmptyColor, runSVGO } from '@iconify/tools'
+import { blankIconSet, SVG, cleanupSVG, cleanupSVGRoot, parseColors, isEmptyColor, runSVGO } from '@iconify/tools'
 import { colorToString } from '@iconify/utils/lib/colors'
 import {
   ROOT, ICONS_DIR, DATA_DIR, PREFIX, SETS, KEEP_COLORS_SETS, KEEP_WHITE_ICONS,
@@ -34,6 +34,23 @@ function dropUnusedIds(content) {
  */
 function inheritCurrentColor(content) {
   return content.replace(/<svg\b([^>]*)>/, (match, attrs) => /\sfill=/.test(attrs) ? match : `<svg${attrs} fill="currentColor">`)
+}
+
+/**
+ * Для анимированных иконок, которые не идут через cleanupSVG: то же, что он запрещает и что
+ * опасно при встраивании в чужую страницу (SECURITY.md).
+ */
+function assertSafeSvg(content) {
+  const bad = [
+    [/<script/i, '<script>'],
+    [/\son[a-z]+\s*=/i, 'обработчик on*'],
+    [/<foreignObject/i, '<foreignObject>'],
+    [/(?:xlink:)?href\s*=\s*["'](?!#)/i, 'внешняя ссылка href'],
+    [/url\(\s*["']?(?!#)/i, 'внешний url()'],
+    [/@import/i, '@import'],
+    [/javascript:/i, 'javascript:']
+  ]
+  for (const [re, what] of bad) if (re.test(content)) throw new Error(`animated icon contains ${what}`)
 }
 
 /** Turns inherited Bitrix24 UI colors into currentColor, keeps the rest. */
@@ -91,11 +108,22 @@ async function main() {
       const name = iconName(set, base)
       const content = await fs.readFile(resolve(ICONS_DIR, set, file), 'utf8')
       try {
-        const svg = new SVG(set.includes('specialized') ? dropUnusedIds(content) : inheritCurrentColor(dropUnusedIds(content)))
-        cleanupSVG(svg)
-        if (!KEEP_COLORS_SETS.has(set)) normalizeColors(svg, set, base)
         const animated = /<animate|<set\b|@keyframes|animation/i.test(content)
-        runSVGO(svg, { animated, keepShapes: animated })
+        let svg
+        if (animated) {
+          // Анимированные иконки — как нарисованы: cleanupSVG и SVGO выкидывают transform-origin и
+          // сливают группы, и вращение уезжает в угол. Безопасность — своей проверкой (assertSafeSvg).
+          assertSafeSvg(content)
+          svg = new SVG(content.replace(/\s+(xmlns:xlink|version)="[^"]*"/g, ''))
+          // только корень: атрибуты <svg> (fill="none" и т. п.) уходят во вложенную <g>
+          cleanupSVGRoot(svg)
+          if (!KEEP_COLORS_SETS.has(set)) normalizeColors(svg, set, base)
+        } else {
+          svg = new SVG(set.includes('specialized') ? dropUnusedIds(content) : inheritCurrentColor(dropUnusedIds(content)))
+          cleanupSVG(svg)
+          if (!KEEP_COLORS_SETS.has(set)) normalizeColors(svg, set, base)
+          runSVGO(svg)
+        }
         if (iconSet.exists(name)) errors.push(`${name}: duplicate icon name`)
         iconSet.fromSVG(name, svg)
         setOf.set(name, { set, base })
