@@ -5,9 +5,26 @@
   "license": "MIT",
   "author": "bx-shef",
   "homepage": "https://github.com/bx-shef/b24-icons#readme",
-  "repository": { "type": "git", "url": "git+https://github.com/bx-shef/b24-icons.git", "directory": "packages/icons-json" },
-  "bugs": { "url": "https://github.com/bx-shef/b24-icons/issues" },
-  "keywords": ["icons", "iconify", "iconify-json", "bitrix24", "bx24", "nuxt", "nuxt-ui", "vue", "react", "svg"],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bx-shef/b24-icons.git",
+    "directory": "packages/icons-json"
+  },
+  "bugs": {
+    "url": "https://github.com/bx-shef/b24-icons/issues"
+  },
+  "keywords": [
+    "icons",
+    "iconify",
+    "iconify-json",
+    "bitrix24",
+    "bx24",
+    "nuxt",
+    "nuxt-ui",
+    "vue",
+    "react",
+    "svg"
+  ],
   "type": "module",
   "sideEffects": false,
   "main": "./index.cjs",
@@ -22,12 +39,35 @@
     "./icons.json": "./icons.json",
     "./info.json": "./info.json",
     "./metadata.json": "./metadata.json",
-    "./package.json": "./package.json"
+    "./package.json": "./package.json",
+    "./search": {
+      "types": "./search.d.ts",
+      "import": "./search.mjs"
+    },
+    "./search.json": "./search.json"
   },
-  "files": ["README.md", "index.mjs", "index.cjs", "index.d.ts", "icons.json", "info.json", "metadata.json"],
-  "iconSetInfo": { "prefix": "bx24", "name": "Bitrix24 Icons (bx24)" },
+  "files": [
+    "README.md",
+    "index.mjs",
+    "index.cjs",
+    "index.d.ts",
+    "icons.json",
+    "info.json",
+    "metadata.json",
+    "search.mjs",
+    "search.d.ts",
+    "search.json"
+  ],
+  "iconSetInfo": {
+    "prefix": "bx24",
+    "name": "Bitrix24 Icons (bx24)"
+  },
   "dependencies": {
     "@iconify/types": "^2.0.0"
   },
-  "publishConfig": { "access": "public", "provenance": true, "registry": "https://registry.npmjs.org/" }
+  "publishConfig": {
+    "access": "public",
+    "provenance": true,
+    "registry": "https://registry.npmjs.org/"
+  }
 }

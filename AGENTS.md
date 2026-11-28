@@ -46,6 +46,9 @@ bx-shef/b24-js-sdk: `deploy/README.md`.
   интерфейса Битрикс24 в `currentColor` (кроме `file-type`; `*specialized` — только hex-литералы, как
   в старой сборке), SVGO, экспорт.
 - `data/catalog.json` — темы (`categories`) и скрытые иконки (`hidden`). Правится в `pnpm admin`.
+- `data/keywords.json` — ключевые слова (ru/en) по имени группы без набора и размера (`check`, `trash-bin`).
+  Правятся в `pnpm admin` (выделить одну иконку). Сборка кладёт индекс в `search.json`; поиск —
+  `packages/icons-json/search.mjs`, общий для каталога и MCP `b24-ui-search-icons` в bx-shef/b24-ui.
 - `data/renames.json` — переименования при переносе; `data/legacy-map.json` — «компонент старой
   библиотеки → имя `bx24`». Сгенерирован один раз `scripts/migrate/legacy-map.mjs`.
 - Сгенерированные файлы пакетов в git не хранятся (`.gitignore`).

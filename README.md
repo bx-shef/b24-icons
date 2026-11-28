@@ -93,6 +93,21 @@ pnpm add @bxshefby/icons-svg
 `@bxshefby/icons-svg/svg/<set>/<name>.svg`, e.g. `svg/outline/check-l.svg`.
 Monochrome icons use `currentColor`: inline them to inherit the text color (in `<img>` they render black).
 
+### Search
+
+The same search powers the catalog and the b24-ui MCP tool `b24-ui-search-icons`:
+by name, Russian and English keywords, themes and old component names (`CheckLIcon`).
+
+```ts
+import index from '@bxshefby/icons-json/search.json' with { type: 'json' }
+import { createSearch } from '@bxshefby/icons-json/search'
+
+const search = createSearch(index)
+search('корзина', { limit: 10 }).results.map(r => r.name) // ['outline-trashcan', …]
+```
+
+Results are groups: one name without set and size (`check`) with its variants (`outline-check-l`, `outline-check-m`, …).
+
 ### TypeScript
 
 ```ts
