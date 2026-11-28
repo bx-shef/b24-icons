@@ -71,8 +71,12 @@ function leftovers(text) {
   const COMMENT_RE = /<!--[\s\S]*?-->|\/\*[\s\S]*?\*\/|\/\/[^\n]*/g
   const commented = (text.match(COMMENT_RE) ?? []).filter(c => c.includes('@bitrix24/b24icons-vue'))
   if (commented.length) notes.push(`${commented.length} commented-out import(s) of @bitrix24/b24icons-vue: delete them`)
-  const rest = text.replace(COMMENT_RE, '').replace(IMPORT_RE, '')
-  const strings = rest.match(/['"]@bitrix24\/b24icons-vue[^'"]*['"]/g) ?? []
+  // counting only, nothing is sanitized: skip matches that sit inside a comment or an import line
+  const ranges = [...text.matchAll(COMMENT_RE)].map(m => [m.index, m.index + m[0].length])
+  const strings = [...text.matchAll(/['"]@bitrix24\/b24icons-vue[^'"]*['"]/g)].filter((m) => {
+    const lineStart = text.lastIndexOf('\n', m.index) + 1
+    return !ranges.some(([from, to]) => m.index >= from && m.index < to) && !/^\s*import\b/.test(text.slice(lineStart, m.index))
+  })
   if (strings.length) notes.push(`${strings.length} string mention(s) of @bitrix24/b24icons-vue (e.g. optimizeDeps.include in nuxt.config): remove once nothing imports the package`)
   return notes
 }
