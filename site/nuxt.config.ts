@@ -27,7 +27,12 @@ export default defineNuxtConfig({
   },
 
   runtimeConfig: {
-    public: { siteUrl }
+    public: {
+      siteUrl,
+      // Яндекс Метрика: номер вшивается при генерации (deploy/Dockerfile, секрет YANDEX_METRIKA_ID).
+      // Пусто — ни счётчика, ни баннера cookie (plugins/metrika.client.ts).
+      yandexMetrikaId: process.env.NUXT_PUBLIC_YANDEX_METRIKA_ID ?? ''
+    }
   },
 
   colorMode: {

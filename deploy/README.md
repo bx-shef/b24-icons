@@ -15,9 +15,13 @@
 - Воркфлоу `.github/workflows/site-image.yml`:
   - на PR — сборка и дымовая проверка: контейнер с теми же ограничениями, что в compose;
   - на push в `main` — ещё и публикация `ghcr.io/bx-shef/b24-icons-site:latest` и `:sha-…`.
-- Адрес сайта для canonical, og, `sitemap.xml` и `robots.txt` — переменная репозитория `SITE_URL`
-  (Settings → Secrets and variables → Actions → Variables): `https://b24-icons.bx-shef.by`.
-  Пусто — без них.
+- Адрес сайта для canonical, og, `sitemap.xml` и `robots.txt` — секрет репозитория `DOCS_SITE_URL`
+  (или переменная `SITE_URL`, она главнее; Settings → Secrets and variables → Actions):
+  `https://b24-icons.bx-shef.by`. Пусто — без них. Так же, как в bx-shef/b24-js-sdk.
+- Яндекс Метрика — номер счётчика в секрете репозитория `YANDEX_METRIKA_ID`, вшивается в образ при сборке.
+  Метрика грузится только после согласия посетителя в баннере cookie (`site/public/cookie-consent.js` —
+  копия из bx-shef/b24-js-sdk, без правок), без Вебвизора; в подвале — «Настроить cookie».
+  Пусто — ни счётчика, ни баннера.
 - Пакет в ghcr после первой публикации может оказаться приватным. Watchtower на сервере входит в ghcr,
   так что это не мешает. Чтобы образ можно было скачать без входа: Packages → b24-icons-site →
   Package settings → Change visibility → Public.
