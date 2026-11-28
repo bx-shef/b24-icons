@@ -1,5 +1,19 @@
 # Changelog
 
+## [0.1.1](https://github.com/bx-shef/b24-icons/compare/v0.1.0...v0.1.1) (2026-11-28)
+
+
+### Исправления
+
+* **build:** анимированные иконки вращаются вокруг центра; ссылка на лицензию MIT ([#39](https://github.com/bx-shef/b24-icons/issues/39)) ([8f892f5](https://github.com/bx-shef/b24-icons/commit/8f892f519ab6fa3587cd3c4846e3e6ad41ee9a2a))
+* **site:** тема, валидные SVG, страница 404 и ресурсы bx-shef — по отчёту браузерной проверки ([#38](https://github.com/bx-shef/b24-icons/issues/38)) ([e865e3a](https://github.com/bx-shef/b24-icons/commit/e865e3adf7179dbb39b09852dfed7aaf010474f9))
+
+
+### Документация
+
+* **license:** заменить правообладателя на ООО БэИксШефБай, сохранить Bitrix24, подвал с источником ([#35](https://github.com/bx-shef/b24-icons/issues/35)) ([dd3777b](https://github.com/bx-shef/b24-icons/commit/dd3777bcda745ceab4f1e681bf75516a6ae05dfa))
+* **releasing:** как прошёл первый выпуск 0.1.0 ([#37](https://github.com/bx-shef/b24-icons/issues/37)) ([e483864](https://github.com/bx-shef/b24-icons/commit/e483864e1d64e5079d694bb4c5619f689475d8b6))
+
 ## 0.1.0 (2026-11-28)
 
 

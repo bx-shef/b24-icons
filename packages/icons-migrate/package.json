@@ -1,6 +1,6 @@
 {
   "name": "@bxshefby/icons-migrate",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Migrate from @bitrix24/b24icons-vue components to bx24 icon names (codemod, name map and AI agent skill)",
   "license": "MIT",
   "author": "ООО «БэИксШефБай»",
