@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "Migrate from @bitrix24/b24icons-vue components to bx24 icon names (codemod, name map and AI agent skill)",
   "license": "MIT",
-  "author": "bx-shef",
+  "author": "ООО «БэИксШефБай»",
   "homepage": "https://github.com/bx-shef/b24-icons#migration",
   "repository": {
     "type": "git",
