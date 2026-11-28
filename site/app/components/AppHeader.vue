@@ -1,5 +1,13 @@
 <script setup lang="ts">
 import GitHubIcon from '@bitrix24/b24icons-vue/social/GitHubIcon'
+import { RESOURCES } from '~/utils/resources'
+
+const items = RESOURCES.map(r => ({
+  label: r.label,
+  description: r.description,
+  to: r.to,
+  target: r.current ? undefined : '_blank'
+}))
 </script>
 
 <template>
@@ -16,22 +24,9 @@ import GitHubIcon from '@bitrix24/b24icons-vue/social/GitHubIcon'
     </template>
 
     <template #right>
-      <B24Button
-        to="https://b24-ui.bx-shef.by/docs/getting-started/integrations/icons/nuxt/"
-        target="_blank"
-        color="air-tertiary"
-        size="sm"
-        label="b24-ui"
-        class="hidden sm:inline-flex"
-      />
-      <B24Button
-        to="https://www.npmjs.com/package/@bxshefby/icons-json"
-        target="_blank"
-        color="air-tertiary"
-        size="sm"
-        label="npm"
-        class="hidden sm:inline-flex"
-      />
+      <B24DropdownMenu :items="items" :content="{ align: 'end' }">
+        <B24Button color="air-tertiary" size="sm" label="Ресурсы" use-dropdown />
+      </B24DropdownMenu>
       <B24ColorModeButton />
       <B24Button
         aria-label="bx24 icons на GitHub"

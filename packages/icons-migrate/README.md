@@ -20,4 +20,4 @@ Options: `--component B24Icon|UIcon|Icon`, `--prefix i-bx24-|bx24:`, `--name-pro
 - `legacy-map.json` — every old component → new name.
 - `skills/bx24-icons-migration/SKILL.md` — step-by-step instructions for an AI agent.
 
-Docs: https://github.com/bx-shef/b24-icons#migration
+Catalog: https://b24-icons.bx-shef.by · Catalog: https://b24-icons.bx-shef.by · Docs: https://github.com/bx-shef/b24-icons#migration

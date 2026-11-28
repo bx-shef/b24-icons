@@ -19,6 +19,15 @@ Icon names are `<set>-<name>`: `outline-check-l`, `solid-trashcan`, `file-type-v
 The original [`@bitrix24/b24icons-vue`](https://github.com/bitrix24/b24icons) (one Vue component per icon) keeps working as it is.
 This collection is the new mechanism; see [Migration](#migration).
 
+## Resources
+
+| | |
+|---|---|
+| Icon catalog (search, themes, copy names) | https://b24-icons.bx-shef.by |
+| Bitrix24 UI — Vue components, `icon="i-bx24-…"` | https://b24-ui.bx-shef.by |
+| Bitrix24 JS SDK | https://b24-js-sdk.bx-shef.by |
+| npm | [`@bxshefby/icons-json`](https://www.npmjs.com/package/@bxshefby/icons-json) · [`@bxshefby/icons-svg`](https://www.npmjs.com/package/@bxshefby/icons-svg) · [`@bxshefby/icons-migrate`](https://www.npmjs.com/package/@bxshefby/icons-migrate) |
+
 ## Usage
 
 ### Nuxt, Nuxt UI, b24-ui (`@nuxt/icon`)

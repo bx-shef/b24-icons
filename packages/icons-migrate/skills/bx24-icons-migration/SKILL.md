@@ -22,6 +22,8 @@ The new collection `bx24` is an Iconify set. Icons are **strings**, named `<set>
 | Nuxt, Nuxt UI, b24-ui (string `icon` props, `<B24Icon name>` / `<UIcon name>`) | `i-bx24-outline-check-l` |
 | `@iconify/vue`, `@iconify/react`, `<iconify-icon>` | `bx24:outline-check-l` |
 
+Find icon names in the catalog https://b24-icons.bx-shef.by or with the b24-ui MCP tool `b24-ui-search-icons` (https://b24-ui.bx-shef.by/mcp/).
+
 The old package keeps working; migrate only when the project wants the new mechanism.
 Old and new can live side by side during the migration.
 
