@@ -13,7 +13,10 @@ const sites = RESOURCES.filter(r => r.to.startsWith('http') && !r.to.includes('n
           <a v-for="r in sites" :key="r.to" class="vsk-link" :href="r.to" target="_blank">{{ r.label }}</a>
           <a class="vsk-link" href="https://github.com/bx-shef/b24-icons" target="_blank">GitHub</a>
         </p>
-        <p>Иконки основаны на bitrix24/b24icons (MIT). Коллекция и каталог — bx-shef.</p>
+        <p>
+          <a class="vsk-link" href="https://github.com/bx-shef/b24-icons/blob/main/LICENSE" target="_blank">Лицензия MIT</a>
+          © 2024 Bitrix24, © 2026 ООО «БэИксШефБай». Иконки основаны на bitrix24/b24icons.
+        </p>
       </div>
     </template>
     <template #right>

@@ -42,3 +42,9 @@ test('catalog categories reference existing icons', () => {
     for (const name of names) assert.ok(icons.icons[name], `${title}: ${name}`)
   }
 })
+
+test('animated icons keep transform-origin, so rotation stays centered', () => {
+  const rotating = Object.entries(icons.icons).filter(([, i]) => /@keyframes[^}]*rotate/.test(i.body))
+  assert.ok(rotating.length >= 3, 'expected animated icons with rotation')
+  for (const [name, icon] of rotating) assert.match(icon.body, /transform-origin/, name)
+})

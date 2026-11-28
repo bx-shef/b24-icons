@@ -170,4 +170,4 @@ pnpm site     # public catalog → site-dist/ (image ghcr.io/bx-shef/b24-icons-s
 
 ## License
 
-MIT. Icons are derived from [bitrix24/b24icons](https://github.com/bitrix24/b24icons) (MIT, © Bitrix24).
+[MIT](LICENSE) © 2024 Bitrix24, © 2026 ООО «БэИксШефБай». Icons are derived from [bitrix24/b24icons](https://github.com/bitrix24/b24icons) (MIT).
