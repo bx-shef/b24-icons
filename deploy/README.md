@@ -1,12 +1,14 @@
 # Публичный каталог иконок
 
-Статическая страница `site/index.html` и собранная коллекция (`icons.json`, `metadata.json`) за nginx.
+Каталог — Nuxt-приложение `site/` на b24-ui, статическая генерация (`pnpm site`): страница, коллекция в `/data/`
+(`icons.json`, `search.json`, `metadata.json`) и файл на каждую иконку в `/svg/<имя>.svg`. Отдаёт nginx.
 Схема та же, что у сайта bx-shef/b24-js-sdk: образ в ghcr.io, на сервере — compose за общим прокси,
 обновляет общий Watchtower.
 
 ## Образ
 
-- `deploy/Dockerfile`, контекст — корень репозитория. Сборка: `pnpm install`, `pnpm build`, `pnpm site`.
+- `deploy/Dockerfile`, контекст — корень репозитория. Сборка: `pnpm install`, `pnpm build`, `pnpm site`
+  (`nuxt generate` в `site/`).
   В образе — `nginxinc/nginx-unprivileged` с `site-dist/`, порт 8080, процесс без root.
 - `deploy/nginx.conf`: CSP (страница не ходит наружу), `nosniff`, gzip для JSON и SVG.
   `index.html` и JSON отдаются с `no-cache`: браузер переспрашивает, но по ETag получает 304.
@@ -44,5 +46,5 @@ curl -fsSLO https://raw.githubusercontent.com/bx-shef/b24-icons/main/deploy/inst
 3. дописывает блоки `:80` и `:443` в `default.conf`, перед этим сохранив его копию; при сбое возвращает её;
 4. добавляет домен в продление сертификатов.
 
-Проверка снаружи: `https://<домен>/` и `https://<домен>/icons.json` — 200.
+Проверка снаружи: `https://<домен>/`, `https://<домен>/data/search.json` и `https://<домен>/svg/outline-check-l.svg` — 200.
 С самого сервера его внешний адрес может не открываться — это не ошибка.

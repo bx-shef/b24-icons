@@ -139,5 +139,5 @@ if ! in_list; then
 fi
 grep '^DOMAINS=' "$RENEW"
 
-echo "== 6. Готово. Проверьте снаружи: https://$D/ и https://$D/icons.json (200)."
+echo "== 6. Готово. Проверьте снаружи: https://$D/ и https://$D/data/search.json (200)."
 echo "   С самого сервера его внешний адрес может не открываться (curl даёт 000) — это не ошибка."
