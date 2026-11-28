@@ -29,6 +29,15 @@ function dropUnusedIds(content) {
 }
 
 /**
+ * @iconify/tools 5 не читает атрибуты в одинарных кавычках (`viewBox='0 0 24 24'` даёт
+ * «missing dimensions»), а в исходниках Bitrix24 такие встречаются. Значения без двойных кавычек
+ * внутри переписываются в двойные; сами исходники не меняются.
+ */
+function normalizeAttributeQuotes(content) {
+  return content.replace(/(\s[\w:.-]+)\s*=\s*'([^'"]*)'/g, '$1="$2"')
+}
+
+/**
  * Shapes without a fill inherit currentColor (as in the legacy build, which set it on <svg>),
  * unless the root says otherwise. Not applied to *specialized sets (the legacy build copied them as is).
  */
@@ -106,7 +115,7 @@ async function main() {
         continue
       }
       const name = iconName(set, base)
-      const content = await fs.readFile(resolve(ICONS_DIR, set, file), 'utf8')
+      const content = normalizeAttributeQuotes(await fs.readFile(resolve(ICONS_DIR, set, file), 'utf8'))
       try {
         const animated = /<animate|<set\b|@keyframes|animation/i.test(content)
         let svg
