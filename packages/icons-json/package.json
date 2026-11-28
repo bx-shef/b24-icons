@@ -1,6 +1,6 @@
 {
   "name": "@bxshefby/icons-json",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Bitrix24 UI icons (bx24) as an Iconify JSON collection — for Nuxt UI / @nuxt/icon, @iconify/vue, @iconify/react and iconify-icon",
   "license": "MIT",
   "author": "bx-shef",
