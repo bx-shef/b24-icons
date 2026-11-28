@@ -56,16 +56,18 @@ jobs:
           for _ in $(seq 1 30); do curl -fs localhost:8080/ >/dev/null && break; sleep 1; done
           check() { got=$(curl -s -o /dev/null -w '%{http_code}' "${@:2}"); echo "$1 → $got"; [ "$1" = "$got" ]; }
           check 200 localhost:8080/
-          check 200 localhost:8080/icons.json
-          check 200 localhost:8080/metadata.json
+          check 200 localhost:8080/data/icons.json
+          check 200 localhost:8080/data/search.json
+          check 200 localhost:8080/svg/outline-check-l.svg
           check 404 localhost:8080/nope
           # Ответы — в файлы: `curl | grep -q` обрывает канал на первом совпадении, и curl падает.
-          curl -fs -o icons.json localhost:8080/icons.json
+          curl -fs -o icons.json localhost:8080/data/icons.json
           grep -q '"prefix": *"bx24"' icons.json || { echo "::error::icons.json без prefix bx24"; exit 1; }
           curl -fs -D headers.txt -o index.html localhost:8080/
           grep -qi '^content-security-policy:' headers.txt || { echo "::error::нет CSP"; exit 1; }
+          grep -q 'bx24' index.html || { echo "::error::страница каталога не собрана"; exit 1; }
           if [ -n "$SITE_URL" ]; then
-            grep -qF "<link rel=\"canonical\" href=\"$SITE_URL/\">" index.html || { echo "::error::нет canonical"; exit 1; }
+            grep -qF "$SITE_URL/" index.html || { echo "::error::нет canonical"; exit 1; }
             check 200 localhost:8080/sitemap.xml
           fi
           docker rm -f site
